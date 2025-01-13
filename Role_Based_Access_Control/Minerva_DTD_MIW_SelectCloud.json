@@ -1,0 +1,9 @@
+{ 
+  "AAD_group_Name": "Minerva_DTD_MIW_SelectCloud",
+  "Purpose": "This AD group is dedicated for Select cloud integration with snowflake.",
+  "role_owner_ds_id": "a365019", 
+  "role_owner_email_id": "arun_prasath@cargill.com", 
+  "enterprise_or_function_name": "DTD",
+  "department_name": "MIW"
+  }
+
