@@ -1,5 +1,5 @@
 {
-    "schema_name": "custom_schema_name_test",
+    "schema_name": "custom_schema_name",
     "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
     "parent_db_name": "custom_database_name_test",
     "access_roles": [
