@@ -1,5 +1,5 @@
 {
-    "database_name": "custom_database_name_test",
+    "database_name": "custom_database_name",
     "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
     "access_roles": [
         "MIW_CASC_OT_DE",

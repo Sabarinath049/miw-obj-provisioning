@@ -1,0 +1,16 @@
+{
+  "database_name": "DEV_FIN_MIWMVP1_GLBL_DB",
+  "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
+  "access_roles": [
+    "MIW_CASC_OT_DE",
+    "MIW_CASC_OT_DGL"
+  ],
+  "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
+  "security_classification": "CONFIDENTIAL - LIMITED",
+  "enterprise_or_func_name": "Finance",
+  "domain_or_uc_name": "Invoices",
+  "business_owner": "abc12345",
+  "technical_owner": "xyz98765",
+  "project_cost_id": "P-1234567",
+  "database_type": "PERMANENT"
+}
