@@ -3,7 +3,7 @@
   "purpose": "This AD group is dedicated for Select cloud integration with snowflake.",
   "role_owner_ds_id": "a365019", 
   "role_owner_email_id": "arun_prasath@cargill.com", 
-  "enterprise_or_function_name": "DTD",
+  "enterprise_or_func_name": "DTD",
   "domain_or_uc_name": "<DOMAIN_NAME>",
   "team_name": "TEAM_NAME",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>"
