@@ -1,6 +1,6 @@
 {
     "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
-    "AAD_group_Name": "PERSONA_ROLE",
+    "aad_group_name": "PERSONA_ROLE",
     "purpose": "Description about the purpose of mentioned PERSONA role",
     "role_owner_ds_id": "abc123",
     "role_owner_email_id": "abc_xyz@cargill.com",
