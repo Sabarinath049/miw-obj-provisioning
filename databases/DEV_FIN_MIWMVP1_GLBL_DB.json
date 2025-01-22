@@ -5,7 +5,7 @@
     "MIW_CASC_OT_DE",
     "MIW_CASC_OT_DGL"
   ],
-  "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
+  "description": "contains the data needed to feed dashboards for the financial team about the details of X",
   "security_classification": "CONFIDENTIAL - LIMITED",
   "enterprise_or_func_name": "Finance",
   "domain_or_uc_name": "Invoices",
