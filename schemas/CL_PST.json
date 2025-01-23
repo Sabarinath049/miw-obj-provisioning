@@ -1,5 +1,5 @@
 {
-  "schema_name": "CL_PST_ER",
+  "schema_name": "CL_PST",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "parent_db_name": "DTD_MIWMVP1_GLBL",
   "access_roles": [
