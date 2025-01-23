@@ -13,7 +13,7 @@
   "domain_or_uc_name": "",
   "project_cost_id": "P-1234567",
   "warehouse_size": "SMALL",
-  "monthly_credit_limit": 500,
+  "monthly_credit_limit": 900,
   "alert_subscribers_list": [
     "abc@epam.com",
     "xyz@epam.com",
