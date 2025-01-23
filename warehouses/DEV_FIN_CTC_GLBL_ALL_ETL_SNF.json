@@ -1,8 +1,8 @@
 {
-  "warehouse_name": "DEV_FIN_CTC_ALL_ETL_SNF",
+  "warehouse_name": "DEV_FIN_CTC_GLBL_ALL_ETL_SNF",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
-    "MIW_CASC_OTDA_DE",
+    "MIW_CASC_OT_DE",
     "MIW_CASC_OT_DPO"
   ],
   "business_owner": "abc12345",
@@ -12,8 +12,8 @@
   "enterprise_or_func_name": "Finance",
   "domain_or_uc_name": "",
   "project_cost_id": "P-1234567",
-  "warehouse_size": "SALL",
-  "monthly_credit_limit": 700,
+  "warehouse_size": "SMALL",
+  "monthly_credit_limit": 500,
   "alert_subscribers_list": [
     "abc@epam.com",
     "xyz@epam.com",
@@ -22,7 +22,7 @@
   ],
   "workload_category": ["ETL"],
   "warehouse_type": "STANDARD",
-  "auto_suspend_in_seconds": 900,
+  "auto_suspend_in_seconds": 600,
   "auto_resume": true,
   "min_cluster_count": 1,
   "max_cluster_count": 10,
