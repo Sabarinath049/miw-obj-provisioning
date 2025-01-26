@@ -12,7 +12,7 @@
   "schema_owner": "abc12345",
   "data_product_owner": "pqr9876",
   "project_cost_id": "P-1234567",
-  "data_retention_in_days": 8,
+  "data_retention_in_days": 7,
   "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
   "schema_catalog": "SNOWFLAKE"
 }
