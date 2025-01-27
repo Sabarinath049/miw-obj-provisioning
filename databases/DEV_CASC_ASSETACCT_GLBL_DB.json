@@ -2,7 +2,8 @@
   "database_name": "DEV_CASC_ASSETACCT_GLBL_DB",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
-    "MIW_CASC_OT_DE"
+    "MIW_CASC_OT_DE",
+    "MIW_CASC_OT_DGL"
   ],
   "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
   "security_classification": "CONFIDENTIAL - LIMITED",
