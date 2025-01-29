@@ -4,7 +4,7 @@
   "parent_db_name": "DEV_CASC_ASSETACCT_GLBL_DB",
   "access_roles": [
     "MIW_CASC_OT_DE",
-    "MIW_CASC_OT_DGL"
+    "MIW_CASC_OT_DPA"
   ],
   "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
   "security_classification": "CONFIDENTIAL - LIMITED",
