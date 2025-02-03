@@ -1,0 +1,23 @@
+        {
+            "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
+            "ps_account_id": "<PS_ID>",
+            "ps_account_email_id": "abc_pqr@cargill.com",
+            "ps_account_owner": "abc123",
+            "ps_account_tech_owner": "xyz987",
+            "ps_account_data_product_owner": "pqr456",
+            "minerva_AAD_group": [
+                "<PERSONA_ROLE>"
+            ],
+            "minerva-AAD-group_owner": "xyz987",
+            "azure_tenant_id": "9999c99-b8cf-42cf-bd0b-43ecd4bc62ae",
+            "oauth_resource_uri": "api://cdb205c4-4219-4419-85c6-8c8b492b52d6",
+            "sub_uuid": "9ae99ce9-ac97-4718-ae7e-3a70f7ac6ecd",
+            "purpose": "Purpose for using this OAuth user",
+            "consumption_stack": "Python",
+            "einsight_UUID": [
+                "B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"
+            ],
+            "enterprise_or_func_name": "",
+            "domain_or_uc_name": "",
+            "team_name": ""
+        }

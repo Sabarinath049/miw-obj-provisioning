@@ -26,4 +26,4 @@ Thumbs.db        # Windows
 *.log
 
 # Ignore templates
-**/templates/
+**/.templates/
