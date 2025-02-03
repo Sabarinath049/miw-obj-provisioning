@@ -1,5 +1,5 @@
 {
-  "database_name": "DEV_FIN_MIWMVP1_GLBL_DB",
+  "database_name": "DEV_CASC_ASSETACCT_GLBL_DB",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
     "MIW_CASC_OT_DE",
