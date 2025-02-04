@@ -16,4 +16,3 @@
   "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
   "schema_catalog": "SNOWFLAKE"
 }
-
