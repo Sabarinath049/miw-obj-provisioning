@@ -1,8 +1,9 @@
 {
-  "warehouse_name": "DEV_CASC_CASHMGMT_GLBL_ETL_SNF",
+  "warehouse_name": "DEV_CASC_CASHMGMT1_GLBL_ETL_SNF",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
-    "MIW_CASC_OT_DE"
+    "MIW_CASC_OT_DE",
+    "MIW_CASC_OT_DPO"
   ],
   "business_owner": "abc12345",
   "technical_owner": "xyz98765",
@@ -31,4 +32,3 @@
   "max_concurrency_level": 8,
   "consumption_stack": ["PYTHON"]
 }
-
