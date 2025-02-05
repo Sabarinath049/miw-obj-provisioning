@@ -1,5 +1,5 @@
 {
-  "warehouse_name": "DEV_CASC_CASHMGMT1_GLBL_ETL_SNF",
+  "warehouse_name": "DEV_CASC_CASHMGMT_GLBL_ETL_SNF",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
     "MIW_CASC_OT_DE",
