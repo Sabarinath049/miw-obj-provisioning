@@ -3,7 +3,8 @@
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
     "MIW_CASC_OT_DE",
-    "MIW_CASC_OT_DPO"
+    "MIW_CASC_OT_DPO",
+    "MIW_CASC_OT_DGL"
   ],
   "business_owner": "abc12345",
   "technical_owner": "xyz98765",
