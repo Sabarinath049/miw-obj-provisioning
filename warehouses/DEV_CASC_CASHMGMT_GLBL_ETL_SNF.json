@@ -2,19 +2,17 @@
   "warehouse_name": "DEV_CASC_CASHMGMT_GLBL_ETL_SNF",
   "snowflake_account_id": "<SNOWFLAKE_ACCOUNT_ID>",
   "access_roles": [
-    "MIW_CASC_OT_DE",
-    "MIW_CASC_OT_DPO",
-    "MIW_CASC_OT_DGL"
+    "MIW_CASC_OT_DE"
   ],
   "business_owner": "abc12345",
   "technical_owner": "xyz98765",
   "data_product_owner": "lmn4567",
   "description": "Warehouse for Project-X use case Application's data pull",
-  "enterprise_or_func_name": "Finance",
+  "enterprise_or_func_name": "casc",
   "domain_or_uc_name": "",
   "project_cost_id": "P-1234567",
   "warehouse_size": "SMALL",
-  "monthly_credit_limit": 500,
+  "monthly_credit_limit": 900,
   "alert_subscribers_list": [
     "abc@epam.com",
     "xyz@epam.com",
@@ -23,7 +21,7 @@
   ],
   "workload_category": ["ETL"],
   "warehouse_type": "STANDARD",
-  "auto_suspend_in_seconds": 600,
+  "auto_suspend_in_seconds": 800,
   "auto_resume": true,
   "min_cluster_count": 1,
   "max_cluster_count": 10,
