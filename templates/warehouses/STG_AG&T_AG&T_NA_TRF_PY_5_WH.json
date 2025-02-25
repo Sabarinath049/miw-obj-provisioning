@@ -3,8 +3,8 @@
     "warehouse_name": "STG_AG&T_AG&T_NA_TRF_PY_5_WH",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "MIW_AG&T_AG&T_NA_DE_PR",
-        "MIW_AG&T_AG&T_NA_DA_PR"
+        "MIW_AG&T_AG&T_NA_DE",
+        "MIW_AG&T_AG&T_NA_DA"
     ],
     "data_leader": "dll987",
     "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
