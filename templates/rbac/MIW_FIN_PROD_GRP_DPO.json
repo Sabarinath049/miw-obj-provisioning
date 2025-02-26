@@ -1,7 +1,7 @@
 {
 	"intake_id": "I-123456",
     "snowflake_account_id": "YGYDBPV.SZ30451",
-    "aad_group_name": "MIW_FIN_PROD_GRP_DPO_PR",
+    "aad_group_name": "MIW_FIN_PROD_GRP_DPO",
     "purpose": "Description about the purpose of mentioned PERSONA role",
     "role_owner_ds_id": "abc123",
     "role_owner_email_id": "abc_xyz@cargill.com",
