@@ -1,0 +1,20 @@
+{
+	"intake_id": "I-123456",
+    "schema_name": "FDP_ENERGY_GBL_TRF_SC",
+    "snowflake_account_id": "YGYDBPV.SZ30451",
+    "parent_db_name": "DEV_AG&T_TRADE_ANALYTICS_DB",
+    "access_roles": [
+        "MIW_CASC_OT_DE"
+    ],
+    "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
+    "data_first_classification": "CONFIDENTIAL - LIMITED",
+    "subject_or_prod_name": "ENERGY",
+    "data_product_manager": "dpo9876",
+	"lead_engineer": "lde98765",
+    "governance_and_access_lead": "govl546",
+    "product_cost_id": "P-1234567",
+    "data_retention_in_days": 1,
+	"__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences",
+    "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
+    "schema_catalog": "SNOWFLAKE"
+}
