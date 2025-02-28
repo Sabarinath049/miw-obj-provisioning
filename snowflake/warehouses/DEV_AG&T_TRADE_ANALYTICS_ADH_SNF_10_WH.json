@@ -3,7 +3,7 @@
     "warehouse_name": "DEV_AG&T_TRADE_ANALYTICS_ADH_SNF_10_WH",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "MIW_CASC_OT_DE"
+        "Minerva_CASC_OT_DataEngineer_SBX"
     ],
     "data_leader": "dll987",
     "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",

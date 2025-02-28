@@ -3,8 +3,8 @@
     "database_name": "PRD_FIN_PROD_GRP_DB",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "MIW_FIN_PROD_GRP_DPO_PR",
-        "MIW_FIN_PROD_GRP_SA_PR"
+        "Minerva_FIN_PROD_GRP_DPO_PR",
+        "Minerva_FIN_PROD_GRP_SA_PR"
     ],
     "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
     "data_first_classification": "CONFIDENTIAL - LIMITED",

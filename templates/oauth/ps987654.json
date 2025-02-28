@@ -8,7 +8,7 @@
     "lead_engineer": "xyz987",
     "governance_and_access_lead": "govl546",
     "minerva_aad_group": [
-        "MIW_FIN_PROD_GRP_DE"
+        "Minerva_FIN_PROD_GRP_DataEngineer_SBX"
     ],
     "minerva_aad_group_owner": "xyz987",
     "azure_tenant_id": "9999c99-b8cf-42cf-bd0b-43ecd4bc62ae",
