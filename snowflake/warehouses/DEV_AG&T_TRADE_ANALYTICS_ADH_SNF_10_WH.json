@@ -14,10 +14,11 @@
     "warehouse_size": "SMALL",
     "monthly_credit_limit": 500,
     "alert_subscribers_list": [
-        "abc@epam.com",
-        "xyz@epam.com",
-        "pqr@epam.com",
-        "sowjanya_sirasanagandla@crgl-thirdparty.com"
+        "abhilash_pande@crgl-thirdparty.com",
+        "avinash_sharma@crgl-thirdparty.com",
+        "ravi_pawar@crgl-thirdparty.com",
+        "sowjanya_sirasanagandla@crgl-thirdparty.com",
+        "tharun_veeramgari@crgl-thirdparty.com"
     ],
     "workload_category": [
         "ADH"
