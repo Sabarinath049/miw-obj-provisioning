@@ -1,6 +1,6 @@
 {
     "intake_id": "I-123456",
-    "database_name": "DEV_AG&T_TRADE_ANALYTICS_DBX",
+    "database_name": "DEV_AG&T_TRADE_ANALYTICS_DB",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
         "Minerva_CASC_OT_DataEngineer_SBX",
