@@ -5,7 +5,7 @@
     "parent_db_name": "SBX_AG&T_TRADE_ANALYTICS_DB",
     "access_roles": [
         "Minerva_CASC_OT_DataEngineer_SBX",
-        "Minerva_CASC_OT_GovernanceLead_SBX"
+        "Minerva_CASC_OT_PlatformGovernance_SBX"
     ],
     "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
