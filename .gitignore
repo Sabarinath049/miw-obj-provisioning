@@ -24,3 +24,6 @@ Thumbs.db        # Windows
 
 # Ignore logs and other temporary files
 *.log
+
+# Ignore templates
+**/.templates/
