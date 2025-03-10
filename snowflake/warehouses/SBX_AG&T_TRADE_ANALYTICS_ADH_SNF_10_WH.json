@@ -3,7 +3,8 @@
     "warehouse_name": "SBX_AG&T_TRADE_ANALYTICS_ADH_SNF_10_WH",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "Minerva_CASC_OT_DataEngineer_SBX"
+        "Minerva_CASC_OT_DataEngineer_SBX",
+        "Minerva_CASC_OT_AnalyticsEngineer_SBX"
     ],
     "data_leader": "dll987",
     "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
@@ -11,7 +12,7 @@
     "enterprise_or_func_name": "Finance",
     "domain_or_prodgrp": "TRADE_ANALYTICS",
 	"warehouse_counter": 10,
-    "warehouse_size": "SMALL",
+    "warehouse_size": "LARGE",
     "monthly_credit_limit": 500,
     "alert_subscribers_list": [
     ],
