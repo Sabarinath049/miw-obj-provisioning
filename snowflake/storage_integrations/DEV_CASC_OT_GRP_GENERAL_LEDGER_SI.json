@@ -5,7 +5,7 @@
     "access_roles": [
         "Minerva_CASC_OT_DataEngineer_SBX"
     ],
-    "enterprise_or_function": "CASC",
+    "enterprise_or_func_name": "CASC",
 	"domain_or_prodgrp": "OT_GRP",
     "data_leader": "dll987",
     "data_first_classification": "CONFIDENTIAL - GENERAL USE",
