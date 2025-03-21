@@ -1,7 +1,7 @@
 {
     "intake_id": "I-123456",
     "snowflake_account_id": "YGYDBPV.SZ30451",
-    "storage_integration_name": "DEV_CASC_OT_GRP_GENERAL_LEDGER_SI",
+    "storage_integration_name": "SBX_CASC_OT_GRP_GENERAL_LEDGER_SI",
     "access_roles": [
         "Minerva_CASC_OT_DataEngineer_SBX"
     ],
