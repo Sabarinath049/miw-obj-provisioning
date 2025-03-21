@@ -1,0 +1,22 @@
+{
+    "intake_id": "I-123456",
+    "snowflake_account_id": "YGYDBPV.SZ30451",
+    "storage_integration_name": "DEV_CASC_OT_GRP_GENERAL_LEDGER_SI",
+    "access_roles": [
+        "Minerva_CASC_OT_DataEngineer_SBX"
+    ],
+    "enterprise_or_func_name": "CASC",
+	"domain_or_prodgrp": "OT_GRP",
+    "data_leader": "dll987",
+    "data_first_classification": "CONFIDENTIAL - GENERAL USE",
+    "stage_type": "external_stage",
+    "storage_provider": "s3",
+    "storage_integration_enabled": true,
+    "storage_role_arn": "arn:aws:iam::633391536196:role/miw-sbx-codepipeline-role",
+    "allowed_storage_locations": [
+        "s3://miw-codepipeline-633391536196-us-east-1/"
+    ],
+	"blocked_storage_locations": [],
+    "description": "SI to be used to unload data."
+}
+
