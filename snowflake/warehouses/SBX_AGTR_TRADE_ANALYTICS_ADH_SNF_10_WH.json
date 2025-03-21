@@ -12,7 +12,7 @@
     "enterprise_or_func_name": "Finance",
     "domain_or_prodgrp": "TRADE_ANALYTICS",
 	"warehouse_counter": 10,
-    "warehouse_size": "SMALL",
+    "warehouse_size": "SMALLX",
     "monthly_credit_limit": 500,
     "alert_subscribers_list": [
     ],
