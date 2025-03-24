@@ -3,7 +3,6 @@
     "warehouse_name": "DEV_AGTR_TRADE_ANALYTICS_ADH_SNF_10_WH",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "MIW_DTD_PRODGRP1_DE_PR"
     ],
     "data_leader": "dll987",
     "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
