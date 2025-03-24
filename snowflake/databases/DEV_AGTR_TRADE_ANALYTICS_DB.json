@@ -3,7 +3,6 @@
     "database_name": "DEV_AGTR_TRADE_ANALYTICS_DB",
     "snowflake_account_id": "YGYDBPV.SZ30451",
     "access_roles": [
-        "MIW_DTD_PRODGRP1_DE_PR"
     ],
     "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
@@ -13,3 +12,5 @@
     "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
     "database_type": "PERMANENT"
 }
+
+
