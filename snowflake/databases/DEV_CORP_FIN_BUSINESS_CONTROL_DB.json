@@ -1,0 +1,16 @@
+{
+  "intake_id": "M-123456",
+  "database_name": "DEV_CORP_FIN_BUSINESS_CONTROL_DB",
+  "snowflake_account_id": "gkb09971",
+  "access_roles": [
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAANALYST_SNF_DEV",
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAENGINEER_SNF_DEV"
+  ],
+  "description": "Contains the data from Archer reports",
+  "data_first_classification": "CONFIDENTIAL - LIMITED",
+  "enterprise_or_func_name": "Finance",
+  "domain_or_prodgrp":  "BUSINESS_CONTROLS" ,
+  "data_leader": "c619185",
+  "__comment_ruled_out": "c619185 | n117586 | P-24014",
+  "database_type": "PERMANENT"
+}
