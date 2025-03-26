@@ -1,0 +1,22 @@
+{
+  "intake_id": "M-12345",
+  "schema_name": "FDP_CONTROL_PROCEDURES_GBL_TRF_SC",
+  "snowflake_account_id": "gkb09971",
+  "parent_db_name": "DEV_CORP_FIN_BUSINESS_CONTROL_DB",
+  "access_roles": [
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAANALYST_SNF_DEV",
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAENGINEER_SNF_DEV"
+  ],
+  "description": "Data for managing financial Control Procedures from Archer platform",
+  "data_first_classification": "CONFIDENTIAL - LIMITED",
+  "subject_or_prod_name": "FINANCE",
+  "data_product_manager": "c619185",
+  "lead_engineer": "n117586",
+  "governance_and_access_lead": "n117586",
+  "product_cost_id": "P-24014",
+  "data_retention_in_days": 7,
+  "port": "STAR",
+  "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences",
+  "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
+  "schema_catalog": "SNOWFLAKE"
+}
