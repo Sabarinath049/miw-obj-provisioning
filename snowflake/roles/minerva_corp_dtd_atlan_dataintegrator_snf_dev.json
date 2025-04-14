@@ -4,7 +4,7 @@
     "aad_group_name": "minerva_corp_dtd_atlan_dataintegrator_snf_dev",
     "purpose": "This Group is used to access Atlan objects. Read-Only.",
     "role_owner_ds_id": "ccoward",
-    "role_owner_email_id": "kirsten_walter@cargill.com",
+    "role_owner_email_id": "Tracey_Kalaus@cargill.com",
     "data_leader": "c619185",
     "governance_and_access_lead": "n117586",
     "enterprise_or_func_name": "CORP",
