@@ -1,0 +1,23 @@
+{
+  "intake_id": "M-123456",
+  "snowflake_account_id": "gkb09971",
+  "ps_account_id": "ps890354",
+  "ps_account_email_id": "Snowflake_Data_Function_MEF_Dev_Snowflake_MEF_OAuth_Dev",
+  "ps_account_owner": "r402536",
+  "data_product_manager": "j081460",
+  "lead_engineer": "j081460", 
+  "governance_and_access_lead": "j081460",
+  "minerva_aad_group": [
+      "minerva_corp_dtd_mef_DataEngineer_snf_dev"
+  ],
+  "minerva_aad_group_owner": "m599993",
+  "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+  "oauth_resource_uri": "api://2328b6d7-74cc-494a-98f7-0b4c977cfa1f",
+  "sub_uuid": "c5c5afcc-c6cb-44c6-a77b-ca5867c773e8",
+  "purpose": "This PS ID will be used by MEF team to access Snowflake objects",
+  "consumption_stack": "Snowflake",
+  "einsight_uuid": ["58CD741E-2CD4-4E63-B7E1-C8C4C017CAA4"],
+  "enterprise_or_func_name": "CORP",
+  "domain_or_prodgrp": "DTD",
+  "subject_or_prod_name": "MEF"
+}

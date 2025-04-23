@@ -1,0 +1,12 @@
+{
+	"intake_id": "I-123456",
+    "snowflake_account_id": "gkb09971",
+    "aad_group_name": "minerva_corp_dtd_mef_DataEngineer_snf_dev",
+    "purpose": "MEF Data Engineer role for dev environment",
+    "role_owner_ds_id": "r402536",
+    "role_owner_email_id": "Rod_Norris@cargill.com",
+    "data_leader": "j081460",
+    "governance_and_access_lead": "j081460",
+    "enterprise_or_func_name": "MINERVA",
+	"domain_or_prodgrp": "MEF"
+}
