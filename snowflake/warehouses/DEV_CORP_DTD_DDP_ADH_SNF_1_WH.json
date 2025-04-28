@@ -1,30 +1,23 @@
 {
-  "intake_id": "D-123456",
-  "warehouse_name": "DEV_CORP_DTD_DDP_ADH_SNF_11_WH",
+  "intake_id": "I-123458",
+  "warehouse_name": "DEV_CORP_DTD_DDP_ADH_SNF_1_WH",
   "snowflake_account_id": "cargill-miw_dev",
   "access_roles": "minerva_corp_dtd_atlan_dataintegrator_snf_dev",
   "data_leader": "t207474",
-  "__comment_ruled_out": "c619185 | n117586 | P-24014",
+  "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id| data_engineer",
   "description": "Warehouse for DDP tables and metadata storage for differect use cases like data_contract, tags etc.",
   "enterprise_or_func_name": "CORP - DT&D - Data Platforms Engineering",
   "domain_or_prodgrp": "DDP",
   "warehouse_counter": 10,
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
-  "alert_subscribers_list": [
-  ],
+  "min_cluster_count": 1,
+  "max_cluster_count": 10,
+  "query_timeout_in_seconds": 1800,
+  "alert_subscribers_list": [],
   "workload_category": [
     "ADH"
   ],
-  "warehouse_type": "STANDARD",
-  "auto_suspend_in_seconds": 600,
-  "auto_resume": true,
-  "min_cluster_count": 1,
-  "max_cluster_count": 10,
-  "scaling_policy": "ECONOMY",
-  "query_timeout_in_seconds": 1800,
-  "statement_queued_timeout_in_seconds": 120,
-  "max_concurrency_level": 8,
   "consumption_stack": [
     "SNOWFLAKE"
   ]
