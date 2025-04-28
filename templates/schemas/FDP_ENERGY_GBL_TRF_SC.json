@@ -1,12 +1,12 @@
 {
 	"intake_id": "I-123456",
     "schema_name": "FDP_ENERGY_GBL_TRF_SC",
-    "snowflake_account_id": "YGYDBPV.SZ30451",
+    "snowflake_account_id": "cargill-miw_dev",
     "parent_db_name": "SBX_AGTR_TRADE_ANALYTICS_DB",
     "access_roles": [
-        "Minerva_CASC_OT_DataEngineer_SBX",
-        "Minerva_CASC_OT_PlatformGovernance_SBX",
-        "Minerva_CASC_OT_AnalyticsEngineer_SBX"
+        "minerva_casc_ot_dataengineer_sbx",
+        "minerva_casc_ot_platformgovernance_sbx",
+        "minerva_casc_ot_analyticsengineer_sbx"
     ],
     "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
@@ -17,8 +17,6 @@
     "product_cost_id": "P-1234567",
     "data_retention_in_days": 1,
     "port": "STAR",
-	"__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences",
-    "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
-    "schema_catalog": "SNOWFLAKE"
+	"__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
 }
 

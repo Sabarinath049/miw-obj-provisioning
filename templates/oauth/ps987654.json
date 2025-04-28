@@ -1,6 +1,6 @@
 {
 	"intake_id": "I-123456",
-    "snowflake_account_id": "YGYDBPV.SZ30451",
+    "snowflake_account_id": "cargill-miw_dev",
     "ps_account_id": "ps987654",
     "ps_account_email_id": "abc_pqr@cargill.com",
     "ps_account_owner": "abc123",
@@ -8,7 +8,7 @@
     "lead_engineer": "xyz987",
     "governance_and_access_lead": "govl546",
     "minerva_aad_group": [
-        "Minerva_FIN_PROD_GRP_DataEngineer_SBX"
+        "minerva_fin_prod_grp_dataengineer_sbx"
     ],
     "minerva_aad_group_owner": "xyz987",
     "azure_tenant_id": "9999c99-b8cf-42cf-bd0b-43ecd4bc62ae",

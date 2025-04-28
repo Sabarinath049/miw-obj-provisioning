@@ -1,17 +1,11 @@
 {
     "intake_id": "I-123456",
     "database_name": "SBX_AGTR_TRADE_ANALYTICS_DB",
-    "snowflake_account_id": "YGYDBPV.SZ30451",
-    "access_roles": [
-        "Minerva_CASC_OT_DataEngineer_SBX",
-        "Minerva_CASC_OT_PlatformGovernance_SBX",
-        "Minerva_CASC_OT_AnalyticsEngineer_SBX"
-    ],
+    "snowflake_account_id": "cargill-miw_dev",
     "description": "Contains the data needed to feed dashboards for the financial team about the details of X",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
     "enterprise_or_func_name": "Finance",
     "domain_or_prodgrp": "TRADE_ANALYTICS",
     "data_leader": "dll987",
-    "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
-    "database_type": "PERMANENT"
+    "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id"
 }
