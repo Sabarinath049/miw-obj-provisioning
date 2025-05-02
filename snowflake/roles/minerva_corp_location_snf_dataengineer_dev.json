@@ -1,5 +1,5 @@
 {
-	"intake_id": "M-####",
+    "intake_id": "M-####",
     "snowflake_account_id": "cargill-miw_dev",
     "aad_group_name": "minerva_corp_location_snf_dataengineer_dev",
     "purpose": "GDF Location Data Engineer role for dev environment",
@@ -8,5 +8,5 @@
     "data_leader": "s735254",
     "governance_and_access_lead": "h038773",
     "enterprise_or_func_name": "CORP",
-	"domain_or_prodgrp": "Location"
+    "domain_or_prodgrp": "Location"
 }
