@@ -3,7 +3,7 @@
   "warehouse_name": "DEV_CORP_DTD_DDP_ADH_SNF_1_WH",
   "snowflake_account_id": "cargill-miw_dev",
   "access_roles": [
-    "minerva_corp_dtd_atlan_dataintegrator_snf_dev"
+    "minerva_corp_dtd_ddp_dataengineer_snf_dev"
   ],
   "data_leader": "t207474",
   "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id| data_engineer",
