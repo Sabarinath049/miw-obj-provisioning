@@ -2,14 +2,9 @@
     "intake_id": "M-####",
     "database_name": "DEV_CORP_LOCATION_DB",
     "snowflake_account_id": "cargill-miw_dev",
-    "access_roles": [
-        "minerva_corp_location_snf_dataengineer_dev",
-        "minerva_corp_location_snf_dataanalyst_dev"
-    ],
     "description": "Contains GDF Location data collected from distinct Source Systems in order to create Foundational Product",
     "data_first_classification": "CONFIDENTIAL - GENERAL USE",
     "enterprise_or_func_name": "CORP",
     "domain_or_prodgrp": "Location",
-    "data_leader": "s735254",
-    "database_type": "PERMANENT"
+    "data_leader": "s735254"
 }
