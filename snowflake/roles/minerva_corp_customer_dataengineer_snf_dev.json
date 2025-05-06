@@ -1,7 +1,7 @@
 {
     "intake_id": "M-####",
     "snowflake_account_id": "cargill-miw_dev",
-    "aad_group_name": "minerva_corp_customer_snf_dataengineer_dev",
+    "aad_group_name": "minerva_corp_customer_dataengineer_snf_dev",
     "purpose": "GDF Customer Data Engineer role for dev environment",
     "role_owner_ds_id": "Y282615",
     "role_owner_email_id": "yerlyn_montiel@cargill.com",

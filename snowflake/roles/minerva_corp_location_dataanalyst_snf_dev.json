@@ -1,8 +1,8 @@
 {
     "intake_id": "M-####",
     "snowflake_account_id": "cargill-miw_dev",
-    "aad_group_name": "minerva_corp_location_snf_dataengineer_dev",
-    "purpose": "GDF Location Data Engineer role for dev environment",
+    "aad_group_name": "minerva_corp_location_dataanalyst_snf_dev",
+    "purpose": "GDF Location Data Analyst role for dev environment",
     "role_owner_ds_id": "h038773",
     "role_owner_email_id": "Haley_Olson@cargill.com",
     "data_leader": "s735254",
