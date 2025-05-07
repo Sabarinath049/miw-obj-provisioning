@@ -1,0 +1,20 @@
+{
+    "intake_id": "M-####",
+    "schema_name": "FDP_LGR_GBL_TRF_SC",
+    "snowflake_account_id": "cargill-miw_dev",
+    "parent_db_name": "DEV_CORP_LOCATION_DB",
+    "access_roles": [
+        "minerva_corp_location_dataengineer_snf_dev"
+    ],
+    "description": "Contains curated Location data from distinct data Source System",
+    "data_first_classification": "CONFIDENTIAL - LIMITED",
+    "subject_or_prod_name": "Location",
+    "data_product_manager": "h038773",
+    "lead_engineer": "stapajna",
+    "governance_and_access_lead": "h038773",
+    "product_cost_id": "P-2007814",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "schema_external_volume": "FDP_LOCATION_GBL_CRT_VOLUME",
+    "schema_catalog": "SNOWFLAKE"
+}
