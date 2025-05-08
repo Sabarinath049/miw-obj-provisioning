@@ -1,8 +1,8 @@
 {
     "intake_id": "M-123456",
-    "schema_name": "DATA_CONTRACT",
+    "schema_name": "FDP_DTD_SNF_GBL_TRF_SC",
     "snowflake_account_id": "cargill-miw_dev",
-    "parent_db_name": "MINERVA_DDP_DEV_DB",
+    "parent_db_name": "DEV_CORP_DDP_DB",
     "access_roles": [
         "minerva_corp_dtd_ddp_dataengineer_snf_dev"
     ],
@@ -12,7 +12,7 @@
     "data_product_manager": "k040619",
     "lead_engineer": "t207474",
     "governance_and_access_lead": "k040619",
-    "product_cost_id": "P-2007814",
+    "product_cost_id": "P-24014",
     "data_retention_in_days": 1,
     "port": "SNF",
     "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
