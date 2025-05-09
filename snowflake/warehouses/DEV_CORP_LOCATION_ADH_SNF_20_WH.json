@@ -1,0 +1,41 @@
+{
+  "intake_id": "M-####",
+  "warehouse_name": "DEV_CORP_LOCATION_TRF_SNF_20_WH",
+  "snowflake_account_id": "cargill-miw_dev",
+  "access_roles": [
+    "minerva_corp_location_dataengineer_snf_dev",
+    "minerva_corp_customer_dataanalyst_snf_dev"
+  ],
+  "data_leader": "s735254",
+  "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id| data_engineer",
+  "description": "Warehouse for GDF Location adhoc query generation",
+  "enterprise_or_func_name": "CORP",
+  "domain_or_prodgrp": "Location",
+  "warehouse_counter": 20,
+  "warehouse_size": "SMALL",
+  "monthly_credit_limit": 500,
+  "alert_subscribers_list": [
+    "-DATAFABRIC-OPS-ALL@Cargill.com",
+    "Yerlyn_Montiel@cargill.com",
+    "Marie_Barquerorojas@cargill.com",
+    "Mario_Acunacerdas@cargill.com",
+    "Stephen_Tapajna@cargill.com",
+    "Micah_Turman@cargill.com",
+    "Haley_Olson@cargill.com"
+  ],
+  "workload_category": [
+    "ADH"
+  ],
+  "warehouse_type": "STANDARD",
+  "auto_suspend_in_seconds": 600,
+  "auto_resume": true,
+  "min_cluster_count": 1,
+  "max_cluster_count": 10,
+  "scaling_policy": "ECONOMY",
+  "query_timeout_in_seconds": 1800,
+  "statement_queued_timeout_in_seconds": 120,
+  "max_concurrency_level": 10,
+  "consumption_stack": [
+    "SNOWFLAKE"
+  ]
+}
