@@ -4,7 +4,8 @@
     "snowflake_account_id": "cargill-miw_dev",
     "parent_db_name": "DEV_CORP_CUSTOMER_DB",
     "access_roles": [
-        "minerva_corp_customer_dataanalyst_snf_dev"
+        "minerva_corp_customer_dataanalyst_snf_dev",
+        "minerva_corp_customer_dataengineer_snf_dev"
     ],
     "description": "Contains curated Customer data from distinct data Source Systems ready for analytical purposes",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
