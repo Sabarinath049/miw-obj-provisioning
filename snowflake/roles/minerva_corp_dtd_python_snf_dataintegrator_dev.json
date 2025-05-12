@@ -1,0 +1,12 @@
+{
+    "intake_id": "M-123456",
+    "snowflake_account_id": "gkb09971",
+    "aad_group_name": "minerva_corp_dtd_python_snf_dataintegrator_dev",
+    "purpose": "This Group is used to into Read-Write the DDP’s tables and reading all the metadata.",
+    "role_owner_ds_id": "tkalaus",
+    "role_owner_email_id": "Tracey_Kalaus@cargill.com",
+    "data_leader": "t207474",
+    "governance_and_access_lead": "k040619",
+    "enterprise_or_func_name": "CORP - DT&D - Data Platforms Engineering",
+    "domain_or_prodgrp": "DDP"
+  }
