@@ -14,9 +14,7 @@
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
-    "-DATAFABRIC-OPS-ALL@Cargill.com",
     "Yerlyn_Montiel@cargill.com",
-    "Marie_Barquerorojas@cargill.com",
     "Mario_Acunacerdas@cargill.com",
     "Stephen_Tapajna@cargill.com",
     "Micah_Turman@cargill.com",
