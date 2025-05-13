@@ -1,6 +1,6 @@
 {
   "intake_id": "M-####",
-  "warehouse_name": "DEV_CORP_CUSTOMER_ADH_SNF_20_WH",
+  "warehouse_name": "DEV_CORP_CUSTOMER_ADH_SNF_10_WH",
   "snowflake_account_id": "cargill-miw_dev",
   "access_roles": [
     "minerva_corp_customer_dataengineer_snf_dev",
