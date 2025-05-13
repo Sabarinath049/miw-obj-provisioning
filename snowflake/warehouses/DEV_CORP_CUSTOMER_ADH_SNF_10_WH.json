@@ -11,7 +11,7 @@
   "description": "Warehouse for GDF Customer adhoc query generation",
   "enterprise_or_func_name": "CORP",
   "domain_or_prodgrp": "Customer",
-  "warehouse_counter": 20,
+  "warehouse_counter": 10,
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
