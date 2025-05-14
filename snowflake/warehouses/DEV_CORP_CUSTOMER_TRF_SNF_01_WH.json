@@ -14,10 +14,6 @@
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
-    "YERLYN_MONTIEL@CARGILL.COM",
-    "MARIE_BARQUEROROJAS@CARGILL.COM",
-    "MICAH_TURMAN@CARGILL.COM",
-    "HALEY_OLSON@CARGILL.COM"
   ],
   "workload_category": [
     "TRF"
