@@ -7,7 +7,6 @@
     "MINERVA_FIN_BUSINESS_CONTROL_DATAENGINEER_SNF_DEV"
   ],
   "data_leader": "c619185",
-  "__comment_ruled_out": "c619185 | n117586 | P-24014",
   "description": "Warehouse for Archer reports use case Application's data pull",
   "enterprise_or_func_name": "Finance",
   "domain_or_prodgrp": "BUSINESS_CONTROL",

@@ -15,8 +15,8 @@
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
-    "Marie_Barquerorojas@cargill.com",
     "Stephen_Tapajna@cargill.com",
+    "Marie_Barquerorojas@cargill.com",
     "Micah_Turman@cargill.com"
   ],
   "workload_category": [

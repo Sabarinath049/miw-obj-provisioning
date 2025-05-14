@@ -6,7 +6,6 @@
     "minerva_corp_dtd_ddp_dataengineer_snf_dev"
   ],
   "data_leader": "t207474",
-  "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id| data_engineer",
   "description": "Warehouse for DDP tables and metadata storage for differect use cases like data_contract, tags etc.",
   "enterprise_or_func_name": "CORP - DT&D - Data Platforms Engineering",
   "domain_or_prodgrp": "DDP",

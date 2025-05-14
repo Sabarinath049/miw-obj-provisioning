@@ -7,7 +7,6 @@
         "minerva_casc_ot_analyticsengineer_sbx"
     ],
     "data_leader": "dll987",
-    "__comment_ruled_out": "data_product_owner | lead_engineer | product_cost_id",
     "description": "Warehouse for Project-X use case Application's data pull",
     "enterprise_or_func_name": "Finance",
     "domain_or_prodgrp": "TRADE_ANALYTICS",
@@ -17,7 +16,7 @@
     "min_cluster_count": 1,
     "max_cluster_count": 10,
     "query_timeout_in_seconds": 1800,
-    "alert_subscribers_list": [],
+    "alert_subscribers_list": ["AVINASH_SHARMA@CRGL-THIRDPARTY.COM", "THARUN_VEERAMGARI@CRGL-THIRDPARTY.COM"],
     "workload_category": [
         "ADH"
     ],

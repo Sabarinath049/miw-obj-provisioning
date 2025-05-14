@@ -1,0 +1,10 @@
+{
+    "intake_id": "M-123456",
+    "database_name": "DEV_CORP_DDP_DB",
+    "snowflake_account_id": "cargill-miw_dev",
+    "description": "Contains Data contract information",
+    "data_first_classification": "CONFIDENTIAL - GENERAL USE",
+    "enterprise_or_func_name": "CORP - DT&D - Data Platforms Engineering",
+    "domain_or_prodgrp": "DDP",
+    "data_leader": "t207474"
+}
