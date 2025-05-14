@@ -14,10 +14,6 @@
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
-    "Yerlyn_Montiel@cargill.com",
-    "Stephen_Tapajna@cargill.com",
-    "Micah_Turman@cargill.com",
-    "Haley_Olson@cargill.com"
   ],
   "workload_category": [
     "TRF"
