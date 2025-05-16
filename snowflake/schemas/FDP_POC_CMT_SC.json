@@ -8,11 +8,13 @@
     ],
     "description": "The database & its objects are created by CMT Team for POC Use Cases",
     "data_first_classification": "CONFIDENTIAL - LIMITED",
-    "subject_or_prod_name": "CORP",
+    "subject_or_prod_name": "Location",
     "data_product_manager": "o284099",
     "lead_engineer": "o284099",
     "governance_and_access_lead": "o284099",
     "product_cost_id": "P-1234567",
     "port": "SNF",
-    "data_retention_in_days": 1
+    "data_retention_in_days": 1,
+    "schema_external_volume": "FDP_POC_CMT_VOLUME",
+    "schema_catalog": "SNOWFLAKE"
 }
