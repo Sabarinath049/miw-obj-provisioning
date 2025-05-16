@@ -1,0 +1,24 @@
+{
+  "intake_id": "M-123456",
+  "snowflake_account_id": "gkb09971",
+  "ps_account_id": "ps835695",
+  "ps_account_email_id": "Gdfinformaticaingestiondev_Gdfinformaticaingestiondev@cargill.com",
+  "ps_account_owner": "stapajna",
+  "data_product_manager": "h038773",
+  "lead_engineer": "stapajna", 
+  "governance_and_access_lead": "h038773",
+  "minerva_aad_group": [
+      "minerva_corp_customer_dataengineer_snf_dev",
+      "minerva_corp_location_dataengineer_snf_dev"
+  ],
+  "minerva_aad_group_owner": "stapajna",
+  "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+  "oauth_resource_uri": "api://6f1ad525-4417-40ae-aab8-ca280864da04",
+  "sub_uuid": "72bf53d6-113c-4e9d-9b34-1e18556329d5",
+  "purpose": "This PS ID will be used by MIF team SINK Global Data Product Kafka data to Snowflake",
+  "consumption_stack": "CONFLUENT_CLOUD",
+  "einsight_uuid": ["B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"],
+  "enterprise_or_func_name": "CORP",
+  "domain_or_prodgrp": "DTD",
+  "subject_or_prod_name": "GDF"
+}
