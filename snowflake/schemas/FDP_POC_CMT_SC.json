@@ -1,6 +1,6 @@
 {
     "intake_id": "I-123456",
-    "schema_name": "POC_CMT_SC",
+    "schema_name": "FDP_POC_CMT_SC",
     "snowflake_account_id": "cargill-miw_dev",
     "parent_db_name": "DEV_CORP_CMT_POC_DB",
     "access_roles": [
