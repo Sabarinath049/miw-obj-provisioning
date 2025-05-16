@@ -1,7 +1,7 @@
 {
 	"intake_id": "I-123456",
     "warehouse_name": "DEV_CORP_CMT_POC_ADH_SNF_01_WH",
-    "snowflake_account_id": "gkb09971",
+    "snowflake_account_id": "cargill-miw_dev",
     "access_roles": [
         "MINERVA_CORP_DTD_CMT_POC_DATAENGINEER_SNF_DEV"
     ],
