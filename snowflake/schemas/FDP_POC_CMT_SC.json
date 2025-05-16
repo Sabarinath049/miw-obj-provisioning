@@ -13,8 +13,6 @@
     "lead_engineer": "o284099",
     "governance_and_access_lead": "o284099",
     "product_cost_id": "P-2007814",
-    "port": "SNF",
-    "data_retention_in_days": 1,
-    "schema_external_volume": "FDP_POC_CMT_VOLUME",
-    "schema_catalog": "SNOWFLAKE"
+    "port": "STAR",
+    "data_retention_in_days": 1
 }
