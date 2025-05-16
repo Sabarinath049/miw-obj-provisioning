@@ -1,5 +1,5 @@
 {
-  "intake_id": "M-123456",
+  "intake_id": "M0000300",
   "database_name": "DEV_CORP_FIN_BUSINESS_CONTROL_DB",
   "snowflake_account_id": "gkb09971",
   "description": "Contains the data from Archer reports",

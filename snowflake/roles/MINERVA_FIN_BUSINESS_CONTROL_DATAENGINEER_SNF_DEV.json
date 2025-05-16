@@ -1,5 +1,5 @@
 {
-    "intake_id": "M-123456",
+    "intake_id": "M0000300",
     "snowflake_account_id": "gkb09971",
     "aad_group_name": "MINERVA_FIN_BUSINESS_CONTROL_DATAENGINEER_SNF_DEV",
     "purpose": "This Group is used to access Finance Business Control objects",
