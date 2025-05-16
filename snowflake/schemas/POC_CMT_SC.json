@@ -1,0 +1,21 @@
+{
+    "intake_id": "I-123456",
+    "schema_name": "POC_CMT_SC",
+    "snowflake_account_id": "cargill-miw_dev",
+    "parent_db_name": "DEV_CORP_CMT_POC_DB",
+    "access_roles": [
+        "MINERVA_CORP_DTD_CMT_POC_DATAENGINEER_SNF_DEV"
+    ],
+    "description": "The database & its objects are created by CMT Team for POC Use Cases",
+    "data_first_classification": "CONFIDENTIAL - LIMITED",
+    "subject_or_prod_name": "CORP",
+    "data_product_manager": "o284099",
+    "lead_engineer": "o284099",
+    "governance_and_access_lead": "o284099",
+    "product_cost_id": "P-1234567",
+    "port": "SNF",
+    "data_retention_in_days": 1,
+	  "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences",
+	  "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
+	  "schema_catalog": "SNOWFLAKE"
+}
