@@ -14,7 +14,5 @@
     "governance_and_access_lead": "o284099",
     "product_cost_id": "P-1234567",
     "port": "SNF",
-    "data_retention_in_days": 1,
-    "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
-    "schema_catalog": "SNOWFLAKE"
+    "data_retention_in_days": 1
 }
