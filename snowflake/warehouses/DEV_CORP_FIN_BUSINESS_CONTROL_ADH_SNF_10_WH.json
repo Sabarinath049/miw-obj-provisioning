@@ -13,13 +13,12 @@
   "warehouse_counter": 10,
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
-  "alert_subscribers_list": [
-  ],
+  "alert_subscribers_list": [],
   "workload_category": [
     "ADH"
   ],
   "warehouse_type": "STANDARD",
-  "auto_suspend_in_seconds": 600,
+  "auto_suspend_in_seconds": 60,
   "auto_resume": true,
   "min_cluster_count": 1,
   "max_cluster_count": 10,
