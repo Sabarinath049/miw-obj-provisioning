@@ -1,0 +1,11 @@
+{
+    "intake_id": "I-123456",
+    "database_name": "DEV_CORP_CMT_POC_DB",
+    "snowflake_account_id": "cargill-miw_dev",
+    "description": "The database & its objects are created by CMT Team for POC Use Cases",
+    "data_first_classification": "CONFIDENTIAL - GENERAL USE",
+    "enterprise_or_func_name": "CORP",
+    "domain_or_prodgrp": "CMT_POC",
+    "data_leader": "o284099",
+    "database_type": "PERMANENT"
+}
