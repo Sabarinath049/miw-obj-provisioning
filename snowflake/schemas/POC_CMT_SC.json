@@ -15,7 +15,5 @@
     "product_cost_id": "P-1234567",
     "port": "SNF",
     "data_retention_in_days": 1,
-    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences",
-    "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
-    "schema_catalog": "SNOWFLAKE"
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
 }
