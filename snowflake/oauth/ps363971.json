@@ -8,7 +8,8 @@
   "lead_engineer": "M362874",
   "governance_and_access_lead": "tkalaus",
   "minerva_aad_group": [
-    "minerva_corp_dtd_atlan_dataintegrator_snf_dev"
+    "minerva_corp_dtd_atlan_dataintegrator_snf_dev",
+    "minerva_corp_dtd_python_dataintegrator_snf_dev"
   ],
   "minerva_aad_group_owner": "M362874",
   "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
