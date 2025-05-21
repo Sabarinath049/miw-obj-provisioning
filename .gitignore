@@ -27,6 +27,3 @@ Thumbs.db        # Windows
 
 # Ignore templates
 **/.templates/
-
-## Ignoring files
-snowflake/databases/.test.git
