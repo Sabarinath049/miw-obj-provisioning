@@ -1,0 +1,32 @@
+{
+	"intake_id": "I-123456",
+    "warehouse_name": "DEV_CORP_CMT_POC_ADH_SNF_01_WH",
+    "snowflake_account_id": "cargill-miw_dev",
+    "access_roles": [
+        "MINERVA_CORP_DTD_CMT_POC_DATAENGINEER_SNF_DEV"
+    ],
+    "data_leader": "o284099",
+    "description": "Warehouse for Project-Minerva for CMT team POC use cases",
+    "enterprise_or_func_name": "CORP",
+    "domain_or_prodgrp": "CMT_POC",
+	"warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "alert_subscribers_list": [
+    ],
+    "workload_category": [
+        "ADH"
+    ],
+    "warehouse_type": "STANDARD",
+    "auto_suspend_in_seconds": 600,
+    "auto_resume": true,
+    "min_cluster_count": 1,
+    "max_cluster_count": 5,
+    "scaling_policy": "ECONOMY",
+    "query_timeout_in_seconds": 1800,
+    "statement_queued_timeout_in_seconds": 120,
+    "max_concurrency_level": 8,
+    "consumption_stack": [
+        "SNOWFLAKE"
+    ]
+}

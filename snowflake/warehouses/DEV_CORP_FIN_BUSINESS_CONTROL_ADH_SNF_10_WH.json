@@ -1,0 +1,32 @@
+{
+  "intake_id": "M0000300",
+  "warehouse_name": "DEV_CORP_FIN_BUSINESS_CONTROL_ADH_SNF_10_WH",
+  "snowflake_account_id": "gkb09971",
+  "access_roles": [
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAANALYST_SNF_DEV",
+    "MINERVA_FIN_BUSINESS_CONTROL_DATAENGINEER_SNF_DEV"
+  ],
+  "data_leader": "c619185",
+  "description": "Warehouse for Archer reports use case Application's data pull",
+  "enterprise_or_func_name": "Finance",
+  "domain_or_prodgrp": "BUSINESS_CONTROL",
+  "warehouse_counter": 10,
+  "warehouse_size": "SMALL",
+  "monthly_credit_limit": 500,
+  "alert_subscribers_list": [],
+  "workload_category": [
+    "ADH"
+  ],
+  "warehouse_type": "STANDARD",
+  "auto_suspend_in_seconds": 60,
+  "auto_resume": true,
+  "min_cluster_count": 1,
+  "max_cluster_count": 10,
+  "scaling_policy": "ECONOMY",
+  "query_timeout_in_seconds": 1800,
+  "statement_queued_timeout_in_seconds": 120,
+  "max_concurrency_level": 8,
+  "consumption_stack": [
+    "SNOWFLAKE"
+  ]
+}

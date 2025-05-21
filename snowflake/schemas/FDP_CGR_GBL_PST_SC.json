@@ -1,0 +1,24 @@
+{
+    "intake_id": "M-####",
+    "schema_name": "FDP_CGR_GBL_PST_SC",
+    "snowflake_account_id": "cargill-miw_dev",
+    "parent_db_name": "DEV_CORP_CUSTOMER_DB",
+    "access_roles": [
+        "minerva_corp_customer_dataanalyst_snf_dev",
+        "minerva_corp_customer_dataengineer_snf_dev"
+    ],
+    "description": "Contains curated Customer data from distinct data Source Systems ready for analytical purposes",
+    "data_first_classification": "CONFIDENTIAL - LIMITED",
+    "subject_or_prod_name": "CUSTOMER",
+    "data_product_manager": "Y282615",
+    "lead_engineer": "m254437",
+    "governance_and_access_lead": "Y282615",
+    "product_cost_id": "P-2007814",
+    "data_retention_in_days": 1,
+    "port": [
+        "SNF",
+        "API"
+    ],
+    "schema_external_volume": "FDP_CUSTOMER_GBL_CRT_VOLUME",
+    "schema_catalog": "SNOWFLAKE"
+}

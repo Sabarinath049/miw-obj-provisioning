@@ -1,0 +1,12 @@
+{
+	"intake_id": "I-123456",
+    "snowflake_account_id": "gkb09971",
+    "aad_group_name": "minerva_dtd_miw_whadmin_snf_dev",
+    "purpose": "Admin role for warehouse provisioning",
+    "role_owner_ds_id": "a669203",
+    "role_owner_email_id": "Arun_Kumar_Karnan@cargill.com",
+    "data_leader": "a669203",
+    "governance_and_access_lead": "a669203",
+    "enterprise_or_func_name": "MINERVA",
+	"domain_or_prodgrp": "MIW"
+}
