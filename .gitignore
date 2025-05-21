@@ -27,3 +27,6 @@ Thumbs.db        # Windows
 
 # Ignore templates
 **/.templates/
+
+## Ignoring files
+**/.test.git
