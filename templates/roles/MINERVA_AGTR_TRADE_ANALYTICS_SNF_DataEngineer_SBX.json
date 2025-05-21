@@ -1,7 +1,7 @@
 {
 	"intake_id": "I-123456",
-    "snowflake_account_id": "YGYDBPV.SZ30451",
-    "aad_group_name": "MINERVA_AGTR_TRADE_ANALYTICS_SNF_DataEngineer_SBX",
+    "snowflake_account_id": "cargill-miw_dev",
+    "aad_group_name": "minerva_agtr_trade_analytics_snf_dataengineer_sbx",
     "purpose": "Description about the purpose of mentioned PERSONA role",
     "role_owner_ds_id": "abc123",
     "role_owner_email_id": "abc_xyz@cargill.com",
@@ -10,3 +10,5 @@
     "enterprise_or_func_name": "AGTR",
 	"domain_or_prodgrp": "TRADE_ANALYTICS"
 }
+
+
