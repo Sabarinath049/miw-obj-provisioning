@@ -1,18 +1,18 @@
 {
     "intake_id": "I-123456",
-    "snowflake_account_id": "cargill-miw_dev",
-    "storage_integration_name": "SBX_CASC_OT_GRP_GENERAL_LEDGER_SI",
+    "snowflake_account_id": "cargill-miw_prod",
+    "storage_integration_name": "PRD_DTD_PRDGRP_SI",
     "access_roles": [
-        "minerva_casc_ot_dataengineer_sbx"
+        "minerva_dtd_prdgrp_dataengineer_snf_prd"
     ],
-    "enterprise_or_func_name": "CASC",
-	"domain_or_prodgrp": "OT_GRP",
+    "enterprise_or_func_name": "DTD",
+	"domain_or_prodgrp": "PRDGRP",
     "data_leader": "dll987",
     "data_first_classification": "CONFIDENTIAL - GENERAL USE",
-    "storage_role_arn": "arn:aws:iam::633391536196:role/miw-sbx-codepipeline-role",
+    "storage_role_arn": "arn:aws:iam::633391536196:role/miw-prd-codepipeline-role",
     "allowed_storage_locations": [
         "s3://miw-codepipeline-633391536196-us-east-1/"
     ],
-    "description": "SI to be used to unload data."
+    "description": "Sample storage integration template for MIW Snowflake production users."
 }
 
