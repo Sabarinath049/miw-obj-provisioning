@@ -11,8 +11,8 @@
         "minerva_dtd_prdgrp_dataengineer_snf_prd"
     ],
     "minerva_aad_group_owner": "xyz987",
-    "azure_tenant_id": "9999c99-b8cf-42cf-bd0b-43ecd4bc62ae",
-    "oauth_resource_uri": "api://cdb205c4-4219-4419-85c6-8c8b492b52d6",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028",
     "sub_uuid": "9ae99ce9-ac97-4718-ae7e-3a70f7ac6ecd",
     "purpose": "Sample request template to get a process user created on Minerva MIW Snowflake production environment",
     "consumption_stack": "Python",
