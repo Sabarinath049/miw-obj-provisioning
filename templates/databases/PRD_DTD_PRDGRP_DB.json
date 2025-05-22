@@ -1,0 +1,10 @@
+{
+    "intake_id": "I-123456",
+    "database_name": "PRD_DTD_PRDGRP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Sample Database request template for Minerva MIW Snowflake users",
+    "data_first_classification": "CONFIDENTIAL - LIMITED",
+    "enterprise_or_func_name": "DTD",
+    "domain_or_prodgrp": "PRDGRP",
+    "data_leader": "abc123"
+}
