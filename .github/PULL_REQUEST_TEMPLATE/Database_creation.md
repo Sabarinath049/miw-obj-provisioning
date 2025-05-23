@@ -39,3 +39,7 @@
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
+- Can you confirm if the changes requested under this Pull request belong to same Product Group?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
