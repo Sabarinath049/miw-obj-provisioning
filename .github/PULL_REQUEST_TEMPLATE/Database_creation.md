@@ -15,11 +15,23 @@
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
-- Is aad_group mentioned is already present in access.cargill.com and SCIM into snowflake?
+- Have you taken the template from "/templates/databases"?
   - [ ] No
   - [ ] Yes
-  <!-- If no, raise the request for your AAD group in access.cargill.com using document - https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Security_and_compliance/Role_Creation/Create_ADGroup.html and SCIM into snowflake using https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Object_Creation_Requests/Raising_Object_Provisioning_Request.html#raising-a-request-->
-- Approval from data leader of the database is attached?
+  <!-- If no, explain why not -->  
+- Is name of Database in the JSON key "database_name" same as file name of your JSON?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
+- Is your data leader aligned on the Database creation request you are submitting?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you correctly put "data_first_classification" details in alignment with Cargill's Data Classification Policies?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you filled the mandatory "description" field in the Database Metadata JSON template?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->  
