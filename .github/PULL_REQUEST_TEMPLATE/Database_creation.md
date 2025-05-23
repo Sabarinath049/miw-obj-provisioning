@@ -34,4 +34,8 @@
 - Have you filled the mandatory "description" field in the Database Metadata JSON template?
   - [ ] No
   - [ ] Yes
-  <!-- If no, explain why not -->  
+  <!-- If no, explain why not -->
+- Have you thoroughly gone through the [Mandatory READ](https://git.cglcloud.com/Minerva/miw-snowflake-object-provisioning/blob/main/README.md) file?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
