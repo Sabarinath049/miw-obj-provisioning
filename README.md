@@ -47,7 +47,7 @@ This document outlines the guardrails, standards, and validations enforced durin
           - Credit limit per warehouse: **500 credits/month**. Requests above this threshold require justification and may be flagged for MIW approval. 
           - **Auto-suspend timeout must be ≤ 60 seconds**. Justification is required for higher values.
           - Only **STANDARD** type of warehouses are supported by MIW at this point.
-          - Maximum **Cluster count of 4** is supported by MIW, if you need more clusters, MIW may need some additional justifications.
+          - Maximum **Cluster count of 10** is supported by MIW.
           - Only **ECONOMY** scaling policy is supported by MIW warehouses for now. If you need changes, MIW may need additional justifications.
           - Maximum allowed query timeout is 1800 seconds for now.
           - **Alert subscriber list needs to be mandatorily populated** in the Warehouse JSON. Please ensure all users are verified in snowflake and **Email-IDs are mentioned in ALL CAPITALS**.
