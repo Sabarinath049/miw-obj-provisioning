@@ -15,7 +15,7 @@
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
-- Have you taken the template from "/templates/databases"?
+- Have you referred the template "/templates/databases/PRD_DTD_PRDGRP_DB.json" to create your Database request?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->  
