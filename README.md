@@ -30,7 +30,8 @@ This document outlines the guardrails, standards, and validations enforced durin
       - **Technical Validation**
         
         - **Pull Request Specific Checks**
-   
+ 
+          - **Pull requests must be limited to a single Product Group.** All files included in a pull request should belong exclusively to the same Product Group. 
           - It is adviced to only **request changes 5 of less object changes as part of a single PR**. This can be ensured by not adding/modifying more than 5 files as part of a single PR. 
           - At this point of time **we don't allow any file deletions** if it has been already merged into the base branches like dev, stg and prod. A separate object deletion pipeline will be established in upcoming PIs. 
           - If you are modifying a file, be cautious of the fact that you restrain from changing parameters called out at the bottom of this file since it can trigger destroy and recreate on Snowflake environment which is a risk to stability of use cases and platform.
@@ -54,12 +55,12 @@ This document outlines the guardrails, standards, and validations enforced durin
 
         - **Schema-Specific Check**
         
-        - Data retention settings > 1 day must be approved by your Data Product Manager.
+          - Data retention settings > 1 day must be approved by your Data Product Manager.
 
         - **Storage Integration Checks** 
         
-        - Only the Data Engineer persona can access storage integrations. 
-        - Role ARN must comply with AWS standards.
+          - Only the Data Engineer persona can access storage integrations. 
+          - Role ARN must comply with AWS standards.
 
       - **Convention Validation**
       
