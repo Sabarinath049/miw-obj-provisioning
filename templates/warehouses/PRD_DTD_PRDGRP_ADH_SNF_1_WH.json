@@ -13,7 +13,7 @@
     "warehouse_size": "XSMALL",
     "monthly_credit_limit": 500,
     "min_cluster_count": 1,
-    "max_cluster_count": 1,
+    "max_cluster_count": 4,
     "query_timeout_in_seconds": 1800,
     "alert_subscribers_list": ["AVINASH_SHARMA@CRGL-THIRDPARTY.COM", "THARUN_VEERAMGARI@CRGL-THIRDPARTY.COM"],
     "workload_category": [
