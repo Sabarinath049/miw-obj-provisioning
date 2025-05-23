@@ -56,6 +56,7 @@ This document outlines the guardrails, standards, and validations enforced durin
         - **Schema-Specific Check**
         
           - Data retention settings > 1 day must be approved by your Data Product Manager.
+          - The Data Classifications allowed at this point of time are : "General", "Public", "Limited", "Restricted", "Highly Restricted" only.
 
         - **Storage Integration Checks** 
         
