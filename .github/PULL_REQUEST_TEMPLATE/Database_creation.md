@@ -23,7 +23,7 @@
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
-- Is your data leader aligned on the Database creation request you are submitting?
+- Is your data product manager aligned on the Database creation request you are submitting?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
