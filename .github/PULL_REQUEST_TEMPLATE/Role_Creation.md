@@ -15,6 +15,10 @@
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why tests have not/cannot be written -->
+- Is name of role name in the JSON key "aad_group_name" same as file name of your JSON?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
 - Is your data product manager aligned on the AD group SCIM you are requesting into Snowflake environment?
   - [ ] No
   - [ ] Yes
