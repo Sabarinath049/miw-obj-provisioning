@@ -1,0 +1,53 @@
+{
+  "EnterpriseOrFunction": {
+    "allowed_values": []
+  },
+  "EnterpriseOrFunctionSubgroup": {
+    "allowed_values": []
+  },
+  "ProductGroupOrDomain": {
+    "allowed_values": []
+  },
+  "ProductOrSubject": {
+    "allowed_values": []
+  },
+  "ApplicationId": {
+    "allowed_values": []
+  },
+  "ClarizenId": {
+    "allowed_values": []
+  },
+  "Framework": {
+    "allowed_values": []
+  },
+  "DataProduct": {
+    "allowed_values": []
+  },
+  "Privacy": {
+    "allowed_values": [
+      "PII",
+      "PCI",
+      "PHI"
+    ]
+  },
+  "DataClassification": {
+    "allowed_values": [
+      "General",
+      "Public",
+      "Limited",
+      "Restricted",
+      "Highly Restricted"
+    ]
+  },
+  "RetentionPeriod": {
+    "allowed_values": []
+  },
+  "Environment": {
+    "allowed_values": [
+      "dev"
+    ]
+  },
+  "ComputeUsageType": {
+    "allowed_values": []
+  }
+}
