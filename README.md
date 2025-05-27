@@ -89,3 +89,4 @@ This document outlines the guardrails, standards, and validations enforced durin
 | Storage Integration | "STORAGE_INTEGRATION_NAME", "STORAGE_PROVIDER", "STORAGE_AWS_ROLE_ARN"                         |
 | Persona             | "PERSONA_NAME"/ "ROLE_NAME"                                                                    |
 | OAUTH               | "SUB-UUID"                                                                                     |
+
