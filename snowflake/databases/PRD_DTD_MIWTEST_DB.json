@@ -1,0 +1,10 @@
+{
+    "intake_id": "I-123456",
+    "database_name": "PRD_DTD_MIWTEST_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Sample Database to test production capability",
+    "data_first_classification": "General",
+    "enterprise_or_func_name": "DTD",
+    "domain_or_prodgrp": "MIWTEST",
+    "data_leader": "abc123"
+}
