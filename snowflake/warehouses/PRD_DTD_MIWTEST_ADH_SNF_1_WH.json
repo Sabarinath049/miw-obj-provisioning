@@ -1,6 +1,6 @@
 {
     "intake_id": "I-123456",
-    "warehouse_name": "PRD_DTD_MIWTEST_ADH_SNF_1_WH",
+    "warehouse_name": "PRD_DTD_MIWTEST_ADH_SNF_11_WH",
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
         "minerva_dtd_miwtest_dataengineer_snf_prd"
