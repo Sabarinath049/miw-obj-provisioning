@@ -1,0 +1,21 @@
+{
+    "intake_id": "M-123456",
+    "schema_name": "FDP_DTD_SNF_GBL_TRF_SC",
+    "snowflake_account_id": "cargill_prd",
+    "parent_db_name": "PRD_CORP_DDP_DB",
+    "access_roles": [
+        "minerva_corp_dtd_atlan_dataintegrator_snf_prd"
+    ],
+    "description": "Contains Data contract information",
+    "data_first_classification": "Limited",
+    "subject_or_prod_name": "CORP - DT&D - Data Platforms Engineering",
+    "data_product_manager": "k040619",
+    "lead_engineer": "t207474",
+    "governance_and_access_lead": "k040619",
+    "product_cost_id": "P-24014",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "schema_external_volume": "<EXTERNAL_VOLUME_NAME_TO_BE_ATTACHED>",
+    "domain_or_prodgrp": "DDP",
+    "schema_catalog": "SNOWFLAKE"
+}
