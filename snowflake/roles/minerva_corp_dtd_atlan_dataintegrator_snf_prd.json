@@ -4,7 +4,6 @@
     "aad_group_name": "minerva_corp_dtd_atlan_dataintegrator_snf_prd",
     "purpose": "This Group is used to access Atlan objects. Read-Only.",
     "access_roles_alias":["ALL_SCH_READ"],
-    "grants" : ["grant usage on warehouse PRD_CORP_DTD_DDP_ADH_SNF_1_WH to role minerva_corp_dtd_atlan_dataintegrator_snf_prd"],
     "role_owner_ds_id": "tkalaus",
     "role_owner_email_id": "Tracey_Kalaus@cargill.com",
     "data_leader": "t207474",
