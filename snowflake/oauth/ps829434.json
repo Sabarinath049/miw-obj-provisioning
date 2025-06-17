@@ -1,6 +1,6 @@
 {
     "intake_id": "I-123456",
-    "snowflake_account_id": "cargill_prd",
+    "snowflake_account_id": "cargill-miw_prod",
     "ps_account_id": "ps829434",
     "ps_account_email_id": "snowflake_cc_conn_test_prod_snowflake_cc_conn_test_prod@cargill.com",
     "ps_account_owner": "j081460",
