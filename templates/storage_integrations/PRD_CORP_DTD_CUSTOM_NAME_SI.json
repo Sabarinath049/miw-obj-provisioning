@@ -1,12 +1,12 @@
 {
     "intake_id": "I-123456",
     "snowflake_account_id": "cargill-miw_prod",
-    "storage_integration_name": "PRD_DTD_PRDGRP_SI",
+    "storage_integration_name": "PRD_CORP_DTD_CUSTOM_NAME_SI",
     "access_roles": [
-        "minerva_dtd_prdgrp_dataengineer_snf_prd"
+        "minerva_corp_dtd_CustomRoleName_dataengineer_prd"
     ],
-    "enterprise_or_func_name": "DTD",
-	"domain_or_prodgrp": "PRDGRP",
+    "enterprise_or_func_name": "CORP",
+    "domain": "DTD",
     "data_leader": "dll987",
     "data_first_classification": "CONFIDENTIAL - GENERAL USE",
     "storage_role_arn": "arn:aws:iam::633391536196:role/miw-prd-codepipeline-role",

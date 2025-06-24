@@ -5,7 +5,7 @@
   "EnterpriseOrFunctionSubgroup": {
     "allowed_values": []
   },
-  "ProductGroupOrDomain": {
+  "Domain": {
     "allowed_values": []
   },
   "ProductOrSubject": {
@@ -48,6 +48,12 @@
     ]
   },
   "ComputeUsageType": {
+    "allowed_values": []
+  },
+  "SrcSystemType": {
+    "allowed_values": []
+  },
+  "SrcSystemState": {
     "allowed_values": []
   }
 }
