@@ -7,15 +7,43 @@
   - [ ] No
   - [ ] Yes
 - AD Group has be created as per the naming convention explained
-  [here](https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Security_and_compliance/Role_Creation/Personas_for_ADGroup_Creation.html#naming-conventions-for-roles)?
+  [here](https://minerva-platform-docs.cglcloud.com/governance/minerva_rbac_name_convention.html#:~:text=Core%20Naming%20Pattern%20Format)?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
-- Created the .json file in the Roles / subdirectory?
+- Created the .json file in the roles/ subdirectory?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why tests have not/cannot be written -->
-- Approval from Role owner of the AD group is attached?
+- Is name of role name in the JSON key "aad_group_name" same as file name of your JSON?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Is your data product manager aligned on the AD group SCIM you are requesting into Snowflake environment?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you referred the template "templates/roles/minerva_dtd_prdgrp_dataengineer_snf_prd.json" to create your role SCIM request?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you referred the template "templates/roles/minerva_dtd_prdgrp_dataengineer_snf_prd.json" to create your role SCIM request?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you thoroughly gone through the [Mandatory READ](https://git.cglcloud.com/Minerva/miw-snowflake-object-provisioning/blob/main/README.md) file?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Have you filled the mandatory "purpose" field in the Database Metadata JSON template?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Please confirm the role name filled in attribute "aad_group_name" has already being requested and provisioned via Sailpoint?
+  - [ ] No
+  - [ ] Yes
+  <!-- If no, explain why not -->
+- Can you confirm if the changes requested under this Pull request belong to same Product Group?
   - [ ] No
   - [ ] Yes
   <!-- If no, explain why not -->
