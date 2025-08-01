@@ -1,7 +1,7 @@
 {
     "intake_id": "MIW-123456",
     "database_name": "PRD_DTD_MIW_SELECT_DB",
-    "snowflake_account_id": "cargill-miw_Prd",
+    "snowflake_account_id": "cargill-miw_Prod",
     "description": "SELECT.DEV database for connectivity in prd",
     "data_first_classification": "General",
     "enterprise_or_func_name": "CORP",
