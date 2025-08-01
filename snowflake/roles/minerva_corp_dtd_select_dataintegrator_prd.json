@@ -3,7 +3,7 @@
     "snowflake_account_id": "CARGILL-MIW_PROD",
     "aad_group_name": "minerva_corp_dtd_select_dataintegrator_prd",
     "purpose": "This Group is used to access and connect to miw_prd snowflake environment.",
-    "access_roles_alias":["ALL_WH_MANAGE","ALL_SC_READ"],
+    "access_roles_alias":["ALL_WH_MANAGE"],
     "grants" : ["GRANT MONITOR, OPERATE, USAGE, MODIFY on warehouse PRD_CORP_DTD_SELECT_ADH_SNF_1_WH to role minerva_corp_dtd_Select_dataintegrator_prd"],	
     "role_owner_ds_id": "a669203",
     "role_owner_email_id": "Arun_Kumar_Karnan@cargill.com",
