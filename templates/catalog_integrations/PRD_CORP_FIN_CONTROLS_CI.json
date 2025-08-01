@@ -1,10 +1,10 @@
 {
     "intake_id": "I-123456",
     "snowflake_account_id": "cargill-miw_prod",
-    "catalog_integration_name": "PRD_CORP_DTD_CUSTOM_NAME_CI",
+    "catalog_integration_name": "PRD_CORP_FIN_CONTROLS_CI",
     "description": "Test Template to provision a catalog integration for data product type construct",
     "access_roles": [
-        "minerva_corp_dtd_CustomRoleName_dataengineer_prd"
+        "minerva_corp_fin_customrolename_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
@@ -17,7 +17,8 @@
     "rest_auth_sign_region": "us-east-1",
     "iceberg_enabled": true,
     "enterprise_or_func_name": "CORP",
-    "domain": "DTD",
+    "enterprise_or_func_subgrp_name": "FIN",
+    "product_group_identifier": "CONTROLS",
     "data_leader": "dll987",
     "data_first_classification": "General",
     "catalog_refresh_interval_secs": ""
