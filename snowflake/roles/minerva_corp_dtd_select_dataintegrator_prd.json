@@ -1,6 +1,6 @@
 {
     "intake_id": "I-123456",
-    "snowflake_account_id": "cargill_prd",
+    "snowflake_account_id": "cargill-miw_prod",
     "aad_group_name": "minerva_corp_dtd_select_dataintegrator_prd",
     "purpose": "This Group is used to access and connect to miw_prd snowflake environment.",
     "access_roles_alias":["ALL_WH_MANAGE"],
