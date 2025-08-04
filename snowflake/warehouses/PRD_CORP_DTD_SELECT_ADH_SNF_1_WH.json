@@ -9,15 +9,19 @@
   "enterprise_or_func_subgrp_name": "DTD",
   "product_group_identifier": "MIW",
   "warehouse_counter": 10,
-  "warehouse_size": "SMALL",
+  "warehouse_size": "XSMALL",
   "monthly_credit_limit": 500,
   "min_cluster_count": 1,
   "max_cluster_count": 10,
   "query_timeout_in_seconds": 1800,
-  "alert_subscribers_list": ["EMMANUEL_EKOME@CARGILL.COM"],
-  "workload_category": [
-    "ADH"
-  ],
+  "alert_subscribers_list": [
+        "EMMANUEL_EKOME@CARGILL.COM",
+        "GANGADHAR_SATYAWADA@CARGILL.COM",
+        "SONAKSHI_SRIVASTAVA@CARGILL.COM"
+    ],
+    "workload_category": [
+        "ADH"
+    ],
   "consumption_stack": [
     "SNOWFLAKE"
   ]
