@@ -4,7 +4,6 @@
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "PRD_DTD_MIW_SELECT_DB",
     "access_roles": [
-        "minerva_corp_dtd_select_dataintegrator_prd",
 	"minerva_corp_dtd_miw_dataengineer_prd"
     ],
     "description": " schema to integrate SELECT with  Snowflake production account",
