@@ -1,6 +1,6 @@
 {
     "intake_id": "MIW-123456",
-    "schema_name": "SELECT_UTILS_SC",
+    "schema_name": "PRD_SELECT_UTILS_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "PRD_DTD_MIW_SELECT_DB",
     "access_roles": [
