@@ -8,7 +8,6 @@
   "lead_engineer": "a669203", 
   "governance_and_access_lead": "a669203",
   "minerva_aad_group": [
-      "minerva_corp_dtd_miw_dataengineer_prd",
       "minerva_corp_dtd_select_dataintegrator_prd"
   ],
   "minerva_aad_group_owner": "a669203",
@@ -18,7 +17,6 @@
   "purpose": "This PS ID will be used to access  data in snowflake using Select Cloud",
   "consumption_stack": "SELECT_CLOUD",
   "einsight_uuid": ["B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"],
-  "enterprise_or_func_name": "CORP",
   "enterprise_or_func_name": "CORP",
   "enterprise_or_func_subgrp_name": "DTD"
   
