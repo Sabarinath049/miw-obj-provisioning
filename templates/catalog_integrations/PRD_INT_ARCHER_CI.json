@@ -4,7 +4,7 @@
     "catalog_integration_name": "PRD_INT_ARCHER_CI",
     "description": "Test Template to provision a catalog integration for source system type construct",
     "access_roles": [
-        "minerva_corp_dtd_CustomRoleName_dataengineer_prd"
+        "minerva_corp_dtd_customrolename_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
@@ -18,6 +18,7 @@
     "iceberg_enabled": true,
     "src_sys_type": "INTERNAL",
     "src_sys_name": "ARCHER",
+    "product_group_identifier": "",
     "data_leader": "dll987",
     "data_first_classification": "General",
     "catalog_refresh_interval_secs": ""

@@ -4,7 +4,7 @@
     "external_volume_name": "PRD_INT_ARCHER_EV",
     "description": "Test Template to provision an external volume for source system type construct",
     "access_roles": [
-        "minerva_corp_dtd_CustomRoleName_dataengineer_prd"
+        "minerva_corp_dtd_customrolename_procdataengineer_prd"
     ],
     "storage_provider": "S3",
     "storage_region": "my-s3-us-east-1",

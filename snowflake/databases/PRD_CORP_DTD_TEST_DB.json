@@ -5,6 +5,7 @@
     "description": "Test database for connectivity test",
     "data_first_classification": "General",
     "enterprise_or_func_name": "CORP",
-    "domain": "DTD",
+    "enterprise_or_func_subgrp_name": "DTD",
+    "product_group_identifier": "TEST",
     "data_leader": "m567748"
 }

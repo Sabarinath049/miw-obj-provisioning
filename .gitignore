@@ -4,7 +4,7 @@
 
 # Ignore IDE-specific files and directories
 **/.idea/
-.idea/
+/.idea/
 
 # Ignore local environment and configuration files
 *.tfvars

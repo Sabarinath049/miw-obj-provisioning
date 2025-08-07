@@ -1,7 +1,7 @@
 {
     "intake_id": "I-123456",
     "snowflake_account_id": "cargill_prd",
-    "aad_group_name": "minerva_corp_dtd_atlan_dataintegrator_snf_prd",
+    "aad_group_name": "minerva_corp_dtd_atlan_dataintegrator_prd",
     "purpose": "Sample persona for creating a Data Integrator persona",
     "access_roles_alias":["ALL_SCH_READ"],
     "grants" : ["grant usage on warehouse PRD_CORP_DTD_CUSTOM_NAME_ADH_SNF_1_WH to role minerva_corp_dtd_atlan_dataintegrator_snf_prd"],
@@ -10,5 +10,5 @@
     "data_leader": "xyz987",
     "governance_and_access_lead": "lmn456",
     "enterprise_or_func_name": "CORP",
-    "domain": "DTD"
+    "enterprise_or_func_subgrp_name": "DTD"
   }
