@@ -1,6 +1,6 @@
 {
     "intake_id": "M0000434",
-    "snowflake_account_id": "cargill-miw_prod",
+    "snowflake_account_id": "ozb89938",
     "aad_group_name": "minerva_corp_fin_generic_procdataengineer_prd",
     "purpose": "This Group is used to ingest Finance data into PROD objects",
     "role_owner_ds_id": "ccoward",
