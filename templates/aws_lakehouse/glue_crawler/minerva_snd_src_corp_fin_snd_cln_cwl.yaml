@@ -1,0 +1,25 @@
+intake_id: "I-123456"
+crawler_name: "minerva_snd_src_corp_fin_snd_cln_cwl"
+crawler_description: "Crawler to catalog finance control datasets"
+aws_account_id: "987654321"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "FIN"
+data_leader: "abc123"
+data_construct: "src"
+data_classifier: "cln"
+data_env: "qas"
+region: "us-east-1"
+database_name: "minerva_snd_src_corp_fin_snd_cln_controls_db"
+s3_type: "iceberg"
+include_path_prefix: true
+s3_target_path:
+    - "s3://minerva-snd-src-corp/snd/cln/concur/"
+    - "s3://minerva-snd-src-corp/snd/cln/concur/"
+schedule:
+  enabled: true # Scheduled crawler: The crawler will be trigger everyday at 2 AM.
+  frequency: "Daily"
+  time: "02:00"
+recrawl_behavior: "CRAWL_EVERYTHING"
+#iam_role: "<arn>" # Role will created by default by MIW team
+tags:
+  "": ""

@@ -1,0 +1,13 @@
+intake_id: "I-123456"
+bucket_name: "minerva-snd-src-corp"
+bucket_description: "Stores fdp data"
+aws_account_id: "987654321"
+enterprise_or_func_name: "CORP"
+# Default values
+#versioning_enabled: true 
+#public_access_blocked: true
+#encryption_enabled: true 
+#encryption_type: "SSE-S3" 
+# encryption_key_arn: "<arn>"
+tags:
+  "": ""
