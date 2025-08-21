@@ -1,6 +1,6 @@
 intake_id: "I-123456"
 role_name: "minerva_corp_finance_controller_procdataengineer_snd"
-role_description: "IAM role for AWS Glue crawler to access S3 and Glue Data Catalog"
+role_description: "IAM role for programmatic Data Engineer to execute DBT+GLUE jobs"
 aws_account_id: "987654321"
 enterprise_or_func_name: "CORP"
 enterprise_or_func_subgrp_name: "FIN"
