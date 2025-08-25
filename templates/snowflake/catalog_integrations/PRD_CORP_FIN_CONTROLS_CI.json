@@ -22,5 +22,5 @@
     "data_leader": "dll987",
     "data_first_classification": "General",
     "catalog_refresh_interval_secs": "",
-    "enable_vended_credentials": "Yes"
+    "enable_vended_credentials": "true"
 }
