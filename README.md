@@ -92,3 +92,6 @@ This document outlines the guardrails, standards, and validations enforced durin
 | Persona             | "PERSONA_NAME"/ "ROLE_NAME"                                                                    |
 | OAUTH               | "SUB-UUID"                                                                                     |
 
+- **Minerva LakeHouse Validation Suite & Compliance Kit**
+
+  - To be updated soon
