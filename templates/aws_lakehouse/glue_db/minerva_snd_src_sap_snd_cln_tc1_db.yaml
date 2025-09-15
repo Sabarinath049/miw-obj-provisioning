@@ -1,5 +1,7 @@
 intake_id: "I-123456"
 database_name: "minerva_snd_src_sap_snd_cln_tc1_db"
+database_s3_location: "s3://minerva-snd-src-sap/current/snd/cln/sap_tc1/"
+# "database_s3_location" is optional. If specified, data writes will be restricted to the defined S3 paths.
 database_description: "Used to store cln tables"
 aws_account_id: "987654321"
 region: "us-east-1"
