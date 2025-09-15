@@ -4,7 +4,7 @@ Welcome to the Automated Object Provisioning Framework managed by MIW Team for C
 To gain understanding of the overall process of raising a PR, please refer : [How to Raise Object Provisioning Request](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO)
 
 While we appreciate you reading the document, we wish to bring to your notice key validations that your PR will undergo. Having solid understanding of validation rules will enable you to reduce turn around time of your object provisoning process.
-This document outlines the guardrails, standards, and validations enforced during the provisioning of Snowflake objects, ensuring compliance with Minerva and MIW governance.
+This document outlines the guardrails, standards, and validations enforced during the provisioning of objects, ensuring compliance with Minerva and MIW governance.
 
 **Minerva Standards & Conventions** : It is critical that all user object provisioning requests follow the conventions and standards established by MIW. Failure to comply may result in provisioning delays or rejection.
 
@@ -12,7 +12,7 @@ This document outlines the guardrails, standards, and validations enforced durin
 
 - **Naming Conventions**
 
-  - All Snowflake object names must follow approved naming standards.
+  - All object names must follow approved naming standards.
   - Refer to: [Minerva Conventions](https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Minerva_Standards/Minerva_ConventionStandards_for_Snowflake_Objects.html)
 
 - **Input JSON Templates**
