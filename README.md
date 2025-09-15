@@ -13,14 +13,16 @@ This document outlines the guardrails, standards, and validations enforced durin
 - **Naming Conventions**
 
   - All object names must follow approved naming standards.
-  - Refer to: [Minerva Conventions](https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Minerva_Standards/Minerva_ConventionStandards_for_Snowflake_Objects.html)
+  - Refer to Snowflake Conventions: [Minerva Snowflake Conventions](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO&startedResponseCatch=true#:~:text=Conventions%20and%20Templates)
+  - Refer to LakeHouse Conventions: [Minerva Lakehouse Conventions](https://cargillonline.sharepoint.com/:x:/r/sites/Minerva-FullTeam/Shared%20Documents/Information%20Warehouse/LakeHouse%20MVP/AWS_LakeHouse_Nomenclature.xlsx?d=w5507f97edd484c80b31702ab646d8f0f&csf=1&web=1&e=Lq72dE)
 
 - **Input JSON Templates**
 
-  - Provisioning requests must use the standard JSON metadata templates.
-  - You can refer to the Production Templates from : [Production Templates](https://git.cglcloud.com/Minerva/miw-snowflake-object-provisioning/tree/main/templates)
+  - Provisioning requests must use the standard JSON (for Snowflake) and YAML(for Lakehouse) metadata templates.
+  - You can refer to the Snowflake Production Templates from : [Snowflake Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/snowflake)
+  - You can refer to the Lakehouse Production Templates from : [Lakehouse Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/aws_lakehouse)
 
-- **MIW Rule Book Compliance**
+- **MIW Rule Book Compliance (Only enabled for Snowflake Provisionings for now)**
 
   - Our automated provisioning framework enforces rules as per the MIW rule book, with multiple layers of validation.
 
