@@ -94,4 +94,4 @@ This document outlines the guardrails, standards, and validations enforced durin
 
 - **Minerva LakeHouse Validation Suite & Compliance Kit**
 
-  - To be updated soon
+  - Lakehouse automation and validation suite is a work in progress by Minerva MIW team. Once the details are ironed out, README.md will be updated with all the details. Until then, MIW team is happy to handhold and support early onboarders via the Teams channel : [MIW Support](https://teams.microsoft.com/l/channel/19%3A5a7600cbb5364d879827e49df32d45c5%40thread.tacv2/MIW%20-%20Object%20Provisioning%20Support?groupId=d6e0463c-4725-481f-94ac-5836bfad0e30&tenantId=57368c21-b8cf-42cf-bd0b-43ecd4bc62ae)
