@@ -1,10 +1,10 @@
-**Minerva MIW Snowflake Object Provisioning Guidelines**
+**Minerva MIW Object Provisioning Guidelines**
 
-Welcome to the Automated Snowflake Object Provisioning Framework managed by MIW Team for Cargill Minerva Program.
-To gain understanding of the overall process of raising a PR, please refer : [How to Raise Object Provisioning Request](https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Object_Creation_Requests/Raising_Object_Provisioning_Request.html)
+Welcome to the Automated Object Provisioning Framework managed by MIW Team for Cargill Minerva Program.
+To gain understanding of the overall process of raising a PR, please refer : [How to Raise Object Provisioning Request](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO)
 
 While we appreciate you reading the document, we wish to bring to your notice key validations that your PR will undergo. Having solid understanding of validation rules will enable you to reduce turn around time of your object provisoning process.
-This document outlines the guardrails, standards, and validations enforced during the provisioning of Snowflake objects, ensuring compliance with Minerva and MIW governance.
+This document outlines the guardrails, standards, and validations enforced during the provisioning of objects, ensuring compliance with Minerva and MIW governance.
 
 **Minerva Standards & Conventions** : It is critical that all user object provisioning requests follow the conventions and standards established by MIW. Failure to comply may result in provisioning delays or rejection.
 
@@ -12,15 +12,17 @@ This document outlines the guardrails, standards, and validations enforced durin
 
 - **Naming Conventions**
 
-  - All Snowflake object names must follow approved naming standards.
-  - Refer to: [Minerva Conventions](https://minerva-docs.cglcloud.com/userguide/miw/MIW_vNext_Guide/Minerva_Standards/Minerva_ConventionStandards_for_Snowflake_Objects.html)
+  - All object names must follow approved naming standards.
+  - Refer to Snowflake Conventions: [Minerva Snowflake Conventions](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO&startedResponseCatch=true#:~:text=Conventions%20and%20Templates)
+  - Refer to LakeHouse Conventions: [Minerva Lakehouse Conventions](https://cargillonline.sharepoint.com/:x:/r/sites/Minerva-FullTeam/Shared%20Documents/Information%20Warehouse/LakeHouse%20MVP/AWS_LakeHouse_Nomenclature.xlsx?d=w5507f97edd484c80b31702ab646d8f0f&csf=1&web=1&e=Lq72dE)
 
 - **Input JSON Templates**
 
-  - Provisioning requests must use the standard JSON metadata templates.
-  - You can refer to the Production Templates from : [Production Templates](https://git.cglcloud.com/Minerva/miw-snowflake-object-provisioning/tree/main/templates)
+  - Provisioning requests must use the standard JSON (for Snowflake) and YAML(for Lakehouse) metadata templates.
+  - You can refer to the Snowflake Production Templates from : [Snowflake Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/snowflake)
+  - You can refer to the Lakehouse Production Templates from : [Lakehouse Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/aws_lakehouse)
 
-- **MIW Rule Book Compliance**
+- **MIW Rule Book Compliance (Only enabled for Snowflake Provisionings for now)**
 
   - Our automated provisioning framework enforces rules as per the MIW rule book, with multiple layers of validation.
 
@@ -90,3 +92,6 @@ This document outlines the guardrails, standards, and validations enforced durin
 | Persona             | "PERSONA_NAME"/ "ROLE_NAME"                                                                    |
 | OAUTH               | "SUB-UUID"                                                                                     |
 
+- **Minerva LakeHouse Validation Suite & Compliance Kit**
+
+  - Lakehouse automation and validation suite is a work in progress by Minerva MIW team. Once the details are ironed out, README.md will be updated with all the details. Until then, MIW team is happy to handhold and support early onboarders via the Teams channel : [MIW Support](https://teams.microsoft.com/l/channel/19%3A5a7600cbb5364d879827e49df32d45c5%40thread.tacv2/MIW%20-%20Object%20Provisioning%20Support?groupId=d6e0463c-4725-481f-94ac-5836bfad0e30&tenantId=57368c21-b8cf-42cf-bd0b-43ecd4bc62ae)
