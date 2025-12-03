@@ -8,6 +8,7 @@
     "lead_engineer": "s493332",
     "governance_and_access_lead": "a000492",
     "minerva_aad_group": [
+        "minerva_agtr_trar_oceanbooks_procdataengineer_prd",
         "minerva_agtr_trar_oceanbooks_dataengineer_prd"
     ],
     "minerva_aad_group_owner": "s493332",
