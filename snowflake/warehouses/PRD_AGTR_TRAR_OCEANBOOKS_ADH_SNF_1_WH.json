@@ -3,6 +3,7 @@
     "warehouse_name": "PRD_AGTR_TRAR_OCEANBOOKS_ADH_SNF_1_WH",
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
+        "minerva_agtr_trar_oceanbooks_procdataengineer_prd",
         "minerva_agtr_trar_oceanbooks_dataengineer_prd"
     ],
     "data_leader": "jcook",
