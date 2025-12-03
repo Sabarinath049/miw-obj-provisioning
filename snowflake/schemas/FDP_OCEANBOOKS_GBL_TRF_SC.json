@@ -4,6 +4,7 @@
     "snowflake_account_id": "cargill-miw_prd",
     "parent_db_name": "PRD_AGTR_TRAR_OCEANBOOKS_DB",
     "access_roles": [
+        "minerva_agtr_trar_oceanbooks_procdataengineer_prd",
         "minerva_agtr_trar_oceanbooks_dataengineer_prd"
     ],
     "description": "stores the data product for Ag & Trading OceanBooks PRD users",

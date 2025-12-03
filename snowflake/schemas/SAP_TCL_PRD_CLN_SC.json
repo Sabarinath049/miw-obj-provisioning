@@ -5,8 +5,9 @@
     "parent_db_name": "PRD_INT_SAP_TCL_DB",
     "access_roles": [
         "MINERVA_CORP_FIN_GENERIC_DATAENGINEER_PRD",
+        "minerva_agtr_trar_oceanbooks_procdataengineer_prd",
         "minerva_agtr_trar_oceanbooks_dataengineer_prd",
-		"minerva_corp_fin_generic_procdataengineer_prd"
+        "minerva_corp_fin_generic_procdataengineer_prd"
     ],
     "description": "ERP core functionality - includes Sales & Distribution (SD), Financial Accounting / Controlling (FICO)",
     "data_first_classification": "Restricted",
