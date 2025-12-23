@@ -3,6 +3,7 @@
     "snowflake_account_id": "cargill-miw_prod",
     "aad_group_name": "minerva_corp_dtd_wiz_dataintegrator_prd",
     "purpose": "This Group is used to access and connect to miw_prod snowflake environment",
+    "access_roles_alias":[""],
     "role_owner_ds_id": "a669203",
     "role_owner_email_id": "Arun_Kumar_Karnan@cargill.com",
     "data_leader": "a669203",
