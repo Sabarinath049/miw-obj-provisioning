@@ -1,7 +1,7 @@
 {
  "intake_id": "M0000434",
- "snowflake_account_id": "CARGILL-MIW_PROD",
- "aad_group_name": "MINERVA_CORP_FIN_BUSINESS_CONTROLS_DATACONSUMER_PRD",
+ "snowflake_account_id": "cargill-miw_prod",
+ "aad_group_name": "minerva_corp_fin_business_controls_dataconsumer_prd",
  "purpose": "User can access Finance Controls information(Archer) from controls data product",
  "role_owner_ds_id": "R229742",
 "role_owner_email_id": "Raymond_Hook@cargill.com",
@@ -9,5 +9,5 @@
 "governance_and_access_lead": "l966490",
 "enterprise_or_func_name": "CORP",
 "enterprise_or_func_subgrp_name": "FIN",
-"sub_function": " FIN_BUSINESS_CONTROL"
+"sub_function": "FIN_BUSINESS_CONTROL"
 }
