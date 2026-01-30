@@ -1,7 +1,7 @@
 intake_id: M0000440
-bucket_name: minerva-dev-scripts-corp-hr
+bucket_name: minerva-prd-scripts-corp-hr
 bucket_description: For storing PySpark scripts for CORP HR subgroup
-aws_account_id: '438465132548'
+aws_account_id: '578647603827'
 aws_region: us-east-1
 usage_type: Scripts
 enterprise_or_func_name: CORP
