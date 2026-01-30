@@ -1,11 +1,11 @@
 intake_id: M0000438
-role_name: minerva_corp_dtd_procingestionengineer_dev
+role_name: minerva_corp_dtd_procingestionengineer_prd
 role_description: IAM role for programmatic Ingestion engineer to execute MIF driven Ingesiton jobs based on TableFlow patterns.
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: DTD
 role_owner: "abc_xyz@cargill.com"
-data_env: dev
+data_env: prd
 usage_type: "IngestionEngineer"
 principal_role_arn: "arn:aws:iam::851725421142:role/cspi-6gnzj"
 stsExternalIds: 
@@ -15,4 +15,4 @@ access_to_resources:
       write:
         - lkc-vzdk2j
     data_prefixes:
-      - "s3://minerva-dev-src-demo/"
+      - "s3://minerva-prd-src-demo/"
