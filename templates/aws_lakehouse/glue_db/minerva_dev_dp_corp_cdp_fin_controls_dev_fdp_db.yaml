@@ -2,7 +2,7 @@ intake_id: I-123456
 database_name: minerva_dev_dp_corp_cdp_fin_controls_dev_fdp_db
 database_s3_location: "s3://minerva-dev-dp-corp-fin/cdp/dev/fdp/controls/control_objectives/"
 database_description: "Store business historical data for finance controls data products"
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 region: us-east-1
 data_construct: DataProduct
 data_env: dev
