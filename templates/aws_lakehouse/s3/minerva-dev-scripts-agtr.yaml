@@ -1,0 +1,13 @@
+intake_id: M0000440
+bucket_name: minerva-dev-scripts-agtr
+bucket_description: For storing PySpark scripts for AGTR Enterprise/Function
+aws_account_id: "438465132548"
+aws_region: us-east-1
+usage_type: Scripts
+enterprise_or_func_name: AGTR
+versioning_enabled: true
+# Default values
+#public_access_blocked: true
+#encryption_enabled: true
+#encryption_type: "SSE-S3"
+#encryption_key_arn: "<arn>"
