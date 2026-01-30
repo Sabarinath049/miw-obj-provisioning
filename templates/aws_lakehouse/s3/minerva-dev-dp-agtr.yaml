@@ -1,7 +1,7 @@
 intake_id: M-0000485
-bucket_name: minerva-dev-dp-agtr
+bucket_name: minerva-prd-dp-agtr
 bucket_description: Stores data product for Ag & Trading
-aws_account_id: '438465132548'
+aws_account_id: '578647603827'
 aws_region: us-east-1
 usage_type: DataProduct
 enterprise_or_func_name: AGTR
