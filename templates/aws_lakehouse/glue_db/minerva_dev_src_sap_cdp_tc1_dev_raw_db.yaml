@@ -1,11 +1,11 @@
 intake_id: I-123456
-database_name: minerva_dev_src_sap_cdp_tc1_dev_raw_db
-database_s3_location: "s3://minerva-dev-src-corp-fin/cdp/dev/raw/sap_tc1/"
+database_name: minerva_prd_src_sap_cdp_tc1_prd_raw_db
+database_s3_location: "s3://minerva-prd-src-corp-fin/cdp/prd/raw/sap_tc1/"
 database_description: "Store business historical data for SAP_TC1 from CDP system"
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
-data_env: dev
+data_env: prd
 data_layer: raw
 source_name: CDP
 data_classification: "Confidential - General Use"
