@@ -31,6 +31,3 @@ glue_job_access_config:
     - spec_cbi
 # Configurations for Snowflake Catalog Federation
 snowflake_iceberg_support: true
-principal_role_arn: "arn:aws:iam::703540130218:user/nmib0000-s"
-stsExternalIds:
-  - b46e8259-442f-4fe3-b0ba-9999999a9d9f
