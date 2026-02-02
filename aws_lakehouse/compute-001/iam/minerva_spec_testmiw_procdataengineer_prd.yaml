@@ -31,3 +31,4 @@ glue_job_access_config:
     - spec_cbi
 # Configurations for Snowflake Catalog Federation
 snowflake_iceberg_support: true
+
