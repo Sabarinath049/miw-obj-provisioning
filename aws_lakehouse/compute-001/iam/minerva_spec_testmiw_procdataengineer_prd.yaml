@@ -1,0 +1,33 @@
+intake_id: M-0000517
+role_name: minerva_spec_testmiw_procdataengineer_prd
+role_description: IAM role for SPEC CBI team to perform any data engineering work over Minerva Platform in Compute account
+aws_account_id: 367241115350
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+role_owner: "abc_xyz@cargill.com"
+data_env: prd
+usage_type: "DataEngineer"
+max_session_duration: 2
+compute_size: "XSML"
+access_to_resources:
+    glue_databases:
+        write:
+
+        read:
+        - minerva_prd_dp_agtr_cdp_apac_miw_prd_fdp_db_rl
+    data_prefixes:
+    - "s3://minerva-snd-cmp1-dp-spec-sbi/current/snd/fdp/someproduct/"
+    execution_asset_prefixes:
+    - null
+    glue_crawler:
+    - null
+enable_glue_interactive_session: true
+athena_access_config:
+    enable_athena_access: true
+    athena_workgroup_name: spec_cbi_snd_eng_xsml
+glue_job_access_config:
+  enable_glue_jobs: true
+  job_control_configs:
+    - spec_cbi
+# Configurations for Snowflake Catalog Federation
+snowflake_iceberg_support: true
