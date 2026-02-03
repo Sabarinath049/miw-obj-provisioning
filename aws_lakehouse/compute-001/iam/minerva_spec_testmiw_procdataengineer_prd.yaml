@@ -14,7 +14,7 @@ access_to_resources:
         write:
 
         read:
-        - minerva_prd_dp_agtr_cdp_apac_miwtst_prd_fdp_db_rl
+        - 578647603827: minerva_prd_dp_agtr_cdp_apac_miwtst_prd_fdp_db_rl
     data_prefixes:
     - "s3://minerva-snd-cmp1-dp-spec-sbi/current/snd/fdp/someproduct/"
     execution_asset_prefixes:
