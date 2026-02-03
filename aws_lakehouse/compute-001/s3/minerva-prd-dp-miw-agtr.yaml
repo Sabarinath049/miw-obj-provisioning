@@ -1,7 +1,7 @@
 intake_id: M-0000485
-bucket_name: minerva-prd-dp-miw-agtr
+bucket_name: minerva-prd-dp-miwcmpt-agtr
 bucket_description: Stores data product for Ag & Trading
-aws_account_id: '578647603827'
+aws_account_id: '367241115350'
 aws_region: us-east-1
 usage_type: DataProduct
 enterprise_or_func_name: CORP
