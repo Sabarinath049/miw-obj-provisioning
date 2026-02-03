@@ -1,0 +1,13 @@
+intake_id: M-0000485
+bucket_name: minerva-prd-dp-miwcmpt-agtr
+bucket_description: Stores data product for Ag & Trading
+aws_account_id: '367241115350'
+aws_region: us-east-1
+usage_type: DataProduct
+enterprise_or_func_name: CORP
+# Default values
+#versioning_enabled: false
+#public_access_blocked: true
+#encryption_enabled: true
+#encryption_type: "SSE-S3"
+#encryption_key_arn: "<arn>"
