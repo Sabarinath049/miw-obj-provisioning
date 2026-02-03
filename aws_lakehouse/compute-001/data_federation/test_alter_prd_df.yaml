@@ -1,9 +1,9 @@
 intake_id: I-123456
-data_share_name: test_alter_prd_df
+data_share_name: cmputtest_alter_prd_df
 glue_databases:
-    - minerva_prd_dp_agtr_cdp_apac_miw_prd_fdp_db
+    - minerva_prd_dp_agtr_cdp_apac_miwcmpty_prd_fdp_db
 data_share_description: "This data federation enables to sharing CBI's Commercial data product from producer account to consumer accounts"
-aws_account_id: 578647603827
+aws_account_id: 367241115350
 data_env: PRD
 source_name: Commercial
 data_construct: DataProduct
