@@ -9,7 +9,7 @@ source_name: Commercial
 data_construct: DataProduct
 data_product_name: Commercial
 cross_account_aws_ids:
-    - 367241115350
+    - 578647603827
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: DTD
 data_owner: "abc_xyz@cargill.com"
