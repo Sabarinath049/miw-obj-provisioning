@@ -1,0 +1,7 @@
+intake_id: M-123456
+bucket_name: minerva-prd-src-demo
+bucket_description: Stores MIF to lakehouse Ingestion pattern test objects
+aws_account_id: '578647603827'
+aws_region: us-east-1
+usage_type: Ingestion
+enterprise_or_func_name: CORP
