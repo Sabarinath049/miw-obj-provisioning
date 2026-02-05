@@ -1,5 +1,5 @@
 intake_id: M-123456
-bucket_name: dev-lh1-mif-demo-src
+bucket_name: prd-lh1-mif-demo-src
 bucket_description: Stores MIF to lakehouse Ingestion pattern test objects
 aws_account_id: '578647603827'
 aws_region: us-east-1
