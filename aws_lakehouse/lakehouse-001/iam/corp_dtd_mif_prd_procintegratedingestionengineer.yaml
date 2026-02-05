@@ -13,4 +13,4 @@ access_to_resources:
         write:
         - lh_mif_raw_prd
     data_prefixes:
-    - "s3://dev-lh1-mif-demo-src/"
+    - "s3://prd-lh1-mif-demo-src/"
