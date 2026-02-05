@@ -1,6 +1,6 @@
 intake_id: M-123456
 database_name: lh_mif_raw_prd
-database_s3_location: "s3://dev-lh1-mif-demo-src/"
+database_s3_location: "s3://prd-lh1-mif-demo-src/"
 database_description: "Database for Testing MIF to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1
