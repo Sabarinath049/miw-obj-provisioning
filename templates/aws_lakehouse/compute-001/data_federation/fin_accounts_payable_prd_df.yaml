@@ -1,0 +1,15 @@
+intake_id: I-123456
+data_share_name: fin_accounts_payable_prd_df
+glue_databases:
+  - fin_controls_serving_prd
+data_share_description: This data federation enables to sharing Finance's
+  Accounts payable data product from producer account to consumer accounts
+aws_account_id: 367241115350
+data_env: prd
+data_construct: DataProduct
+data_product_name: Accounts_Payable
+cross_account_aws_ids:
+  - 884308299029
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_owner: abc_xyz@cargill.com
