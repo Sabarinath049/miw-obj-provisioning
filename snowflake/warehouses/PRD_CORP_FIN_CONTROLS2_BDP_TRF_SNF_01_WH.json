@@ -18,7 +18,7 @@
   "min_cluster_count": 1,
   "max_cluster_count": 4,
   "query_timeout_in_seconds": 1800,
-  "alert_subscribers_list": ["Nausher_Choudhury@cargill.com", "Kevin_Woelk@cargill.com"],
+  "alert_subscribers_list": ["NAUSHER_CHOUDHURY@CARGILL.COM","KEVIN_WOELK@CARGILL.COM"],
   "workload_category": [
     "TRF"
   ],
