@@ -1,6 +1,6 @@
 intake_id: I-123456
-database_name: lh_mpops_raw_prd
-database_s3_location: "s3://prd-lh1-mpops-src/raw/current/prd/src/mpops/"
+database_name: lh_cdp_mpops_raw_prd
+database_s3_location: "s3://prd-lh1-mpops-src/raw/cdp/prd/src/mpops/"
 database_description: "Store data for MPOPS source in raw layer for prd environment"
 aws_account_id: 578647603827
 region: us-east-1
