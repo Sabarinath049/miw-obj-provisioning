@@ -7,7 +7,7 @@ region: us-east-1
 data_construct: Source
 data_env: prd
 data_layer: raw
-source_name: SAP_TC2
+source_name: sap_tc2
 data_classification: "Confidential - Limited"
 data_privacy: "PII"
 enterprise_or_func_name: FOOD
