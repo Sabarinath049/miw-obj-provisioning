@@ -12,3 +12,4 @@ access_to_resources:
     - lh_cdp_mpops_raw_prd
   s3_prefixes:
     - s3://prd-lh1-mpops-src/raw/cdp/prd/src/mpops/
+
