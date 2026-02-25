@@ -1,0 +1,8 @@
+intake_id: M0000450
+bucket_name: prd-lh1-food-src
+bucket_description: Stores MIF to lakehouse Ingestion pattern SAP TCD objects
+aws_account_id: '578647603827'
+aws_region: us-east-1
+usage_type: Source
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: PRGL
