@@ -15,18 +15,18 @@ access_to_resources:
         read:
         - lh_nyctaxi_raw_prd
     execution_asset_prefixes:
-    - "s3://prd-lh1-corp-dtd-scripts/prd/mef/glue/"
-    - "s3://prd-lh1-corp-dtd-eng-assets/mef/glue/"
-    - "s3://prd-lh1-corp-dtd-eng-assets/mef/athena/"
+    - "s3://prd-lh1-corp-dtd-scripts/prd/dtd/glue/"
+    - "s3://prd-lh1-corp-dtd-eng-assets/dtd/glue/"
+    - "s3://prd-lh1-corp-dtd-eng-assets/dtd/athena/"
     data_prefixes:
-    - "s3://prd-lh1-corp-dtd-src/serving/"
+    - "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyctaxi"
     glue_crawler:
     - null
 enable_glue_interactive_session: true
 athena_access_config:
     enable_athena_access: true
-    athena_workgroup_name: corp_mef_prd_eng_xsml
+    athena_workgroup_name: corp_dtd_mef_prd_eng_xsml
 glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
-    - corp_mef
+    - corp-mef
