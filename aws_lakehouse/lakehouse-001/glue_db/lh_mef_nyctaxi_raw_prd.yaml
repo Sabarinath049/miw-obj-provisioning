@@ -1,0 +1,15 @@
+intake_id: I-123456
+database_name: lh_prd_src_corp_mef_nyctaxi_prd_raw_serving_db
+database_s3_location: "s3://prd-lh1-corp-mef-src/"
+database_description: "Store raw_serving data for nyctaxi records"
+aws_account_id: 578647603827
+region: us-east-1
+data_env: prd
+data_layer: raw
+data_construct: DataProduct
+data_classification: "Confidential - General Use"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_owner_email: "abc_xyz@cargill.com"
+data_owner_github_uname: AbcXyz
+data_leader: a123456
