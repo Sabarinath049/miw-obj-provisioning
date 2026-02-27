@@ -1,6 +1,6 @@
 intake_id: I-123456
 database_name: lh_nyc_taxi_raw_serving_prd
-database_s3_location: "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyctaxi/"
+database_s3_location: "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyc_taxi/"
 database_description: "Store data for nyctaxi records - test source dataset"
 aws_account_id: 578647603827
 region: us-east-1
