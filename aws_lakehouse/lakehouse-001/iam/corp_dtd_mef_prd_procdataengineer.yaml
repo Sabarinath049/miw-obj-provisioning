@@ -19,7 +19,7 @@ access_to_resources:
     - "s3://prd-lh1-corp-dtd-eng-assets/prd/dtd/glue/"
     - "s3://prd-lh1-corp-dtd-eng-assets/prd/dtd/athena/"
     data_prefixes:
-    - "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyc_taxi"
+    - "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyc_taxi/"
     glue_crawler:
     - null
 enable_glue_interactive_session: true
