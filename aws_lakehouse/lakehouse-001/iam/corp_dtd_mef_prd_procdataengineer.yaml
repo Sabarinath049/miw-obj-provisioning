@@ -16,8 +16,8 @@ access_to_resources:
         - lh_nyctaxi_raw_prd
     execution_asset_prefixes:
     - "s3://prd-lh1-corp-dtd-scripts/prd/dtd/glue/"
-    - "s3://prd-lh1-corp-dtd-eng-assets/dtd/glue/"
-    - "s3://prd-lh1-corp-dtd-eng-assets/dtd/athena/"
+    - "s3://prd-lh1-corp-dtd-eng-assets/prd/dtd/glue/"
+    - "s3://prd-lh1-corp-dtd-eng-assets/prd/dtd/athena/"
     data_prefixes:
     - "s3://prd-lh1-corp-dtd-src/raw/serving/prd/src/nyc_taxi"
     glue_crawler:
