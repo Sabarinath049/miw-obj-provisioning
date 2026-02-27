@@ -1,6 +1,6 @@
 intake_id: I-123456
-database_name: lh_prd_src_corp_mef_nyctaxi_prd_raw_serving_db
-database_s3_location: "s3://prd-lh1-corp-mef-src/serving/prd/src/nyctaxi/"
+database_name: lh_mef_raw_serving_prd
+database_s3_location: "s3://prd-lh1-corp-dtd-mef-src/serving/prd/src/nyctaxi"
 database_description: "Store raw_serving data for nyctaxi records"
 aws_account_id: 578647603827
 region: us-east-1
