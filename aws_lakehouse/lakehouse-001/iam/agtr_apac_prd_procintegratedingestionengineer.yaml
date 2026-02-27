@@ -1,6 +1,6 @@
 intake_id: M0000452
 role_name: agtr_apac_prd_procintegratedingestionengineer
-role_description: MIF IAM role for SAP TCC Ingestion patterns to lakehouse.
+role_description: MIF IAM role for AGTR APAC Ingestion patterns to lakehouse.
 aws_account_id: '578647603827'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
@@ -12,5 +12,7 @@ access_to_resources:
     glue_databases:
         write:
         - lh_sap_tcc_raw_prd
+        - lh_sap_tce_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/"
