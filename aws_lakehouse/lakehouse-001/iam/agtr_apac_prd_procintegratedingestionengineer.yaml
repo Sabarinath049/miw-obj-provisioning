@@ -16,3 +16,4 @@ access_to_resources:
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/"
+    
