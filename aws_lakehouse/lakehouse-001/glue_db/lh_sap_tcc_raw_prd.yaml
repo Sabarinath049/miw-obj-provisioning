@@ -1,4 +1,4 @@
-intake_id: M0000452
+intake_id: M0000516
 database_name: lh_sap_tcc_raw_prd
 database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/"
 database_description: "Database for SAP TCC to Lakehouse Ingestion Patterns"
@@ -7,8 +7,8 @@ region: us-east-1
 data_construct: Source
 data_env: prd
 data_layer: raw
-source_name: SAP_TCC
-data_classification: "Confidential - Limited"
+source_name: sap_tcc
+data_classification: "Confidential - Restricted"
 data_privacy: "PII"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
