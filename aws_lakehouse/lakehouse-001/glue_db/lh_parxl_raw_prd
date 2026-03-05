@@ -2,7 +2,7 @@ intake_id: M0000916
 database_name: lh_parxl_raw_prd
 database_s3_location: "s3://dev-lh1-food-src/raw/current/prd/src/cps_parxl/"
 database_description: This is used to store raw table data for the PARXL ingestion pipeline.
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
 data_env: prd
@@ -14,4 +14,4 @@ enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: PRGL
 data_owner_email: Tyler_Luitjens@cargill.com
 data_owner_github_uname: 'TylerLuitjens'
-data_leader: 'TylerLuitjens'
+data_leader: t125568
