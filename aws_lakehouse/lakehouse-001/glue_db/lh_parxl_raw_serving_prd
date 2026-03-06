@@ -1,6 +1,6 @@
 intake_id: M0000916
 database_name: lh_parxl_raw_serving_prd
-database_s3_location: s3://dev-lh1-food-src/serving/prd/src/parxl/
+database_s3_location: s3://prd-lh1-food-src/serving/prd/src/parxl/
 database_description: This is used to store raw data within the raw serving layer for the PARXL ingestion pipeline..
 aws_account_id: 578647603827
 region: us-east-1
