@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: PARXL
 data_classification: 'Confidential - General Use'
-data_privacy: ""
+data_privacy: "NONE"
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: PRGL
 data_owner_email: Tyler_Luitjens@cargill.com
