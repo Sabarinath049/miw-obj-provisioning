@@ -5,4 +5,4 @@ aws_account_id: 578647603827
 aws_region: us-east-1
 usage_type: Source
 enterprise_or_func_name: SPEC
-enterprise_or_func_subgrp_name: "ANH"
+enterprise_or_func_subgrp_name: ""
