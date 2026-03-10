@@ -1,6 +1,6 @@
 intake_id: M0000857
 database_name: lh_cacp_raw_prd
-database_s3_location: "s3://prd-lh1-agtr-apac-src/raw/current/prd/src/cacp/"
+database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/cacp/"
 database_description: "Database for CACP to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1

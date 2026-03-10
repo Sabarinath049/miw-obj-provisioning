@@ -1,6 +1,6 @@
 intake_id: M0000742
 database_name: lh_fts_raw_serving_prd
-database_s3_location: "s3://prd-lh1-agtr-latam-src/serving/prd/src/fts/"
+database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/fts/"
 database_description: "Database for storing CLEAN - FTS table"
 aws_account_id: 578647603827
 region: us-east-1

@@ -1,6 +1,6 @@
 intake_id: M0000885
 database_name: lh_hrcules_raw_serving_prd
-database_s3_location: "s3://prd-lh1-agtr-na-src/serving/prd/src/hrcules/"
+database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/hrcules/"
 database_description: "Database for storing CLEAN - HERCULES tables"
 aws_account_id: 578647603827
 region: us-east-1

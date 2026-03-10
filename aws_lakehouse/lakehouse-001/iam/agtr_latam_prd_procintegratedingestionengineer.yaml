@@ -12,7 +12,5 @@ access_to_resources:
     glue_databases:
         write:
         - lh_fts_raw_prd
-        - lh_trust_raw_prd
     data_prefixes:
-    - "s3://prd-lh1-agtr-latam-src/raw/current/prd/src/fts/"
-    - "s3://prd-lh1-agtr-latam-src/raw/current/prd/src/trust/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/fts/"
