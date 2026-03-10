@@ -1,0 +1,41 @@
+intake_id: "I-123456"
+bucket_name: "minerva-prd-dp-corp"
+aws_account_id: "578647603827"
+enterprise_or_func_name: "CORP"
+prefix_config: 
+    - s3_prefix: "finance/prd/fdp/controls/control_objectives/"    ## Automation will not create folders but MIW will create folders in manual provisioning
+      enterprise_or_func_subgrp_name: "FIN"
+      product_group_identifier: "CONTROLS"
+      data_product_manager: "dpo9876"
+      lead_engineer: "lde98765"
+      governance_and_access_lead: "govl546"
+      lifecycle_policy:
+      enabled: false ## true/false
+      #  rules:
+      #    - id: "expire-old-logs"
+      #      prefix: "logs/"
+      #      status: "Enabled"
+      #      transitions:
+      #        - days: 30
+      #          storage_class: "GLACIER"
+      #      expiration: 
+      #        days: 365
+    - s3_prefix: "finance/prd/fdp/controls/control_procedures/"    ## Automation will not create folders but MIW will create folders in manual provisioning
+
+      enterprise_or_func_subgrp_name: "FIN"
+      product_group_identifier: "CONTROLS"
+      data_product_manager: "dpo9876"
+      lead_engineer: "lde98765"
+      governance_and_access_lead: "govl546"
+      lifecycle_policy:
+      enabled: false ## true/false
+      #  rules:
+      #    - id: "expire-old-logs"
+      #      prefix: "logs/"
+      #      status: "Enabled"
+      #      transitions:
+      #        - days: 30
+      #          storage_class: "GLACIER"
+      #      expiration: 
+      #        days: 365
+  

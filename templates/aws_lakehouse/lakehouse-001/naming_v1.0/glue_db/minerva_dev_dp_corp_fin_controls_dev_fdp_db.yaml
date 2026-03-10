@@ -1,0 +1,17 @@
+intake_id: I-123456
+database_name: minerva_prd_dp_corp_fin_controls_prd_fdp_db
+database_s3_location: "s3://minerva-prd-dp-corp-fin/current/prd/fdp/controls/control_objectives/"
+database_description: "Store curated data product for finance controls"
+aws_account_id: 578647603827
+region: us-east-1
+data_env: prd
+data_layer: cur
+data_construct: DataProduct
+data_classification: "Confidential - General Use"
+data_privacy: ""
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_product_name: "Controls"
+data_owner_email: "abc_xyz@cargill.com"
+data_owner_github_uname: AbcXyz
+data_leader: a123456

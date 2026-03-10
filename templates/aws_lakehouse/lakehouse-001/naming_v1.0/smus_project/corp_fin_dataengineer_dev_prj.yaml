@@ -1,0 +1,30 @@
+intake_id: "I-123456"
+aws_account_id: "578647603827"
+smus_project_name: "corp_fin_dataengineer_prd_prj"
+project_description: "This project is to be used by finance controls data engineers"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "FIN"
+parent_domain_unit: "Finance"
+data_leader: "c619185"
+project_membership:
+  - minerva_corp_fin_generic_dataengineer_prd
+compute_size: "MED"
+access_to_resources:
+  glue_databases:
+    - minerva_snd_dp_corp_fin_snd_cln_controls_db
+    - minerva_snd_dp_corp_fin_snd_raw_controls_db
+  s3_prefixes:
+    - s3://minerva-prd-dp-corp/finance/prd/fdp/controls/control_objectives/
+    - s3://minerva-prd-dp-corp/finance/prd/bdp/controls/control_objectives/
+  custom_git_config:
+    - custom_git_enabled: true
+      repo_name: "miw-snowflake-object-provisioning"
+      repo_branch: "test"
+cross_account_config:
+  - cross_account_enabled: true
+    cross_account_name: "finance-prd"
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: "glue_db"
+    log_retention: 90
+    enable_auto_sync_to_s3: false
