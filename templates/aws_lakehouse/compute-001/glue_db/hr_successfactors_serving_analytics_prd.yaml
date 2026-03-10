@@ -2,7 +2,7 @@ intake_id: I-123456
 database_name: hr_successfactors_serving_analytics_prd
 database_s3_location: "s3://prd-cmp1-corp-hr-dp/serving/prd/hr/successfactors/analytics/"
 database_description: "Store Successfactors Serving Data Product for Corp HR"
-aws_account_id: 578647603827
+aws_account_id: 367241115350
 region: us-east-1
 data_env: prd
 data_layer: srv

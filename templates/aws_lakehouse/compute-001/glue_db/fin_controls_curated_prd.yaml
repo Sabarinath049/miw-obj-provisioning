@@ -2,7 +2,7 @@ intake_id: I-123456
 database_name: fin_controls_curated_prd
 database_s3_location: "s3://prd-cmp1-fin-dp/curated/prd/fin/controls/"
 database_description: "Store Controls Curated Product data for Finance"
-aws_account_id: 578647603827
+aws_account_id: 367241115350
 region: us-east-1
 data_env: prd
 data_layer: cur

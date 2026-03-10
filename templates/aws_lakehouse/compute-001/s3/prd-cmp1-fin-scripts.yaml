@@ -1,7 +1,7 @@
 intake_id: M0000440
 bucket_name: prd-cmp1-fin-scripts
 bucket_description: For storing PySpark scripts for CORP FIN subgroup
-aws_account_id: '578647603827'
+aws_account_id: '367241115350'
 aws_region: us-east-1
 usage_type: Scripts
 enterprise_or_func_name: CORP

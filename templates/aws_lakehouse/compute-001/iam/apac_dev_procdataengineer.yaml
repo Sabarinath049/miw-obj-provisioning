@@ -1,7 +1,7 @@
 intake_id: M-0000517
 role_name: apac_dev_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
-aws_account_id: '578647603827'
+aws_account_id: '367241115350'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 role_owner: "abc_xyz@cargill.com"
