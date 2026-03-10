@@ -1,5 +1,5 @@
 intake_id: M-0000517
-role_name: spec_anh_prd_procegressengineer
+role_name: anh_prd_procegressengineer
 role_description: IAM role for support any data egression jobs for SPEC ANH
 aws_account_id: '578647603827'
 enterprise_or_func_name: SPEC
@@ -12,11 +12,11 @@ max_session_duration: 2
 access_to_resources:
     glue_databases:
         read:
-        - anh_datablocks_serving_analytics_prd
+        - lh_sap_tca_raw_serving_prd
     execution_asset_prefixes:
-    - "s3://prd-cmp1-anh-eng-assets/prd/anh/athena/"
-    - "s3://prd-cmp1-anh-eng-assets/prd/anh/glue/"
-    - "s3://prd-cmp1-anh-scripts/prd/anh/glue/"
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/athena/"
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/glue/"
+    - "s3://prd-lh1-spec-scripts/prd/anh/glue/"
     glue_crawler:
     - null
 glue_job_access_configs:

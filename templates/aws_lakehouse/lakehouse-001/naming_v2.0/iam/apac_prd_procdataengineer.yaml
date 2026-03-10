@@ -1,5 +1,5 @@
 intake_id: M-0000517
-role_name: agtr_apac_prd_procdataengineer
+role_name: apac_prd_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
 aws_account_id: '578647603827'
 enterprise_or_func_name: AGTR
