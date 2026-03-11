@@ -14,7 +14,7 @@ access_to_resources:
     read:
       - lh_hrcules_raw_prd
   data_prefixes:
-    - "s3://prd-lh1-agtr-na-src/serving/prd/src/hrcules/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/hrcules/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
