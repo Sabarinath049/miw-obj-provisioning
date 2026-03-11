@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 data_classification: "Confidential - Limited"
 data_privacy: "PII"
-source_name: Yongyou_Yongyou
+source_name: yongyou_yongyou
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: FSGL
 data_owner_email: Katie_Porter@cargill.com
