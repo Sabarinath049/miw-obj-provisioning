@@ -26,7 +26,7 @@ glue_job_access_config:
     - GTC
 athena_access_config:
   enable_athena_access: false
-data_env: dev
+data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: true
 role_owner: 'aldo_quintanilla@cargill.com'

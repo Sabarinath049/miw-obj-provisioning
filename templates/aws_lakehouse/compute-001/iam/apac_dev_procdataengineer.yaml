@@ -1,11 +1,11 @@
 intake_id: M-0000517
-role_name: agtr_apac_prd_procdataengineer
+role_name: apac_dev_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
 aws_account_id: '367241115350'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 role_owner: "abc_xyz@cargill.com"
-data_env: dev
+data_env: prd
 usage_type: "DataEngineer"
 max_session_duration: 2
 compute_size: "SML"
@@ -14,7 +14,7 @@ access_to_resources:
         write:
         - apac_jig_curated_prd
         read:
-          - 578647603827:lh_agrosoft_raw_serving_prd_rl
+          - 438465132548:lh_agrosoft_raw_serving_prd_rl
     data_prefixes:
     - "s3://prd-cmp1-apac-dp/curated/prd/apac/jig/"
     execution_asset_prefixes:
