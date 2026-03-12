@@ -1,6 +1,6 @@
 intake_id: M0000501
 database_name: lh_axapta_raw_serving_prd
-database_s3_location: s3://prd-lh1-spec-src/serving/prd/src/axapta/
+database_s3_location: s3://prd-lh1-spec-src/raw_serving/prd/src/axapta/
 database_description: Used to store raw tables for Axapta Source
 aws_account_id: 578647603827
 region: us-east-1
