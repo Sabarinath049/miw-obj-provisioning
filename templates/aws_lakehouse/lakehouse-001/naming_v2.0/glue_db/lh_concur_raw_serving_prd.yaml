@@ -1,6 +1,6 @@
 intake_id: I-123456
 database_name: lh_concur_raw_serving_prd
-database_s3_location: "s3://prd-lh1-corp-fin-src/serving/prd/src/concur/"
+database_s3_location: "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/concur/"
 database_description: "Store data for Concur"
 aws_account_id: 578647603827
 region: us-east-1

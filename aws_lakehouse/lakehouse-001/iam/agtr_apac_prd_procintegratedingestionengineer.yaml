@@ -13,7 +13,10 @@ access_to_resources:
         write:
         - lh_sap_tcc_raw_prd
         - lh_sap_tce_raw_prd
+        - lh_cacp_raw_prd
+        - lh_ekaau_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/"
-    
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/cacp/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/ekaau/"

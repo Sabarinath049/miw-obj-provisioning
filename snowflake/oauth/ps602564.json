@@ -3,12 +3,13 @@
   "snowflake_account_id": "cargill-miw_prod",
   "ps_account_id": "ps602564",
   "ps_account_email_id": "Snowflake_Data_Function_MEF_Prd_Snowflake_MEF_OAuth_Prd@cargill.com",
-  "ps_account_owner": "m254437",
+  "ps_account_owner": "r402536",
   "data_product_manager": "j081460",
   "lead_engineer": "j081460", 
   "governance_and_access_lead": "j081460",
   "minerva_aad_group": [
-      "minerva_corp_dtd_mef_dataengineer_prd"
+      "minerva_corp_dtd_mef_dataengineer_prd",
+      "minerva_corp_dtd_mef_procdataengineer_prd"
   ],
   "minerva_aad_group_owner": "r402536",
   "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
