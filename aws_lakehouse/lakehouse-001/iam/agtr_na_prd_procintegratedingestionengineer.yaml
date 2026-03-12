@@ -15,4 +15,4 @@ access_to_resources:
         - lh_hrcules_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcg/"
-    - "s3://prd-lh1-agtr-na-src/raw/current/prd/src/hrcules/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/hrcules/"

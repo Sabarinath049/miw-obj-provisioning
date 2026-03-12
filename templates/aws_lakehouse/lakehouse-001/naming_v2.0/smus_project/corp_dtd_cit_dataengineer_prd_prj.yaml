@@ -25,7 +25,7 @@ cross_account_config:
   cross_account_enabled: false
   cross_account_name: ""
 project_config:
-  - project_env: "dev"
+  - project_env: "prd"
     custom_glue_db_name: ""
     log_retention: 90
     enable_auto_sync_to_s3: false
