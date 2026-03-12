@@ -8,7 +8,7 @@ data_construct: Source
 data_env: prd
 data_layer: raw
 enterprise_or_func_name: CORP
-source_name: IIQ
+source_name: iiq
 data_classification: "Confidential - Limited"
 data_privacy: "PII"
 enterprise_or_func_subgrp_name: DTD
