@@ -11,11 +11,13 @@ principal_role_arn: "arn:aws:iam::155261241286:role/prod-mif-agtr-apac-glue-role
 access_to_resources:
     glue_databases:
         write:
+        - lh_gcs_raw_prd
         - lh_sap_tcc_raw_prd
         - lh_sap_tce_raw_prd
         - lh_cacp_raw_prd
         - lh_ekaau_raw_prd
     data_prefixes:
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/gcs/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/cacp/"
