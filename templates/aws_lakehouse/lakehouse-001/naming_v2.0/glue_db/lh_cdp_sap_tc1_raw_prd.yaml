@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: CDP
 data_classification: "Confidential - General Use"
-data_privacy: "NONE"
+data_privacy: ""
 enterprise_or_func_name:  FOOD
 enterprise_or_func_subgrp_name: ""
 data_owner_email: "abc_xyz@cargill.com"
