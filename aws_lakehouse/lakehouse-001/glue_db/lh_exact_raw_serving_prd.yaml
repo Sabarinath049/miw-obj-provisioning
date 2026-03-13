@@ -1,6 +1,6 @@
 intake_id: M0000719
 database_name: lh_exact_raw_serving_prd
-database_s3_location: "s3://prd-lh1-food-src/serving/prd/src/exact"
+database_s3_location: "s3://prd-lh1-food-src/raw_serving/prd/src/exact"
 database_description: "Tables for EXACT Source"
 aws_account_id: 578647603827
 region: us-east-1
