@@ -21,7 +21,7 @@ access_to_resources:
   data_prefixes:
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/opentext/
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
-    - s3://prd-lh1-corp-gtc-src/serving/prd/src/gtc_reference_data/
+    - s3://prd-lh1-corp-gtc-src/raw_serving/prd/src/gtc_reference_data/
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: true

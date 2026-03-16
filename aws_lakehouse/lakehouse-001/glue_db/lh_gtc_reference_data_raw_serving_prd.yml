@@ -1,6 +1,6 @@
 intake_id: M0000960
 database_name: lh_gtc_reference_data_raw_serving_prd
-database_s3_location: "s3://prd-lh1-corp-gtc-src/serving/prd/src/gtc_reference_data/"
+database_s3_location: "s3://prd-lh1-corp-gtc-src/raw_serving/prd/src/gtc_reference_data/"
 database_description: "Database for storing CLEAN - GTC Reference Data tables"
 aws_account_id: 578647603827
 region: us-east-1
