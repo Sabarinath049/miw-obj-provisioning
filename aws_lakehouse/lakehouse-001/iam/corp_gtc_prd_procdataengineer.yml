@@ -18,6 +18,7 @@ access_to_resources:
       - lh_cdp_sap_tc2_gts_raw_prd
       - lh_opentext_raw_prd
       - lh_gtc_reference_data_raw_prd
+      - lh_cdp_gtc_reference_data_raw_prd
   data_prefixes:
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/opentext/
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
