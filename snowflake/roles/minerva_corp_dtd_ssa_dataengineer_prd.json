@@ -1,7 +1,7 @@
 {
     "intake_id": "MEF-123456",
     "snowflake_account_id": "CARGILL-MIW_PROD",
-    "aad_group_name": "minerva_data_ssa_dataengineer_prd",
+    "aad_group_name": "minerva_corp_dtd_ssa_dataengineer_prd",
     "purpose": "SSA Data Engineer role for Minerva PRD environment",
     "role_owner_ds_id": "r747643",
     "role_owner_email_id": "rafael_valverde@cargill.com",
