@@ -6,7 +6,7 @@ enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
 data_leader: ShawnYeager
 sub_function: MIF
-compute_size: SML
+compute_size: MED
 role_owner: 'Justin_Willhoite@cargill.com'
 data_env: prd
 usage_type: "IngestionEngineer"
