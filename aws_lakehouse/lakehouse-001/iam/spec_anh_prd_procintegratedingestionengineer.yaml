@@ -1,7 +1,7 @@
 intake_id: M0000438
 role_name: spec_anh_prd_procintegratedingestionengineer
 role_description: MIF IAM role for SPEC ANH Ingestion patterns to lakehouse.
-aws_account_id: '578647603827'
+aws_account_id: 578647603827
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
 role_owner: "Justin_Willhoite@cargill.com"
