@@ -12,7 +12,7 @@ access_to_resources:
     glue_databases:
         write:
         - lh_iiq_raw_prd
-        - lh_tda_apac_cocoapp_raw_prd
+        - lh_tda_cocoapp_raw_prd
     data_prefixes:
     - "s3://prd-lh1-corp-dtd-src/raw/current/prd/src/iiq/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_apac_cocoapp/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoapp/"
