@@ -1,4 +1,4 @@
-intake_id: M0000438
+intake_id: M0000447
 role_name: spec_anh_prd_procingestionengineer
 role_description: IAM role for programmatic Ingestion engineer to execute MIF driven Ingesiton jobs based on TableFlow patterns
 aws_account_id: 578647603827
@@ -22,6 +22,6 @@ enable_glue_interactive_session: false
 athena_access_config:
     athena_workgroup_name: false
 principal_role_arn: arn:aws:iam::851725421142:role/cspi-16p5z
-data_env: dev
+data_env: prd
 snowflake_iceberg_support: false
  
