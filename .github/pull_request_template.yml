@@ -17,63 +17,57 @@ body:
     id: data_flow
     attributes:
       label: "2. What is the data flow or usage pattern?"
-      description: "Specify whether usage is batch, streaming, hybrid, or ad‑hoc."
+      description: "Batch, streaming, hybrid, or ad‑hoc."
       placeholder: |
-        e.g., Batch ingestion of daily files from an upstream ERP system,
-        transformed and consumed by BI dashboards.
+        e.g., Batch ingestion of daily files from an upstream system.
     validations:
       required: true
 
   - type: textarea
     id: priority_timeline
     attributes:
-      label: "3. What is the priority and timeline for this request?"
-      description: "Also confirm awareness of MIW’s SLA of 72 hours."
+      label: "3. What is the priority and timeline?"
+      description: "Confirm awareness of MIW SLA (72 hours)."
       placeholder: |
         e.g., High priority; needed before quarter-end reporting.
-        Yes, aware of the SLA and aligned with project timelines.
     validations:
       required: true
 
   - type: textarea
     id: approval_status
     attributes:
-      label: "4. Has the intake request been approved and is it in 'Ready for Design' state?"
-      description: "Also confirm whether MIW naming conventions were followed."
+      label: "4. Approval & naming conventions"
+      description: "Is the request in RfD state? Naming conventions followed?"
       placeholder: |
-        e.g., Yes, approved on 12-Sep and currently in RfD state.
-        Naming conventions followed: <domain>_<purpose>_<env>.
+        e.g., Approved on 12-Sep, in RfD state, naming conventions followed.
     validations:
       required: true
 
   - type: textarea
     id: compute_access
     attributes:
-      label: "5. What are the compute and access requirements?"
-      description: "Include sizing recommendations, entitlements/roles, and access mode."
+      label: "5. Compute & access requirements"
+      description: "Include sizing recommendations, roles, and access mode."
       placeholder: |
-        e.g., Medium compute sizing recommended by MIW; AD group
-        'finance_analytics_team' created; access will be both programmatic and
-        console-based.
+        e.g., Medium compute; AD group created; programmatic + console access.
     validations:
       required: true
 
   - type: textarea
     id: dependencies_risks
     attributes:
-      label: "6. Are there any dependencies, risks, or special considerations?"
-      description: "List anything the MIW team should know before approving the request."
+      label: "6. Dependencies, risks, special considerations"
+      description: "Anything MIW team should know before approving."
       placeholder: |
-        e.g., Dependency on upstream file delivery from vendor; risk of delay if
-        vendor onboarding slips.
+        e.g., Dependency on upstream vendor file delivery.
     validations:
       required: true
 
   - type: dropdown
-    id: request_label
+    id: enterprise_function_label
     attributes:
       label: "Enterprise / Function Subgroup"
-      description: "Select the appropriate enterprise or function subgroup label for this request"
+      description: "Select the appropriate enterprise/function subgroup."
       options:
         - AGTR_APAC
         - AGTR_CRM
