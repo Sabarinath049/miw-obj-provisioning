@@ -37,7 +37,7 @@ body:
     id: approval_status
     attributes:
       label: "4. Approval & naming conventions"
-      description: "Is the request in Ready for Design state? Naming conventions followed?"
+      description: "Has the intake request been approved and is it in Ready for Design state? Naming conventions followed?"
       placeholder: |
         e.g., Approved on 12-Sep, in Ready for Design state, naming conventions followed.
     validations:
