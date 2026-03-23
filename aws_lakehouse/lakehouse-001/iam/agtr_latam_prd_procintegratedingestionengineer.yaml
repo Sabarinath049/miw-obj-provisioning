@@ -13,6 +13,8 @@ access_to_resources:
         write:
         - lh_trust_raw_prd
         - lh_fts_raw_prd
+        - lh_jdee1_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/trust/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/fts/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/jdee1/"
