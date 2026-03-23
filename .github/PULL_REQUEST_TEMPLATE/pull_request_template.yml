@@ -1,0 +1,85 @@
+name: "MIW Request Intake"
+description: "Please complete all required fields before submitting the request."
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: "1. What is the objective of this request?"
+      description: "Describe the use case or business purpose."
+      placeholder: |
+        e.g., Provisioning a new resource to support ingestion of customer
+        transaction data for reporting and analytics.
+    validations:
+      required: true
+
+  - type: input
+    id: data_flow
+    attributes:
+      label: "2. What is the data flow or usage pattern?"
+      description: "Specify whether usage is batch, streaming, hybrid, or ad‑hoc."
+      placeholder: |
+        e.g., Batch ingestion of daily files from an upstream ERP system,
+        transformed and consumed by BI dashboards.
+    validations:
+      required: true
+
+  - type: textarea
+    id: priority_timeline
+    attributes:
+      label: "3. What is the priority and timeline for this request?"
+      description: "Also confirm awareness of MIW’s SLA of 72 hours."
+      placeholder: |
+        e.g., High priority; needed before quarter-end reporting.
+        Yes, aware of the SLA and aligned with project timelines.
+    validations:
+      required: true
+
+  - type: textarea
+    id: approval_status
+    attributes:
+      label: "4. Has the intake request been approved and is it in 'Ready for Design' state?"
+      description: "Also confirm whether MIW naming conventions were followed."
+      placeholder: |
+        e.g., Yes, approved on 12-Sep and currently in RfD state.
+        Naming conventions followed: <domain>_<purpose>_<env>.
+    validations:
+      required: true
+
+  - type: textarea
+    id: compute_access
+    attributes:
+      label: "5. What are the compute and access requirements?"
+      description: "Include sizing recommendations, entitlements/roles, and access mode."
+      placeholder: |
+        e.g., Medium compute sizing recommended by MIW; AD group
+        'finance_analytics_team' created; access will be both programmatic and
+        console-based.
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies_risks
+    attributes:
+      label: "6. Are there any dependencies, risks, or special considerations?"
+      description: "List anything the MIW team should know before approving the request."
+      placeholder: |
+        e.g., Dependency on upstream file delivery from vendor; risk of delay if
+        vendor onboarding slips.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: request_label
+    attributes:
+      label: "Request Category (Mandatory)"
+      description: "Select the label that should be applied to this PR."
+      options:
+        - "intake"
+        - "bug"
+        - "enhancement"
+        - "compute-request"
+        - "data-access"
+        # Replace with your actual repo labels if different
+    validations:
+      required: true
