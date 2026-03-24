@@ -119,3 +119,26 @@ To ensure smooth and timely onboarding and feature delivery, the following SLA a
 - If the PR requires corrections, clarifications, or involves back-and-forth communication, the SLA is no longer applicable.
 - Any PR that does not meet the completeness criteria will be sent back for updates, and the SLA timer will reset once the PR is corrected and resubmitted.
 
+**Minerva – PR Guidance for Users**
+   - Follow the below points before raising the PR
+      - Please note that **user can raise a PR from a forked repo** , does not require using a dev -> dev branch or main -> main branch. Your feature branch in the fork can be named anything, as long as the PR shows only the intended changes when targeting our dev/main branch in base repo. Please make sure below
+          - Your feature branch must be up‑to‑date with Minerva:dev.
+          - Your PR should only include the commits related to your change.
+      - Separate the PRs only in case of below scenarios
+          - Separate Lakehouse and Snowflake PRs.
+          - Separate SMUS PRs from other Lakehouse Objects.
+          - Raise a PR for your IAM role to access federated Database only after the parent account’s DB has been successfully federated to the target/child account.  
+      - Make sure to add a wave label on the PR
+      - Also add a label of Ent/Func/Subgroup, refer a below link for the abbrevations
+        **https://git.cglcloud.com/Minerva/minerva-tags/blob/main/meta/value_refs/abbreviations.yaml**
+      - Make sure to complete all the questionanires in a "Request Intake Template" on the PR
+      - Add a valid intake id and make sure that status of intake id is in "ready for design" before raising the PR
+      - Always open the PR dev/prod branch from your synced fork to main/dev miw branch and not from any feature branch
+      - Refer a below link and configure proper values to data_owner and data_leader values in the yml files
+        **https://git.cglcloud.com/Minerva/minerva-governance/blob/dev/delegate%20access%20repo/source%20system%20delegates.md**
+      - Make sure to get the approval from a data owners before raising the PR
+      - If you see the PR is in "Pending user action" status then please address all the review comments and change the status back to "New PR"
+      - For a raw_serving databases make sure to configure s3 paths as raw_serving instead of just serving
+      - procdataengineer role is not allowed to give write access to raw databases so make sure not to configure raw DBs in write section of the yml file for the    procdataengineer role.
+      - If enterprise_or_func_name value is configured as CORP then make sure to configure values for enterprise_or_func_subgrp_name in the yml files. 
+
