@@ -8,7 +8,7 @@ data_construct: Source
 data_env: prd
 data_layer: raw
 enterprise_or_func_name: FOOD
-source_name: King dee_King dee
+source_name: king dee_king dee
 data_classification: 'Confidential - General Use'
 data_privacy: "NONE"
 enterprise_or_func_subgrp_name: APAC
