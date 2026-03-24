@@ -28,7 +28,7 @@ access_to_resources:
 enable_glue_interactive_session: true
 athena_access_config:
     enable_athena_access: true
-    athena_workgroup_name: dtd_mef_dev_eng_xsml
+    athena_workgroup_name: dtd_mef_prd_eng_xsml
 glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
