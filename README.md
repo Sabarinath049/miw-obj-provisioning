@@ -15,6 +15,14 @@ This document outlines the guardrails, standards, and validations enforced durin
   - All object names must follow approved naming standards.
   - Refer to Snowflake Conventions: [Minerva Snowflake Conventions](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO&startedResponseCatch=true#:~:text=Conventions%20and%20Templates)
   - Refer to LakeHouse Conventions: [Minerva Lakehouse Conventions](https://cargillonline.sharepoint.com/:x:/r/sites/Minerva-FullTeam/Shared%20Documents/Information%20Warehouse/LakeHouse%20MVP/AWS_LakeHouse_Nomenclature.xlsx?d=w5507f97edd484c80b31702ab646d8f0f&csf=1&web=1&e=Lq72dE)
+ 
+- **Separation of PRs**
+
+  - The only criteria for separating PRs should be as below :
+      - Separate Lakehouse and Snowflake PRs.
+      - Separate SMUS PRs from other Lakehouse Objects.
+      - Raise a PR for your IAM role to access federated Database only after the parent account’s DB has been successfully federated to the target/child account.
+      - Apart from this, even if the same Lakehouse PR requests deployment in multiple AWS Accounts (except federation), that will be catered by out automation process.
 
 - **Input JSON Templates**
 
