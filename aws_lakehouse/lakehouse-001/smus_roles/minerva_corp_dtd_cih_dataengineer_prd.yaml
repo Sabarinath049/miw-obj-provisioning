@@ -1,5 +1,5 @@
 intake_id: "M0000438"
-aad_group_name: "minerva_cih_dataengineer_prd"
+ad_group_name: "minerva_corp_dtd_cih_dataengineer_prd"
 aws_account_id: "578647603827"
 purpose: "This Group is used to explore ingested Data by CIH Team"
 role_owner_ds_id: "k745239"
