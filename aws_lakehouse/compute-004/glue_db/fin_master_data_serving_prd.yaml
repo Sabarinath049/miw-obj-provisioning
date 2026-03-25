@@ -1,4 +1,4 @@
-intake_id: M0000432
+intake_id: M0000449
 database_name: fin_master_data_serving_prd
 database_s3_location: "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/"
 database_description: "Store Master Data Serving Product data for Finance"
