@@ -12,5 +12,11 @@ access_to_resources:
     glue_databases:
         write:
         - lh_sap_tc2_raw_prd
+        - lh_leapsf_raw_prd
+        - lh_cmmp_raw_prd
+        - lh_yongyou_raw_prd
     data_prefixes:
     - "s3://prd-lh1-food-src/raw/current/prd/src/sap_tc2/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/leapsf/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/cmmp/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/yongyou/"
