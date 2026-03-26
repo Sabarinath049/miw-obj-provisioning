@@ -20,9 +20,9 @@ access_to_resources:
     - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/"
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/"
     execution_asset_prefixes:
-    - "s3://prd-cmp4-corp-fin-eng-assets/dev/fin/athena/"
-    - "s3://prd-cmp4-corp-fin-eng-assets/dev/fin/glue/"
-    - "s3://prd-cmp4-corp-fin-scripts/dev/fin/glue/"
+    - "s3://prd-cmp4-corp-fin-eng-assets/prd/fin/athena/"
+    - "s3://prd-cmp4-corp-fin-eng-assets/prd/fin/glue/"
+    - "s3://prd-cmp4-corp-fin-scripts/prd/fin/glue/"
     glue_crawler:
     - null
 enable_glue_interactive_session: true
