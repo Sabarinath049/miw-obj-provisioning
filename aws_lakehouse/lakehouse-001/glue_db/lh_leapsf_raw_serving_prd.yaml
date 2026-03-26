@@ -1,6 +1,6 @@
 intake_id: M0000482
 database_name: lh_leapsf_raw_serving_prd
-database_s3_location: s3://prd-lh1-food-src/serving/prd/src/leapsf/
+database_s3_location: s3://prd-lh1-food-src/raw_serving/prd/src/leapsf/
 database_description: Used to store clean data for leapsf Class Source
 aws_account_id: 578647603827
 region: us-east-1

@@ -1,6 +1,6 @@
 intake_id: M0000426
 database_name: lh_cmmp_raw_serving_prd
-database_s3_location: s3://prd-lh1-food-src/serving/prd/src/cmmp/
+database_s3_location: s3://prd-lh1-food-src/raw_serving/prd/src/cmmp/
 database_description: Used to store clean tables for CMMP Source
 aws_account_id: 578647603827
 region: us-east-1
