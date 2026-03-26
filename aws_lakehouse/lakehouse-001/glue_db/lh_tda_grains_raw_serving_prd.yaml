@@ -10,7 +10,7 @@ data_layer: raw
 source_name: tda_grains
 data_classification: "Confidential - Limited"
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: TDA
+enterprise_or_func_subgrp_name: TDA_GRAINS
 data_owner_email: "ajay_rajendran@cargill.com"
 data_owner_github_uname: AjayRajendran
 data_leader: jcook

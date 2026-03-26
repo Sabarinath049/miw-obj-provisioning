@@ -12,15 +12,5 @@ access_to_resources:
     glue_databases:
         write:
         - lh_iiq_raw_prd
-        - lh_tda_cocoapp_raw_prd
-        - lh_tda_cocoa_raw_serving_prd
-        - lh_tda_qep_raw_serving_prd
-        - lh_tda_grains_raw_prd
-        - lh_tda_vegoils_raw_prd
     data_prefixes:
     - "s3://prd-lh1-corp-dtd-src/raw/current/prd/src/iiq/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoapp/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoa/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_qep/"
-    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_grains/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_vegoils/"
