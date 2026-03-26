@@ -3,7 +3,7 @@ role_name: agtr_tda_vegoils_prd_procdataengineer
 role_description: This role is intended to be used by TDA Vegoils data engineers for programmatic access in the prd environment
 aws_account_id: 578647603827
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: TDA
+enterprise_or_func_subgrp_name: TDA_VEGOILS
 data_leader: jcook
 compute_size: SML
 max_session_duration: 2
