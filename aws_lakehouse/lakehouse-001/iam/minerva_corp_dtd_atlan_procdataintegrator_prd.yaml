@@ -1,5 +1,5 @@
 intake_id: I-123456
-role_name: minerva_corp_dtd_atlan_procdataintegrator_dev
+role_name: minerva_corp_dtd_atlan_procdataintegrator_prd
 role_description: IAM role for connecting AWS Glue connector in Lakehouse AWS Account
     to Atlan.
 aws_account_id: '578647603827'
