@@ -4,7 +4,7 @@ role_description: "SPEC_ANH role for Ingesting to Lakehouse"
 aws_account_id: '578647603827'
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
-role_owner: "Eelco_Roeten@cargill.com"
+role_owner: "marcella_simoes@cargill.com"
 data_env: prd
 usage_type: "IntegratedIngestionEngineer"
 principal_role_arn: "arn:aws:iam::155261241286:role/prod-mif-spec-anh-glue-role"
