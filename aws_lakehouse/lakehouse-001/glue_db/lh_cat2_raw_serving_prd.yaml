@@ -6,7 +6,7 @@ aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
 data_env: prd
-data_layer: raw serving 
+data_layer: raw 
 source_name: cat2mes
 data_classification: 'Confidential - General Use'
 data_privacy: "NONE"
