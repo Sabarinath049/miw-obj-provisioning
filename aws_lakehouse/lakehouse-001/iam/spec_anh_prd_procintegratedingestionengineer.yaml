@@ -1,5 +1,5 @@
 intake_id: M0000502
-role_name: spec_anh_dev_procintegratedingestionengineer
+role_name: spec_anh_prd_procintegratedingestionengineer
 role_description: "SPEC_ANH role for Ingesting to Lakehouse"
 aws_account_id: '578647603827'
 enterprise_or_func_name: SPEC
@@ -13,4 +13,4 @@ access_to_resources:
         write:
         - lh_m3_raw_prd
     data_prefixes:
-    - "s3://dev-lh1-spec-src/raw/current/prd/src/m3/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/m3/"
