@@ -19,47 +19,15 @@ access_to_resources:
     - lh_cdp_sap_tcd_raw_prd
     - lh_cdp_sap_tce_raw_prd
     - lh_cdp_sap_tcg_raw_prd
-    - lh_sap_tc1_raw_prd
-    - lh_sap_tc1_raw_serving_prd
-    - lh_sap_tc2_gts_raw_prd
-    - lh_sap_tc2_gts_raw_serving_prd
-    - lh_sap_tc2_raw_prd
-    - lh_sap_tc2_raw_serving_prd
-    - lh_sap_tca_raw_prd
-    - lh_sap_tca_raw_serving_prd
-    - lh_sap_tcc_raw_prd
-    - lh_sap_tcc_raw_serving_prd 
-    - lh_sap_tcd_raw_prd
-    - lh_sap_tcd_raw_serving_prd 
-    - lh_sap_tce_raw_prd 
-    - lh_sap_tce_raw_serving_prd
-    - lh_sap_tcg_raw_prd
-    - lh_sap_tcg_raw_serving_prd
   s3_prefixes:
-    - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
-    - s3://prd-lh1-corp-gtc-src/raw/cdp/prd/src/sap_tc2_gts/
-    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2/
-    - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/
-    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tcc/
-    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tcd/
-    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tce/
-    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tcg/
-    - s3://prd-lh1-spec-src/raw/current/prd/src/sap_tc1/
-    - s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/
-    - s3://prd-lh1-corp-gtc-src/raw/current/prd/src/sap_tc2_gts/
-    - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
-    - s3://prd-lh1-food-src/raw/current/prd/src/sap_tc2/
-    - s3://prd-lh1-food-src/serving/prd/src/sap_tc2/
-    - s3://prd-lh1-spec-src/raw/current/prd/src/sap_tca/
-    - s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/
-    - s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/ 
-    - s3://prd-lh1-agtr-src/serving/prd/src/sap_tcc/
-    - s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/
-    - s3://prd-lh1-food-src/serving/prd/src/sap_tcd/
-    - s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/
-    - s3://prd-lh1-agtr-src/serving/prd/src/sap_tce/
-    - s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcg/
-    - s3://prd-lh1-agtr-src/serving/prd/src/sap_tcg/
+    - s3://prd-lh1-spec-src/
+    - s3://prd-lh1-corp-gtc-src/
+    - s3://prd-lh1-food-src/
+    - s3://prd-lh1-spec-src/
+    - s3://prd-lh1-agtr-src/
+    - s3://prd-lh1-food-src/
+    - s3://prd-lh1-agtr-src/
+    - s3://prd-lh1-agtr-src
 
   custom_git_config:
     custom_git_enabled: false
