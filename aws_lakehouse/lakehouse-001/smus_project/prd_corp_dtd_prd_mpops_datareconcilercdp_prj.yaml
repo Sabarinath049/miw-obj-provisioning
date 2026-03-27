@@ -23,11 +23,7 @@ access_to_resources:
     - s3://prd-lh1-spec-src/
     - s3://prd-lh1-corp-gtc-src/
     - s3://prd-lh1-food-src/
-    - s3://prd-lh1-spec-src/
     - s3://prd-lh1-agtr-src/
-    - s3://prd-lh1-food-src/
-    - s3://prd-lh1-agtr-src/
-    - s3://prd-lh1-agtr-src
 
   custom_git_config:
     custom_git_enabled: false
