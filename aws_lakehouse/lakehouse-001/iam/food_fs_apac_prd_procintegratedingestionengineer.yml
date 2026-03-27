@@ -12,5 +12,7 @@ access_to_resources:
     glue_databases:
         write:
         - lh_exact_raw_prd
+        - lh_kngdas_raw_prd
     data_prefixes:
     - "s3://prd-lh1-food-src/raw/current/prd/src/exact/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/kngdas/"
