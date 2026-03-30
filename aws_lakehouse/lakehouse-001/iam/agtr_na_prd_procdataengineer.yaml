@@ -1,9 +1,9 @@
 intake_id: M0000563
-role_name: agtr_agta_prd_procdataengineer
+role_name: agtr_na_prd_procdataengineer
 role_description: This role is intended to be used by Ag & Trading data engineers for programmatic access in the dev environment
 aws_account_id: '578647603827'
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: AGTA
+enterprise_or_func_subgrp_name: NA
 data_leader: jcook
 compute_size: SML
 max_session_duration: 2
