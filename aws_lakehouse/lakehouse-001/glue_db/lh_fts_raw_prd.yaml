@@ -1,4 +1,4 @@
-intake_id: M0000742
+intake_id: M0000424
 database_name: lh_fts_raw_prd
 database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/fts/"
 database_description: "Database for FTS to Lakehouse Ingestion Patterns"
@@ -12,6 +12,6 @@ data_classification: "Confidential - Restricted"
 data_privacy: "PI"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: LATAM
-data_owner_email: "Elias_Belmiro@cargill.com"
-data_owner_github_uname: Eliasda-Silva-Belmiro
+data_owner_email: "tatiane_pioltine@cargill.com"
+data_owner_github_uname: Tatiane-Pioltine
 data_leader: jcook

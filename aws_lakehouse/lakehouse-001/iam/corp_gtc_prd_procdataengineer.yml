@@ -12,13 +12,17 @@ access_to_resources:
     write:
       - lh_opentext_raw_serving_prd
       - lh_sap_tc2_gts_raw_serving_prd
+      - lh_gtc_reference_data_raw_serving_prd
     read:
       - lh_sap_tc2_gts_raw_prd
       - lh_cdp_sap_tc2_gts_raw_prd
       - lh_opentext_raw_prd
+      - lh_gtc_reference_data_raw_prd
+      - lh_cdp_gtc_reference_data_raw_prd
   data_prefixes:
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/opentext/
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
+    - s3://prd-lh1-corp-gtc-src/raw_serving/prd/src/gtc_reference_data/
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: true
