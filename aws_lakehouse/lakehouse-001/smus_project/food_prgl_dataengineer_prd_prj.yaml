@@ -17,6 +17,10 @@ access_to_resources:
     - lh_sap_tc2_raw_prd
     - lh_sap_tc2_raw_serving_prd
     - lh_cdp_sap_tc2_raw_prd
+    - lh_parxl_raw_prd
+    - lh_parxl_raw_serving_prd
+    - lh_cat2mes_raw_prd
+    - lh_cat2mes_raw_serving_prd
   s3_prefixes:
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/
     - s3://prd-lh1-food-src/serving/prd/src/sap_tcd/
@@ -24,6 +28,10 @@ access_to_resources:
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tc2/
     - s3://prd-lh1-food-src/serving/prd/src/sap_tc2/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2/
+    - s3://prd-lh1-food-src/raw/current/prd/src/parxl/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/parxl/
+    - s3://prd-lh1-food-src/raw/current/prd/src/cat2mes/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/cat2mes/
   custom_git_config:
     custom_git_enabled: true
     repo_name:
