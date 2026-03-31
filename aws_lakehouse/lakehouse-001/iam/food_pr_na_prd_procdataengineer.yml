@@ -1,9 +1,9 @@
 intake_id: M0000566
-role_name: food_prna_prd_procdataengineer
+role_name: food_pr_na_prd_procdataengineer
 role_description: This role is intended to be used by Food Protein data engineers for programmatic access in the prd environment
 aws_account_id: '578647603827'
 enterprise_or_func_name: FOOD
-enterprise_or_func_subgrp_name: PRNA
+enterprise_or_func_subgrp_name: PR_NA
 data_leader: kporter
 compute_size: SML
 max_session_duration: 2
