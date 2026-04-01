@@ -1,14 +1,14 @@
 intake_id: M0000441
-database_name: lh_jde_raw_serving_prd
-database_s3_location: s3://prd-lh1-food-src/raw_serving/prd/src/jde/
-database_description: "Database for CDP JDE to Lakehouse Ingestion Patterns"
+database_name: lh_jdeaf_raw_serving_prd
+database_s3_location: s3://prd-lh1-food-src/raw_serving/prd/src/jdeaf/
+database_description: "Database for CDP JDEAF to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
 data_env: prd
 data_layer: raw
 enterprise_or_func_name: FOOD
-source_name: jde
+source_name: jdeaf
 data_classification: 'Confidential - Limited'
 data_privacy: "NONE"
 enterprise_or_func_subgrp_name: FSGL

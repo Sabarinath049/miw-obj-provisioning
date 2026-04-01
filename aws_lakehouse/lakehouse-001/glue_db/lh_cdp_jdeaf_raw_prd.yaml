@@ -1,7 +1,7 @@
 intake_id: M0000441
-database_name: lh_cdp_jde_raw_prd
-database_s3_location: s3://prd-lh1-food-src/raw/cdp/prd/src/jde/
-database_description: "Database for CDP JDE to Lakehouse Ingestion Patterns"
+database_name: lh_cdp_jdeaf_raw_prd
+database_s3_location: s3://prd-lh1-food-src/raw/cdp/prd/src/jdeaf/
+database_description: "Database for CDP JDEAF to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
