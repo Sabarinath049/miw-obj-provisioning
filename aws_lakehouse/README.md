@@ -36,7 +36,7 @@ Changing the following after creation will force object re‑creation—**not al
 | Object Type       | Immutable fields                                                                 |
 |-------------------|-----------------------------------------------------------------------------------|
 | Glue Database     | `database_name`, `database_s3_location`, `aws_account_id`, `region`               |
-| IAM Role          | `role_name`, `aws_account_id`                                                     |
+| IAM Role          | `role_name`, `aws_account_id`, `role_description`                                 |
 | Resource Policy   | `aws_account_id`, `cross_account_aws_id`, `principal_role_arn`                    |
 | S3 Bucket         | `bucket_name`, `aws_account_id`, `aws_region`                                     |
 | Data Federation   | `aws_account_id`                                                                  |
