@@ -14,9 +14,9 @@ access_to_resources:
         - lh_m3_raw_prd
         - lh_sap_tc1_raw_prd
         - lh_sap_tca_raw_prd
-        - lh_billsrchive_raw_serving_prd
+        - lh_billsrchive_raw_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw/current/prd/src/m3/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/sap_tca/"
-    - s3://prd-lh1-spec-src/raw_serving/current/prd/src/billsrchive/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/billsrchive/
