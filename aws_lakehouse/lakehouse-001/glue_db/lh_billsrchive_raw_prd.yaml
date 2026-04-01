@@ -1,5 +1,5 @@
 intake_id: M0000830
-database_name: lh_billsrchive_raw_serving_prd
+database_name: lh_billsrchive_raw_prd
 database_s3_location: s3://prd-lh1-spec-src/raw/current/prd/src/billsrchive/
 database_description: Used to store Raw data for ANH BillsRchive Source
 aws_account_id: 578647603827
