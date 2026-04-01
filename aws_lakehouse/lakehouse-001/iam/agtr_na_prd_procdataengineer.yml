@@ -11,13 +11,10 @@ access_to_resources:
   glue_databases:
     write:
       - lh_hrcules_raw_serving_prd
-      - lh_agrosoft_raw_serving_prd
     read:
       - lh_hrcules_raw_prd
-      - lh_cdp_agrosoft_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/hrcules/"
-    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/agrosoft/""
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
