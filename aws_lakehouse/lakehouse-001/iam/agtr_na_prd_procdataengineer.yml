@@ -1,4 +1,4 @@
-intake_id: M0000563
+intake_id: M0000885
 role_name: agtr_na_prd_procdataengineer
 role_description: This role is intended to be used by NA data engineers for programmatic access in the prd environment
 aws_account_id: 578647603827
@@ -23,4 +23,4 @@ athena_access_config:
 data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: false
-role_owner: 'Jonathan_Cook@cargill.com'
+role_owner: 'Purnendu_Das@cargill.com'
