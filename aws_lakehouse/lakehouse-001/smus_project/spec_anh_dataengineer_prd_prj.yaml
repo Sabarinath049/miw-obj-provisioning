@@ -23,6 +23,8 @@ access_to_resources:
     - lh_axapta_raw_serving_prd
     - lh_m3_raw_serving_prd
     - lh_m3_raw_prd
+    - lh_cdp_nis_raw_prd
+    - lh_nis_raw_serving_prd
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/current/prd/src/billsrchive/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
@@ -36,6 +38,8 @@ access_to_resources:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/axapta/
     - s3://prd-lh1-spec-src/raw/current/prd/src/m3/
     - s3://prd-lh1-spec-src/raw_serving/prd/src/m3/
+    - s3://prd-lh1-spec-src/raw_serving/prd/src/nis/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/nis/
   custom_git_config:
     custom_git_enabled: true
     repo_name:
