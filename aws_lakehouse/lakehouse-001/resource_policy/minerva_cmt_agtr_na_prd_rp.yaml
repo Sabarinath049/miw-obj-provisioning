@@ -11,10 +11,7 @@ principal_role_arn: "arn:aws:iam::139823407693:role/minerva-prd-corp-cmt-prdlhda
 access_to_resources:
   glue_databases:
     - lh_cdp_hrculbr_raw_prd
+    - lh_cdp_agrosoft_raw_prd
   s3_prefixes:
-<<<<<<< HEAD
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/hrculbr/
-=======
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/agrosoft/
-
->>>>>>> ea355b64d5434ec3091e849a64e3f5fb54908f98
