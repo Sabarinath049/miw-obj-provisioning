@@ -1,6 +1,8 @@
 intake_id: M0000562
 data_share_name: corp_gtc_tc2_gts_prd_df
 glue_databases:
+    - lh_cdp_sap_tc2_gts_raw_prd
+    - lh_sap_tc2_gts_raw_prd
     - lh_sap_tc2_gts_raw_serving_prd
 data_share_description: "This data federation enables to share all SAP TC2 GTS Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
