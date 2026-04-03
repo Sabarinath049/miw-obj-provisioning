@@ -36,7 +36,7 @@ Changing the following after creation will force object re‑creation—**not al
 | Object Type       | Immutable fields                                                                 |
 |-------------------|-----------------------------------------------------------------------------------|
 | Glue Database     | `database_name`, `database_s3_location`, `aws_account_id`, `region`               |
-| IAM Role          | `role_name`, `aws_account_id`                                                     |
+| IAM Role          | `role_name`, `aws_account_id`, `role_description`                                 |
 | Resource Policy   | `aws_account_id`, `cross_account_aws_id`, `principal_role_arn`                    |
 | S3 Bucket         | `bucket_name`, `aws_account_id`, `aws_region`                                     |
 | Data Federation   | `aws_account_id`                                                                  |
@@ -108,7 +108,7 @@ Changing the following after creation will force object re‑creation—**not al
 - Role exists **only** in **lakehouse‑001** (Dev/Prod), **not** in Compute.  
 - **Grain:** Enterprise/Function (CORP may follow its bucket grain).  
 - `usage_type` = **`IngestionEngineer`**.  
-- `principal_role_arn` must be a **valid cross‑account role ARN** (source).  
+- `principal_role_arn` must be a **valid cross‑account role ARN** (source). Please raise this request **only when your role in source MIF account already exists**, otherwise the provisioning on Lakehouse will fail.
 - **No read access** to any database.  
 - **Support channel** if unsure about paths:  
   [Teams MIW Support Channel](https://teams.microsoft.com/l/channel/19%3A5a7600cbb5364d879827e49df32d45c5%40thread.tacv2/MIW%20-%20Object%20Provisioning%20Support?groupId=d6e0463c-4725-481f-94ac-5836bfad0e30&tenantId=57368c21-b8cf-42cf-bd0b-43ecd4bc62ae)
@@ -119,7 +119,7 @@ Changing the following after creation will force object re‑creation—**not al
 - Access **only** to the **equivalent enterprise/function source bucket**.  
 - **Grain:** Subgroup.  
 - `usage_type` = **`IntegratedIngestionEngineer`**.  
-- `principal_role_arn` must be **valid**.  
+- `principal_role_arn` must be **valid**. Please raise this request **only when your role in source MIF account already exists**, otherwise the provisioning on Lakehouse will fail.
 - **No read access** to any database.
 
 #### 6.2.3 Proc Data Engineer
@@ -193,7 +193,7 @@ Changing the following after creation will force object re‑creation—**not al
   - Example: `minerva_prd_cmt_agtr_apac_prd_rp`  
 - `Intake_ID` must be **valid** and must belong to the relevant **Ent/Func** and **Subgroup**.  
 - `aws_account_id` and `cross_account_aws_id` must be **valid AWS Account IDs**.  
-- `principal_role_arn` must be **valid** for CMT‑based ingestion.  
+- `principal_role_arn` must be **valid** for CMT‑based ingestion. Please raise this request **only when your role in source MIF account already exists**, otherwise the provisioning on Lakehouse will fail.
 - Grant access **only** to **CDP‑specific** DBs and S3 paths.  
 - Restrict to DBs and S3 paths **within the same** Ent/Func/Subgroup—**nothing beyond**.
 

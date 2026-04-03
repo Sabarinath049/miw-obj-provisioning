@@ -14,16 +14,22 @@ access_to_resources:
       - lh_gcs_raw_serving_prd
       - lh_cacp_raw_serving_prd
       - lh_ekaau_raw_serving_prd
+      - lh_cts_raw_serving_prd
+      - lh_sfsc_raw_serving_prd
     read:
       - lh_gps_raw_prd
       - lh_gcs_raw_prd
       - lh_cacp_raw_prd
       - lh_ekaau_raw_prd
+      - lh_cts_raw_prd
+      - lh_sfsc_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gps/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gcs/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/cacp/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/ekaau/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/cts/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfsc/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
@@ -33,5 +39,3 @@ data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: false
 role_owner: 'Purnendu_Das@cargill.com'
-
-
