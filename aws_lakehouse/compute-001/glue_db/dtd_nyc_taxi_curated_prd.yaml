@@ -6,7 +6,7 @@ aws_account_id: 367241115350
 region: us-east-1
 data_construct: DataProduct
 data_env: prd
-data_layer: curated
+data_layer: cur
 data_product: nyc_taxi
 data_classification: "Confidential - General Use"
 data_privacy: "NONE"
@@ -15,4 +15,3 @@ enterprise_or_func_subgrp_name: DTD
 data_owner_email: "viviana_chevezroman@cargill.com"
 data_owner_github_uname: VivianaChevez-Roman
 data_leader: a123456
-
