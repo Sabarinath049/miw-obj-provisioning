@@ -17,3 +17,5 @@ access_to_resources:
     data_prefixes:
       - "s3://prd-lh1-mif-demo-src/"
       - "s3://prd-lh1-corp-fin-src/1001110/10101101/e6dc7158-a74a-4422-8bc0-b6ddfe5b33c8/env-mpxy2x/lkc-myrp67/"
+      - "s3://prd-lh1-corp-gtc-src/1001110/10101101/e6dc7158-a74a-4422-8bc0-b6ddfe5b33c8/env-mpxy2x/lkc-myrp67/"
+      
