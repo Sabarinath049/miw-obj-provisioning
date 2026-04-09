@@ -1,6 +1,6 @@
 intake_id: M0000516
 database_name: lh_sap_tcc_raw_serving_prd
-database_s3_location: "s3://prd-lh1-agtr-src/serving/prd/src/sap_tcc/"
+database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tcc/"
 database_description: "Database for SAP TCC to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1
