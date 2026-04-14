@@ -21,6 +21,7 @@ access_to_resources:
     - "s3://prd-lh1-food-src/serving/prd/src/sap_tcd/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/cat2mes/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/parxl/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tcd/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
