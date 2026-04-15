@@ -12,6 +12,6 @@ data_privacy: "Restricted"
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: FIN
 data_product_name: "general_ledger"
-data_owner_email: 'kevin_woelk@cargill.com'
-data_owner_github_uname: 'kevinwoelk'
+data_owner_email: 'chris_coward@cargill.com'
+data_owner_github_uname: 'ChrisCoward'
 data_leader: m631758
