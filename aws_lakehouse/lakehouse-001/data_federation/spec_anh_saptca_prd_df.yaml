@@ -10,6 +10,7 @@ data_env: prd
 data_construct: Source
 source_name: sap_tca
 cross_account_aws_ids:
+    - 011379513867
     - 438465132548
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: "ANH"
