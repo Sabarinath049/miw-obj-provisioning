@@ -1,3 +1,5 @@
+### ⚠️⚠️⚠️**PRs without Wave and Team labels will experience Review Delays**⚠️⚠️⚠️
+
 ### Request Intake Template
 
 #### 1. What is the objective of this request?  
