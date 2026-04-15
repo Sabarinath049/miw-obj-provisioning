@@ -1,4 +1,4 @@
-intake_id: M-0000485
+intake_id: M0000485
 bucket_name: prd-cmp1-apac-dp
 bucket_description: Stores data product for Ag & Trading APAC
 aws_account_id: '367241115350'
