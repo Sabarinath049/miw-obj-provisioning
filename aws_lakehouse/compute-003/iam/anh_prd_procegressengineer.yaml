@@ -12,8 +12,8 @@ max_session_duration: 2
 access_to_resources:
     glue_databases:
         read:
-          - anh_external_datablocks_serving_analytics_prd
-          - anh_internal_datablocks_curated_prd
+          - anh_datablocks_serving_analytics_prd
+          - anh_datablocks_curated_prd
     execution_asset_prefixes:
     - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/athena/
     - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/glue/
