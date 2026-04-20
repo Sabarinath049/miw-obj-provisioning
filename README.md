@@ -1,144 +1,269 @@
-**Minerva MIW Object Provisioning Guidelines**
+# Minerva MIW Object Provisioning Guidelines
 
-Welcome to the Automated Object Provisioning Framework managed by MIW Team for Cargill Minerva Program.
-To gain understanding of the overall process of raising a PR, please refer : [How to Raise Object Provisioning Request](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO)
+## Purpose
 
-While we appreciate you reading the document, we wish to bring to your notice key validations that your PR will undergo. Having solid understanding of validation rules will enable you to reduce turn around time of your object provisoning process.
-This document outlines the guardrails, standards, and validations enforced during the provisioning of objects, ensuring compliance with Minerva and MIW governance.
+Welcome to the **Automated Object Provisioning Framework** managed by the **MIW Team** for the **Cargill Minerva Program**.
 
-**Minerva Standards & Conventions** : It is critical that all user object provisioning requests follow the conventions and standards established by MIW. Failure to comply may result in provisioning delays or rejection.
+This repository enables **governance-controlled, auditable provisioning** of infrastructure and data objects across **Snowflake** and **AWS Lakehouse** using Pull Requests (PRs).
 
-**Key Standards**
+This README defines the **repository-level contract** for both requestors and reviewers. It explains the operating model, enforced validations, and submission hygiene required before raising a PR. The intent is to reduce review cycles, avoid preventable failures, and keep platform changes predictable, scoped, and safe.
 
-- **Naming Conventions**
+For the overall process of raising a PR, refer to the official MIW guidance:
+- [PR_Submission_Guide](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/PR-Submission-Guide.aspx)
+  
+---
 
-  - All object names must follow approved naming standards.
-  - Refer to Snowflake Conventions: [Minerva Snowflake Conventions](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO&startedResponseCatch=true#:~:text=Conventions%20and%20Templates)
-  - Refer to LakeHouse Conventions: [Minerva Lakehouse Conventions](https://cargillonline.sharepoint.com/:x:/r/sites/Minerva-FullTeam/Shared%20Documents/Information%20Warehouse/LakeHouse%20MVP/AWS_LakeHouse_Nomenclature.xlsx?d=w5507f97edd484c80b31702ab646d8f0f&csf=1&web=1&e=Lq72dE)
- 
-- **Separation of PRs**
+## Repository-Level Principles
 
-  - The only criteria for separating PRs should be as below :
-      - Separate Lakehouse and Snowflake PRs.
-      - Separate SMUS PRs from other Lakehouse Objects.
-      - Raise a PR for your IAM role to access federated Database only after the parent account’s DB has been successfully federated to the target/child account.
-      - Apart from this, even if the same Lakehouse PR requests deployment in multiple AWS Accounts (except federation), that will be catered by out automation process.
+Every PR represents a governed change to shared platform infrastructure. A valid request must be:
 
-- **Input JSON Templates**
+- Correctly scoped
+- Correctly grouped
+- Correctly named
+- Linked to a valid Intake
+- Backed by ownership and approval evidence
+- Created using approved templates
+- Targeted to the correct platform and account
 
-  - Provisioning requests must use the standard JSON (for Snowflake) and YAML(for Lakehouse) metadata templates.
-  - You can refer to the Snowflake Production Templates from : [Snowflake Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/snowflake)
-  - You can refer to the Lakehouse Production Templates from : [Lakehouse Production Templates](https://git.cglcloud.com/Minerva/miw-object-provisioning/tree/main/templates/aws_lakehouse)
+> **In one line:** A good PR is governance-ready, narrowly scoped, correctly grouped, precisely named, least-privileged, and easy to reason about.
 
-- **MIW Rule Book Compliance (Only enabled for Snowflake Provisionings for now)**
+---
 
-  - Our automated provisioning framework enforces rules as per the MIW rule book, with multiple layers of validation.
+## What This Repository Enforces
 
-  - **Automated Validations**
-    - Currently, our framework supports naming convention checks and technical validations. Please review the rules below to avoid failed provisioning attempts.
+This repository manages provisioning requests for:
 
-      - **Technical Validation**
-        
-        - **Pull Request Specific Checks**
- 
-          - **Pull requests must be limited to a single Product Group.** All files included in a pull request should belong exclusively to the same Product Group. 
-          - It is adviced to only **request changes 5 of less object changes as part of a single PR**. This can be ensured by not adding/modifying more than 5 files as part of a single PR. 
-          - At this point of time **we don't allow any file deletions** if it has been already merged into the base branches like dev, stg and prod. A separate object deletion pipeline will be established in upcoming PIs. 
-          - If you are modifying a file, be cautious of the fact that you restrain from changing parameters called out at the bottom of this file since it can trigger destroy and recreate on Snowflake environment which is a risk to stability of use cases and platform.
+- Snowflake objects
+- AWS Lakehouse objects
+- Access and entitlement-related resources
+- Governance-aligned metadata templates
 
-        - **Generic Checks**
-          
-          - Public roles must never be granted access to Snowflake objects (Database, Schema, Warehouse).
-          - Validate whether the object already exists in Snowflake or if it is a new request.
-          - Ensure that roles listed in the access_roles JSON key are already SCIM-provisioned. Provisioning fails if roles are missing.
+Automation and review enforce checks for:
 
-        - **Warehouse-Specific Checks**
+- Naming conventions and abbreviations
+- Account IDs and repository folder placement
+- Platform separation (Snowflake vs Lakehouse)
+- Ownership metadata and approval readiness
+- Object scope, grouping, and sequencing
+- Read/write layer boundaries
+- Immutable fields
+- Platform-specific template rules
 
-          - Only the following warehouse sizes are supported: XSMALL, SMALL, MEDIUM, LARGE, XLARGE 
-          - Credit limit per warehouse: **500 credits/month**. Requests above this threshold require justification and may be flagged for MIW approval. 
-          - **Auto-suspend timeout must be ≤ 60 seconds**. Justification is required for higher values.
-          - Only **STANDARD** type of warehouses are supported by MIW at this point.
-          - Maximum **Cluster count of 10** is supported by MIW.
-          - Only **ECONOMY** scaling policy is supported by MIW warehouses for now. If you need changes, MIW may need additional justifications.
-          - Maximum allowed query timeout is 1800 seconds for now.
-          - **Alert subscriber list needs to be mandatorily populated** in the Warehouse JSON. Please ensure all users are verified in snowflake and **Email-IDs are mentioned in ALL CAPITALS**.
+---
 
-        - **Schema-Specific Check**
-        
-          - Data retention settings > 1 day must be approved by your Data Product Manager.
-          - The Data Classifications allowed at this point of time are : "General", "Public", "Limited", "Restricted", "Highly Restricted" only.
+## Template Standards
 
-        - **Storage Integration Checks** 
-        
-          - Only the Data Engineer persona can access storage integrations. 
-          - Role ARN must comply with AWS standards.
+All provisioning must use approved templates:
 
-      - **Convention Validation**
-      
-      - Our naming convention checks ensure objects follow strict patterns to support platform governance, cost control, and scalability.
+- **Snowflake**: Standard metadata **JSON** templates
+- **Lakehouse**: Standard **YAML** templates - 
 
-        - **Separator Check**
-        
-        - Object names must have the correct number of underscores (_) as per convention.
+Rules:
+- No custom fields or structure changes
+- Templates define *intent*, not implementation
+- Files must be stored in the correct repo folder
+- Account ID and alias must match the target environment
 
-        - **Prefix Check**
+Any template deviation breaks automation.
 
-          - Some object types are required to start with a specific prefix.
+---
 
-        - **Suffix Check**
+## PR Separation Rules
 
-        - All objects (except process users) must end with the appropriate object-type suffix.
-        
-**Snowflake Object Attributes Likely to trigger Destroy and Recreate**
+### Mandatory Separations
 
-| Snowflake Objects   | Attributes Likely to trigger Destroy and Recreate                                              |
-|---------------------|------------------------------------------------------------------------------------------------|
-| Warehouse           | "WAREHOUSE_NAME", "WAREHOUSE_SIZE", "MIN_CLUSTER_COUNT", "MAX_CLUSTER_COUNT", "WAREHOUSE_TYPE" |
-| Database            | "DATABASE_NAME"                                                                                |
-| Schema              | "SCHEMA_NAME"                                                                                  |
-| Storage Integration | "STORAGE_INTEGRATION_NAME", "STORAGE_PROVIDER", "STORAGE_AWS_ROLE_ARN"                         |
-| Persona             | "PERSONA_NAME"/ "ROLE_NAME"                                                                    |
-| OAUTH               | "SUB-UUID"                                                                                     |
+- Snowflake and Lakehouse requests must be raised as separate PRs
+- SMUS PRs must be raised separately from other Lakehouse objects
+- IAM access to a federated database can be requested **only after** federation exists in the target account
 
-- **Minerva LakeHouse Validation Suite & Compliance Kit**
+### Recommended Boundaries
 
-  - Lakehouse automation and validation suite is a work in progress by Minerva MIW team. Once the details are ironed out, README.md will be updated with all the details. Until then, MIW team is happy to handhold and support early onboarders via the Teams channel : [MIW Support](https://teams.microsoft.com/l/channel/19%3A5a7600cbb5364d879827e49df32d45c5%40thread.tacv2/MIW%20-%20Object%20Provisioning%20Support?groupId=d6e0463c-4725-481f-94ac-5836bfad0e30&tenantId=57368c21-b8cf-42cf-bd0b-43ecd4bc62ae)
+- One logical intent per PR
+- Avoid bundling unrelated objects
+- Keep the blast radius small
 
-# Pull Request (PR) Review SLA Guidelines
+---
 
-To ensure smooth and timely onboarding and feature delivery, the following SLA applies to all PR reviews:
+## PR Hygiene Expectations
 
-## ✅ Standard SLA
-- **SLA Duration**: 3 working days from the time the PR is raised.
-- **Conditions for SLA Validity**:
-  - All required data and metadata must be correctly filled in the PR.
-  - The PR must be free of corrections or missing information from the application team.
-  - The PR should follow the defined template and standards.
+Before raising a PR:
 
-## ⚠️ Exceptions to SLA
-- If the PR requires corrections, clarifications, or involves back-and-forth communication, the SLA is no longer applicable.
-- Any PR that does not meet the completeness criteria will be sent back for updates, and the SLA timer will reset once the PR is corrected and resubmitted.
+- Ensure your fork is synced with the base branch
+- Include only commits relevant to the change
+- Target the correct base branch
+- Complete all fields in the PR Intake Template
+- Add required labels (wave, team, status, Enterprise/Function/Subgroup)
+- Ensure the Intake ID is valid and in **Ready for Design** state
 
-**Minerva – PR Guidance for Users**
-   - Follow the below points before raising the PR
-      - Please note that **user can raise a PR from a forked repo** , does not require using a dev -> dev branch or main -> main branch. Your feature branch in the fork can be named anything, as long as the PR shows only the intended changes when targeting our dev/main branch in base repo. Please make sure below
-          - Your feature branch must be up‑to‑date with Minerva:dev.
-          - Your PR should only include the commits related to your change.
-      - Separate the PRs only in case of below scenarios
-          - Separate Lakehouse and Snowflake PRs.
-          - Separate SMUS PRs from other Lakehouse Objects.
-          - Raise a PR for your IAM role to access federated Database only after the parent account’s DB has been successfully federated to the target/child account.  
-      - Make sure to add a wave label on the PR
-      - Also add a label of Ent/Func/Subgroup, refer a below link for the abbrevations
-        **https://git.cglcloud.com/Minerva/minerva-tags/blob/main/meta/value_refs/abbreviations.yaml**
-      - Make sure to complete all the questionanires in a "Request Intake Template" on the PR
-      - Add a valid intake id and make sure that status of intake id is in "ready for design" before raising the PR
-      - Always open the PR dev/prod branch from your synced fork to main/dev miw branch and not from any feature branch
-      - Refer a below link and configure proper values to data_owner and data_leader values in the yml files
-        **https://git.cglcloud.com/Minerva/minerva-governance/blob/dev/delegate%20access%20repo/source%20system%20delegates.md**
-      - Make sure to get the approval from a data owners before raising the PR
-      - If you see the PR is in "Pending user action" status then please address all the review comments and change the status back to "New PR"
-      - For a raw_serving databases make sure to configure s3 paths as raw_serving instead of just serving
-      - procdataengineer role is not allowed to give write access to raw databases so make sure not to configure raw DBs in write section of the yml file for the    procdataengineer role.
-      - If enterprise_or_func_name value is configured as CORP then make sure to configure values for enterprise_or_func_subgrp_name in the yml files. 
+If a PR is marked **Pending User Action**, address all comments and update the status back to Review in Progress.
 
+---
+
+## Governance Readiness
+
+A PR should not be raised until governance prerequisites are complete.
+
+Verify before submission:
+- Intake ID is valid and approved
+- Intake status is correct
+- Data owner, data leader, and role owner are finalized
+- Ownership aligns with governance records
+- Required approvals are already obtained
+
+If governance is not ready, the PR will stall regardless of technical correctness.
+
+---
+
+## Ownership & Approvals
+
+Ownership drives access decisions and approval workflows.
+
+General expectations:
+- Data owner approval must be obtained up front
+- Cross-account access and federated databases require approval unless within the same subgroup
+- Approval evidence must be included in the PR when applicable
+- Refer the Governance repository to identify the owner or delegate for each source system and Enteprise/Function/Subgroup - [Ownership_Details](https://git.cglcloud.com/Minerva/minerva-governance/tree/dev/delegate%20access%20repo)
+- Exceptions have been called out at - [Exception_Details](https://git.cglcloud.com/Minerva/minerva-governance/tree/dev/exceptions)
+
+Mandatory ownership metadata (where required by template):
+- `data_owner_email`
+- `data_owner_github_uname`
+- `data_leader`
+
+The GitHub username must be valid and match governance records.
+
+---
+
+## Naming & Abbreviation Standards
+
+- All object names must follow MIW naming conventions
+- Only governance-approved abbreviations may be used
+- File names must exactly match object names
+- Lakehouse Naming: [Lakehouse naming standards](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/Multi-Account-Naming-Conventions.aspx)
+- Snowflake Naming: [Snowflake naming standards](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/MIW.aspx?csf=1&web=1&e=2eYujQ&OR=Teams-HL&CT=1748258064817&CID=9ee7a1a1-303c-0000-b0d1-cb9f262be36f&cidOR=SPO#1.-snowflake-platform)
+- Governance-approved abbreviations from the Minerva tags repository - [Minerva_Tags](https://git.cglcloud.com/Minerva/minerva-tags/tree/main/tags)
+
+Naming violations are fast-fail conditions during review.
+
+---
+
+## Account & Folder Alignment
+
+Templates must be placed in the correct repository folder and reference the correct AWS account ID.
+
+Mismatch between folder, account alias, and account ID will fail validation.
+
+---
+
+## File Change Rules
+
+- Add or modify files only
+- Do not delete files in PRs
+- Object deletion or destroy is not supported via standard PR flow
+- Renaming provisioned objects is not supported
+
+Deletion or rename requires an explicit MIW review via Minerva Central.
+
+---
+
+## Immutable Fields
+
+The following fields must never be changed after object creation:
+
+| Object type | Immutable fields |
+|---|---|
+| Glue Database | database_name, database_s3_location, aws_account_id, region |
+| IAM Role | role_name, aws_account_id, role_description |
+| Resource Policy | aws_account_id, cross_account_aws_id, principal_role_arn |
+| S3 Bucket | bucket_name, aws_account_id, aws_region |
+| Data Federation | aws_account_id |
+
+Changing immutable fields is a hard stop.
+
+---
+
+## Region Policy
+
+For Lakehouse provisioning, only **us-east-1** is supported. Requests targeting other regions require explicit MIW approval.
+
+---
+
+## Object Categories Covered
+
+### AWS Lakehouse
+- Glue Databases
+- IAM Roles
+- S3 Buckets
+- Resource Policies
+- Glue Crawlers
+- Glue Connections
+- Data Federation and Resource Links
+- SMUS Roles and Projects
+- Secrets Manager
+- Security Groups
+
+### Snowflake
+- Databases and Schemas
+- Roles and Personas
+- Warehouses
+- Storage and Catalog Integrations
+- Data Shares
+- OAuth / Process ID integrations
+
+---
+
+## Large PR Guidance
+
+Large PRs (roughly more than 10 files or objects) significantly increase review risk and SLA impact.
+
+Why large PRs are problematic:
+- Single-reviewer bottlenecks
+- Heavy manual validation
+- Harder troubleshooting
+- Risky rollback
+- Larger blast radius
+
+Best practice:
+- Split work into logically grouped PRs
+- Raise multiple focused PRs
+- Call out time-critical PRs explicitly
+
+---
+
+## Quick Self-Check Before Submit
+
+- Correct platform?
+- Correct account and folder?
+- Valid intake and governance readiness?
+- Naming and abbreviations valid?
+- Immutable fields untouched?
+- Scope minimal and focused?
+
+If yes to all, the PR is ready for review.
+
+---
+
+## Think Like an Auditor
+
+Ask yourself:
+- Is this governance-aligned?
+- Is it least-privileged?
+- Is it predictable and reversible?
+- Can an external reviewer understand the intent easily?
+- For more details refer: [Wear_Hat_of_an_Auditor](https://cargillonline.sharepoint.com/sites/minervacentral/SitePages/What-MIW-Admins-Review-in-Your-PR.aspx)
+
+If the answer is yes, the PR is in good shape.
+
+---
+
+## Final Reminder
+
+The best PRs are:
+- Narrow in intent
+- Correct in scope
+- Accurate in metadata
+- Supported by ownership evidence
+- Easy to validate
+- Safe to automate
+
+That is the fastest path to a clean review.
