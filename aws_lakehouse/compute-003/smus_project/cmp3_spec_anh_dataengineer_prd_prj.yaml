@@ -1,0 +1,29 @@
+intake_id: M-0000546
+aws_account_id: "011379513867"
+smus_project_name: cmp3_spec_anh_dataengineer_prd_prj
+project_description: This project is to be used by ANH data engineers
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+parent_domain_unit: "Animal Nutrition"
+data_leader: s469759
+project_membership:
+  - minerva_spec_anh_dataengineer_prd
+compute_size: MED
+access_to_resources:
+  glue_databases:
+    - anh_datablocks_curated_prd
+    - anh_datablocks_serving_analytics_prd
+    - 578647603827:lh_sap_tc1_raw_serving_prd
+    - 578647603827:lh_sap_tca_raw_serving_prd
+  s3_prefixes:
+    - s3://prd-cmp3-anh-dp/curated/
+    - s3://prd-cmp3-anh-dp/serving/
+  custom_git_config:
+    - custom_git_enabled: true
+      repo_name: spec-anh-dp
+      repo_branch: prd
+project_config:
+  - project_env: prd
+    custom_glue_db_name: glue_db
+    log_retention: 90
+    enable_auto_sync_to_s3: false
