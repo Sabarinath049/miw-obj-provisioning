@@ -1,5 +1,5 @@
 intake_id: M0000908
-role_name: corp_fsqr_conc_prd_procintegratedingestionengineer
+role_name: corp_fsqr_prd_procintegratedingestionengineer
 role_description: MIF IAM role for CORP GTC Ingestion patterns to lakehouse.
 aws_account_id: '578647603827'
 enterprise_or_func_name: CORP
