@@ -6,7 +6,7 @@ cross_account_aws_id: "139823407693"
 enterprise_or_func_name: "CONC"
 enterprise_or_func_subgrp_name: "FSQR"
 data_leader: Suzy Sawyer
-principal_role_arn: "arn:aws:iam::139823407693:role/minerva-prd-fsqr-cmt-prdlhdataloader-iam-role"
+principal_role_arn: "arn:aws:iam::139823407693:role/minerva-prd-corp-cmt-prdlhdataloader-iam-role"
 access_to_resources:
   glue_databases:
     - lh_cdp_conc_raw_prd
