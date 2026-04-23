@@ -30,6 +30,7 @@ access_to_resources:
     - lh_gcs_raw_serving_prd
     - lh_ekaau_raw_prd
     - lh_ekaau_raw_serving_prd
+    - lkc-myrp67
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/sfsc/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sfsc/
