@@ -94,4 +94,3 @@ glue_job_access_config:
     - agtr-apac
 snowflake_iceberg_support: true
 role_owner: 's417088'
-
