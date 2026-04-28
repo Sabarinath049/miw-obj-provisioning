@@ -1,5 +1,5 @@
 intake_id: M0000501
-data_share_name: spec_anh_axapta_prd_df
+data_share_name: anh_axapta_prd_df
 glue_databases:
     - lh_axapta_raw_prd
 data_share_description: "This data federation enables to share all Axapta Production related databases from producer account to consumer accounts"
