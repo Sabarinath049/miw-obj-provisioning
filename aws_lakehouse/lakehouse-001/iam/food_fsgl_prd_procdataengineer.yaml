@@ -18,7 +18,7 @@ access_to_resources:
       - lh_cdp_jdeaf_raw_prd
       - lh_cdp_sap_tc3_raw_prd
   data_prefixes:
-    - "s3://prd-lh1-food-src/serving/prd/src/sap_tc2/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/jdeaf/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc3/"
 enable_glue_interactive_session: true
