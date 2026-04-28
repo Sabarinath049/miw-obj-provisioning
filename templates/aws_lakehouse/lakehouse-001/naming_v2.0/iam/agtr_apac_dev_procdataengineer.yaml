@@ -1,3 +1,15 @@
+# ============================================================================
+# 🚨 CRITICAL CALLOUT — IAM ROLE LIMITATION
+#
+# IAM roles have strict AWS‑enforced size limits on trust relationships and
+# policy JSON documents.
+# Overloading roles with many principals or external IDs can cause
+# deployment and pipeline failures.
+# Design for role separation and bounded growth.
+#
+# Reference:
+# https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html
+# ============================================================================
 intake_id: M-0000517
 role_name: agtr_apac_dev_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
