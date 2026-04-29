@@ -55,5 +55,29 @@
   },
   "SrcSystemState": {
     "allowed_values": []
+  },
+  "AppEnvironment": {
+    "allowed_values": ["prd"]
+  },
+  "Codepipeline": {
+    "allowed_values": []
+  },
+  "DataProductName": {
+    "allowed_values": []
+  },
+  "OwningEnterpriseFunction": {
+    "allowed_values": []
+  },
+  "OwningSubgroup": {
+    "allowed_values": []
+  },
+  "PICategory":     {
+    "allowed_values": [
+      "PII",
+      "PCI",
+      "PHI",
+      "BCI",
+      "NONE"
+    ]
   }
 }
