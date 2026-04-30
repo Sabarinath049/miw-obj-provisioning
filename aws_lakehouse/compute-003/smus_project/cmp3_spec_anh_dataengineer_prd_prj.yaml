@@ -18,6 +18,7 @@ access_to_resources:
     - 578647603827:lh_billsrchive_raw_prd
     - 578647603827:lh_nis_raw_serving_prd
     - 578647603827:lh_axapta_raw_serving_prd
+    - 578647603827:lh_m3_raw_serving_prd
   s3_prefixes:
     - s3://prd-cmp3-anh-dp/curated/
     - s3://prd-cmp3-anh-dp/serving/
