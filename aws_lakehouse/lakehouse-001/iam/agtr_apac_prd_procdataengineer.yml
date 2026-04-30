@@ -18,6 +18,7 @@ access_to_resources:
       - lh_sfsc_raw_serving_prd
       - lh_sap_tcc_raw_serving_prd
     read:
+      - lh_cdp_gps_raw_prd
       - lh_gps_raw_prd
       - lh_gcs_raw_prd
       - lh_cacp_raw_prd
