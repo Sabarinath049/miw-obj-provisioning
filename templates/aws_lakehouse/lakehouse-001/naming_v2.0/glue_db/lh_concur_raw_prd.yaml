@@ -7,7 +7,7 @@ region: us-east-1
 data_construct: Source
 data_env: prd
 data_layer: raw
-source_name: Concur
+source_name: concur
 data_classification: "Confidential - General Use"
 data_privacy: ""
 enterprise_or_func_name: CORP
