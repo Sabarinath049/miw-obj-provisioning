@@ -6,7 +6,7 @@ aws_account_id: 438465132548
 region: us-east-1
 data_construct: Source
 data_env: prd
-data_layer: internal
+data_layer: int
 source_name: Concur
 data_classification: "Confidential - General Use"
 data_privacy: ""
