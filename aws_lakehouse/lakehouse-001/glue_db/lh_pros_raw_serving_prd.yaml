@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: pros
 data_classification: "Confidential - Limited"
-data_privacy: "PII"
+data_privacy: "PI"
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: FSGL
 data_owner_email: hitesh_mangtani@cargill.com
