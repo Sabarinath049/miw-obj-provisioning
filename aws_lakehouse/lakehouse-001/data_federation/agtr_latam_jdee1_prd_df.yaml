@@ -8,8 +8,9 @@ aws_account_id: 578647603827
 data_env: prd
 data_construct: Source
 source_name: jdee1
-cross_account_aws_ids: 
+cross_account_aws_ids:
     - 438465132548
+    - 367241115350
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: LATAM
 data_owner: "Elias_Belmiro@cargill.com"
