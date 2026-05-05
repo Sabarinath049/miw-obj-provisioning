@@ -58,7 +58,7 @@
   },
   "AppEnvironment": {
     "allowed_values": [
-      "prd"
+      "prod"
     ]
   },
   "Codepipeline": {
