@@ -3,7 +3,7 @@ data_share_name: food_prgl_exact_prd_df
 glue_databases:
     - lh_exact_raw_prd
     - lh_exact_raw_serving_prd
-	- lh_cdp_exact_raw_prd
+    - lh_cdp_exact_raw_prd
 data_share_description: "This data federation enables to share all EXACT Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
