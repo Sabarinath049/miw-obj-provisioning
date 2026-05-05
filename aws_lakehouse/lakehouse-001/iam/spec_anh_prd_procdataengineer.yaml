@@ -13,6 +13,10 @@ access_to_resources:
         - lh_sap_tc1_raw_serving_prd
         - lh_sap_tca_raw_serving_prd
         - lh_nis_raw_serving_prd
+        - lh_cnc_raw_serving_prd
+        - lh_costko_raw_serving_prd
+        - lh_delacon_raw_serving_prd
+        - lh_lims_raw_serving_prd
         - lh_axapta_raw_serving_prd
         read:
         - lh_sap_tc1_raw_prd
@@ -20,11 +24,23 @@ access_to_resources:
         - lh_sap_tca_raw_prd
         - lh_cdp_sap_tca_raw_prd
         - lh_cdp_nis_raw_prd
+        - lh_cdp_cnc_raw_prd
+        - lh_cdp_costko_raw_prd
+        - lh_cdp_delacon_raw_prd
+        - lh_cdp_lims_raw_prd
+        - lh_cnc_raw_prd
+        - lh_costko_raw_prd
+        - lh_delacon_raw_prd
+        - lh_lims_raw_prd
         - lh_axapta_raw_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/nis/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/cnc/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/costko/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/delacon/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/lims/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/axapta/"
 enable_glue_interactive_session: true
 glue_job_access_config:
