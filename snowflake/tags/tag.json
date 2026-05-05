@@ -75,7 +75,7 @@
   },
   "PICategory": {
     "allowed_values": [
-      "PII",
+      "PI",
       "PCI",
       "PHI",
       "BCI",
