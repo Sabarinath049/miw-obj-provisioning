@@ -12,9 +12,7 @@ access_to_resources:
     glue_databases:
         write:
         - lh_sap_tcg_raw_prd
-        - lh_hrcules_raw_prd
         - lh_hrculca_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcg/"
-    - "s3://prd-lh1-agtr-src/raw/current/prd/src/hrcules/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/"

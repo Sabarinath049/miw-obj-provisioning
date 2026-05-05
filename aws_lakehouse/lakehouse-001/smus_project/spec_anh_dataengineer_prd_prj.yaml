@@ -25,6 +25,18 @@ access_to_resources:
     - lh_m3_raw_prd
     - lh_cdp_nis_raw_prd
     - lh_nis_raw_serving_prd
+    - lh_cnc_raw_serving_prd
+    - lh_costko_raw_serving_prd
+    - lh_delacon_raw_serving_prd
+    - lh_lims_raw_serving_prd
+    - lh_cdp_cnc_raw_prd
+    - lh_cdp_costko_raw_prd
+    - lh_cdp_delacon_raw_prd
+    - lh_cdp_lims_raw_prd
+    - lh_cnc_raw_prd
+    - lh_costko_raw_prd
+    - lh_delacon_raw_prd
+    - lh_lims_raw_prd
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/current/prd/src/billsrchive/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
@@ -40,6 +52,18 @@ access_to_resources:
     - s3://prd-lh1-spec-src/raw_serving/prd/src/m3/
     - s3://prd-lh1-spec-src/raw_serving/prd/src/nis/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/nis/
+    - s3://prd-lh1-spec-src/raw_serving/prd/src/cnc/
+    - s3://prd-lh1-spec-src/raw_serving/prd/src/costko/
+    - s3://prd-lh1-spec-src/raw_serving/prd/src/delacon/
+    - s3://prd-lh1-spec-src/raw_serving/prd/src/lims/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/cnc/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/costko/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/delacon/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/lims/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/cnc/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/costko/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/delacon/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/lims/
   custom_git_config:
     custom_git_enabled: true
     repo_name:

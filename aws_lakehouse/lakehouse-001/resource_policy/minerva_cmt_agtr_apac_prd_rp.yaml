@@ -16,3 +16,4 @@ access_to_resources:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tcc/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tce/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/gps/
+

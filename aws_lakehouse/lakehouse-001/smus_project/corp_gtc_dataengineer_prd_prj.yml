@@ -17,12 +17,20 @@ access_to_resources:
     - lh_opentext_raw_prd
     - lh_opentext_raw_serving_prd
     - lkc-myrp67
+    - lh_cdp_opentext_raw_prd
+    - lh_gtc_reference_data_raw_prd
+    - lh_cdp_gtc_reference_data_raw_prd
+    - lh_gtc_reference_data_raw_serving_prd
   s3_prefixes:
     - s3://prd-lh1-corp-gtc-src/raw/current/prd/src/sap_tc2_gts/
     - s3://prd-lh1-corp-gtc-src/raw/cdp/prd/src/sap_tc2_gts/
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
     - s3://prd-lh1-corp-gtc-src/raw/current/prd/src/opentext/
     - s3://prd-lh1-corp-gtc-src/serving/prd/src/opentext/
+    - s3://prd-lh1-corp-gtc-src/raw/cdp/prd/src/opentext/
+    - s3://prd-lh1-corp-gtc-src/raw/current/prd/src/gtc_reference_data/
+    - s3://prd-lh1-corp-gtc-src/raw/cdp/prd/src/gtc_reference_data/
+    - s3://prd-lh1-corp-gtc-src/raw_serving/prd/src/gtc_reference_data/
   custom_git_config:
     custom_git_enabled: true
     repo_name: 
