@@ -12,7 +12,15 @@ access_to_resources:
     - lh_cdp_sap_tc1_raw_prd
     - lh_cdp_sap_tca_raw_prd
     - lh_cdp_nis_raw_prd
+    - lh_cdp_cnc_raw_prd
+    - lh_cdp_costko_raw_prd
+    - lh_cdp_delacon_raw_prd
+    - lh_cdp_lims_raw_prd
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/nis/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/cnc/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/costko/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/delacon/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/lims/
