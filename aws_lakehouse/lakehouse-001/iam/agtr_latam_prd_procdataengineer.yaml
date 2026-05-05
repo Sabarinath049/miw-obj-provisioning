@@ -1,4 +1,4 @@
-intake_id: M0000742
+intake_id: M0000424
 role_name: agtr_latam_prd_procdataengineer
 role_description: This role is intended to be used by LATAM data engineers for programmatic access in the prd environment
 aws_account_id: 578647603827
@@ -20,6 +20,7 @@ access_to_resources:
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/fts/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/jdee1/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/trust/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false

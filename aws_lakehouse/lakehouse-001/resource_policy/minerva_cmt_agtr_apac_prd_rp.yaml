@@ -11,6 +11,9 @@ access_to_resources:
   glue_databases:
     - lh_cdp_sap_tcc_raw_prd
     - lh_cdp_sap_tce_raw_prd
+    - lh_cdp_gps_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tcc/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tce/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/gps/
+

@@ -1,6 +1,6 @@
 intake_id: M0000450
 database_name: lh_sap_tcd_raw_serving_prd
-database_s3_location: "s3://prd-lh1-food-src/serving/prd/src/sap_tcd/"
+database_s3_location: "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tcd/"
 database_description: "Database for SAP TCD to Lakehouse Ingestion Patterns"
 aws_account_id: 578647603827
 region: us-east-1

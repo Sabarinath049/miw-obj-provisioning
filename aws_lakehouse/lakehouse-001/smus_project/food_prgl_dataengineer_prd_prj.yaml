@@ -17,6 +17,33 @@ access_to_resources:
     - lh_sap_tc2_raw_prd
     - lh_sap_tc2_raw_serving_prd
     - lh_cdp_sap_tc2_raw_prd
+    - lh_parxl_raw_prd
+    - lh_parxl_raw_serving_prd
+    - lh_cat2mes_raw_prd
+    - lh_cat2mes_raw_serving_prd
+    - lkc-myrp67
+    - lh_cdp_sap_tc3_raw_prd
+    - lh_sap_tc3_raw_serving_prd
+    - lh_cdp_jdeaf_raw_prd
+    - lh_jdeaf_raw_serving_prd
+    - lh_cdp_syspro_raw_prd
+    - lh_syspro_raw_serving_prd
+    - lh_cdp_sap_cts_raw_prd
+    - lh_sap_cts_raw_serving_prd
+    - lh_cmmp_raw_prd
+    - lh_cmmp_raw_serving_prd
+    - lh_cdp_cmmp_raw_prd
+    - lh_exact_raw_prd
+    - lh_exact_raw_serving_prd
+    - lh_cdp_exact_raw_prd
+    - lh_leapsf_raw_prd
+    - lh_leapsf_raw_serving_prd
+    - lh_cdp_leapsf_raw_prd
+    - lh_yongyou_raw_prd
+    - lh_yongyou_raw_serving_prd
+    - lh_kngdas_raw_prd
+    - lh_kngdas_raw_serving_prd
+    - lh_sap_tc1_raw_prd
   s3_prefixes:
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/
     - s3://prd-lh1-food-src/serving/prd/src/sap_tcd/
@@ -24,6 +51,32 @@ access_to_resources:
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tc2/
     - s3://prd-lh1-food-src/serving/prd/src/sap_tc2/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2/
+    - s3://prd-lh1-food-src/raw/current/prd/src/parxl/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/parxl/
+    - s3://prd-lh1-food-src/raw/current/prd/src/cat2mes/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/cat2mes/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc3/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc3/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/jdeaf/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/jdeaf/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/syspro/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/syspro/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_cts/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/sap_cts/
+    - s3://prd-lh1-food-src/raw/current/prd/src/cmmp/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/cmmp/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/cmmp/
+    - s3://prd-lh1-food-src/raw/current/prd/src/exact/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/exact/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/exact/
+    - s3://prd-lh1-food-src/raw/current/prd/src/leapsf/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/leapsf/
+    - s3://prd-lh1-food-src/cdp/prd/src/leapsf/
+    - s3://prd-lh1-food-src/raw/current/prd/src/yongyou/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/yongyou/
+    - s3://prd-lh1-food-src/raw/current/prd/src/kngdas/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/kngdas/
+    - s3://prd-lh1-food-src/raw/current/prd/src/sap_tc1/
   custom_git_config:
     custom_git_enabled: true
     repo_name:

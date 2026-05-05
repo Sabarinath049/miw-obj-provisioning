@@ -1,6 +1,8 @@
 intake_id: M0000446
 data_share_name: food_prgl_saptcd_prd_df
 glue_databases:
+    - lh_sap_tcd_raw_prd
+    - lh_cdp_sap_tcd_raw_prd
     - lh_sap_tcd_raw_serving_prd
 data_share_description: "This data federation enables to share all SAP TCD Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827

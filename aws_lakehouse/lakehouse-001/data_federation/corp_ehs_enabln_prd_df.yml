@@ -1,6 +1,8 @@
 intake_id: M0000495
 data_share_name: corp_ehs_enabln_prd_df
 glue_databases:
+    - lh_cdp_enabln_raw_prd
+    - lh_enabln_raw_prd
     - lh_enabln_raw_serving_prd
 data_share_description: "This data federation enables to share all ENABLON Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827

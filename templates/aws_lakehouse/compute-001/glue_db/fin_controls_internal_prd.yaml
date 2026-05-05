@@ -5,7 +5,7 @@ database_description: "Store Controls Curated Product data for Finance"
 aws_account_id: 068887784423
 region: us-east-1
 data_env: prd
-data_layer: internal
+data_layer: int
 data_construct: DataProduct
 data_classification: "Confidential - General Use"
 data_privacy: ""

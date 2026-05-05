@@ -1,4 +1,4 @@
-intake_id: M0000518
+intake_id: M0000671
 database_name: lh_ekaau_raw_prd
 database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/ekaau/"
 database_description: "Database for EKAAU to Lakehouse Ingestion Patterns"
