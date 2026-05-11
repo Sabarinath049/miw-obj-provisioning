@@ -8,7 +8,7 @@
     ],
     "description": "Sample source system schema template for Minerva MIW Snowflake production users",
     "data_first_classification": "General",
-    "src_sys_name": "ARCHER",
+    "src_sys_name": "CONCUR",
     "src_sys_state": "RAW",
     "data_product_manager": "dpo9876",
     "lead_engineer": "lde98765",
