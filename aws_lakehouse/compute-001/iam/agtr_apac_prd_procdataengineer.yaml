@@ -44,6 +44,27 @@ access_to_resources:
       - agtr_ssea_thailand_serving_prd
       - agtr_ssea_vietnam_curated_prd
       - agtr_ssea_vietnam_serving_prd
+    read:
+      - 578647603827:lh_cacp_raw_prd_rl
+      - 578647603827:lh_cacp_raw_serving_prd_rl
+      - 578647603827:lh_cts_raw_prd_rl
+      - 578647603827:lh_cts_raw_serving_prd_rl
+      - 578647603827:lh_ekaau_raw_prd_rl
+      - 578647603827:lh_ekaau_raw_serving_prd_rl
+      - 578647603827:lh_gcs_raw_prd_rl
+      - 578647603827:lh_gcs_raw_serving_prd_rl
+      - 578647603827:lh_gps_raw_prd_rl
+      - 578647603827:lh_cdp_gps_raw_prd_rl
+      - 578647603827:lh_gps_raw_serving_prd_rl
+      - 578647603827:lh_sap_tcc_raw_prd_rl
+      - 578647603827:lh_cdp_sap_tcc_raw_prd_rl
+      - 578647603827:lh_sap_tcc_raw_serving_prd_rl
+      - 578647603827:lh_sap_tce_raw_prd_rl
+      - 578647603827:lh_cdp_sap_tce_raw_prd_rl
+      - 578647603827:lh_sap_tce_raw_serving_prd_rl   
+      - 578647603827:lh_sap_rm_raw_prd
+      - 578647603827:lh_cdp_sap_rm_raw_prd
+      - 578647603827:lh_sap_rm_raw_serving_prd 
   data_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/
