@@ -18,6 +18,11 @@ access_to_resources:
         - lh_delacon_raw_serving_prd
         - lh_lims_raw_serving_prd
         - lh_axapta_raw_serving_prd
+        - lh_bestmix_ewoso_raw_serving_prd
+        - lh_bestmix_latam_north_raw_serving_prd
+        - lh_bestmix_latam_south_raw_serving_prd
+        - lh_bestmix_wemea_raw_serving_prd
+        - lh_trdtrk_raw_serving_prd
         read:
         - lh_sap_tc1_raw_prd
         - lh_cdp_sap_tc1_raw_prd
@@ -33,6 +38,16 @@ access_to_resources:
         - lh_delacon_raw_prd
         - lh_lims_raw_prd
         - lh_axapta_raw_prd
+        - lh_bestmix_ewoso_raw_prd
+        - lh_bestmix_latam_north_raw_prd
+        - lh_bestmix_latam_south_raw_prd
+        - lh_bestmix_wemea_raw_prd
+        - lh_trdtrk_raw_prd
+        - lh_cdp_bestmix_ewoso_raw_prd
+        - lh_cdp_bestmix_latam_north_raw_prd
+        - lh_cdp_bestmix_latam_south_raw_prd
+        - lh_cdp_bestmix_wemea_raw_prd
+        - lh_cdp_trdtrk_raw_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/"
@@ -42,6 +57,11 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/delacon/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/lims/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/axapta/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/trdtrk/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_latam_north/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_latam_south/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_ewoso/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_wemea/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
