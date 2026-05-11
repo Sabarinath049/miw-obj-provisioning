@@ -5,7 +5,7 @@ aws_account_id: 578647603827
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 data_leader: Yan Cheng
-compute_size: SML
+compute_size: LRG
 max_session_duration: 2
 access_to_resources:
   glue_databases:
@@ -28,6 +28,7 @@ access_to_resources:
       - lh_sfsc_raw_prd
       - lh_sap_tcc_raw_prd
       - lh_sap_tce_raw_prd
+      - lh_cdp_sap_tcc_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gps/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gcs/"
