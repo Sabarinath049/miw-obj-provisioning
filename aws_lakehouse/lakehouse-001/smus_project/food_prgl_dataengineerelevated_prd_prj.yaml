@@ -4,7 +4,7 @@ smus_project_name: "food_prgl_dataengineerelevated_prd_prj"
 project_description: "This project is intended for FOOD PRGL data engineers to drop tables that were not ingested correctly and to address any missing columns during the ingestion process."
 enterprise_or_func_name: "FOOD"
 enterprise_or_func_subgrp_name: "PRGL"
-parent_domain_unit: "Minerva"
+parent_domain_unit: "PRGL"
 data_leader: "HarendraKanuru"
 project_membership:
   - minerva_food_prgl_dpedataengineer_prd
