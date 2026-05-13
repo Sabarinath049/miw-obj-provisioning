@@ -1,6 +1,6 @@
 intake_id: M0000742
-database_name: latam_dms_serving_prd
-database_s3_location: "s3://prd-cmp1-latam-dp/serving/prd/latam/dms/"
+database_name: latam_dms_serving_analytics_prd
+database_s3_location: "s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/"
 database_description: "Stores Serving Product data for the DMS Portal data"
 aws_account_id: 367241115350
 region: us-east-1
