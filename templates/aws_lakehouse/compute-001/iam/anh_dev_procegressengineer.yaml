@@ -34,6 +34,10 @@ access_to_resources:
 glue_job_access_configs:
   enable_glue_jobs: true
   secret_region: "us-east-1"
-  secret_name: "my-secret-AbCdEf"
+  secret_name:
+    - my-secret-AbCdEf
+    - my-secret-PqRlmd
+  glue_conn:
+    - anh_prd_kafka_output_port_conn
   job_control_configs:
     - spec-anh
