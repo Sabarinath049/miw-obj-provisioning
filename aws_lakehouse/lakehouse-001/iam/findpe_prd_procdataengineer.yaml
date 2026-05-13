@@ -19,6 +19,7 @@ access_to_resources:
         - lh_onestream_raw_serving_prd
         - lh_concur_raw_serving_prd
         - lh_sap_rm_raw_serving_prd
+        - lh_fin_jdee1_raw_serving_prd
         read:
         - lkc-myrp67
         - lh_sap_tcf_raw_prd
@@ -33,6 +34,8 @@ access_to_resources:
         - lh_concur_raw_prd
         - lh_cdp_sap_rm_raw_prd
         - lh_sap_rm_raw_prd
+        - lh_fin_jdee1_raw_prd
+        - lh_cdp_fin_jdee1_raw_prd
     data_prefixes:
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/sap_tcf/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/sap_tcl/"
@@ -41,6 +44,7 @@ access_to_resources:
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/onestream/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/concur/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/sap_rm/"
+    - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fin_jdee1/"
     execution_asset_prefixes:
     - "s3://prd-lh1-corp-fin-eng-assets/prd/fin/athena/"
     - "s3://prd-lh1-corp-fin-eng-assets/prd/fin/glue/"
