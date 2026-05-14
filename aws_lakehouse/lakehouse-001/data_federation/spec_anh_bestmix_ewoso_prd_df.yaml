@@ -3,6 +3,7 @@ data_share_name: spec_anh_bestmix_ewoso_prd_df
 glue_databases:
     - lh_cdp_bestmix_ewoso_raw_prd
     - lh_bestmix_ewoso_raw_prd
+    - lh_bestmix_ewoso_raw_serving_prd
 data_share_description: "This data federation enables to share all bestmix_ewoso related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
