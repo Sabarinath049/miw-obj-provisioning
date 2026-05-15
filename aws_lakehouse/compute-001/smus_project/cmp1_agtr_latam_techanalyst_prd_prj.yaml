@@ -7,7 +7,7 @@ enterprise_or_func_subgrp_name: "LATAM"
 parent_domain_unit: "LATAM"
 data_leader: "Tatiane_Pioltine@cargill.com"
 project_membership:
-  - minerva_agtr_latam_dataengineer_prd
+  - minerva_agtr_latam_techanalyst_prd
 compute_size: "MED"
 access_to_resources:
   glue_databases:
