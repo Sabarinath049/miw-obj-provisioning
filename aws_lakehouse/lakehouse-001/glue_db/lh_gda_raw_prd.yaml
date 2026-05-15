@@ -10,7 +10,7 @@ data_layer: raw
 enterprise_or_func_name: AGTR
 source_name: gda
 data_classification: 'Confidential - Limited'
-data_privacy: PI
+data_privacy: BCI
 enterprise_or_func_subgrp_name: APAC
 data_owner_email: Purnendu_Das@cargill.com
 data_owner_github_uname: PurnenduDas
