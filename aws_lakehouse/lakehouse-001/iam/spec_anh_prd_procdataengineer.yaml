@@ -24,6 +24,7 @@ access_to_resources:
         - lh_bestmix_wemea_raw_serving_prd
         - lh_trdtrk_raw_serving_prd
         - lh_bills_raw_serving_prd
+        - lh_m3_raw_serving_prd
         read:
         - lh_sap_tc1_raw_prd
         - lh_cdp_sap_tc1_raw_prd
@@ -51,6 +52,8 @@ access_to_resources:
         - lh_cdp_trdtrk_raw_prd
         - lh_bills_raw_prd
         - lh_cdp_bills_raw_prd
+        - lh_m3_raw_prd
+        - lkc-myrp67
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/"
@@ -66,6 +69,7 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_ewoso/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/bestmix_wemea/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/bills/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/m3/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
