@@ -14,7 +14,9 @@ access_to_resources:
         - lh_sap_tcd_raw_prd
         - lh_parxl_raw_prd
         - lh_cat2mes_raw_prd
+        - lh_fps_raw_prd
     data_prefixes:
     - "s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/cat2mes/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/parxl/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/fps/"
