@@ -1,4 +1,4 @@
-### ⚠️⚠️⚠️**PRs without Wave and Team labels will experience Review Delays**⚠️⚠️⚠️
+### ⚠️⚠️**PRs without Wave, Env, REVIEW_OWNERSHIP:MIW and Team labels will experience Review Delays**⚠️⚠️
 
 ### Request Intake Template
 
