@@ -12,13 +12,19 @@ access_to_resources:
     write:
       - lh_hrculca_raw_serving_prd
       - lh_sap_tcg_raw_serving_prd
+      - lh_ffeca_raw_serving_prd
+      - lh_ffeus_raw_serving_prd
     read:
       - lh_hrculca_raw_prd
       - lh_sap_tcg_raw_prd
       - lh_cdp_sap_tcg_raw_prd
+      - lh_ffeca_raw_prd
+      - lh_ffeus_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/hrculca/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tcg/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/ffeus/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/ffeca/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false

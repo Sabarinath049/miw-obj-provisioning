@@ -16,6 +16,7 @@ access_to_resources:
     - lh_cdp_costko_raw_prd
     - lh_cdp_delacon_raw_prd
     - lh_cdp_lims_raw_prd
+    - lh_cdp_bills_raw_prd
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/
@@ -24,3 +25,4 @@ access_to_resources:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/costko/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/delacon/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/lims/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/bills/
