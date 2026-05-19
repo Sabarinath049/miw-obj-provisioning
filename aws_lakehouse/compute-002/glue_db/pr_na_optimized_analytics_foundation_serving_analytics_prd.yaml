@@ -2,7 +2,7 @@ intake_id: M0000567
 database_name: pr_na_optimized_analytics_foundation_serving_analytics_prd
 database_s3_location: 's3://prd-cmp2-pr-na-dp/serving/prd/pr_na/optimized_analytics_foundation/analytics/'
 database_description: "Store data analytics serving layer data products data for protein na data analytics"
-aws_account_id: 933999308564
+aws_account_id: 884308299029
 region: us-east-1
 data_construct: DataProduct
 data_env: prd
