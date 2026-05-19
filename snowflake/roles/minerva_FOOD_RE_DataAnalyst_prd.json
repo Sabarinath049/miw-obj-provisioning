@@ -1,1 +1,13 @@
-
+{
+     "intake_id": "I-123456",
+    "snowflake_account_id": "cargill-miw_dev",
+    "aad_group_name": "minerva_FOOD_RE_DataAnalyst_prd",
+    "purpose": "Persona Role for RE EMEA production users",
+    "role_owner_ds_id": "mtrouwbo",
+    "role_owner_email_id": "michel_trouwborst@cargill.com",
+    "data_leader": "mtrouwbo",
+    "governance_and_access_lead": "mtrouwbo",
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "EMEA",
+    "sub_function": "RE"
+}
