@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "M123456",
     "schema_name": "CONCUR_RAW_PRD_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_CORP_FIN_DP_DB",
@@ -8,8 +8,8 @@
     ],
     "description": "Sample source system schema template for Minerva MIW Snowflake production users",
     "data_first_classification": "General",
-    "src_sys_name": "ARCHER",
-    "src_sys_state": "CLN",
+    "src_sys_name": "CONCUR",
+    "src_sys_state": "RAW",
     "data_product_manager": "dpo9876",
     "lead_engineer": "lde98765",
     "governance_and_access_lead": "govl546",

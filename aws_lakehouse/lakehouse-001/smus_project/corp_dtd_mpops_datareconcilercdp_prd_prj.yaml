@@ -19,6 +19,9 @@ access_to_resources:
     - lh_cdp_sap_tcd_raw_prd
     - lh_cdp_sap_tce_raw_prd
     - lh_cdp_sap_tcg_raw_prd
+    - lh_sap_tcc_raw_serving_prd
+    - lh_trust_raw_serving_prd
+    
   s3_prefixes:
     - s3://prd-lh1-spec-src/
     - s3://prd-lh1-corp-gtc-src/

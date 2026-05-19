@@ -1,3 +1,15 @@
+# ============================================================================
+# 🚨 CRITICAL CALLOUT — IAM ROLE LIMITATION
+#
+# IAM roles have strict AWS‑enforced size limits on trust relationships and
+# policy JSON documents.
+# Overloading roles with many principals or external IDs can cause
+# deployment and pipeline failures.
+# Design for role separation and bounded growth.
+#
+# Reference:
+# https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html
+# ============================================================================
 intake_id: M-0000517
 role_name: spec_anh_dev_procegressengineer
 role_description: IAM role for support any data egression jobs for SPEC ANH
@@ -22,6 +34,10 @@ access_to_resources:
 glue_job_access_configs:
   enable_glue_jobs: true
   secret_region: "us-east-1"
-  secret_name: "my-secret-AbCdEf"
+  secret_name:
+    - my-secret-AbCdEf
+    - my-secret-PqRlmd
+  glue_conn:
+    - spec_anh_prd_kafka_output_port_conn
   job_control_configs:
     - spec-anh
