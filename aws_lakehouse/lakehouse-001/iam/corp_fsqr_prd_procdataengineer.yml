@@ -18,8 +18,8 @@ access_to_resources:
         - lh_cdp_grains_raw_prd
         - lh_grains_raw_prd
     data_prefixes:
-    - "s3://prd-lh1-fsqr-conc-src/raw_serving/prd/src/conc/"
-    - "s3://prd-lh1-fsqr-conc-src/raw_serving/prd/src/grains/"
+    - "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/conc/"
+    - "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/grains/"
     glue_crawler:
     - null
 enable_glue_interactive_session: true
