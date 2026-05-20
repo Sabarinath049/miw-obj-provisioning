@@ -1,4 +1,4 @@
-TDAintake_id: M0000485
+intake_id: M0000485
 database_name: lh_cocoa_minderest_raw_serving_prd
 database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/cocoa_minderest/"
 database_description: "Database DAF COCOA Minderest csv ingestion"
@@ -9,6 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: cocoa_minderest
 data_classification: "Confidential - Limited"
+data_privacy: ""
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: TDA
 data_owner_email: "ajay_rajendran@cargill.com"
