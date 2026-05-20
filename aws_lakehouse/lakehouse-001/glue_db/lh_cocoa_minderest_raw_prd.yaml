@@ -9,6 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: cocoa_minderest
 data_classification: "Confidential - Limited"
+data_privacy: ""
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: TDA
 data_owner_email: "ajay_rajendran@cargill.com"
