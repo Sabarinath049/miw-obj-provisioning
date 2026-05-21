@@ -1,6 +1,6 @@
 {
     "intake_id": "M-0000517",
-    "warehouse_name": "PRD_AGTR_APAC_ADH_RPT_1_WH",
+    "warehouse_name": "PRD_AGTR_APAC_RPT_SNF_1_WH",
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
         "minerva_agtr_apac_dataanalyst_prd",
