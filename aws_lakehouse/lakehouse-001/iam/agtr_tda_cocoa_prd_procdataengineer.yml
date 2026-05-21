@@ -3,7 +3,7 @@ role_name: agtr_tda_cocoa_prd_procdataengineer
 role_description: This role is intended to be used by TDA Cocoa data engineers for programmatic access in the prd environment
 aws_account_id: 578647603827
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: TDA_COCOA
+enterprise_or_func_subgrp_name: TDA
 data_leader: jcook
 compute_size: SML
 max_session_duration: 2
@@ -13,14 +13,30 @@ access_to_resources:
       - lh_tda_cocoapp_raw_serving_prd
       - lh_tda_qep_raw_serving_prd
       - lh_tda_cocoa_raw_serving_prd
+      - lh_tda_sasanalytics_raw_serving_prd
+      - lh_cocoa_minderest_raw_serving_prd
     read:
       - lh_tda_cocoapp_raw_prd
       - lh_tda_qep_raw_prd
       - lh_tda_cocoa_raw_prd
+      - lh_tda_apac_cocoa_raw_prd
+      - lh_tda_sasanalytics_raw_prd
+      - lh_cdp_tda_cocoa_upstream_raw_prd
+      - lh_cdp_tda_cocoa_raw_prd
+      - lh_cdp_tda_cocoa_raw_serving_prd
+      - lh_cdp_tda_upstream_raw_prd
+      - lh_cocoa_minderest_raw_prd
+
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_cocoapp/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_cocoa/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_qep/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_sasanalytics/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/cocoa_minderest/"
+  execution_asset_prefixes:
+    - s3://prd-lh1-agtr-eng-assets/prd/tda_cocoa/glue/
+    - s3://prd-lh1-agtr-eng-assets/prd/tda_cocoa/athena/
+    - s3://prd-lh1-agtr-scripts/prd/tda_cocoa/glue/
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
