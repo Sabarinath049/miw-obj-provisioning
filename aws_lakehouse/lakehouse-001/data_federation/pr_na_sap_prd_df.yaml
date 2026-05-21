@@ -4,12 +4,12 @@ glue_databases:
     - lh_sap_tcd_raw_serving_prd
     - lh_sap_tc2_raw_serving_prd
 data_share_description: "This data federation enables to share all raw clean Development related databases from producer account to consumer accounts"
-aws_account_id: 884308299029
+aws_account_id: 578647603827
 data_env: prd
 data_construct: Source
 source_name: sap
-cross_account_aws_ids: 
-    - 578647603827
+cross_account_aws_ids:
+    - 884308299029
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: PR_NA
 data_owner: "Markis_Piper@cargill.com"
