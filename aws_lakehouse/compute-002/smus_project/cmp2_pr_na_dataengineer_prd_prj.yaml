@@ -7,7 +7,7 @@ enterprise_or_func_subgrp_name: PR_NA
 parent_domain_unit: "FOOD"
 data_leader: kporter
 project_membership:
-  - minerva_food_protein_dataengineer_prd
+  - minerva_food_pr_na_dataengineer_prd
 compute_size: MED
 access_to_resources:
   glue_databases:
@@ -17,7 +17,7 @@ access_to_resources:
     - pr_na_optimized_analytics_foundation_serving_analytics_dev
   s3_prefixes:
     - s3://prd-cmp2-pr-na-dp/curated/prd/pr_na/optimized_analytics_foundation
-    - s3://dev-cmp2-pr-na-dp/serving/dev/pr_na/optimized_analytics_foundation/analytics
+    - s3://prd-cmp2-pr-na-dp/serving/prd/pr_na/optimized_analytics_foundation/analytics
   custom_git_config:
     - custom_git_enabled: false
       repo_name: ""
