@@ -10,10 +10,6 @@ max_session_duration: 1
 access_to_resources:
   glue_databases:
     read:
-<<<<<<< HEAD
-=======
-      - lh_cdp_tda_ethanol_upstream_raw_prd
->>>>>>> 7dae33efbaa8f4153971e34a0d61cdab81bc2865
       - lh_cdp_tda_ethanol_raw_serving_prd
       - lh_cdp_tda_upstream_raw_prd
   data_prefixes:
