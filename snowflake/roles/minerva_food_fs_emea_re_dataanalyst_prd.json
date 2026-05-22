@@ -1,13 +1,13 @@
 {
-     "intake_id": "M0000446",
-    "snowflake_account_id": "cargill-miw_prod",
-    "aad_group_name": "minerva_food_fs_emea_re_dataanalyst_prd",
-    "purpose": "Persona Role for RE EMEA production users",
-    "role_owner_ds_id": "mtrouwbo",
-    "role_owner_email_id": "michel_trouwborst@cargill.com",
-    "data_leader": "Hitesh Mangtani",
-    "governance_and_access_lead": "Annemarth Bleeker",
-    "enterprise_or_func_name": "FOOD",
-    "enterprise_or_func_subgrp_name": "FS_EMEA",
-    "sub_function": "RE"
+    "intake_id": "M0000446",
+    "snowflake_account_id": "cargill-miw_dev",
+    "aad_group_name": "minerva_food_fs_emea_re_dataanalyst_prd",
+    "purpose": "Persona Role for RE EMEA production users",
+    "role_owner_ds_id": "mtrouwbo",
+    "role_owner_email_id": "michel_trouwborst@cargill.com",
+    "data_leader": "h392098",
+    "governance_and_access_lead": "h392098",
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "FS_EMEA",
+    "sub_function": "RE"
 }
