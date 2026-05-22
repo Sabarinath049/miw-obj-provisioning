@@ -19,9 +19,7 @@ access_to_resources:
       - lh_tda_cocoapp_raw_prd
       - lh_tda_qep_raw_prd
       - lh_tda_cocoa_raw_prd
-      - lh_tda_apac_cocoa_raw_prd
       - lh_tda_sasanalytics_raw_prd
-      - lh_cdp_tda_cocoa_upstream_raw_prd
       - lh_cdp_tda_cocoa_raw_prd
       - lh_cdp_tda_cocoa_raw_serving_prd
       - lh_cdp_tda_upstream_raw_prd
