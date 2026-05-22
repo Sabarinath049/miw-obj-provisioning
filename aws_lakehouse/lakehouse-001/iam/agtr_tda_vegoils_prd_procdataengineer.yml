@@ -13,6 +13,10 @@ access_to_resources:
       - lh_tda_vegoils_raw_serving_prd
     read:
       - lh_tda_vegoils_raw_prd
+<<<<<<< HEAD
+=======
+      - lh_cdp_tda_vegoils_upstream_raw_prd
+>>>>>>> 7dae33efbaa8f4153971e34a0d61cdab81bc2865
       - lh_cdp_tda_vegoils_raw_prd
       - lh_cdp_tda_vegoils_raw_serving_prd
       - lh_cdp_tda_upstream_raw_prd
