@@ -17,10 +17,10 @@ access_to_resources:
     - lh_cdp_tda_vegoils_raw_serving_prd
     - lh_cdp_tda_upstream_raw_prd
   s3_prefixes:
-    - s3://dev-lh1-agtr-src/raw/cdp/prd/src/tda_cocoa/
-    - s3://dev-lh1-agtr-src/raw_serving/cdp/prd/src/tda_cocoa/
-    - s3://dev-lh1-agtr-src/raw_serving/cdp/prd/src/tda_ethanol/
-    - s3://dev-lh1-agtr-src/raw/cdp/prd/src/tda_grains/
-    - s3://dev-lh1-agtr-src/raw/cdp/prd/src/tda_vegoils/
-    - s3://dev-lh1-agtr-src/raw_serving/cdp/prd/src/tda_vegoils/
-    - s3://dev-lh1-agtr-src/raw/cdp/prd/src/tda_upstream/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_cocoa/
+    - s3://prd-lh1-agtr-src/raw_serving/cdp/prd/src/tda_cocoa/
+    - s3://prd-lh1-agtr-src/raw_serving/cdp/prd/src/tda_ethanol/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_grains/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_vegoils/
+    - s3://prd-lh1-agtr-src/raw_serving/cdp/prd/src/tda_vegoils/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_upstream/
