@@ -2,7 +2,7 @@ intake_id: M0000913
 database_name: fin_consolidated_financials_curated_prd
 database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/consolidated_financials/"
 database_description: "Store Onesteam Data Curated Product data for Finance"
-aws_account_id: 578647603827
+aws_account_id: 632247962242
 region: us-east-1
 data_env: prd
 data_layer: cur

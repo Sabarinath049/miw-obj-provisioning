@@ -1,7 +1,7 @@
 intake_id: M0000913
 role_name: fin_consolidated_financials_prd_procdataengineer
 role_description: IAM role for programmatic Data Engineer to execute DBT+GLUE jobs
-aws_account_id: '578647603827'
+aws_account_id: '632247962242'
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: FIN
 role_owner: "Jenny_Schoohs@cargill.com"
@@ -14,7 +14,7 @@ access_to_resources:
         write:
         - fin_consolidated_financials_curated_prd
         read:
-          - 438465132548:lh_onestream_raw_serving_prd_rl
+          - 632247962242:lh_onestream_raw_serving_prd_rl
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/consolidated_financials/"
     execution_asset_prefixes:
