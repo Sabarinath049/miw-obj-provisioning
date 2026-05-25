@@ -13,7 +13,7 @@ access_to_resources:
       - lh_cdp_tda_ethanol_raw_serving_prd
       - lh_cdp_tda_upstream_raw_prd
   data_prefixes:
-    - s3://minerva-prd-src-demo/
+
   execution_asset_prefixes:
     - s3://prd-lh1-agtr-eng-assets/prd/tda_ethanol/glue/
     - s3://prd-lh1-agtr-eng-assets/prd/tda_ethanol/athena/
