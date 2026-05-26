@@ -1,13 +1,13 @@
 intake_id: "M0000451"
 aws_account_id: "578647603827"
 smus_project_name: "corp_dtd_dataengineer_prd_prj"
-project_description: "This project is to be used by CORP DTD data engineers to validate ingestions"
+project_description: "This project is to be used by CORP DTD IIQ data engineers to validate ingestions"
 enterprise_or_func_name: "CORP"
 enterprise_or_func_subgrp_name: "DTD"
 parent_domain_unit: "Minerva"
-data_leader: "m176662"
+data_leader: "g365220"
 project_membership:
-  - minerva_corp_dtd_dataengineer_prd
+  - minerva_corp_dtd_iiq_dataengineer_prd
 compute_size: "XSML"
 access_to_resources:
   glue_databases:
