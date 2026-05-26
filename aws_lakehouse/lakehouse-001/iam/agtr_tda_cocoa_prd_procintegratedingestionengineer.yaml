@@ -3,7 +3,7 @@ role_name: agtr_tda_cocoa_prd_procintegratedingestionengineer
 role_description: MIF IAM role for AGTR TDA_COCOA Ingestion patterns to lakehouse.
 aws_account_id: '578647603827'
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: TDA_COCOA
+enterprise_or_func_subgrp_name: TDA
 role_owner: 'Purnendu_Das@cargill.com'
 data_env: prd
 usage_type: "IngestionEngineer"
@@ -15,7 +15,11 @@ access_to_resources:
         - lh_tda_cocoapp_raw_prd
         - lh_tda_cocoa_raw_prd
         - lh_tda_qep_raw_prd
+        - lh_cocoa_minderest_raw_prd
+        - lh_tda_sasanalytics_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoapp/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoa/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_qep/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/cocoa_minderest/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_sasanalytics/"
