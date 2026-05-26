@@ -1,0 +1,11 @@
+{
+    "intake_id": "M0000567",
+    "database_name": "SF_FOOD_NA_DP_DB", 
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database to Reference the Business Data Products from lakehouse for the Food NA Data products users",
+    "data_first_classification": "General",
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "NA",
+    "product_group_identifier": "DATA_ANALYTICS",
+    "data_leader": "kporter"
+}
