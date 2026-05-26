@@ -1,6 +1,6 @@
 {
     "intake_id": "M0000918",
-    "schema_name": "AGTR_CHINA_CE_CURATED_PRD_SC",
+    "schema_name": "APAC_CHINA_CE_CURATED_PRD_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_AGTR_APAC_DP_DB",
     "access_roles": [
