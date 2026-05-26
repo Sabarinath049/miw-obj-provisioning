@@ -1,6 +1,6 @@
 intake_id: M0000485
 bucket_name: prd-cmp1-tda-scripts
-bucket_description: Stores Engineering asset artifacts like Logs and Temporary data for AGTR TDA
+bucket_description: Stores Engineering scripts for AGTR TDA
 aws_account_id: '367241115350'
 aws_region: us-east-1
 usage_type: DataProduct
