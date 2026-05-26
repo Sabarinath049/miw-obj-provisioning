@@ -9,8 +9,8 @@ conn_owner: soni_kumari@cargill.com
 conn_type: network
 conn_configs:
   network:
-    vpc_id: vpc-0bfa1bc4130ed8692
-    subnet_id: subnet-0a9caf2b8a7e3735a
+    vpc_id: vpc-01fe5ec6aac02f085
+    subnet_id: subnet-0be6b4ba3da39a014
     security_group_ids:
       - sg-04a44abca10eab70a
       - sg-0076f72355cb804e7
