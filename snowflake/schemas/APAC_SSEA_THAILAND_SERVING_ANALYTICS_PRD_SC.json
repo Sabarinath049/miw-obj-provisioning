@@ -1,0 +1,25 @@
+{
+    "intake_id": "M0000924",
+    "schema_name": "APAC_SSEA_THAILAND_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_AGTR_APAC_DP_DB",
+    "access_roles": [
+        "minerva_agtr_apac_dataengineer_prd",
+        "minerva_agtr_apac_dataanalyst_prd",
+        "minerva_agtr_apac_procdataconsumer_prd",
+        "minerva_agtr_apac_procdataengineer_prd"
+    ],
+    "description": "Schema for DPP for Ag & Trading APAC data transformation on Snowflake",
+    "data_first_classification": "Limited",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "APAC",
+    "product_group_identifier": "DPP",
+    "subject_or_prod_name": "SSEA_THAILAND",
+    "data_product_manager": "p113822",
+    "lead_engineer": "s417088",
+    "governance_and_access_lead": "n205095",
+    "product_cost_id": "P-2335602",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
