@@ -6,6 +6,9 @@ glue_databases:
     - lh_tda_cocoa_raw_serving_prd
     - lh_tda_sasanalytics_raw_serving_prd
     - lh_cocoa_minderest_raw_serving_prd
+    - lh_cdp_tda_cocoa_raw_prd
+    - lh_cdp_tda_cocoa_raw_serving_prd
+    - lh_cdp_tda_upstream_raw_prd
 data_share_description: "This data federation enables to share all raw tables from CDP histrical data databases agrt tda cocoa to curated data products devlopment purpose only "
 aws_account_id: 578647603827
 data_env: prd

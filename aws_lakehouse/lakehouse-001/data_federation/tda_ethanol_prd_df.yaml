@@ -1,8 +1,8 @@
 intake_id: M0000485
-data_share_name: tda_grains_cdp_prd_df
+data_share_name: tda_ethanol_prd_df
 glue_databases:
-    - lh_cdp_tda_grains_raw_prd
-data_share_description: "This data federation enables to share all raw tables from CDP histrical data databases agrt tda grains to curated data products devlopment purpose only "
+    - lh_cdp_tda_ethanol_raw_serving_prd
+data_share_description: "This data federation enables to share all raw tables from CDP histrical data databases agrt tda ethanol to curated data products devlopment purpose only "
 aws_account_id: 578647603827
 data_env: prd
 data_construct: Source
