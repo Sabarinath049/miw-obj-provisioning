@@ -24,6 +24,6 @@
     "product_group_identifier": "data_analytics",
     "data_leader": "kporter",
     "data_first_classification": "General",
-    "catalog_refresh_interval_secs": "300",
+    "catalog_refresh_interval_secs": "7200",
     "enable_vended_credentials": "true"
 }
