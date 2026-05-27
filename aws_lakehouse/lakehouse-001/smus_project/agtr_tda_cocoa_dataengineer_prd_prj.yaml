@@ -3,7 +3,7 @@ aws_account_id: "578647603827"
 smus_project_name: "agtr_tda_cocoa_dataengineer_prd_prj"
 project_description: "This project is to be used by AGTR TDA_COCOA data engineers to validate ingestions"
 enterprise_or_func_name: "AGTR"
-enterprise_or_func_subgrp_name: "TDA_COCOA"
+enterprise_or_func_subgrp_name: "TDA"
 parent_domain_unit: "Minerva"
 data_leader: "jcook"
 project_membership:
@@ -17,6 +17,13 @@ access_to_resources:
       - lh_tda_cocoapp_raw_prd
       - lh_tda_qep_raw_prd
       - lh_tda_cocoa_raw_prd
+      - lh_cocoa_minderest_raw_prd
+      - lh_cocoa_minderest_raw_serving_prd
+      - lh_tda_sasanalytics_raw_prd
+      - lh_tda_sasanalytics_raw_serving_prd
+      - lh_cdp_tda_cocoa_raw_prd
+      - lh_cdp_tda_cocoa_raw_serving_prd
+      - lh_cdp_tda_upstream_raw_prd
   s3_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoapp/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_cocoa/"
@@ -24,6 +31,13 @@ access_to_resources:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_cocoapp/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_cocoa/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_qep/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_sasanalytics/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_sasanalytics/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/cocoa_minderest/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/cocoa_minderest/"
+    - "s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_cocoa/"
+    - "s3://prd-lh1-agtr-src/raw_serving/cdp/prd/src/tda_cocoa/"
+    - "s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_upstream/"
   custom_git_config:
     custom_git_enabled: true
     repo_name:
