@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0000567",
+    "schema_name": "FOOD_NA_OPTIMIZED_DATA_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_FOOD_NA_DP_DB",
+    "access_roles": [
+        "minerva_food_pr_na_dataengineer_prd",
+        "minerva_food_pr_na_dataanalyst_prd",
+        "minerva_food_pr_na_dataconsumer_prd"
+    ],
+    "description": "Schema for Protein NA Data Analytics data consumption on Snowflake prod",
+    "data_first_classification": "General",
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "NA",
+    "product_group_identifier": "DATA_ANALYTICS",
+    "subject_or_prod_name": "FOOD_NA_DATA_ANALYTICS",
+    "data_product_manager": "j381349",
+    "lead_engineer": "j472479",
+    "governance_and_access_lead": "k040619",
+    "product_cost_id": "k603569",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
