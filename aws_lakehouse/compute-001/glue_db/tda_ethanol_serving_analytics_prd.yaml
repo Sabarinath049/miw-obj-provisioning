@@ -1,13 +1,13 @@
 intake_id: M0000485
-database_name: tda_vegoils_serving_prd
-database_s3_location: "s3://prd-cmp1-tda-dp/serving/prd/tda_vegoils/"
-database_description: "Store business data product for Ag & Trading TDA VEGOILS team"
+database_name: tda_ethanol_serving_analytics_prd
+database_s3_location: "s3://prd-cmp1-tda-dp/serving/prd/tda_ethanol/"
+database_description: "Store business data product for Ag & Trading TDA ETHANOL team"
 aws_account_id: 367241115350
 region: us-east-1
 data_construct: DataProduct
 data_env: prd
 data_layer: srv
-data_product_name: tda_vegoils
+data_product_name: tda_ethanol
 data_classification: "Confidential - Limited"
 data_privacy: "NONE"
 enterprise_or_func_name: AGTR
