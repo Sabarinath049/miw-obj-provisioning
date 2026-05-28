@@ -5,7 +5,6 @@
     "purpose": "For data analyst to read AG Trading TDA cocoa Data in Snowflake prd",
     "role_owner_ds_id": "a000492",
     "role_owner_email_id": "ajay_rajendran@cargill.com",
-
     "data_leader": "jcook",
     "governance_and_access_lead": "a000492",
     "enterprise_or_func_name": "AGTR",
