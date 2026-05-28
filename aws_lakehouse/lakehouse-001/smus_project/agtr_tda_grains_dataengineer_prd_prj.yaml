@@ -3,7 +3,7 @@ aws_account_id: "578647603827"
 smus_project_name: "agtr_tda_grains_dataengineer_prd_prj"
 project_description: "This project is to be used by AGTR TDA_GRAINS data engineers to validate ingestions"
 enterprise_or_func_name: "AGTR"
-enterprise_or_func_subgrp_name: "TDA_GRAINS"
+enterprise_or_func_subgrp_name: "TDA"
 parent_domain_unit: "Minerva"
 data_leader: "jcook"
 project_membership:
@@ -13,9 +13,13 @@ access_to_resources:
   glue_databases:
       - lh_tda_grains_raw_serving_prd
       - lh_tda_grains_raw_prd
+      - lh_cdp_tda_grains_raw_prd
+      - lh_cdp_tda_upstream_raw_prd
   s3_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/tda_grains/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/tda_grains/"
+    - "s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_grains/"
+    - "s3://prd-lh1-agtr-src/raw/cdp/prd/src/tda_upstream/"
   custom_git_config:
     custom_git_enabled: true
     repo_name:
