@@ -1,0 +1,36 @@
+intake_id: M0000485
+aws_account_id: "367241115350"
+smus_project_name: "cmp1_agtr_tda_cocoa_dataengineer_prd_prj"
+project_description: "This project is to be used by AGTR TDA data engineers to create DATA products"
+enterprise_or_func_name: "AGTR"
+enterprise_or_func_subgrp_name: "TDA"
+parent_domain_unit: "Ag and Trading"
+data_leader: "jcook"
+project_membership:
+  - minerva_agtr_tda_cocoa_dataengineer_prd
+compute_size: "MED"
+access_to_resources:
+  glue_databases:
+    - tda_cocoa_curated_prd
+    - tda_cocoa_serving_analytics_prd
+    - 438465132548:lh_tda_cocoa_raw_serving_prd_rl
+    - 438465132548:lh_tda_cocoapp_raw_serving_prd_rl
+    - 438465132548:lh_tda_qep_raw_serving_prd_rl
+    - 438465132548:lh_tda_sasanalytics_raw_serving_prd_rl
+    - 438465132548:lh_cocoa_minderest_raw_serving_prd_rl
+    - 438465132548:lh_cdp_tda_cocoa_raw_prd_rl
+    - 438465132548:lh_cdp_tda_cocoa_raw_serving_prd_rl
+    - 438465132548:lh_cdp_tda_upstream_raw_prd_rl
+
+  s3_prefixes:
+    - s3://prd-cmp1-tda-dp/curated/prd/tda_cocoa/
+    - s3://prd-cmp1-tda-dp/serving/analytics/prd/tda_cocoa/
+
+cross_account_config:
+  cross_account_enabled: false
+  cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false
