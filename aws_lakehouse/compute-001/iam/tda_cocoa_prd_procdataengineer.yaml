@@ -13,7 +13,7 @@ access_to_resources:
   glue_databases:
     write:
       - tda_cocoa_curated_prd
-      - tda_cocoa_serving_prd
+      - tda_cocoa_serving_analytics_prd
     read:
       - 578647603827:lh_tda_cocoa_raw_serving_prd_rl
       - 578647603827:lh_tda_cocoapp_raw_serving_prd_rl
@@ -26,7 +26,7 @@ access_to_resources:
 
   data_prefixes:
     - "s3://prd-cmp1-tda-dp/curated/prd/tda_cocoa/"
-    - "s3://prd-cmp1-tda-dp/serving/prd/tda_cocoa/"
+    - "s3://prd-cmp1-tda-dp/serving/analytics/prd/tda_cocoa/"
 
   execution_asset_prefixes:
     - s3://prd-cmp1-tda-eng-assets/prd/tda/athena/
