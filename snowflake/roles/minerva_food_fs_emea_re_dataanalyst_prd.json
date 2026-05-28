@@ -1,6 +1,6 @@
 {
   "intake_id": "M0000446",
-  "snowflake_account_id": "cargill-miw_dev",
+  "snowflake_account_id": "cargill-miw_prod",
   "aad_group_name": "minerva_food_fs_emea_re_dataanalyst_prd",
   "purpose": "Persona Role for RE EMEA production users",
   "role_owner_ds_id": "mtrouwbo",
