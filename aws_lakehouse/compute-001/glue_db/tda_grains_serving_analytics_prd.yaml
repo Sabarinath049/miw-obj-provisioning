@@ -1,6 +1,6 @@
 intake_id: M0000485
 database_name: tda_grains_serving_analytics_prd
-database_s3_location: "s3://prd-cmp1-tda-dp/serving/prd/tda_grains/"
+database_s3_location: "s3://prd-cmp1-tda-dp/serving/analytics/prd/tda_grains/"
 database_description: "Store business data product for Ag & Trading TDA GRAINS team"
 aws_account_id: 367241115350
 region: us-east-1
