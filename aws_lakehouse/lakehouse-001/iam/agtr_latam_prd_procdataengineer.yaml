@@ -17,6 +17,7 @@ access_to_resources:
       - lh_trust_raw_prd
       - lh_fts_raw_prd
       - lh_jdee1_raw_prd
+      - lh_cdp_agtr_jdee1_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/fts/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/jdee1/"
