@@ -1,0 +1,14 @@
+intake_id: M0000555
+bucket_name: prd-cmp3-cbi-scripts
+bucket_description: For storing PySpark scripts for SPEC CBI subgroup
+aws_account_id: 011379513867
+aws_region: us-east-1
+usage_type: Scripts
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: CBI
+versioning_enabled: true
+# Default values
+#public_access_blocked: true
+#encryption_enabled: true
+#encryption_type: "SSE-S3"
+#encryption_key_arn: "<arn>"
