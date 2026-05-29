@@ -1,7 +1,7 @@
 {
     "intake_id": "M0000485",
     "snowflake_account_id": "cargill-miw_prd",
-    "aad_group_name": "minerva_agtr_tda_ethanol_dataengineer_prd",
+    "aad_group_name": "minerva_agtr_tda_ethanol_procdataengineer_prd",
     "purpose": "For data engineer to read AG Trading TDA ethanol Data in Snowflake prd",
     "role_owner_ds_id": "a000492",
     "role_owner_email_id": "ajay_rajendran@cargill.com",
