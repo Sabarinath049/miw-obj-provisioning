@@ -8,14 +8,14 @@
     "lead_engineer": "y665341",
     "governance_and_access_lead": "a000492",
     "minerva_aad_group": [
-        "minerva_agtr_tda_cocoa_dataconsumer_prd",
-        "minerva_agtr_tda_ethanol_dataconsumer_prd",
-        "minerva_agtr_tda_grains_dataconsumer_prd",
-        "minerva_agtr_tda_vegoils_dataconsumer_prd",
-        "minerva_agtr_tda_cocoa_dataengineer_prd",
-        "minerva_agtr_tda_grains_dataengineer_prd",
-        "minerva_agtr_tda_vegoils_dataengineer_prd",
-        "minerva_agtr_tda_ethanol_dataengineer_prd"
+        "minerva_agtr_tda_cocoa_procdataconsumer_prd",
+        "minerva_agtr_tda_ethanol_procdataconsumer_prd",
+        "minerva_agtr_tda_grains_procdataconsumer_prd",
+        "minerva_agtr_tda_vegoils_procdataconsumer_prd",
+        "minerva_agtr_tda_cocoa_procdataengineer_prd",
+        "minerva_agtr_tda_grains_procdataengineer_prd",
+        "minerva_agtr_tda_vegoils_procdataengineer_prd",
+        "minerva_agtr_tda_ethanol_procdataengineer_prd"
     ],
     "minerva_aad_group_owner": "y665341",
     "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
