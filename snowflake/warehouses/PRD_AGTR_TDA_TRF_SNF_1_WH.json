@@ -6,7 +6,11 @@
         "minerva_agtr_tda_cocoa_dataengineer_prd",
         "minerva_agtr_tda_grains_dataengineer_prd",
         "minerva_agtr_tda_vegoils_dataengineer_prd",
-        "minerva_agtr_tda_ethanol_dataengineer_prd"
+        "minerva_agtr_tda_ethanol_dataengineer_prd",
+        "minerva_agtr_tda_cocoa_procdataengineer_prd",
+        "minerva_agtr_tda_grains_procdataengineer_prd",
+        "minerva_agtr_tda_vegoils_procdataengineer_prd",
+        "minerva_agtr_tda_ethanol_procdataengineer_prd"
     ],
     "data_leader": "jcook",
     "description": "Warehouse for Ag & Trading TDA data transformation query on Snowflake PRD",
