@@ -25,6 +25,6 @@
     "product_group_identifier": "CHINA_SFDC",
     "data_leader": "p113822",
     "data_first_classification": "Restricted",
-    "catalog_refresh_interval_secs": "1800",
+    "catalog_refresh_interval_secs": "3600",
     "enable_vended_credentials": "true"
 }
