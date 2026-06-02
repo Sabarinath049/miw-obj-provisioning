@@ -1,0 +1,16 @@
+intake_id: M0000908
+data_share_name: corp_fsqr_conc_prd_df
+glue_databases:
+    - lh_conc_raw_prd
+    - lh_conc_raw_serving_prd
+    - lh_cdp_conc_raw_prd
+data_share_description: "This data federation enables to share all CONC Production related databases from producer account to consumer accounts"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: conc
+cross_account_aws_ids: 
+    - 438465132548
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FSQR
+data_owner: "nick_koshenina@cargill.com"
