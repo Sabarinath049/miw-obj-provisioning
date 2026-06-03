@@ -1,5 +1,5 @@
 intake_id: "M0000432"
-resource_policy_name: "minerva_prd_cmp4_corp_fin_dev_rp"
+resource_policy_name: "minerva_prd_cmp4_corp_fin_prd_rp"
 resource_policy_description: "This resource policy will be used to support consumption of data from prd compute-004 lakehouse account via CDP AWS account"
 aws_account_id: "632247962242"
 cross_account_aws_id: "718153003882"
