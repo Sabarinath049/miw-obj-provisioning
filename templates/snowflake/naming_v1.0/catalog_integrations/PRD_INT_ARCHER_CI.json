@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "I123456",
     "snowflake_account_id": "cargill-miw_prod",
     "catalog_integration_name": "PRD_INT_ARCHER_CI",
     "description": "Test Template to provision a catalog integration for source system type construct",
