@@ -1,0 +1,15 @@
+intake_id: M0000742
+conn_name: latam_prd_aurora_output_port_conn
+conn_description: Supports team for explicit network based connections in Glue jobs to egress data
+aws_account_id: 367241115350
+env: prd
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: LATAM
+conn_owner: elias_belmiro@cargill.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-01fe5ec6aac02f085
+    subnet_id: subnet-09551703521b8f855
+    security_group_ids:
+      - sg-0cdd8e1748813d96c
