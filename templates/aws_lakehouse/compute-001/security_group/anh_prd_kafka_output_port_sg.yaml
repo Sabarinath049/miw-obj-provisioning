@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 sg_name: anh_prd_kafka_output_port_sg
 sg_description: Security group allowing outbound rules to egress data for ANH via Kafka Output Port Pattern.
 aws_account_id: 367241115350

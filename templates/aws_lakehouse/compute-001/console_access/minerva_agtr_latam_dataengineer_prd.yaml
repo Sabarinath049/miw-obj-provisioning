@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 console_role_name: minerva_agtr_latam_dataengineer_prd
 aws_account_id: "367241115350"
 purpose: This console access allows users to review their spark jobs, spark UI
