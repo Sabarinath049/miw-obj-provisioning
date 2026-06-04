@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 database_name: lh_concur_internal_prd
 database_s3_location: "s3://prd-lh1-corp-fin-src/internal/prd/src/concur/"
 database_description: "Team's internal DB for dealing with Concur Data Source"

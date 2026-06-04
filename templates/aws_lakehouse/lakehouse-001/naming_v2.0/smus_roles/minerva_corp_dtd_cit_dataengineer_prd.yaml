@@ -1,4 +1,4 @@
-intake_id: "I-123456"
+intake_id: "I123456"
 aad_group_name: "minerva_corp_dtd_cit_dataengineer_prd"
 aws_account_id: "578647603827"
 purpose: "This Group is used to explore ingested Data by CIT Team"
