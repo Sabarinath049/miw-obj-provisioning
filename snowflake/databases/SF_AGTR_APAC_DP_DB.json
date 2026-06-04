@@ -1,0 +1,10 @@
+{
+    "intake_id": "M-0000517",
+    "database_name": "SF_AGTR_APAC_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database stores the data product for Ag & Trading APAC PRD users",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "APAC",
+    "data_leader": "p113822"
+}

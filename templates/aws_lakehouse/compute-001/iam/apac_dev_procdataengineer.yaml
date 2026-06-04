@@ -10,7 +10,7 @@
 # Reference:
 # https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html
 # ============================================================================
-intake_id: M-0000517
+intake_id: M0000517
 role_name: apac_dev_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
 aws_account_id: '367241115350'

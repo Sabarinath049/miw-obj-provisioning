@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 conn_name: spec_anh_prd_kafka_output_port_conn
 conn_description: Supports team for explicit network based connections in Glue
   jobs to egress data

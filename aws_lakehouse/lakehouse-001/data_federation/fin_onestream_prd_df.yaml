@@ -1,0 +1,14 @@
+intake_id: M0000913
+data_share_name: fin_onestream_prd_df
+glue_databases:
+    - lh_onestream_raw_serving_prd
+data_share_description: "This data federation enables to share all Onestream related databases from producer account to consumer accounts"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: onestream
+cross_account_aws_ids: 
+    - 632247962242
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_owner: "Jenny_Schoohs@cargill.com"

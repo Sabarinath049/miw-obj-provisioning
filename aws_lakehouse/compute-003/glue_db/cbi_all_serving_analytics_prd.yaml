@@ -1,0 +1,17 @@
+intake_id: M0000555
+database_name: cbi_all_serving_analytics_prd
+database_s3_location: "s3://prd-cmp3-cbi-dp/serving/prd/cbi/all/analytics/"
+database_description: "Used to store CBI all serving analytics tables"
+aws_account_id: 011379513867
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_product_name: "all"
+data_classification: "Confidential - General Use"
+data_privacy: "NONE"
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: CBI
+data_owner_email: "matthew_bosch@cargill.com"
+data_owner_github_uname: "MatthewBosch"
+data_leader: "j603735"
