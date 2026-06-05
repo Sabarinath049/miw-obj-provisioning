@@ -4,7 +4,7 @@
     "catalog_integration_name": "PRD_CMP2_FOOD_PR_NA_DPP_CI",
     "description": "Provision a catalog integration to the Protein NA product for Business Data Products construct",
     "access_roles": [
-        "minerva_food_pr_na_procdataengineer_prd"
+        "minerva_food_pr_na_dataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
