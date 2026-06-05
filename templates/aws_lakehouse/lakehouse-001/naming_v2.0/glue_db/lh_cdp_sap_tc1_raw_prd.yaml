@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 database_name: lh_cdp_sap_tc1_raw_prd
 database_s3_location: "s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc1/"
 database_description: "Store business historical data for SAP_TC1 from CDP system"

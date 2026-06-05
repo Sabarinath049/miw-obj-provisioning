@@ -1,0 +1,29 @@
+intake_id: M0000567
+aws_account_id: "884308299029"
+smus_project_name: cmp2_pr_na_dataengineer_prd_prj
+project_description: This project is to be used by FOOD Protein NA data engineers
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: PR_NA
+parent_domain_unit: "FOOD"
+data_leader: kporter
+project_membership:
+  - minerva_food_pr_na_dataengineer_prd
+compute_size: MED
+access_to_resources:
+  glue_databases:
+    - 438465132548:lh_sap_tc2_raw_serving_prd_rl
+    - 438465132548:lh_sap_tcd_raw_serving_prd_rl
+    - pr_na_optimized_analytics_foundation_curated_prd
+    - pr_na_optimized_analytics_foundation_serving_analytics_prd
+  s3_prefixes:
+    - s3://prd-cmp2-pr-na-dp/curated/prd/pr_na/optimized_analytics_foundation
+    - s3://prd-cmp2-pr-na-dp/serving/prd/pr_na/optimized_analytics_foundation/analytics
+  custom_git_config:
+    - custom_git_enabled: false
+      repo_name: ""
+      repo_branch: ""
+project_config:
+  - project_env: prd
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false

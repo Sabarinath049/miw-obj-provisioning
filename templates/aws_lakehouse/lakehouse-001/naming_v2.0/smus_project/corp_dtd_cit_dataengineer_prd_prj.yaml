@@ -1,4 +1,4 @@
-intake_id: "I-123456"
+intake_id: "I123456"
 aws_account_id: "578647603827"
 smus_project_name: "corp_dtd_cit_dataengineer_prd_prj"
 project_description: "This project is to be used by CIT data engineers to validate ingestions"
