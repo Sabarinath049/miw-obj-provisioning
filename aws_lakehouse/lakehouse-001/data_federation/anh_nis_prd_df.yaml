@@ -2,6 +2,7 @@ intake_id: M0000466
 data_share_name: anh_nis_prd_df
 glue_databases:
     - lh_nis_raw_serving_prd
+    - lh_cdp_nis_raw_prd
 data_share_description: "This data federation enables to share all NIS Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
