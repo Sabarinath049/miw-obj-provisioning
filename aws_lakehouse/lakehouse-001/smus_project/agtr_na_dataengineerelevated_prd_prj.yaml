@@ -1,0 +1,26 @@
+intake_id: "M0000885"
+aws_account_id: "578647603827"
+smus_project_name: "agtr_na_dataengineerelevated_prd_prj"
+project_description: "This project is to be used by Ag & Trading NA team for deleting objects within the db and s3 prefixes."
+enterprise_or_func_name: "AGTR"
+enterprise_or_func_subgrp_name: "NA"
+parent_domain_unit: "NA"
+data_leader: "jcook"
+project_membership:
+  - minerva_agtr_na_dataengineerelevated_prd
+compute_size: "SML"
+access_to_resources:
+  glue_databases:
+    - lh_hrculca_raw_serving_prd
+    - lh_hrculca_raw_prd
+  s3_prefixes:
+    - s3://dev-lh1-agtr-src/raw_serving/prd/src/hrculca/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/
+cross_account_config:
+  - cross_account_enabled: false
+    cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false
