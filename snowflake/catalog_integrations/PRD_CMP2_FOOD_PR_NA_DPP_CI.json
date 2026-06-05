@@ -4,7 +4,7 @@
     "catalog_integration_name": "PRD_CMP2_FOOD_PR_NA_DPP_CI",
     "description": "Provision a catalog integration to the Protein NA product for Business Data Products construct",
     "access_roles": [
-        "pr_na_prd_procdataengineer"
+        "minerva_food_pr_na_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
@@ -16,7 +16,7 @@
         "pr_na_optimized_analytics_foundation_serving_analytics_prd"
     ],
     "rest_auth_type": "SIGV4",
-    "rest_auth_iam_role": "arn:aws:iam::884308299029:role/minerva_food_pr_na_procdataengineer_prd",
+    "rest_auth_iam_role": "arn:aws:iam::884308299029:role/pr_na_prd_procdataengineer",
     "rest_auth_sign_region": "us-east-1",
     "iceberg_enabled": true,
     "enterprise_or_func_name": "FOOD",
