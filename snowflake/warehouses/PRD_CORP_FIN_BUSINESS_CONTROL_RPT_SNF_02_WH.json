@@ -1,0 +1,26 @@
+{
+    "intake_id": "M0000434",
+    "warehouse_name": "PRD_CORP_FIN_BUSINESS_CONTROL_RPT_SNF_02_WH",
+    "snowflake_account_id": "cargill-miw_dev",   
+    "access_roles": [
+      "minerva_corp_fin_business_controls_procdataconsumer_prd"
+    ],
+    "data_leader": "r229742",    
+    "description": "small warehouse for controls SNF Archer db Finance",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "FIN",
+    "product_group_identifier": "CONTROL2",
+    "warehouse_counter": 2,
+    "warehouse_size": "XSMALL",
+    "monthly_credit_limit": 200,
+    "min_cluster_count": 1,
+    "max_cluster_count": 1,
+    "query_timeout_in_seconds": 1800,
+    "alert_subscribers_list": ["BRAULIO_CARRILLODELGADO@CARGILL.COM"],
+    "workload_category": [
+      "RPT"
+    ],
+    "consumption_stack": [
+      "SNOWFLAKE"
+    ]
+}

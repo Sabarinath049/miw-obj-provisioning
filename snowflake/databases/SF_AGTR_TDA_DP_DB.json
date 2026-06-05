@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0000485",
+    "database_name": "SF_AGTR_TDA_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database stores the data product for Ag & Trading TDA Production users",
+    "data_first_classification": "Limited",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA",
+    "data_leader": "jcook"
+}
