@@ -22,6 +22,9 @@ access_to_resources:
     - lh_ffeus_raw_prd
     - lh_ffeca_raw_serving_prd
     - lh_ffeus_raw_serving_prd
+    - lh_bidsheet_raw_prd
+    - lh_bidsheet_raw_serving_prd
+    - lh_cdp_bidsheet_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/agrosoft/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/hrculca/
@@ -34,6 +37,9 @@ access_to_resources:
     - s3://prd-lh1-agtr-src/raw/current/prd/src/ffeca/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/ffeus/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/ffeus/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/bidsheet/
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/bidsheet/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/bidsheet/
   custom_git_config:
     custom_git_enabled: true
     repo_name:
