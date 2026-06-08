@@ -115,6 +115,41 @@ glue_job_access_config:
   job_control_configs:
     - agtr-apac
 snowflake_iceberg_support: true
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_G0z9c1mZ3LYbXdEjLyremgBdYbA=
+  - OZB89938_SFCRole=1021_oe27uxo+zOEQ/NRoPmGhub5Uduo=
+  - OZB89938_SFCRole=1021_bEEUT2r8Mlz7+m+iJTRBrd+vwjA=
+  - OZB89938_SFCRole=1021_n1eaAq6F4xX94weQp/J5tOUWeLU=
+  - OZB89938_SFCRole=1021_/FRA/Eb2tSlJlry+75Oy3dg9s+Y=
+  - OZB89938_SFCRole=1021_K7vkyQsTPclVbHexxOaVz+/HZlw=
+  - OZB89938_SFCRole=1021_nFR+9VhQhdEC32/1uiwuukJvI8w=
+  - OZB89938_SFCRole=1021_kbGvLjCv1aUSvHDbFUDlaZ6MCRE=
+  - OZB89938_SFCRole=1021_VtkZp+HXgDtlBWUws6C34vdPLu8=
+  - OZB89938_SFCRole=1021_hoInFe4LoMv6Tx6LvXUN9FUhdw4=
+  - OZB89938_SFCRole=1021_edP6wrj6h/idut+Bt2r0HrX5Rpk=
+  - OZB89938_SFCRole=1021_vO98NITxivayIHKGbrMn3TPk9Sw=
+  - OZB89938_SFCRole=1021_zEA1lXJJ/fHQTo92Hf2fAj55SjY=
+  - OZB89938_SFCRole=1021_F4iVOV5pdomZk+/pS8OsijArj6o=
+  - OZB89938_SFCRole=1021_zfJT/IebkbUd8BaiT7KFYupQjYo=
+  - OZB89938_SFCRole=1021_nd6dJ37aKM5cIW9R1gSFxGlCEQY=
+  - OZB89938_SFCRole=1021_82cXi+veQySbgjd5xWRpveryDRo=
+  - OZB89938_SFCRole=1021_gxUNfRF2qSDMGKLn3M+SMFsg6YM=
+  - OZB89938_SFCRole=1021_SyvqVTMTKFb24d2hmXGJD2e9pP4=
+  - OZB89938_SFCRole=1021_aiogRkRBaPUJ1wL2vIxE8wvdOtA=
+  - OZB89938_SFCRole=1021_1M4LT2lcd2O/5r2qqvJgVpKAi3I=
+  - OZB89938_SFCRole=1021_j3yd2twSPoYoDOmOFARRMEadx9E=
+  - OZB89938_SFCRole=1021_PA6arTScQZzkWmK/OSIksH2qjAM=
+  - OZB89938_SFCRole=1021_vgkkYh11WTcB2lyrN+1xGIKEiuA=
+  - OZB89938_SFCRole=1021_wbrnOB1GTmu81JrMQHnsNt6DOVw=
+  - OZB89938_SFCRole=1021_0LnLH+6CtSpky919Rgi1fv7KRJ4=
+  - OZB89938_SFCRole=1021_D2JB0LZBomp/cQv+KNvNsskf0IE=
+  - OZB89938_SFCRole=1021_sy33MD5N+twVIE+IWchJeOYEZU4=
+  - OZB89938_SFCRole=1021_QSN23xWv4SLyRmBLLTs5f3nIqoA=
+  - OZB89938_SFCRole=1021_IqBxdp6Hx8KtuihJQnMBBUYZ1r8=
+  - OZB89938_SFCRole=1021_o5rdGKP5Nwbv0B5p0xcRbcb1uag=
+  - OZB89938_SFCRole=1021_YF8fh5f370HnhNmHLYG0/Uj3kNQ=
 role_owner: 's417088'
 
  
