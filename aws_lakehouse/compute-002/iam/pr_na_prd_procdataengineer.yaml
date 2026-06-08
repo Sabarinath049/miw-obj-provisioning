@@ -5,6 +5,7 @@ aws_account_id: 884308299029
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: PR_NA
 role_owner: "Markis_Piper@cargill.com"
+data_leader: kporter
 data_env: prd
 usage_type: "DataEngineer"
 max_session_duration: 2
@@ -28,3 +29,7 @@ enable_glue_interactive_session: true
 athena_access_config:
     enable_athena_access: true
     athena_workgroup_name: pr_na_prd_eng_xsml
+snowflake_iceberg_support: true
+stsExternalIds:
+- OZB89938_SFCRole=1021_4KPIofhEnToXuA3fLVM+vNSD1d4=
+- OZB89938_SFCRole=1021_fRJ/jfzmA2+CmLq4k53to3j1Lo8=
