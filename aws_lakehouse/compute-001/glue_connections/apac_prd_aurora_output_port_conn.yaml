@@ -10,7 +10,6 @@ conn_type: network
 conn_configs:
   network:
     vpc_id: vpc-01fe5ec6aac02f085
-    subnet_id: subnet-0be6b4ba3da39a014
+    subnet_id: subnet-0198615e78927debd
     security_group_ids:
-      - sg-04a44abca10eab70a
-      - sg-0076f72355cb804e7
+      - sg-0ca62a08b3cf3d4fc
