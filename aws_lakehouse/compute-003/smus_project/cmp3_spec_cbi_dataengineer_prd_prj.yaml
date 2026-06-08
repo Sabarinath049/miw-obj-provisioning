@@ -12,12 +12,12 @@ project_membership:
 compute_size: SML
 access_to_resources:
   glue_databases:
-    - cbi_all_curated_dev
-    - cbi_all_internal_dev
-    - cbi_all_serving_analytics_dev
-    - 578647603827:lh_sap_tc1_raw_serving_dev_rl
+    - cbi_all_curated_prd
+    - cbi_all_internal_prd
+    - cbi_all_serving_analytics_prd
+    - 578647603827:lh_sap_tc1_raw_serving_prd_rl
     - 578647603827:lh_sap_tc2_raw_serving_prd_rl
-    - 578647603827:lh_cbi_manual_upload_raw_dev_rl
+    - 578647603827:lh_cbi_manual_upload_raw_prd_rl
     - 632247962242:fin_master_data_curated_prd_rl
     - 632247962242:fin_master_data_serving_prd_rl
   s3_prefixes:
