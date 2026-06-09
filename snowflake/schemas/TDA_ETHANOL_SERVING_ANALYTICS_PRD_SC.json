@@ -4,8 +4,6 @@
     "snowflake_account_id": "cargill-miw_prd",
     "parent_db_name": "SF_AGTR_TDA_DP_DB",
     "access_roles": [
-        "minerva_agtr_tda_ethanol_dataconsumer_prd",
-        "minerva_agtr_tda_ethanol_dataengineer_prd",
         "minerva_agtr_tda_ethanol_procdataconsumer_prd",
         "minerva_agtr_tda_ethanol_procdataengineer_prd"
     ],
