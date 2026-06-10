@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 database_name: lh_concur_raw_serving_prd
 database_s3_location: "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/concur/"
 database_description: "Store data for Concur"

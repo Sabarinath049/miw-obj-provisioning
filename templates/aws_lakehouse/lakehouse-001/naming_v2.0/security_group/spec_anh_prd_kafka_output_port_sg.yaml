@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 sg_name: spec_anh_prd_kafka_output_port_sg
 sg_description: Security group allowing outbound rules to egress data for ANH via Kafka Output Port Pattern.
 aws_account_id: 578647603827
@@ -7,6 +7,9 @@ enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
 sg_owner: abc_xyz@cargill.com
 vpc_id: <VPC_ID> #Please collaborate with MIW to figure out the VPC_ID to use.
+self_reference_rules:
+  ingress: true
+  egress: true
 ingress_rules:
   - protocol: tcp
     from_port: 443
