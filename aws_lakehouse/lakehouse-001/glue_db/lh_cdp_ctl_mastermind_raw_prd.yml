@@ -1,0 +1,16 @@
+intake_id: M0000535
+database_name: lh_cdp_ctl_mastermind_raw_prd
+database_s3_location: "s3://prd-lh1-corp-cpt-src/raw/cdp/prd/src/ctl_mastermind/"
+database_description: "Database for storing CDP - CTL MASTERMIND tables"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: ctl_mastermind
+data_classification: 'Confidential - Restricted'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: CPT
+data_owner_email: max_voots@cargill.com
+data_owner_github_uname: MaxVoots
+data_leader: Kayode Dosunmu
