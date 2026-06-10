@@ -1,0 +1,20 @@
+intake_id: M0000535
+role_name: corp_cpt_prd_procintegratedingestionengineer
+role_description: MIF IAM role for CORP CPT Ingestion patterns to lakehouse.
+aws_account_id: '578647603827'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: CPT
+role_owner: "max_voots@cargill.com"
+data_env: prd
+usage_type: "IngestionEngineer"
+principal_role_arn: "arn:aws:iam::155261241286:role/prod-mif-corp-cpt-glue-role"
+access_to_resources:
+    glue_databases:
+        write:
+        - lh_ctl_rail_raw_prd
+        - lh_ctl_truck_raw_prd
+        - lh_ctl_mastermind_raw_prd
+    data_prefixes:
+    - "s3://prd-lh1-corp-cpt-src/raw/current/prd/src/ctl_rail/"
+    - "s3://prd-lh1-corp-cpt-src/raw/current/prd/src/ctl_truck/"
+    - "s3://prd-lh1-corp-cpt-src/raw/current/prd/src/ctl_mastermind/"
