@@ -1,4 +1,4 @@
-intake_id: m0000535
+intake_id: M0000535
 aad_group_name: "minerva_corp_cpt_dataengineer_prd"
 aws_account_id: 578647603827
 purpose: "This Group is used to explore the data ingested by the Corp CPT data engineering teams"
@@ -7,5 +7,5 @@ role_owner_email_id: 'max_voots@cargill.com'
 data_leader: 'Kayode Dosunmu'
 governance_and_access_lead: 'k745239'
 enterprise_or_func_name: CORP
-enterprise_or_func_subgrp_name: CPTT
+enterprise_or_func_subgrp_name: CPT
 sub_function: CPT
