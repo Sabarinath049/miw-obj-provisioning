@@ -4,8 +4,6 @@
     "catalog_integration_name": "PRD_AGTR_TDA_VEGOILS_CI",
     "description": "Provision a catalog integration for fdp data construct for Ag & Trading TDA VEGOILS Lakehouse data",
     "access_roles": [
-        "minerva_agtr_tda_vegoils_dataconsumer_prd",
-        "minerva_agtr_tda_vegoils_dataengineer_prd",
         "minerva_agtr_tda_vegoils_procdataconsumer_prd",
         "minerva_agtr_tda_vegoils_procdataengineer_prd"
     ],
