@@ -13,6 +13,7 @@ access_to_resources:
   glue_databases:
     - lh_hrculca_raw_serving_prd
     - lh_hrculca_raw_prd
+    - lh_sap_tcg_raw_prd
   s3_prefixes:
     - s3://dev-lh1-agtr-src/raw_serving/prd/src/hrculca/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/
