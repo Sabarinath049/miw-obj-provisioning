@@ -7,6 +7,9 @@ enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
 sg_owner: abc_xyz@cargill.com
 vpc_id: <VPC_ID> #Please collaborate with MIW to figure out the VPC_ID to use.
+self_reference_rules:
+  ingress: true
+  egress: true
 ingress_rules:
   - protocol: tcp
     from_port: 443
