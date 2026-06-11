@@ -38,3 +38,8 @@ glue_job_access_config:
     - agtr-tda-ethanol
 snowflake_iceberg_support: true
 role_owner: 'y665341'
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_nVQS8107TCETWymMCnxVGgDq7dk=
+  - OZB89938_SFCRole=1021_YJc++lr+d3tSzqaqDOCV96AcfSs=
