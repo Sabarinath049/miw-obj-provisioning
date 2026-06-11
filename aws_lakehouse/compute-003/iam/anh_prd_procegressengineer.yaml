@@ -27,3 +27,4 @@ glue_job_access_configs:
   secret_name: "anh/consumption/kafka_output_port"
   job_control_configs:
     - spec-anh
+
