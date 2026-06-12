@@ -5,6 +5,7 @@ aws_account_id: 011379513867
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: CBI
 role_owner: "matthew_bosch@cargill.com"
+data_leader: "j603735"
 data_env: prd
 usage_type: "DataEngineer"
 max_session_duration: 2
