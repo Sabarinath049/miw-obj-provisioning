@@ -40,3 +40,8 @@ glue_job_access_config:
     - agtr-tda-vegoils
 snowflake_iceberg_support: true
 role_owner: 'y665341'
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_QxX6bENrGRc4JBUL1Y1/xMtEwW4=
+  - OZB89938_SFCRole=1021_s8Aeyfz6jX/nicE/6x8BeY0RqDw=
