@@ -14,6 +14,7 @@ access_to_resources:
     - lh_cdp_jdw_raw_prd   
     - lh_cdp_fin_manual_upload_raw_prd
     - lh_cdp_fin_jdee1_raw_prd
+    - lh_cdp_fc10_raw_prd
     - lh_cdp_fair_raw_prd
     - lh_cdp_blckline_raw_prd
   s3_prefixes:
@@ -22,6 +23,7 @@ access_to_resources:
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/jdw/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fin_manual_upload/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fin_jdee1/
+    - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fc10/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fair/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/blckline/
     

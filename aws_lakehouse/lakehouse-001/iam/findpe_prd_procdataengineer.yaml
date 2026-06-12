@@ -20,6 +20,7 @@ access_to_resources:
         - lh_concur_raw_serving_prd
         - lh_sap_rm_raw_serving_prd
         - lh_fin_jdee1_raw_serving_prd
+        - lh_fc10_raw_serving_prd
         - lh_fair_raw_serving_prd
         - lh_blckline_raw_serving_prd
         read:
@@ -38,6 +39,7 @@ access_to_resources:
         - lh_sap_rm_raw_prd
         - lh_fin_jdee1_raw_prd
         - lh_cdp_fin_jdee1_raw_prd
+        - lh_cdp_fc10_raw_prd
         - lh_cdp_fair_raw_prd
         - lh_cdp_blckline_raw_prd
     data_prefixes:
@@ -49,6 +51,7 @@ access_to_resources:
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/concur/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/sap_rm/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fin_jdee1/"
+    - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fc10"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fair/"
     - "s3://prd-lh1-corp-fin-src/raw_serving/prd/src/blckline/"
     execution_asset_prefixes:
