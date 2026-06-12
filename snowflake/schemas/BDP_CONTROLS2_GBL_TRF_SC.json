@@ -8,7 +8,7 @@
       "MINERVA_CORP_FIN_GENERIC_DATAENGINEER_PRD",
       "MINERVA_CORP_FIN_GENERIC_PROCDATAENGINEER_PRD",
       "MINERVA_CORP_FIN_BUSINESS_CONTROLS_DATACONSUMER_PRD",
-      “MINERVA_CORP_FIN_BUSINESS_CONTROLS_PROCDATACONSUMER_PRD”
+      "MINERVA_CORP_FIN_BUSINESS_CONTROLS_PROCDATACONSUMER_PRD"
     ],
     "description": "Schema for managing all Archer objects from ingest clean zone to transformation zone",
     "data_first_classification": "Restricted",
