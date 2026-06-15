@@ -1,0 +1,27 @@
+intake_id: "M0000591"
+aws_account_id: "578647603827"
+smus_project_name: "agtr_wtg_daf_dataengineer_prd_prj"
+project_description: "This project is to be used by Ag & Trading WTG_DAF team to validate ingestions"
+enterprise_or_func_name: "AGTR"
+enterprise_or_func_subgrp_name: "WTG_DAF"
+parent_domain_unit: "Minerva"
+data_leader: "Jonathan_Cook@cargill.com"
+project_membership:
+  - minerva_agtr_wtg_daf_dataengineer_prd
+  - minerva_agtr_wtg_daf_techanalyst_prd
+compute_size: "SML"
+access_to_resources:
+  glue_databases:
+    - lh_agtr_cglframes_raw_serving_prd
+    - lkc-myrp67
+  s3_prefixes:
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/cglframes/
+    - s3://prd-lh1-agtr-src/1001110/10101101/e6dc7158-a74a-4422-8bc0-b6ddfe5b33c8/env-mpxy2x/lkc-myrp67/
+cross_account_config:
+  - cross_account_enabled: false
+    cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false

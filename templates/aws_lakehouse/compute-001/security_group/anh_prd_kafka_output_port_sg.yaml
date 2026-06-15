@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 sg_name: anh_prd_kafka_output_port_sg
 sg_description: Security group allowing outbound rules to egress data for ANH via Kafka Output Port Pattern.
 aws_account_id: 367241115350
@@ -8,16 +8,105 @@ enterprise_or_func_subgrp_name: ANH
 sg_owner: abc_xyz@cargill.com
 vpc_id: <VPC_ID> #Please collaborate with MIW to figure out the VPC_ID to use.
 ingress_rules:
+  # Sample Ingress Rule 1
   - protocol: tcp
     from_port: 443
     to_port: 443
     source_type: cidr
-    source_value: 10.0.0.0/16
-    rule_description: HTTPS from internal network
-egress_rules: #Note below is just an example, please don't allow all traffic outbound access since it's a data security risk
-  - protocol: -1
-    from_port: -1
-    to_port: -1
+    source_value: "10.0.0.0/16"
+    rule_description: Proper description for Ingress Rule 1
+
+  # Sample Ingress Rule 2
+  - protocol: tcp
+    from_port: 22
+    to_port: 22
+    source_type: cidr
+    source_value: "10.0.10.0/24"
+    rule_description: Proper description for Ingress Rule 2
+
+  # Sample Ingress Rule 3
+  - protocol: tcp
+    from_port: 80
+    to_port: 80
+    source_type: security_group
+    source_value: "sg-054d1dba70fe7daa9"
+    rule_description: Proper description for Ingress Rule 3
+
+  # Sample Ingress Rule 4
+  - protocol: tcp
+    from_port: 9093
+    to_port: 9093
+    source_type: cidr
+    source_value: "10.10.20.0/24"
+    rule_description: Proper description for Ingress Rule 4
+
+  # Sample Ingress Rule 5
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9093
+    source_type: security_group
+    source_value: "sg-0db66c50396e1bb98"
+    rule_description: Proper description for Ingress Rule 5
+
+  # Sample Ingress Rule 6
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9092
+    source_type: self
+    rule_description: Proper description for Ingress Rule 6
+
+  # Sample Ingress Rule 7
+  - protocol: udp
+    from_port: 53
+    to_port: 53
+    source_type: cidr
+    source_value: "10.0.0.0/16"
+    rule_description: Proper description for Ingress Rule 7
+
+egress_rules:
+  # Sample Egress Rule 1
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
     destination_type: cidr
-    destination_value: 0.0.0.0/0
-    rule_description: Allow all outbound traffic
+    destination_value: "52.95.0.0/16"
+    rule_description: Proper description for Egress Rule 1
+
+  # Sample Egress Rule 2
+  - protocol: tcp
+    from_port: 9093
+    to_port: 9093
+    destination_type: cidr
+    destination_value: "10.10.30.0/24"
+    rule_description: Proper description for Egress Rule 2
+
+  # Sample Egress Rule 3
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9093
+    destination_type: security_group
+    destination_value: "sg-016694e1ff6df082f"
+    rule_description: Proper description for Egress Rule 3
+
+  # Sample Egress Rule 4
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9092
+    destination_type: self
+    rule_description: Proper description for Egress Rule 4
+
+  # Sample Egress Rule 5
+  - protocol: udp
+    from_port: 53
+    to_port: 53
+    destination_type: cidr
+    destination_value: "10.0.0.2/32"
+    rule_description: Proper description for Egress Rule 5
+
+  # Sample Egress Rule 6
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: security_group
+    destination_value: "sg-09455431d77640386"
+    rule_description: Proper description for Egress Rule 6

@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "I123456",
     "snowflake_account_id": "cargill_prd",
     "aad_group_name": "minerva_corp_dtd_atlan_dataintegrator_prd",
     "purpose": "Sample persona for creating a Data Integrator persona",

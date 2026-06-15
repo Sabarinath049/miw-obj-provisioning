@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 data_share_name: cbi_commercial_prd_df
 glue_databases:
     - cbi_commercial_serving_events_prd

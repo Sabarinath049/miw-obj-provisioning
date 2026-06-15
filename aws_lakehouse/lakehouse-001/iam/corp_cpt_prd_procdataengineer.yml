@@ -1,0 +1,37 @@
+intake_id: M0000535
+role_name: corp_cpt_prd_procdataengineer
+role_description: This role is intended to be used by CPT data engineers for programmatic access in the prd environment
+aws_account_id: 578647603827
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: CPT
+data_leader: Kayode Dosunmu
+compute_size: SML
+max_session_duration: 1
+access_to_resources:
+  glue_databases:
+    write:
+      - lh_ctl_rail_raw_serving_prd
+      - lh_ctl_truck_raw_serving_prd
+      - lh_ctl_mastermind_raw_serving_prd
+    read:
+      - lh_cdp_ctl_rail_raw_prd
+      - lh_ctl_rail_raw_prd
+      - lh_cdp_ctl_truck_raw_prd
+      - lh_ctl_truck_raw_prd
+      - lh_cdp_ctl_mastermind_raw_prd
+      - lh_ctl_mastermind_raw_prd
+  data_prefixes:
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_rail/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_truck/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_mastermind/
+enable_glue_interactive_session: true
+glue_job_access_config:
+  enable_glue_jobs: true
+  job_control_configs:
+    - CPT
+athena_access_config:
+  enable_athena_access: false
+data_env: prd
+usage_type: DataEngineer
+snowflake_iceberg_support: true
+role_owner: 'max_voots@cargill.com'

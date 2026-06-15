@@ -13,6 +13,12 @@ access_to_resources:
         write:
         - lh_sap_tcg_raw_prd
         - lh_hrculca_raw_prd
+        - lh_ffeca_raw_prd
+        - lh_ffeus_raw_prd
+        - lh_bidsheet_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcg/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/ffeus/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/ffeca/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/bidsheet/"

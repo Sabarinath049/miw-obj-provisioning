@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 bucket_name: prd-lh1-corp-hr-eng-assets
 bucket_description: "Stores Engineering asset artifacts like Logs and Temporary data for Corporate HR"
 aws_account_id: 578647603827

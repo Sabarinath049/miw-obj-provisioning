@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 database_name: hr_successfactors_serving_analytics_prd
 database_s3_location: "s3://prd-cmp1-corp-hr-dp/serving/prd/hr/successfactors/analytics/"
 database_description: "Store Successfactors Serving Data Product for Corp HR"

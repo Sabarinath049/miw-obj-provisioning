@@ -1,0 +1,17 @@
+intake_id: M0000567
+database_name: pr_na_optimized_analytics_foundation_curated_prd
+database_s3_location: 's3://prd-cmp2-pr-na-dp/curated/prd/pr_na/optimized_analytics_foundation/'
+database_description: "Store data analytics Internal Products curated data for data analytics"
+aws_account_id: 884308299029
+region: us-east-1
+data_construct: DataProduct
+data_env: prd
+data_layer: cur
+data_product_name: "optimized_analytics_foundation"
+data_classification: 'Confidential - General Use'
+data_privacy: "NONE"
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: PR_NA
+data_leader: kporter
+data_owner_email: 'Kyle_Britt@cargill.com'
+data_owner_github_uname: 'KyleBritt'

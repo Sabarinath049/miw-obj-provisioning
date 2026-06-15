@@ -10,7 +10,7 @@
 # Reference:
 # https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html
 # ============================================================================
-intake_id: M-0000517
+intake_id: M0000517
 role_name: spec_anh_dev_procegressengineer
 role_description: IAM role for support any data egression jobs for SPEC ANH
 aws_account_id: '578647603827'

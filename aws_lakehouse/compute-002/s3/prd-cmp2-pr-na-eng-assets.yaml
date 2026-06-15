@@ -1,0 +1,9 @@
+intake_id: M0000567
+bucket_name: prd-cmp2-pr-na-eng-assets
+bucket_description: Stores Engineering asset artifacts for FOOD Enterprise.
+aws_account_id: '884308299029'
+aws_region: us-east-1
+usage_type: EngAssets
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: "PR_NA"
+
