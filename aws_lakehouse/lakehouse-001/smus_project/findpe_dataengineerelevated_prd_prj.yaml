@@ -27,6 +27,10 @@ access_to_resources:
     - lh_cdp_sap_rm_raw_prd
     - lh_fin_jdee1_raw_serving_prd
     - lh_cdp_fin_jdee1_raw_prd
+    - lh_fair_raw_serving_prd
+    - lh_cdp_fair_raw_prd
+    - lh_blckline_raw_serving_prd
+    - lh_cdp_blckline_raw_prd
 
   s3_prefixes:
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/sap_tcf/
@@ -45,6 +49,10 @@ access_to_resources:
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/sap_rm/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fin_jdee1/
     - s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fin_jdee1/
+    - s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fair/
+    - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fair/
+    - s3://prd-lh1-corp-fin-src/raw_serving/prd/src/blckline/
+    - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/blckline/
 
   custom_git_config:
     custom_git_enabled: true
