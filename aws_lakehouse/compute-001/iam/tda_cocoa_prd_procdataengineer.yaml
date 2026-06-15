@@ -15,6 +15,7 @@ access_to_resources:
       - tda_cocoa_curated_prd
       - tda_cocoa_serving_analytics_prd
     read:
+      - tda_ethanol_serving_analytics_prd
       - 578647603827:lh_tda_cocoa_raw_serving_prd_rl
       - 578647603827:lh_tda_cocoapp_raw_serving_prd_rl
       - 578647603827:lh_tda_qep_raw_serving_prd_rl
