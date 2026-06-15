@@ -4,7 +4,7 @@ role_description: This role is intended to be used by Food Protein data engineer
 aws_account_id: 578647603827
 enterprise_or_func_name: FOOD
 enterprise_or_func_subgrp_name: PRGL
-data_leader: KatiePorter
+data_leader: kporter
 compute_size: LRG
 max_session_duration: 2
 access_to_resources:
