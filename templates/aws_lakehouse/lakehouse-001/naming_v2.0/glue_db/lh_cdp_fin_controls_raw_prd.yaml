@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 database_name: lh_cdp_fin_controls_raw_prd
 database_s3_location: "s3://prd-lh1-corp-fin-src/raw/cdp/prd/dp/controls/"
 database_description: "Store business historical data for finance controls data products"

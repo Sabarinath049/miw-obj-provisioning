@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "I123456",
     "schema_name": "ARCHER_STG_CLN_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "PRD_INT_ARCHER_DB",

@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "I123456",
     "snowflake_account_id": "cargill-miw_prod",
     "external_volume_name": "PRD_CORP_FIN_CONTROLS_EV",
     "description": "Test Template to provision an external volume for data product construct",
