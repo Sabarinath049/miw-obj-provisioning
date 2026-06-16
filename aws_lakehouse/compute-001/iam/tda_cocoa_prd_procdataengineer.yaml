@@ -15,6 +15,7 @@ access_to_resources:
       - tda_cocoa_curated_prd
       - tda_cocoa_serving_analytics_prd
     read:
+      - tda_ethanol_serving_analytics_prd
       - 578647603827:lh_tda_cocoa_raw_serving_prd_rl
       - 578647603827:lh_tda_cocoapp_raw_serving_prd_rl
       - 578647603827:lh_tda_qep_raw_serving_prd_rl
@@ -44,3 +45,8 @@ glue_job_access_config:
     - agtr-tda-cocoa
 snowflake_iceberg_support: true
 role_owner: 'y665341'
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_JwDaJfl3X7ze7aBbqSKpIxcewNc=
+  - OZB89938_SFCRole=1021_nBkyFRGMRyfr1F3rQr9sh2OkQ0s=
