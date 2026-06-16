@@ -1,0 +1,26 @@
+{
+    "intake_id": "M0000491",
+    "warehouse_name": "PRD_AGTR_TDA_QUANT_TRF_SNF_1_WH",
+    "snowflake_account_id": "cargill-miw_prod",
+    "access_roles": [
+        "minerva_agtr_tda_quant_procdataengineer_prd"
+    ],
+    "data_leader": "jcook",
+    "description": "Warehouse for Ag & Trading TDA Quant data transformation query on Snowflake PRD",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA",
+    "product_group_identifier": "TDA",
+    "warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "min_cluster_count": 1,
+    "max_cluster_count": 4,
+    "query_timeout_in_seconds": 1800,
+    "alert_subscribers_list": ["XIANG_WANG@CARGILL.COM"],
+    "workload_category": [
+        "TRF"
+    ],
+    "consumption_stack": [
+        "SNOWFLAKE"
+    ]
+}
