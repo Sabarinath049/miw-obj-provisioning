@@ -1,0 +1,17 @@
+intake_id: M0001005
+database_name: lh_cdp_global_highseas_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/global_highseas/"
+database_description: "Database for global highseas for cdp data"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: global_highseas
+data_classification: "Confidential - Limited"
+data_privacy: NONE
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner_email: "ajay_rajendran@cargill.com"
+data_owner_github_uname: AjayRajendran
+data_leader: jcook
