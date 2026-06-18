@@ -9,6 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: external_ctl_rail
 data_classification: 'Confidential - Restricted'
+data_privacy: "NONE"
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: CPT
 data_owner_email: max_voots@cargill.com
