@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000591",
+    "snowflake_account_id": "cargill-miw_prd",
+    "aad_group_name": "minerva_agtr_wtg_daf_procdataconsumer_prd",
+    "purpose": "For proc data consumer to consume AG Trading WTG DAF Data in Snowflake prd",
+    "role_owner_ds_id": "a696676",
+    "role_owner_email_id": "ayankesh_chakraborty@cargill.com",
+    "data_leader": "p113822",
+    "governance_and_access_lead": "a696676",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "WTG_DAF",
+    "sub_function": "DAF"
+}
