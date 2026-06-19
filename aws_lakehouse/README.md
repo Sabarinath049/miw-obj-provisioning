@@ -257,7 +257,7 @@ If intake is not valid, the PR will stall regardless of correctness.
 - Glue DB access: **only `raw` DBs (R/W)**; **no** access to curated, serving, or internal DBs.  
 - Access **only** to the **equivalent enterprise/function source bucket**.  
 - **Grain:** Subgroup.  
-- `usage_type` = **`IntegratedIngestionEngineer`**.  
+- `usage_type` = **`IngestionEngineer`**.  
 - `principal_role_arn` must be **valid**. Please raise this request **only when your role in source MIF account already exists**, otherwise the provisioning on Lakehouse will fail. 
 - **No read access** to any database.
 
