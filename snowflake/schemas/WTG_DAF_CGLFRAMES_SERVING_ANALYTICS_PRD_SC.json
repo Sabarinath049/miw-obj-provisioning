@@ -1,0 +1,23 @@
+{
+    "intake_id": "M0000591",
+    "schema_name": "WTG_DAF_CGLFRAMES_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prd",
+    "parent_db_name": "SF_AGTR_WTG_DAF_DP_DB",
+    "access_roles": [
+        "minerva_agtr_wtg_daf_procdataconsumer_prd",
+        "minerva_agtr_wtg_daf_procdataengineer_prd"
+    ],
+    "description": "Schema for BDP for Ag & Trading WTG_DAF cglframes data transformation on Snowflake",
+    "data_first_classification": "Public",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "WTG_DAF",
+    "product_group_identifier": "DAF",
+    "subject_or_prod_name": "WTG_DAF_CGLFRAMES",
+    "data_product_manager": "a451790",
+    "lead_engineer": "a696676",
+    "governance_and_access_lead": "a451790",
+    "product_cost_id": "",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
