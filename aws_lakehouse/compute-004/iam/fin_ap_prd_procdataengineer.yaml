@@ -47,6 +47,7 @@ glue_job_access_config:
     - corp-fin
 # Configurations for Snowflake Catalog Federation
 snowflake_iceberg_support: true
+
 # principal_role_arn: "arn:aws:iam::703540130218:user/qf0u0000-s"
 # stsExternalIds:
   # - GKB09971_SFCRole=1241_WjmBX6btq595eZxYqadAIFnLtVQ=
