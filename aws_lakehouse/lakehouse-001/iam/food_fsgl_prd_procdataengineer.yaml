@@ -20,6 +20,8 @@ access_to_resources:
       - lh_cdp_sap_tc3_raw_prd
       - lh_pros_raw_prd
       - lh_cdp_pros_raw_prd
+      - lh_cdp_sap_tc2_raw_prd
+      - lkc-myrp67
   data_prefixes:
     - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/jdeaf/"
