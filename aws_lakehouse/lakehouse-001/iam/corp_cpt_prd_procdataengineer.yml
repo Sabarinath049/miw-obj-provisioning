@@ -13,6 +13,10 @@ access_to_resources:
       - lh_ctl_rail_raw_serving_prd
       - lh_ctl_truck_raw_serving_prd
       - lh_ctl_mastermind_raw_serving_prd
+      - lh_internal_ctl_rail_raw_serving_prd
+      - lh_external_ctl_rail_raw_serving_prd
+      - lh_internal_ctl_truck_raw_serving_prd
+      - lh_external_ctl_mastermind_raw_serving_prd
     read:
       - lh_cdp_ctl_rail_raw_prd
       - lh_ctl_rail_raw_prd
@@ -20,10 +24,22 @@ access_to_resources:
       - lh_ctl_truck_raw_prd
       - lh_cdp_ctl_mastermind_raw_prd
       - lh_ctl_mastermind_raw_prd
+      - lh_cdp_internal_ctl_rail_raw_prd
+      - lh_cdp_external_ctl_rail_raw_prd
+      - lh_cdp_internal_ctl_truck_raw_prd
+      - lh_cdp_external_ctl_mastermind_raw_prd
+      - lh_internal_ctl_rail_raw_prd
+      - lh_external_ctl_rail_raw_prd
+      - lh_internal_ctl_truck_raw_prd
+      - lh_external_ctl_mastermind_raw_prd
   data_prefixes:
     - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_rail/
     - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_truck/
     - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/ctl_mastermind/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/internal_ctl_rail/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/external_ctl_rail/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/internal_ctl_truck/
+    - s3://prd-lh1-corp-cpt-src/raw_serving/prd/src/external_ctl_mastermind/
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: true
