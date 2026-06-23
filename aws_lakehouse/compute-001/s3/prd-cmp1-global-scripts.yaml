@@ -6,3 +6,4 @@ aws_region: us-east-1
 usage_type: DataProduct
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
+versioning_enabled: true
