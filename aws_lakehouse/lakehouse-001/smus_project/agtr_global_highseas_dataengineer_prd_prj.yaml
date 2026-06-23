@@ -4,7 +4,7 @@ smus_project_name: "agtr_global_highseas_dataengineer_prd_prj"
 project_description: "This project is to be used by AGTR Global Highseas data engineers to validate ingestions"
 enterprise_or_func_name: "AGTR"
 enterprise_or_func_subgrp_name: "GLOBAL"
-parent_domain_unit: "Minerva"
+parent_domain_unit: "AGTR"
 data_leader: "a000492"
 project_membership:
   - minerva_agtr_global_highseas_dataengineer_prd
