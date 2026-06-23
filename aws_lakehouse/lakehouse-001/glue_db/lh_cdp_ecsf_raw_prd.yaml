@@ -1,0 +1,17 @@
+intake_id: M0001140
+database_name: lh_cdp_ecsf_raw_prd
+database_s3_location: "s3://prd-lh1-corp-hr-src/raw/cdp/prd/src/ecsf/"
+database_description: "Store business historical data for Success Factors"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: ecsf
+data_classification: "Internal"
+data_privacy: ""
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: HR
+data_owner_email: "imran_mohamed@cargill.com"
+data_owner_github_uname: ImranMohamed
+data_leader: "Imran Mohamed"
