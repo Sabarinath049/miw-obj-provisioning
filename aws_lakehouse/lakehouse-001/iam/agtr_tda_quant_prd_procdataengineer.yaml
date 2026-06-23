@@ -27,5 +27,10 @@ athena_access_config:
   enable_athena_access: false
 data_env: prd
 usage_type: DataEngineer
-snowflake_iceberg_support: false
 role_owner: 'Purnendu_Das@cargill.com'
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/qf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_JJdYDC7eexSmkvQiclimhbXTAfs= # LH_CDP_TDA_QUANT_RAW_PRD_CI
+  - OZB89938_SFCRole=1021_zxkupASGya2DhtVMm+GAYeaSUvw= # LH_TDA_QUANT_RAW_PRD_CI
+  - OZB89938_SFCRole=1021_B5jOaufW0AXrPZFjgwYeUQE+T2k= # LH_TDA_QUANT_RAW_SERVING_PRD_CI
