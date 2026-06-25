@@ -1,5 +1,5 @@
 intake_id: M0000482
-data_share_name: ce_leap_prd_df
+data_share_name: food_ce_leap_prd_df
 glue_databases:
     - lh_leapsf_raw_serving_prd
     - lh_pros_raw_serving_prd

@@ -1,4 +1,4 @@
-intake_id: M0000523
+intake_id: M0000482
 bucket_name: prd-cmp2-ce-dp
 bucket_description: "Stores data product for FOOD CE"
 aws_account_id: '884308299029'
