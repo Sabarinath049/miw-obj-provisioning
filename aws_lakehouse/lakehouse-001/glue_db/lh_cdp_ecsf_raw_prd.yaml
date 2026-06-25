@@ -9,9 +9,9 @@ data_env: prd
 data_layer: raw
 source_name: ecsf
 data_classification: "Internal"
-data_privacy: ""
+data_privacy: NONE
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: HR
 data_owner_email: "imran_mohamed@cargill.com"
 data_owner_github_uname: ImranMohamed
-data_leader: "Imran Mohamed"
+data_leader: i849694
