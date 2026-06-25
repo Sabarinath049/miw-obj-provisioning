@@ -35,6 +35,10 @@ access_to_resources:
           - 578647603827:lh_m3_raw_serving_prd_rl
           - 632247962242:fin_master_data_curated_prd_rl
           - 632247962242:fin_master_data_serving_prd_rl
+          - 578647603827:lh_diamondv_dynamics_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_embri_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_mills_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_tech_raw_serving_prd_rl
     data_prefixes:
     - s3://prd-cmp3-anh-dp/curated/prd/anh/
     - s3://prd-cmp3-anh-dp/serving/prd/anh/
