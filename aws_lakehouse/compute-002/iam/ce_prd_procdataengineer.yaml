@@ -20,7 +20,7 @@ access_to_resources:
     data_prefixes:
       - "s3://prd-cmp2-ce-dp/curated/prd/ce/cpq_leap/"
     execution_asset_prefixes:
-      - "s3://dev-cmp2-ce-eng-assets/dev/ce/athena/"
+      - "s3://prd-cmp2-ce-eng-assets/prd/ce/athena/"
     glue_crawler:
       - null
 enable_glue_interactive_session: true
