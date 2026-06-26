@@ -28,6 +28,7 @@ access_to_resources:
           - 578647603827:lh_sap_tcg_raw_serving_prd_rl
           - 578647603827:lh_sap_tcl_raw_serving_prd_rl
           - fin_master_data_serving_prd
+          - fin_master_data_curated_prd
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/accounts_payable/"
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/accounts_payable/"
