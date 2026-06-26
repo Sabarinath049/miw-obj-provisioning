@@ -15,13 +15,11 @@ access_to_resources:
     - fin_master_data_serving_prd
     - fin_general_ledger_curated_prd
     - fin_general_ledger_serving_prd
-    - 578647603827:lh_sap_tcf_raw_serving_prd_rl
-    - 578647603827:lh_sap_tcl_raw_serving_prd_rl
-    - 578647603827:lh_jdw_raw_serving_prd_rl
-    - 578647603827:lh_fin_manual_upload_raw_serving_prd_rl
+    - fin_jarvis_serving_prd
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/
+    - s3://prd-cmp4-corp-fin-dp/serving/prd/jarvis/analytics_hub/
   custom_git_config:
     - custom_git_enabled: false
       repo_name: 
