@@ -11,7 +11,7 @@ source_name: sap_tc2_tm
 data_classification: "internal"
 data_privacy: "PI"
 enterprise_or_func_name: FOOD
-enterprise_or_func_subgrp_name: EMEA
+enterprise_or_func_subgrp_name: FS_EMEA
 data_owner_email: "kimera_appanna@cargill.com"
 data_owner_github_uname: KimeraAppanna
 data_leader: kporter
