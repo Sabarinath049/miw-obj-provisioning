@@ -26,11 +26,16 @@ access_to_resources:
     - 578647603827:lh_bestmix_latam_south_raw_serving_prd_rl
     - 578647603827:lh_bestmix_wemea_raw_serving_prd_rl
     - 578647603827:lh_trdtrk_raw_serving_prd_rl
+    - 578647603827:lh_diamondv_dynamics_raw_serving_prd_rl
+    - 578647603827:lh_diamondv_embri_raw_serving_prd_rl
+    - 578647603827:lh_diamondv_mills_raw_serving_prd_rl
+    - 578647603827:lh_diamondv_tech_raw_serving_prd_rl
     - 578647603827:lh_bills_raw_serving_prd_rl
     - 578647603827:lh_cnc_raw_serving_prd_rl
     - 578647603827:lh_delacon_raw_serving_prd_rl
     - 632247962242:fin_master_data_curated_prd_rl
     - 632247962242:fin_master_data_serving_prd_rl
+    - 578647603827:lh_cdp_nis_raw_prd_rl
   s3_prefixes:
     - s3://prd-cmp3-anh-dp/curated/
     - s3://prd-cmp3-anh-dp/serving/

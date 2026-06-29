@@ -1,0 +1,28 @@
+intake_id: "M0000562"
+aws_account_id: "578647603827"
+smus_project_name: "corp_gtc_dataengineerelevated_prd_prj"
+project_description: "This project is to be used by Corporate Functions team for deleting objects within the db and s3 prefixes."
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "GTC"
+parent_domain_unit: "GTC"
+data_leader: "Chris_Halloran@cargill.com"
+project_membership:
+  - minerva_corp_gtc_dataengineerelevated_prd
+compute_size: "SML"
+access_to_resources:
+  glue_databases:
+    - lh_sap_tc2_gts_raw_prd
+    - lh_cdp_sap_tc2_gts_raw_prd
+    - lh_sap_tc2_gts_raw_serving_prd
+  s3_prefixes:
+    - s3://prd-lh1-corp-gtc-src/raw/current/prd/src/sap_tc2_gts/
+    - s3://prd-lh1-corp-gtc-src/raw/cdp/prd/src/sap_tc2_gts/
+    - s3://prd-lh1-corp-gtc-src/serving/prd/src/sap_tc2_gts/
+cross_account_config:
+  - cross_account_enabled: false
+    cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false

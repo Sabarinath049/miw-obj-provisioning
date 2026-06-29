@@ -1,0 +1,26 @@
+intake_id: M0000913
+aws_account_id: "632247962242"
+smus_project_name: cmp4_fin_financialconsolidation_dataengineer_prd_prj
+project_description: This project is to be used by finance data engineers for onestream
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+parent_domain_unit: Finance
+data_leader: j134279
+project_membership:
+  - minerva_corp_fin_financialconsolidation_dataengineer_prd
+compute_size: MED
+access_to_resources:
+  glue_databases:
+    - fin_consolidated_financials_curated_prd
+    - 578647603827:lh_onestream_raw_serving_prd_rl
+  s3_prefixes:
+    - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/consolidated_finacials/
+  custom_git_config:
+    - custom_git_enabled: true
+      repo_name: fin-consolidated-financials-data-dp
+      repo_branch: main
+project_config:
+  - project_env: prd
+    custom_glue_db_name: glue_db
+    log_retention: 90
+    enable_auto_sync_to_s3: false
