@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0001005",
+    "snowflake_account_id": "cargill-miw_prd",
+    "aad_group_name": "minerva_agtr_global_highseas_procdataengineer_prd",
+    "purpose": "For data engineer to read and write AG Trading Global Highseas Data in Snowflake prd",
+    "role_owner_ds_id": "a000492",
+    "role_owner_email_id": "ajay_rajendran@cargill.com",
+    "data_leader": "a000492",
+    "governance_and_access_lead": "a000492",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "GLOBAL",
+    "sub_function": "GLOBAL"
+}
