@@ -1,0 +1,8 @@
+intake_id: M0000482
+bucket_name: prd-cmp2-ce-eng-assets
+bucket_description: "Stores engineering assets for FOOD CE"
+aws_account_id: '884308299029'
+aws_region: us-east-1
+usage_type: EngAssets
+enterprise_or_func_name: "FOOD"
+enterprise_or_func_subgrp_name: "CE"

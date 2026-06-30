@@ -28,6 +28,7 @@ access_to_resources:
           - 578647603827:lh_sap_tcg_raw_serving_prd_rl
           - 578647603827:lh_sap_tcl_raw_serving_prd_rl
           - fin_master_data_serving_prd
+          - fin_master_data_curated_prd
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/accounts_payable/"
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/accounts_payable/"
@@ -46,8 +47,9 @@ glue_job_access_config:
   job_control_configs:
     - corp-fin
 # Configurations for Snowflake Catalog Federation
-snowflake_iceberg_support: true
-
+snowflake_iceberg_support: false
 # principal_role_arn: "arn:aws:iam::703540130218:user/qf0u0000-s"
 # stsExternalIds:
   # - GKB09971_SFCRole=1241_WjmBX6btq595eZxYqadAIFnLtVQ=
+
+

@@ -37,3 +37,8 @@ glue_job_access_config:
   job_control_configs:
     - agtr-tda-quant
 snowflake_iceberg_support: true
+
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_3gY+pcgTzqpkYtnL+yjmXEfqA3Y= # TDA_QUANT_CURATED_PRD_CI
+  - OZB89938_SFCRole=1021_dP/Ur7jicfvuCyxDxdSMi9a3Wcc= # TDA_QUANT_SERVING_ANALYTICS_PRD_CI
