@@ -14,17 +14,22 @@ access_to_resources:
       - lh_jdeaf_raw_serving_prd
       - lh_sap_tc3_raw_serving_prd
       - lh_pros_raw_serving_prd
+      - lh_sap_tc2_tm_raw_serving_prd
     read:
       - lh_sap_tc2_raw_prd
       - lh_cdp_jdeaf_raw_prd
       - lh_cdp_sap_tc3_raw_prd
       - lh_pros_raw_prd
       - lh_cdp_pros_raw_prd
+      - lh_cdp_sap_tc2_raw_prd
+      - lkc-myrp67
+      - lh_sap_tc2_tm_raw_prd
   data_prefixes:
     - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/jdeaf/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc3/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/pros/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2_tm/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false

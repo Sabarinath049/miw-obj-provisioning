@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0000591",
+    "database_name": "SF_AGTR_WTG_DAF_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database stores the data product for Ag & Trading WTG_DAF Production users",
+    "data_first_classification": "Confidential - General Use",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "WTG_DAF",
+    "data_leader": "jcook"
+}

@@ -16,6 +16,7 @@ access_to_resources:
         - fin_general_ledger_serving_prd
         read:
           - 578647603827:lh_sap_tcf_raw_serving_prd_rl
+          - 578647603827:lh_sap_tca_raw_serving_prd_rl
           - 578647603827:lh_fin_manual_upload_raw_serving_prd_rl
           - 578647603827:lh_jdw_raw_serving_prd_rl
           - fin_master_data_serving_prd
