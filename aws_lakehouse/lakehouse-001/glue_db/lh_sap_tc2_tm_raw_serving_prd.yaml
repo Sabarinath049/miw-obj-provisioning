@@ -1,0 +1,17 @@
+intake_id: M0000602
+database_name: lh_sap_tc2_tm_raw_serving_prd
+database_s3_location: "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2_tm/"
+database_description: "Database for storing RAW SERVING - SAP TC2 TM tables"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: sap_tc2_tm
+data_classification: "internal"
+data_privacy: "PI"
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: FS_EMEA
+data_owner_email: "kimera_appanna@cargill.com"
+data_owner_github_uname: KimeraAppanna
+data_leader: kporter

@@ -1,0 +1,9 @@
+intake_id: M0001005
+bucket_name: prd-cmp1-global-scripts
+bucket_description: Stores Engineering scripts for AGTR GLOBAL
+aws_account_id: '367241115350'
+aws_region: us-east-1
+usage_type: DataProduct
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+versioning_enabled: true

@@ -1,0 +1,17 @@
+intake_id: M0001005
+data_share_name: global_highseas_prd_df
+glue_databases:
+    - lh_global_highseas_raw_prd
+    - lh_global_highseas_raw_serving_prd
+    - lh_cdp_global_highseas_raw_prd
+data_share_description: "This data federation enables to share all raw tables from CDP histrical data databases agtr global highseas to curated data products devlopment purpose only "
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: global_highseas
+cross_account_aws_ids:
+    - 438465132548
+    - 367241115350
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner: "ajay_rajendran@cargill.com"
