@@ -8,6 +8,7 @@ parent_domain_unit: "Minerva"
 data_leader: Chris Halloran
 project_membership:
   - minerva_corp_gtc_dataengineer_prd
+  - minerva_corp_gtc_techanalyst_prd
 compute_size: "XSML"
 access_to_resources:
   glue_databases:
