@@ -1,0 +1,15 @@
+intake_id: M0000482
+data_share_name: food_ce_leap_prd_df
+glue_databases:
+    - lh_leapsf_raw_serving_prd
+    - lh_pros_raw_serving_prd
+data_share_description: "This data federation shares LEAP (Salesforce) and PROS raw_serving source databases from prod-lakehouse-001 to FOOD CE prod-compute-002 for the cpq_leap curated data product"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: leap
+cross_account_aws_ids:
+    - 884308299029
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: CE
+data_owner: "phani_kumar@cargill.com"

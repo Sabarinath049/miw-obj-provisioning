@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0001005",
+    "schema_name": "GLOBAL_HIGHSEAS_CURATED_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prd",
+    "parent_db_name": "SF_AGTR_GLOBAL_DP_DB",
+    "access_roles": [
+        "minerva_agtr_global_highseas_dataengineer_prd",
+        "minerva_agtr_global_highseas_procdataengineer_prd",
+        "minerva_agtr_global_highseas_procdataconsumer_prd"
+        ],
+    "description": "Schema for BDP for Ag & Trading Global Highseas data transformation on Snowflake",
+    "data_first_classification": "Limited",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "GLOBAL",
+    "product_group_identifier": "GLOBAL",
+    "subject_or_prod_name": "GLOBAL_HIGHSEAS",
+    "data_product_manager": "a000492",
+    "lead_engineer": "s493332",
+    "governance_and_access_lead": "a000492",
+    "product_cost_id": "",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
