@@ -32,6 +32,12 @@ egress_rules:
   - protocol: "-1"
     from_port: 0
     to_port: 0
+    destination_type: self
+    rule_description: Required AWS Glue self-referencing egress
+
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
     destination_type: cidr
     destination_value: 0.0.0.0/0
-    rule_description: Allow all outbound TCP traffic
+    rule_description: Added to support runtime download of Python packages by Glue Job as requested by MEF team
