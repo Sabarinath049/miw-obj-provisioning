@@ -26,6 +26,7 @@ access_to_resources:
       - lh_cdp_bidsheet_raw_prd
       - lh_cdp_lynx_raw_prd
       - lh_lynx_raw_prd
+      - 438465132548:lkc-vzdk2j_rl
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/hrculca/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tcg/"
