@@ -1,5 +1,5 @@
 intake_id: M0000516
-sg_name: apac_prd_aurora_output_port_sg
+sg_name: apac_prd_aurora_egress_sg
 sg_description: Security group allowing outbound rules to egress data for APAC via Output Port  Pattern.
 aws_account_id: 367241115350
 env: prd
