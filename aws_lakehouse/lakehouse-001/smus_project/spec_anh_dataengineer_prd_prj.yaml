@@ -63,6 +63,8 @@ access_to_resources:
     - lh_bills_raw_prd
     - lh_bills_raw_serving_prd
     - lh_cdp_bills_raw_prd
+    - lh_1c_manual_upload_raw_prd
+    - lh_1c_monthly_manual_upload_raw_prd
     - lkc-myrp67
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/current/prd/src/billsrchive/
@@ -117,6 +119,8 @@ access_to_resources:
     - s3://prd-lh1-spec-src/raw_serving/prd/src/bills/
     - s3://prd-lh1-spec-src/raw/current/prd/src/bills/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/bills/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/1c_manual_upload/
+    - s3://prd-lh1-spec-src/raw/current/prd/src/1c_monthly_manual_upload/
   custom_git_config:
     custom_git_enabled: true
     repo_name:
