@@ -14,10 +14,12 @@ access_to_resources:
     - lh_cdp_iiq_raw_prd
     - lh_iiq_raw_prd
     - lh_iiq_raw_serving_prd
+    - lh_cdp_ecsf_raw_prd
   s3_prefixes:
     - s3://prd-lh1-corp-dtd-src/raw/cdp/prd/src/iiq/
     - s3://prd-lh1-corp-dtd-src/raw/current/prd/src/iiq/
     - s3://prd-lh1-corp-dtd-src/raw_serving/prd/src/iiq
+    - s3://prd-lh1-corp-hr-src/raw/cdp/prd/src/ecsf/
   custom_git_config:
     custom_git_enabled: false
     repo_name: ""
