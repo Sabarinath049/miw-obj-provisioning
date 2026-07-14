@@ -28,7 +28,8 @@ access_to_resources:
     - 578647603827:lh_sap_tce_raw_serving_prd_rl
     - 578647603827:lh_sap_tcg_raw_serving_prd_rl
     - 578647603827:lh_fin_manual_upload_raw_serving_prd_rl
-    - 578647603827:lh_fin_jdee1_raw_serving_prd_rl	
+    - 578647603827:lh_fin_jdee1_raw_serving_prd_rl
+    - 578647603827:lh_sap_mdg9_raw_serving_prd_rl
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/accounts_receivable/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/accounts_receivable/
