@@ -5,7 +5,8 @@
     "description": "Provision a catalog integration for curated ,serving for agtr global highseas needs",
     "access_roles": [
         "minerva_agtr_global_highseas_procdataconsumer_prd",
-        "minerva_agtr_global_highseas_procdataengineer_prd"
+        "minerva_agtr_global_highseas_procdataengineer_prd",
+        "minerva_agtr_global_highseas_dataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
