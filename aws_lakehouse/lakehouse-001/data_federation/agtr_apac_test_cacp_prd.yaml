@@ -2,7 +2,7 @@ intake_id: M0000857
 data_share_name: agtr_apac_test_cacp_prd
 glue_databases:
     - lh_cacp_raw_prd
-    - lh_cacp_serving_prd
+    - lh_cacp_raw_serving_prd
 data_share_description: "This data federation enables to share all CACP Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
