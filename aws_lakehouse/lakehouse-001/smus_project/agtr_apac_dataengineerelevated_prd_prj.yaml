@@ -15,11 +15,13 @@ access_to_resources:
     - lh_sap_tce_raw_serving_prd
     - lh_sap_tce_raw_prd
     - lh_sap_tcc_raw_prd
+    - lh_sfsc_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tcc/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tce/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tce/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcc/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/sfsc/
 cross_account_config:
   - cross_account_enabled: false
     cross_account_name: ""
