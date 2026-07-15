@@ -16,9 +16,11 @@ access_to_resources:
         - lh_ffeca_raw_prd
         - lh_ffeus_raw_prd
         - lh_bidsheet_raw_prd
+        - lh_lynx_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/sap_tcg/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/ffeus/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/ffeca/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/bidsheet/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/lynx/"

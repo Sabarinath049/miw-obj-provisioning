@@ -1,0 +1,15 @@
+intake_id: M0000000
+conn_name: dtd_prd_test_output_port_conn
+conn_description: Test Glue Connection to confirm success of deployment
+aws_account_id: 578647603827
+env: prd
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+conn_owner: avinash_sharma@crgl-thirdparty.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-02ced923b696c4497
+    subnet_id: subnet-010fd233e370bddf6
+    security_group_ids:
+      - sg-0626bdda5e02caef5

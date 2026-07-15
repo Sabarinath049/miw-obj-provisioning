@@ -1,0 +1,15 @@
+intake_id: M0000000
+conn_name: cbi_prd_test_output_port_conn
+conn_description: Test Glue connection to confirm Prod Deployment success
+aws_account_id: 011379513867
+env: prd
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: CBI
+conn_owner: avinash_sharma@crgl-thirdparty.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-0f11f4dec43aeb721
+    subnet_id: subnet-064120f73c6fc5781
+    security_group_ids:
+      - sg-0daa41fe85ccab3d4
