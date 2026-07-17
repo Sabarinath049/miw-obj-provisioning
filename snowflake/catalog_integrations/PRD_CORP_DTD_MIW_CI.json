@@ -1,0 +1,30 @@
+{
+    "intake_id": "M0000567",
+    "snowflake_account_id": "cargill-miw_prod",
+    "catalog_integration_name": "PRD_CORP_DTD_MIW_CI",
+    "description": "Provision a catalog integration for MIW Testing",
+    "access_roles": [
+        "minerva_corp_dtd_miw_dataengineer_prd",
+		"minerva_corp_dtd_miw_l1_support_prd"
+    ],
+    "catalog_source": "ICEBERG_REST",
+    "catalog_table_format": "ICEBERG",
+    "rest_catalog_uri": "https://glue.us-east-1.amazonaws.com/iceberg",
+    "rest_catalog_name": "578647603827",
+    "rest_catalog_api_type": "AWS_GLUE",
+    "catalog_namespace": [
+        "lh_nyc_taxi_raw_prd",
+		"lh_nyc_taxi_raw_serving_prd"
+    ],
+    "rest_auth_type": "SIGV4",
+    "rest_auth_iam_role": "arn:aws:iam::578647603827:role/corp_dtd_mef_prd_procdataengineer",
+    "rest_auth_sign_region": "us-east-1",
+    "iceberg_enabled": true,
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "DTD",
+    "product_group_identifier": "data_analytics",
+    "data_leader": "g325550",
+    "data_first_classification": "General",
+    "catalog_refresh_interval_secs": "14400",
+    "enable_vended_credentials": "true"
+}
