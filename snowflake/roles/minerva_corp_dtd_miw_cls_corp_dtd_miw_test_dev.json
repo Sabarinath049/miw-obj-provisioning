@@ -1,0 +1,13 @@
+{
+ "intake_id": "M0000517",
+ "snowflake_account_id": "cargill-miw_prod",
+ "aad_group_name": "minerva_corp_dtd_miw_cls_corp_dtd_miw_test_dev",
+ "purpose": "For testing the cls policy grants in snowflake prod",
+ "role_owner_ds_id": "g354437",
+ "role_owner_email_id": "gangadhar_satyawada@cargill.com",
+ "data_leader": "a669203",
+ "governance_and_access_lead": "S898846",
+ "enterprise_or_func_name": "CORP",
+ "enterprise_or_func_subgrp_name": "DTD",
+ "sub_function": "DPP"
+}
