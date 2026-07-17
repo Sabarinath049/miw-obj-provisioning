@@ -34,3 +34,8 @@ glue_job_access_config:
   job_control_configs:
     - agtr-global-highseas
 snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_QFS9tUfTLReV3GOWmidxdSlxjZY= # LH_CDP_GLOBAL_HIGHSEAS_RAW_PRD_CI
+  - OZB89938_SFCRole=1021_KsSFZmmM6Bkn1nmhjvSDWLOtHwQ= # LH_GLOBAL_HIGHSEAS_RAW_PRD_CI
+  - OZB89938_SFCRole=1021_xp9DPgKbDKqp3bvzA+grzmwzi/w= # LH_GLOBAL_HIGHSEAS_RAW_SERVING_PRD_CI
