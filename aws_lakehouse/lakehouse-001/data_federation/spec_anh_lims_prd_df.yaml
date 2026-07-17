@@ -12,6 +12,7 @@ source_name: lims
 cross_account_aws_ids:
   - 011379513867
   - 438465132548
+  - 836901248866
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
 data_owner: shawn_yeager@cargill.com
