@@ -11,6 +11,10 @@ project_membership:
 compute_size: "XSML"
 access_to_resources:
   glue_databases:
+    - lh_sfca_raw_prd
+    - lh_sfus_raw_prd
+    - lh_sfca_raw_serving_prd
+    - lh_sfus_raw_serving_prd
     - lh_hrculca_raw_serving_prd
     - lh_hrculca_raw_prd
     - lh_cdp_hrculbr_raw_prd
@@ -28,6 +32,10 @@ access_to_resources:
     - lh_jupiter_prd_raw_prd
     - lh_jupiter_prd_raw_serving_prd
   s3_prefixes:
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/sfus/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/sfca/
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/sfus/
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/sfca/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/agrosoft/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/hrculca/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/hrculca/
