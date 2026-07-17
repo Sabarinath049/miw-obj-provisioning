@@ -5,7 +5,9 @@
     "description": "Provision a catalog integration for MIW Testing",
     "access_roles": [
         "minerva_corp_dtd_miw_dataengineer_prd",
-		"minerva_corp_dtd_miw_l1_support_prd"
+		"minerva_corp_dtd_miw_l1_support_prd",
+		"minerva_corp_dtd_mef_dataengineer_prd",
+		"minerva_corp_dtd_mef_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
@@ -14,7 +16,9 @@
     "rest_catalog_api_type": "AWS_GLUE",
     "catalog_namespace": [
         "lh_nyc_taxi_raw_prd",
-		"lh_nyc_taxi_raw_serving_prd"
+		"lh_nyc_taxi_raw_serving_prd",
+		"lh_jdee1_raw_serving_prd",
+		"lh_jdee1_raw_prd"
     ],
     "rest_auth_type": "SIGV4",
     "rest_auth_iam_role": "arn:aws:iam::578647603827:role/corp_dtd_mef_prd_procdataengineer",
@@ -25,7 +29,7 @@
     "product_group_identifier": "data_analytics",
     "data_leader": "g325550",
     "data_first_classification": "General",
-    "catalog_refresh_interval_secs": "14400",
+    "catalog_refresh_interval_secs": "3600",
     "enable_vended_credentials": "true"
 }
 
