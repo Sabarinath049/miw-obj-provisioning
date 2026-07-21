@@ -24,7 +24,7 @@ egress_rules:
     from_port: 5432
     to_port: 5432
     destination_type: cidr
-    destination_value: 10.12.8.0/24
+    destination_value: 10.12.8.0/22
     rule_description: Allow outbound to DB subnet
   - protocol: "-1"
     from_port: 0
