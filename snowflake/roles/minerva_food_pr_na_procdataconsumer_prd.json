@@ -1,7 +1,7 @@
 {
     "intake_id": "M0000567",
     "snowflake_account_id": "cargill-miw_prod",
-    "aad_group_name": "minerva_food_pr_na_dataconsumer_prd",
+    "aad_group_name": "minerva_food_pr_na_procdataconsumer_prd",
     "purpose": "For proc data consumers to read Protein NA Data in Snowflake PRD",
     "role_owner_ds_id": "m523543",
     "role_owner_email_id": "Markis_Piper@cargill.com",
