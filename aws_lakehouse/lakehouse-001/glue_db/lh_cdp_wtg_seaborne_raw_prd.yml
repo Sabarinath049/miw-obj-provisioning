@@ -1,0 +1,17 @@
+intake_id: M0000695
+database_name: lh_cdp_wtg_seaborne_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/wtg_seaborne/"
+database_description: "Production Seaborne Database WTG for manual sources(excel/csv/txt)"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: wtg_seaborne
+data_classification: "Confidential - Limited"
+data_privacy: NONE
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: WTG
+data_owner_email: "ajay_rajendran@cargill.com"
+data_owner_github_uname: AjayRajendran
+data_leader: a000492
