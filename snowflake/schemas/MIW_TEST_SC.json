@@ -8,6 +8,8 @@
     ],
     "description": "Schema for MIW tests",
     "data_first_classification": "General",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "DTD",
     "subject_or_prod_name": "MIW",
     "data_product_manager": "s898846",
     "lead_engineer": "s898846",
