@@ -16,7 +16,5 @@
     "lead_engineer": "s898846",
     "governance_and_access_lead": "s898846",
     "product_cost_id": "P-1234567",
-    "data_retention_in_days": 1,
-    "port": "STAR",
-    "domain": "DTD"
+    "data_retention_in_days": 1
 }
