@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "M123456",
     "schema_name": "MIW_TEST_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "PRD_CORP_DTD_TEST_DB",
@@ -10,6 +10,7 @@
     "data_first_classification": "General",
     "enterprise_or_func_name": "CORP",
     "enterprise_or_func_subgrp_name": "DTD",
+    "product_group_identifier": "TEST",
     "subject_or_prod_name": "MIW",
     "data_product_manager": "s898846",
     "lead_engineer": "s898846",
