@@ -14,6 +14,13 @@ ingress_rules:
     source_type: cidr
     source_value: 10.0.0.0/16
     rule_description: HTTPS from internal network
+
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    source_type: self
+    rule_description: Required AWS Glue self-referencing ingress
+
 egress_rules:
   - protocol: tcp
     from_port: 5432
@@ -21,3 +28,16 @@ egress_rules:
     destination_type: cidr
     destination_value: 10.12.8.0/24
     rule_description: Allow outbound to DB subnet
+
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    destination_type: self
+    rule_description: Required AWS Glue self-referencing egress
+
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: cidr
+    destination_value: 0.0.0.0/0
+    rule_description: Added to support runtime download of Python packages by Glue Job as requested by MEF team

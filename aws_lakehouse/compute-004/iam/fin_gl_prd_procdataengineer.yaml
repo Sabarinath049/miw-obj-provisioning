@@ -36,7 +36,7 @@ athena_access_config:
 glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
-    - corp-fin
+    - general-ledger
 # Configurations for Snowflake Catalog Federation
 snowflake_iceberg_support: true
 # principal_role_arn: "arn:aws:iam::703540130218:user/qf0u0000-s"

@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0000491",
+    "snowflake_account_id": "cargill-miw_prd",
+    "ps_account_id": "ps001470",
+    "ps_account_email_id": "Bot_Trmgenaitara@cargill.com",
+    "ps_account_owner": "s257510",
+    "data_product_manager": "a000492",
+    "lead_engineer": "s257510",
+    "governance_and_access_lead": "a000492",
+    "minerva_aad_group": [
+        "minerva_agtr_tda_quant_procdataconsumer_prd"
+    ],
+    "minerva_aad_group_owner": "a000492",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028/.default",
+    "sub_uuid": "370ff4e4-e3f3-479b-8df0-4759b1e301ed",
+    "purpose": "TARA (Trade Analytics & Research Assistant, TRM GenAI) machine-to-machine app; read-only querying of the AGTR TDA Quant curated data product in MIW-prod Snowflake to answer traders' questions. Python backend, read-only allow-listed SQL, never materialized.",
+    "consumption_stack": "Snowflake",
+    "einsight_uuid": [
+        "APM0003550"
+    ],
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA"
+}

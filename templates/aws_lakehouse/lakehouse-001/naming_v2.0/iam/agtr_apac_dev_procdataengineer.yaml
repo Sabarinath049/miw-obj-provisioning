@@ -39,7 +39,7 @@ enable_glue_interactive_session: true
 enable_glue_data_quality: true
 athena_access_config:
     enable_athena_access: true
-    athena_workgroup_name: agtr_apac_prd_eng_xsml
+    athena_workgroup_name: agtr_apac_prd_eng
 glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
