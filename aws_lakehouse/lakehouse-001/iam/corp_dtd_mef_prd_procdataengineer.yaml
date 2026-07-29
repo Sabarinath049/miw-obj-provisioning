@@ -13,8 +13,10 @@ access_to_resources:
     glue_databases:
         write:
         - lh_nyc_taxi_raw_serving_prd
+        - lh_jdee1_raw_serving_prd
         read:
         - lh_nyc_taxi_raw_prd
+        - lh_jdee1_raw_prd
     execution_asset_prefixes:
     - "s3://prd-lh1-corp-dtd-scripts/prd/dtd/glue/"
     - "s3://prd-lh1-corp-dtd-eng-assets/prd/dtd/glue/"
@@ -31,3 +33,8 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - nyc-taxi
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_rfxM6BroPmaE3DbBqYmN8XnBKmI= # LH_NYC_TAXI_RAW_PRD_CI
+  - OZB89938_SFCRole=1021_MIDfjn/0jmwi+VqG/YN7y9n2A9o= # LH_NYC_TAXI_RAW_SERVING_PRD_CI
