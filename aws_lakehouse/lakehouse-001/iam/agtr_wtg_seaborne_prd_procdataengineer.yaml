@@ -27,5 +27,5 @@ athena_access_config:
   enable_athena_access: false
 data_env: prd
 usage_type: DataEngineer
-snowflake_iceberg_support: true
+snowflake_iceberg_support: false
 role_owner: 'Xiang_Wang@cargill.com'
