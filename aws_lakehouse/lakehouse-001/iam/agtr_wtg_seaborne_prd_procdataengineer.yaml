@@ -17,9 +17,9 @@ access_to_resources:
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/wtg_seaborne/"
   execution_asset_prefixes:
-    - "s3://prd-lh1-agtr-src/prd/wtg_seaborne/athena/"
-    - "s3://prd-lh1-agtr-src/prd/wtg_seaborne/glue/"
-    - "s3://prd-lh1-agtr-src/prd/wtg_seaborne/glue/"
+    - "s3://prd-lh1-agtr-eng-assets/prd/wtg_seaborne/athena/"
+    - "s3://prd-lh1-agtr-eng-assets/prd/wtg_seaborne/glue/"
+    - "s3://prd-lh1-agtr-eng-assets/prd/wtg_seaborne/glue/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
