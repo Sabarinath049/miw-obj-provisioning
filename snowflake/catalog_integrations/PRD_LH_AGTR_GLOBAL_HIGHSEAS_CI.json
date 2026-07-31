@@ -1,0 +1,31 @@
+{
+    "intake_id": "M0001005",
+    "snowflake_account_id": "cargill-miw_prod",
+    "catalog_integration_name": "PRD_LH_AGTR_GLOBAL_HIGHSEAS_CI",
+    "description": "Provision a catalog integration for data construct for Ag & Trading global highseas Lakehouse data",
+    "access_roles": [
+        "minerva_agtr_global_highseas_procdataconsumer_prd",
+        "minerva_agtr_global_highseas_procdataengineer_prd",
+        "minerva_agtr_global_highseas_dataengineer_prd"
+    ],
+    "catalog_source": "ICEBERG_REST",
+    "catalog_table_format": "ICEBERG",
+    "rest_catalog_uri": "https://glue.us-east-1.amazonaws.com/iceberg",
+    "rest_catalog_name": "578647603827",
+    "rest_catalog_api_type": "AWS_GLUE",
+    "catalog_namespace": [ "lh_global_highseas_raw_serving_prd",
+                           "lh_global_highseas_raw_prd",
+                           "lh_cdp_global_highseas_raw_prd"
+                         ],
+    "rest_auth_type": "SIGV4",
+    "rest_auth_iam_role": "arn:aws:iam::578647603827:role/agtr_global_highseas_prd_procdataengineer",
+    "rest_auth_sign_region": "us-east-1",
+    "iceberg_enabled": true,
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "GLOBAL",
+    "product_group_identifier": "HIGHSEAS",
+    "data_leader": "a000492",
+    "data_first_classification": "LIMITED",
+    "catalog_refresh_interval_secs": "3600",
+    "enable_vended_credentials": "true"
+}
