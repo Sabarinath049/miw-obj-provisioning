@@ -1,12 +1,12 @@
 {
-    "intake_id": "M0000450",
+    "intake_id": "M0000452",
     "schema_name": "SAP_TCC_RAW_SERVING_PRD_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_AGTR_APAC_SRC_DB",
     "access_roles": [
         "minerva_agtr_apac_dataengineer_prd",
-        "minerva_agtr_apac_dataconsumer_prd",
-        "minerva_agtr_apac_dataanalyst_prd"
+        "minerva_agtr_apac_procdataconsumer_prd",
+        "minerva_agtr_apac_procdataengineer_prd"
     ],
     "description": "Schema for SRC for Ag & Trading APAC data transformation on Snowflake",
     "data_first_classification": "Restricted",
