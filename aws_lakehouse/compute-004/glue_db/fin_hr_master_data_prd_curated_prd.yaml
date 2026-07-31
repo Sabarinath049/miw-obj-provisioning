@@ -1,5 +1,5 @@
 intake_id: M0000432
-database_name: fin_hr_master_data_prd_curated_dev
+database_name: fin_hr_master_data_prd_curated_prd
 database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/hr_master_data/"
 database_description: "Store HR Master Data Curated Product data for Finance"
 aws_account_id: 632247962242
