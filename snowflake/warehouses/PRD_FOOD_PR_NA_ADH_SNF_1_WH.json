@@ -4,13 +4,12 @@
     "snowflake_account_id": "cargill-miw_prd",
     "access_roles": [
         "minerva_food_pr_na_dataengineer_prd",
-        "minerva_food_pr_na_dataconsumer_prd",
         "minerva_food_pr_na_procdataconsumer_prd"
     ],
     "data_leader": "kporter",
     "description": "Warehouse for FOOD PROTEIN NA to query adhoc data on Snowflake PRD",
     "enterprise_or_func_name": "FOOD",
-    "enterprise_or_func_subgrp_name": "PROTEIN NA",
+    "enterprise_or_func_subgrp_name": "Protein - NA",
     "product_group_identifier": "DATA_ANALYTICS",
     "warehouse_counter": 1,
     "warehouse_size": "SMALL",
