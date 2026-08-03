@@ -1,0 +1,29 @@
+{
+    "intake_id": "M0000567",
+    "snowflake_account_id": "cargill-miw_prod",
+    "catalog_integration_name": "PRD_CMP2_FOOD_PR_NA_DPP_CI",
+    "description": "Provision a catalog integration to the Protein NA product for Business Data Products construct",
+    "access_roles": [
+        "minerva_food_pr_na_dataengineer_prd"
+    ],
+    "catalog_source": "ICEBERG_REST",
+    "catalog_table_format": "ICEBERG",
+    "rest_catalog_uri": "https://glue.us-east-1.amazonaws.com/iceberg",
+    "rest_catalog_name": "884308299029",
+    "rest_catalog_api_type": "AWS_GLUE",
+    "catalog_namespace": [
+        "pr_na_optimized_analytics_foundation_curated_prd",
+        "pr_na_optimized_analytics_foundation_serving_analytics_prd"
+    ],
+    "rest_auth_type": "SIGV4",
+    "rest_auth_iam_role": "arn:aws:iam::884308299029:role/pr_na_prd_procdataengineer",
+    "rest_auth_sign_region": "us-east-1",
+    "iceberg_enabled": true,
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "PR_NA",
+    "product_group_identifier": "data_analytics",
+    "data_leader": "kporter",
+    "data_first_classification": "General",
+    "catalog_refresh_interval_secs": "7200",
+    "enable_vended_credentials": "true"
+}
