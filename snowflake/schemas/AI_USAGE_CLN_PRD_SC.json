@@ -16,7 +16,7 @@
     "lead_engineer": "n823356",
     "governance_and_access_lead": "n823356",
     "product_cost_id": "",
-    "data_retention_in_days": 30,
+    "data_retention_in_days": 1,
     "port": "SNF",
     "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
 }
