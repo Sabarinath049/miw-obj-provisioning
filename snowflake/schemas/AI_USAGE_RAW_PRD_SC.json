@@ -4,7 +4,7 @@
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_CORP_DTD_AI_USAGE_SRC_DB",
     "access_roles": [
-        "minerva_corp_dtd_ai_usage_dataengineer_prd"
+        "minerva_corp_dtd_aiscorecard_dataengineer_prd"
     ],
     "description": "Schema exposing the raw ai_usage Iceberg tables (GitHub Enterprise, and future sibling sources) federated from the Lakehouse via catalog integration",
     "data_first_classification": "Highly Restricted",
