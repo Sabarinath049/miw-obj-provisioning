@@ -4,8 +4,8 @@
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_CORP_DTD_AI_USAGE_DP_DB",
     "access_roles": [
-        "minerva_corp_dtd_ai_usage_dataengineer_prd",
-        "minerva_corp_dtd_ai_usage_dataanalyst_prd"
+        "minerva_corp_dtd_aiscorecard_dataengineer_prd",
+        "minerva_corp_dtd_aiscorecard_dataanalyst_prd"
     ],
     "description": "Final analytics-ready ai_usage data product output, open to data analysts in addition to data engineers",
     "data_first_classification": "Highly Restricted",
