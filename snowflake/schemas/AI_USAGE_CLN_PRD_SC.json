@@ -1,0 +1,22 @@
+{
+    "intake_id": "M0001263",
+    "schema_name": "AI_USAGE_CLN_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_CORP_DTD_AI_USAGE_SRC_DB",
+    "access_roles": [
+        "minerva_corp_dtd_ai_usage_dataengineer_prd"
+    ],
+    "description": "Staging/clean layer for the ai_usage raw Iceberg tables, engineer-only, feeding the downstream curated/serving layers in SF_CORP_DTD_AI_USAGE_DP_DB",
+    "data_first_classification": "Highly Restricted",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "DTD",
+    "product_group_identifier": "ai_usage",
+    "subject_or_prod_name": "",
+    "data_product_manager": "n823356",
+    "lead_engineer": "n823356",
+    "governance_and_access_lead": "n823356",
+    "product_cost_id": "",
+    "data_retention_in_days": 30,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
