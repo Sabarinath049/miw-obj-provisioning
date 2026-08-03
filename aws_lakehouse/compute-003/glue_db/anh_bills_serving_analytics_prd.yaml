@@ -2,7 +2,7 @@ intake_id: M0001174
 database_name: anh_bills_serving_analytics_prd
 database_s3_location: s3://prd-cmp3-anh-dp/serving/prd/anh/bills/analytics/
 database_description: "Used to store ANH Business Serving Datablocks tables"
-aws_account_id: 836901248866
+aws_account_id: 011379513867
 region: us-east-1
 data_env: prd
 data_layer: srv
