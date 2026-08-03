@@ -14,8 +14,7 @@
   "warehouse_size": "SMALL",
   "monthly_credit_limit": 500,
   "alert_subscribers_list": [
-    "NATHEN_DREES@CARGILL.COM",
-    "-DTD-AIHUB-CARGILLONLY@CARGILL.COM"
+    "NATHEN_DREES@CARGILL.COM"
   ],
   "workload_category": [
     "ADH"
