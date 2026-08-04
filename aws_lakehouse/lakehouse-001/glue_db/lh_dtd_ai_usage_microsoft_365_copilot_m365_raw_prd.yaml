@@ -1,0 +1,17 @@
+intake_id: M0001263
+database_name: lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_prd
+database_s3_location: "s3://prd-lh1-corp-dtd-src/raw/current/prd/src/ai_usage/microsoft_365_copilot_m365/"
+database_description: "Store raw AI usage data from Microsoft 365 Copilot (including Copilot Chat)"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: microsoft_365_copilot_m365
+data_classification: "Confidential - Highly Restricted"
+data_privacy: "PI"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "DTD"
+data_owner_email: "nathen_drees@cargill.com"
+data_owner_github_uname: NathenDrees
+data_leader: n823356
