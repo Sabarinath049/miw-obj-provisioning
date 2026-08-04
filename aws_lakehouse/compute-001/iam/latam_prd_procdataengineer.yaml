@@ -14,11 +14,16 @@ access_to_resources:
     write:
       - latam_dms_curated_prd
       - latam_dms_serving_analytics_prd
+      - latam_smartpackaging_curated_prd
+      - latam_smartpackaging_serving_analytics_prd
     read:
       - 578647603827:lh_fts_raw_prd_rl
+      - 578647603827:lh_pcfactory_raw_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/smartpackaging/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/smartpackaging/analytics/
   execution_asset_prefixes:
     - s3://prd-cmp1-latam-eng-assets/prd/latam/glue/
     - s3://prd-cmp1-latam-scripts/prd/latam/glue/
