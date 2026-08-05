@@ -12,8 +12,8 @@ compute_size: "MED"
 access_to_resources:
     glue_databases:
         write:
-        - fin_travel_expense_curated_prd
-        - fin_travel_expense_serving_analytics_prd
+        - fin_travel_expense_prd_curated_prd
+        - fin_travel_expense_prd_serving_analytics_prd
         read:
           - 578647603827:lh_concur_raw_serving_prd_rl
     data_prefixes:
