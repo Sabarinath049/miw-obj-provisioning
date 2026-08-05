@@ -1,0 +1,42 @@
+{
+    "intake_id": "M0000924",
+    "snowflake_account_id": "cargill-miw_prod",
+    "catalog_integration_name": "PRD_AGTR_APAC_SSEA_DOM_CI",
+    "description": "Provision a catalog integration for curated ,serving for agtr Apac reporting needs",
+    "access_roles": [
+        "minerva_agtr_apac_dataengineer_prd",
+        "minerva_agtr_apac_procdataengineer_prd"
+    ],
+    "catalog_source": "ICEBERG_REST",
+    "catalog_table_format": "ICEBERG",
+    "rest_catalog_uri": "https://glue.us-east-1.amazonaws.com/iceberg",
+    "rest_catalog_name": "367241115350",
+    "rest_catalog_api_type": "AWS_GLUE",
+    "catalog_namespace": [
+        "agtr_ssea_singapore_curated_prd",
+        "agtr_ssea_singapore_serving_prd",
+        "agtr_ssea_philippines_curated_prd",
+        "agtr_ssea_philippines_serving_prd",
+        "agtr_ssea_pakistan_curated_prd",
+        "agtr_ssea_pakistan_serving_prd",
+        "agtr_ssea_malaysia_curated_prd",
+        "agtr_ssea_malaysia_serving_prd",
+        "agtr_ssea_india_curated_prd",
+        "agtr_ssea_india_serving_prd",
+        "agtr_ssea_thailand_curated_prd",
+        "agtr_ssea_thailand_serving_prd",
+        "agtr_ssea_vietnam_curated_prd",
+        "agtr_ssea_vietnam_serving_prd"
+    ],
+    "rest_auth_type": "SIGV4",
+    "rest_auth_iam_role": "arn:aws:iam::367241115350:role/agtr_apac_prd_procdataengineer",
+    "rest_auth_sign_region": "us-east-1",
+    "iceberg_enabled": true,
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "APAC",
+    "product_group_identifier": "SSEA_DOM",
+    "data_leader": "p113822",
+    "data_first_classification": "Restricted",
+    "catalog_refresh_interval_secs": "21600",
+    "enable_vended_credentials": "true"
+}
