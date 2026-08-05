@@ -1,5 +1,5 @@
 intake_id: M0000856
-database_name: latam_ctms_serving_analytics_prd
+database_name: latam_ctms_analytics_serving_analytics_prd
 database_s3_location: "s3://prd-cmp1-latam-dp/serving/prd/latam/ctms_analytics/analytics/"
 database_description: "Stores Serving Product data for CTMS analytics data"
 aws_account_id: 367241115350
