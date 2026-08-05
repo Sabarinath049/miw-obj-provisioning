@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0001091",
+    "snowflake_account_id": "CARGILL-MIW_PROD",
+    "aad_group_name": "minerva_agtr_latam_jde_analytics_procdataconsumer_prd",
+    "purpose": "For data consumers to read for AG Trading LATAM JDE Data in Snowflake PROD.",
+    "role_owner_ds_id": "a323842",
+    "role_owner_email_id": "Adauto_Costa@cargill.com",
+    "data_leader": "t450776",
+    "governance_and_access_lead": "t450776",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "sub_function": "JDE"
+}
