@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0001218",
+    "database_name": "SF_AGTR_LATAM_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database stores the data product for Ag & Trading LATAM",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "data_leader": "t450776"
+}
