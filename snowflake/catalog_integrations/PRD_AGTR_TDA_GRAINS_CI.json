@@ -1,0 +1,29 @@
+{
+    "intake_id": "M0000485",
+    "snowflake_account_id": "cargill-miw_prd",
+    "catalog_integration_name": "PRD_AGTR_TDA_GRAINS_CI",
+    "description": "Provision a catalog integration for fdp data construct for Ag & Trading TDA GRAINS Lakehouse data",
+    "access_roles": [
+        "minerva_agtr_tda_grains_procdataconsumer_prd",
+        "minerva_agtr_tda_grains_procdataengineer_prd"
+    ],
+    "catalog_source": "ICEBERG_REST",
+    "catalog_table_format": "ICEBERG",
+    "rest_catalog_uri": "https://glue.us-east-1.amazonaws.com/iceberg",
+    "rest_catalog_name": "367241115350",
+    "rest_catalog_api_type": "AWS_GLUE",
+    "catalog_namespace": [ "tda_grains_curated_prd",
+                           "tda_grains_serving_analytics_prd"
+                         ],
+    "rest_auth_type": "SIGV4",
+    "rest_auth_iam_role": "arn:aws:iam::367241115350:role/tda_grains_prd_procdataengineer",
+    "rest_auth_sign_region": "us-east-1",
+    "iceberg_enabled": true,
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA",
+    "product_group_identifier": "TDA_GRAINS",
+    "data_leader": "jcook",
+    "data_first_classification": "LIMITED",
+    "catalog_refresh_interval_secs": "14400",
+    "enable_vended_credentials": "true"
+}
