@@ -1,5 +1,5 @@
 intake_id: M0000485
-sg_name: agtr_tda_cocoa_pvtlink_prd_procdataengineer_sg
+sg_name:
 sg_description: Security group allowing connection from lakehouse to Snowflake for agtr_tda_cocoa_prd_procdataengineer role
 aws_account_id: 578647603827
 env: prd
