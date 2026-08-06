@@ -1,0 +1,26 @@
+{
+  "intake_id": "M0001263",
+  "warehouse_name": "PRD_CORP_DTD_AI_USAGE_ADH_SNF_1_WH",
+  "snowflake_account_id": "cargill-miw_prod",
+  "access_roles": [
+    "minerva_corp_dtd_aiscorecard_dataengineer_prd"
+  ],
+  "data_leader": "n823356",
+  "__comment_reprovision": "Re-submitted 2026-08-04: the warehouse was never created by PR #5445's provisioning run (its final CodeBuild report failed on the prerequisites Terraform plan, though object validation passed). This PR re-triggers provisioning off a current base branch; the request itself is unchanged.",
+  "description": "Warehouse for ad-hoc/prod querying of the raw ai_usage Iceberg tables federated from the Lakehouse",
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "DTD",
+  "product_group_identifier": "ai_usage",
+  "warehouse_counter": 1,
+  "warehouse_size": "SMALL",
+  "monthly_credit_limit": 500,
+  "alert_subscribers_list": [
+    "NATHEN_DREES@CARGILL.COM"
+  ],
+  "workload_category": [
+    "ADH"
+  ],
+  "consumption_stack": [
+    "SNOWFLAKE"
+  ]
+}

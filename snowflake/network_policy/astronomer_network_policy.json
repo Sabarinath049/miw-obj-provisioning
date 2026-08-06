@@ -5,7 +5,10 @@
   "sub_uuid": [
     "0ecacc98-903b-4c46-a725-fb98a0e05aee",
     "eb7bc8ff-a15f-492b-94a1-c4565c1ea3b1",
-    "4992af1a-e985-4241-88ac-bd732349e51d"
+    "4992af1a-e985-4241-88ac-bd732349e51d",
+    "1f831727-872e-4f5f-bb29-4a72ef133505",
+    "2e622de1-dabd-4ad6-b1a3-532b9e050e97",
+    "b76462d1-6fc4-43ac-ba3b-3f4dcdc94bca"
   ],
   "type":"AWSVPCEID",
   "mode":"INGRESS",

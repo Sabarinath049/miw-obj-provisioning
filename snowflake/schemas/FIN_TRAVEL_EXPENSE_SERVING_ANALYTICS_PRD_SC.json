@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0000440",
+    "schema_name": "FIN_TRAVEL_EXPENSE_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prd",
+    "parent_db_name": "SF_CORP_FIN_DP_DB",
+    "access_roles": [
+        "minerva_corp_fin_travel_expense_procdataconsumer_prd",
+        "minerva_corp_fin_travel_expense_procdataengineer_prd",
+        "minerva_corp_fin_travel_expense_dataengineer_prd"
+    ],
+    "description": "Schema template for Minerva MIW Snowflake prdelopment users",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "FIN",
+    "product_group_identifier": "Travel_Expense",
+    "subject_or_prod_name": "Travel_Expense",
+    "data_product_manager": "C619185",
+    "lead_engineer": "n117586",
+    "governance_and_access_lead": "C619185",
+    "product_cost_id": "P-1900408",
+    "data_retention_in_days": 1,
+    "port": "STAR",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
