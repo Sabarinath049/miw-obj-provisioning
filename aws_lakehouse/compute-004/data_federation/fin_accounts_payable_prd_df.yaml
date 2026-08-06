@@ -1,5 +1,5 @@
 intake_id: M0000761
-data_share_name: fin_account_payable_prd_df
+data_share_name: fin_accounts_payable_prd_df
 glue_databases:
     - fin_accounts_payable_curated_prd
     - fin_accounts_payable_serving_prd
