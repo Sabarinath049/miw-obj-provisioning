@@ -1,5 +1,5 @@
 intake_id: M0000440
-database_name: fin_travel_expense_prd_curated_prd
+database_name: fin_travel_expense_curated_prd
 database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/travel_expense/"
 database_description: "Store Travel Expense Data Curated Product data for Finance"
 aws_account_id: 632247962242
