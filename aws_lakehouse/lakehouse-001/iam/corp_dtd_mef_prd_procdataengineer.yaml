@@ -38,3 +38,6 @@ principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
 stsExternalIds:
   - OZB89938_SFCRole=1021_rfxM6BroPmaE3DbBqYmN8XnBKmI= # LH_NYC_TAXI_RAW_PRD_CI
   - OZB89938_SFCRole=1021_MIDfjn/0jmwi+VqG/YN7y9n2A9o= # LH_NYC_TAXI_RAW_SERVING_PRD_CI
+
+
+
