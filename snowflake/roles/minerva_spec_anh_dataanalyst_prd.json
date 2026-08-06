@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000546",
+    "snowflake_account_id": "cargill-miw_prod",
+    "aad_group_name": "minerva_spec_anh_dataanalyst_prd",
+    "purpose": "For data analyst to read SPEC ANH Data in Snowflake PROD",
+    "role_owner_ds_id": "s469759",
+    "role_owner_email_id": "shawn_yeager@cargill.com",
+    "data_leader": "jawillho",
+    "governance_and_access_lead": "s469759",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "ANH",
+    "sub_function":""
+}
