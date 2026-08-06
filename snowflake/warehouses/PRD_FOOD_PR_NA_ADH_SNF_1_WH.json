@@ -9,7 +9,7 @@
     "data_leader": "kporter",
     "description": "Warehouse for FOOD PROTEIN NA to query adhoc data on Snowflake PRD",
     "enterprise_or_func_name": "FOOD",
-    "enterprise_or_func_subgrp_name": "Protein - NA",
+    "enterprise_or_func_subgrp_name": "PR_NA",
     "product_group_identifier": "DATA_ANALYTICS",
     "warehouse_counter": 1,
     "warehouse_size": "SMALL",
