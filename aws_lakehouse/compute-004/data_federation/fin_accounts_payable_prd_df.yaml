@@ -7,6 +7,7 @@ data_share_description: "This data federation enables to share Finance Account P
 aws_account_id: 632247962242
 data_env: prd
 data_construct: DataProduct
+data_product_name: fin_accounts_payable
 source_name: fin_accounts_payable
 cross_account_aws_ids: 
     - 367241115350
