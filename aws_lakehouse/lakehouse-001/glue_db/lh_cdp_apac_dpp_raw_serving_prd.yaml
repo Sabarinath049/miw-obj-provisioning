@@ -8,8 +8,8 @@ data_construct: Source
 data_env: prd
 data_layer: raw
 source_name: cdp
-data_classification: "Confidential - Restricted"
-data_privacy: "PII"
+data_classification: "Confidential - Limited"
+data_privacy: "NONE"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 data_owner_email: "Purnendu_Das@cargill.com"
