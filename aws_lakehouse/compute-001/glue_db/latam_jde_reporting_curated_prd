@@ -1,13 +1,13 @@
 intake_id: M0001091
-database_name: latam_jde_analytics_curated_prd
-database_s3_location: "s3://prd-cmp1-latam-dp/curated/prd/latam/jde_analytics/"
-database_description: "Stores Curated Product data for JDE analytics data"
+database_name: latam_jde_reporting_curated_prd
+database_s3_location: "s3://prd-cmp1-latam-dp/curated/prd/latam/jde_reporting/"
+database_description: "Stores Curated Product data for JDE reporting data"
 aws_account_id: 367241115350
 region: us-east-1
 data_construct: DataProduct
 data_env: prd
 data_layer: cur
-data_product_name: jde_analytics
+data_product_name: jde_reporting
 data_classification: Confidential - Limited
 data_privacy: PI
 enterprise_or_func_name: AGTR
