@@ -1,0 +1,17 @@
+intake_id: M0001263
+database_name: corp_dtd_ai_usage_serving_analytics_prd
+database_s3_location: "s3://prd-cmp4-corp-dtd-dp/serving/prd/dtd/ai_usage/analytics/"
+database_description: "Store serving-analytics AI usage Data Product output, transformed from the curated ai_usage tables"
+aws_account_id: 632247962242
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_classification: "Confidential - Highly Restricted"
+data_privacy: "PI"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "DTD"
+data_product_name: "ai_usage"
+data_owner_email: "nathen_drees@cargill.com"
+data_owner_github_uname: NathenDrees
+data_leader: n823356
