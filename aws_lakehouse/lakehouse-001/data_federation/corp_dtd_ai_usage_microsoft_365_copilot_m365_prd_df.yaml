@@ -1,0 +1,14 @@
+intake_id: M0001263
+data_share_name: corp_dtd_ai_usage_microsoft_365_copilot_m365_prd_df
+glue_databases:
+    - lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_prd
+data_share_description: "This data federation enables the ai_usage MEF Data Product pipeline in the CORP compute account to read the raw Microsoft 365 Copilot Iceberg table for curated/serving transformation"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: microsoft_365_copilot_m365
+cross_account_aws_ids:
+    - 632247962242
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_owner: "nathen_drees@cargill.com"
