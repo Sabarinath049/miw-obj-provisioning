@@ -1,0 +1,17 @@
+intake_id: M0001263
+database_name: lh_dtd_ai_usage_power_bi_copilot_pbi_raw_serving_prd
+database_s3_location: "s3://prd-lh1-corp-dtd-src/raw_serving/current/prd/src/ai_usage/power_bi_copilot_pbi/"
+database_description: "Store cleaned/serving-ready AI usage data from Power BI Copilot, transformed from raw"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: power_bi_copilot_pbi
+data_classification: "Confidential - Highly Restricted"
+data_privacy: "PI"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "DTD"
+data_owner_email: "nathen_drees@cargill.com"
+data_owner_github_uname: NathenDrees
+data_leader: n823356
