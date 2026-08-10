@@ -20,8 +20,7 @@
     "max_cluster_count": 8,
     "query_timeout_in_seconds": 500,
     "alert_subscribers_list": [
-        "JACK_VISHNESKI@CARGILL.COM",
-        "ANDRE_MACIEL@CARGILL.COM",
+        "ASHLYNN_BLAHA@CARGILL.COM",
         "FELIPEALVES_DASILVA@CARGILL.COM"
     ],
     "workload_category": [
