@@ -8,7 +8,7 @@ data_env: prd
 data_construct: Source
 source_name: chatgpt_openai_codex
 cross_account_aws_ids:
-    - 632247962242
+    - 155407238062
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: DTD
 data_owner: "nathen_drees@cargill.com"
