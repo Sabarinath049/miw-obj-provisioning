@@ -63,28 +63,8 @@ access_to_resources:
           - 578647603827:lh_bills_raw_prd_rl
           - 578647603827:lh_unitcost_raw_prd_rl
     data_prefixes:
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/datablocks/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/datablocks/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/core_data/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/core_data/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/bestmix/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/bestmix/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/bills/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/bills/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/cnc/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/cnc/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/costko/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/costko/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/delacon/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/delacon/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/diamondv/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/diamondv/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/lims/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/lims/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/trade_tracker/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/trade_tracker/analytics/
-    - s3://prd-cmp3-anh-dp/curated/prd/anh/wahoo/
-    - s3://prd-cmp3-anh-dp/serving/prd/anh/wahoo/analytics/
+    - s3://prd-cmp3-anh-dp/curated/prd/anh/
+    - s3://prd-cmp3-anh-dp/serving/prd/anh/
     execution_asset_prefixes:
     - s3://prd-cmp3-anh-eng-assets/prd/anh/athena/
     - s3://prd-cmp3-anh-eng-assets/prd/anh/glue/
