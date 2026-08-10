@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: cdp
 data_classification: "critical"
-data_privacy: "NONE"
+data_privacy: "Confidential - Limited"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 data_owner_email: "Y_Cheng@cargill.com"
