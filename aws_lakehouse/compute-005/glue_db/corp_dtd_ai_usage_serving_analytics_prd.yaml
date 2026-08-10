@@ -1,8 +1,8 @@
 intake_id: M0001263
 database_name: corp_dtd_ai_usage_serving_analytics_prd
-database_s3_location: "s3://prd-cmp4-corp-dtd-dp/serving/prd/dtd/ai_usage/analytics/"
+database_s3_location: "s3://prd-cmp5-corp-dtd-dp/serving/prd/dtd/ai_usage/analytics/"
 database_description: "Store serving-analytics AI usage Data Product output, transformed from the curated ai_usage tables"
-aws_account_id: 632247962242
+aws_account_id: 155407238062
 region: us-east-1
 data_env: prd
 data_layer: srv

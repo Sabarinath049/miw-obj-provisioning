@@ -1,8 +1,8 @@
 intake_id: M0001263
 database_name: corp_dtd_ai_usage_curated_prd
-database_s3_location: "s3://prd-cmp4-corp-dtd-dp/curated/prd/dtd/ai_usage/"
+database_s3_location: "s3://prd-cmp5-corp-dtd-dp/curated/prd/dtd/ai_usage/"
 database_description: "Store curated AI usage Data Product output, transformed from the raw ai_usage Lakehouse tables"
-aws_account_id: 632247962242
+aws_account_id: 155407238062
 region: us-east-1
 data_env: prd
 data_layer: cur

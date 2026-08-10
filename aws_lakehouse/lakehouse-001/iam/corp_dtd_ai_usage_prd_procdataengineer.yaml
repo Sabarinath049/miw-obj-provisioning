@@ -11,12 +11,6 @@ access_to_resources:
     glue_databases:
         write:
           - lh_dtd_ai_usage_github_enterprise_ghe_raw_prd
-          - lh_dtd_ai_usage_abacus_ai_raw_serving_prd
-          - lh_dtd_ai_usage_chatgpt_openai_codex_raw_serving_prd
-          - lh_dtd_ai_usage_claude_anthropic_raw_serving_prd
-          - lh_dtd_ai_usage_github_enterprise_ghe_raw_serving_prd
-          - lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_serving_prd
-          - lh_dtd_ai_usage_power_bi_copilot_pbi_raw_serving_prd
         read:
           - lh_dtd_ai_usage_abacus_ai_raw_prd
           - lh_dtd_ai_usage_chatgpt_openai_codex_raw_prd
@@ -26,7 +20,6 @@ access_to_resources:
           - lh_dtd_ai_usage_power_bi_copilot_pbi_raw_prd
     data_prefixes:
       - s3://prd-lh1-corp-dtd-src/raw/current/prd/src/ai_usage/
-      - s3://prd-lh1-corp-dtd-src/raw_serving/current/prd/src/ai_usage/
     glue_crawler:
       - null
 enable_glue_interactive_session: true
