@@ -15,8 +15,8 @@ access_to_resources:
     - 578647603827:lh_jdee1_raw_prd_rl
     - 578647603827:lh_cdp_agtr_jdee1_raw_prd_rl
     - 578647603827:lh_pcfactory_raw_prd_rl
-    - 578647603827:lh_trust_raw_prd
-    - 578647603827:lh_trust_raw_serving_prd
+    - 578647603827:lh_trust_raw_prd_rl
+    - 578647603827:lh_trust_raw_serving_prd_rl
     - latam_dms_curated_prd
     - latam_dms_serving_analytics_prd
     - latam_smartpackaging_curated_prd
