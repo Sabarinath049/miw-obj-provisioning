@@ -40,5 +40,9 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - spec-cbi
-
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+- OZB89938_SFCRole=1021_UFLDj0uMwOR5CfHtF4CJBS+W1SE=
+- OZB89938_SFCRole=1021_h7Rh7SgobwGiDtUMOFAgEzUDE1w=
     
