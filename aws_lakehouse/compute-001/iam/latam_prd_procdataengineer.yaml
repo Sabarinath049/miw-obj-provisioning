@@ -21,8 +21,8 @@ access_to_resources:
     read:
       - 578647603827:lh_fts_raw_prd_rl
       - 578647603827:lh_pcfactory_raw_prd_rl
-      - 578647603827:lh_trust_raw_prd
-      - 578647603827:lh_trust_raw_serving_prd
+      - 578647603827:lh_trust_raw_prd_rl
+      - 578647603827:lh_trust_raw_serving_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
