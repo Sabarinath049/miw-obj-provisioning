@@ -1,0 +1,17 @@
+intake_id: M-123456
+database_name: fin_jarvis_curated_prd
+database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/jarvis/analytics_hub/"
+database_description: "Store Curated Data Product for FAH"
+aws_account_id: 632247962242
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_classification: "Confidential - General Use"
+data_privacy: "BCI"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_product_name: "FinanceAnalyticsHub"
+data_owner_email: "Tyron_Strachan@cargill.com"
+data_owner_github_uname: Tyron_Strachan
+data_leader: r229742
