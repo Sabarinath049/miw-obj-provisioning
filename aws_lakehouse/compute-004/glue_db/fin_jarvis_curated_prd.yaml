@@ -5,7 +5,7 @@ database_description: "Store Curated Data Product for FAH"
 aws_account_id: 632247962242
 region: us-east-1
 data_env: prd
-data_layer: srv
+data_layer: cur
 data_construct: DataProduct
 data_classification: "Confidential - General Use"
 data_privacy: "BCI"
