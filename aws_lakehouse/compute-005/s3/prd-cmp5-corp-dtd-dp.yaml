@@ -1,0 +1,8 @@
+intake_id: M0001263
+bucket_name: prd-cmp5-corp-dtd-dp
+bucket_description: "Stores curated/serving Data Product output for CORP DTD AI Usage"
+aws_account_id: '155407238062'
+aws_region: us-east-1
+usage_type: DataProduct
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
