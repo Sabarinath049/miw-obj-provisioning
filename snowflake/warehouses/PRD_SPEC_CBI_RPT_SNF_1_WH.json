@@ -1,0 +1,32 @@
+
+{
+    "intake_id": "M0000555",
+    "warehouse_name": "PRD_SPEC_CBI_RPT_SNF_1_WH",
+    "snowflake_account_id": "cargill-miw_prod",
+    "access_roles": [
+        "minerva_spec_cbi_dataanalyst_prd",
+        "minerva_spec_cbi_dataengineer_prd",
+        "minerva_spec_cbi_procdataconsumer_prd"
+    ],
+    "data_leader": "j603735",
+    "description": "Warehouse for SPEC CBI to query report data on Snowflake PROD",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "CBI",
+    "product_group_identifier": "",
+    "warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "min_cluster_count": 1,
+    "max_cluster_count": 8,
+    "query_timeout_in_seconds": 500,
+    "alert_subscribers_list": [
+        "ASHLYNN_BLAHA@CARGILL.COM",
+        "FELIPEALVES_DASILVA@CARGILL.COM"
+    ],
+    "workload_category": [
+        "RPT"
+    ],
+    "consumption_stack": [
+        "SNOWFLAKE"
+    ]
+}
