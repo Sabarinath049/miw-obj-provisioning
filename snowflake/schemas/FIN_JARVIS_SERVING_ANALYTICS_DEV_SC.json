@@ -1,7 +1,7 @@
 {
     "intake_id": "M0000517",
     "schema_name": "FIN_JARVIS_SERVING_ANALYTICS_DEV_SC",
-    "snowflake_account_id": "cargill-miw_dev"
+    "snowflake_account_id": "cargill-miw_dev",
     "parent_db_name": "SF_CORP_FIN_DP_DB",
     "access_roles": [
         "minerva_corp_fin_jarvis_procdataconsumer_dev",
