@@ -1,4 +1,4 @@
-intake_id: M-123456
+intake_id: M0001214
 database_name: fin_jarvis_curated_prd
 database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/jarvis/analytics_hub/"
 database_description: "Store Curated Data Product for FAH"
