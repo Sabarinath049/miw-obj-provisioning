@@ -1,7 +1,7 @@
 intake_id: M0000485
 conn_name: agtr_tda_ethanol_prd_snowflake_glue_etl_conn
 conn_description: Supports MEF Glue jobs for explicit network based connections to ingress and egress data
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 env: dev
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: TDA
