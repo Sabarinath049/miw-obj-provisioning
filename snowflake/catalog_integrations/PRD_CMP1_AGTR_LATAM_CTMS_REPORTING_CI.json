@@ -22,7 +22,7 @@
     "enterprise_or_func_name": "AGTR",
     "enterprise_or_func_subgrp_name": "LATAM",
     "product_group_identifier": "CTMS_REPORTING",
-    "data_leader": "t450776",
+    "data_leader": "jcook",
     "data_first_classification": "Restricted",
     "catalog_refresh_interval_secs": "7200",
     "enable_vended_credentials": "true"
