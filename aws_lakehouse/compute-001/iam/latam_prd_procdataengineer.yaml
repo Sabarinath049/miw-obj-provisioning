@@ -18,11 +18,15 @@ access_to_resources:
       - latam_smartpackaging_serving_analytics_prd
       - latam_ctms_reporting_curated_prd
       - latam_ctms_reporting_serving_analytics_prd
+      - latam_jde_reporting_curated_prd
+      - latam_jde_reporting_serving_analytics_prd
     read:
       - 578647603827:lh_fts_raw_prd_rl
       - 578647603827:lh_pcfactory_raw_prd_rl
       - 578647603827:lh_trust_raw_prd_rl
       - 578647603827:lh_trust_raw_serving_prd_rl
+      - 578647603827:lh_jdee1_raw_prd_rl
+      - 578647603827:lh_jdee1_raw_serving_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
@@ -30,6 +34,8 @@ access_to_resources:
     - s3://prd-cmp1-latam-dp/serving/prd/latam/smartpackaging/analytics/
     - s3://prd-cmp1-latam-dp/curated/prd/latam/ctms_reporting/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/ctms_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/jde_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/jde_reporting/analytics/
   execution_asset_prefixes:
     - s3://prd-cmp1-latam-eng-assets/prd/latam/glue/
     - s3://prd-cmp1-latam-scripts/prd/latam/glue/
