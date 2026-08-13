@@ -7,7 +7,7 @@ enterprise_or_func_subgrp_name: "TDA"
 parent_domain_unit: "Minerva"
 data_leader: "y665341"
 project_membership:
-  - "minerva_agtr_tda_ethanol_dataengineerelevated_prd"
+  - "minerva_agtr_tda_ethanol_dataengineer_elevated_prd"
 compute_size: "SML"
 access_to_resources:
   glue_databases:
