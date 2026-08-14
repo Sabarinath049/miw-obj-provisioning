@@ -1,0 +1,15 @@
+intake_id: M0000485
+conn_name: agtr_tda_ethanol_prd_snowflake_glue_etl_conn
+conn_description: Supports MEF Glue jobs for explicit network based connections to ingress and egress data
+aws_account_id: 578647603827
+env: prd
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: TDA
+conn_owner: yueyue_wu@cargill.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-02ced923b696c4497
+    subnet_id: subnet-01988328492f45963
+    security_group_ids:
+      - sg-01c029595d3656d89
