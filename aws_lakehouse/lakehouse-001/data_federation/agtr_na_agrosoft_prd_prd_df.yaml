@@ -1,0 +1,14 @@
+intake_id: M0000695
+data_share_name: agtr_na_dna_dev_df
+glue_databases:
+    - lh_agtr_na_dna_raw_dev
+data_share_description: "This data federation allows to share manual file upload raw databases from the producer account to the consumer account for development purpose only"
+aws_account_id: 438465132548
+data_env: prd
+data_construct: Source
+source_name: agtr_na_dna
+cross_account_aws_ids:
+    - 068887784423
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: NA
+data_owner: "Christopher_Peterson@cargill.com"
