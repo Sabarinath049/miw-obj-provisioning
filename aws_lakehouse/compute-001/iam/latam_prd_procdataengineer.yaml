@@ -16,14 +16,26 @@ access_to_resources:
       - latam_dms_serving_analytics_prd
       - latam_smartpackaging_curated_prd
       - latam_smartpackaging_serving_analytics_prd
+      - latam_ctms_reporting_curated_prd
+      - latam_ctms_reporting_serving_analytics_prd
+      - latam_jde_reporting_curated_prd
+      - latam_jde_reporting_serving_analytics_prd
     read:
       - 578647603827:lh_fts_raw_prd_rl
       - 578647603827:lh_pcfactory_raw_prd_rl
+      - 578647603827:lh_trust_raw_prd_rl
+      - 578647603827:lh_trust_raw_serving_prd_rl
+      - 578647603827:lh_jdee1_raw_prd_rl
+      - 578647603827:lh_jdee1_raw_serving_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
     - s3://prd-cmp1-latam-dp/curated/prd/latam/smartpackaging/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/smartpackaging/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/ctms_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/ctms_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/jde_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/jde_reporting/analytics/
   execution_asset_prefixes:
     - s3://prd-cmp1-latam-eng-assets/prd/latam/glue/
     - s3://prd-cmp1-latam-scripts/prd/latam/glue/
@@ -34,3 +46,6 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - agtr-latam
+stsExternalIds:
+  - OZB89938_SFCRole=1021_a+B3q/ZgpKX+Zq/aqFb37LBrlJQ=  # LATAM_SMARTPACKAGING_SERVING_ANALYTICS_PRD
+  - OZB89938_SFCRole=1021_L8J1e3eIAU8yMurp6OvKYpDJ1OI=  # LATAM_SMARTPACKAGING_CURATED_PRD

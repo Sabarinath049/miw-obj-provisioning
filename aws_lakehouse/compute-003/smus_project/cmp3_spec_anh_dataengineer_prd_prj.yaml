@@ -13,6 +13,26 @@ access_to_resources:
   glue_databases:
     - anh_datablocks_curated_prd
     - anh_datablocks_serving_analytics_prd
+    - anh_core_data_curated_prd
+    - anh_core_data_serving_analytics_prd
+    - anh_bestmix_curated_prd
+    - anh_bestmix_serving_analytics_prd
+    - anh_bills_curated_prd
+    - anh_bills_serving_analytics_prd
+    - anh_cnc_curated_prd
+    - anh_cnc_serving_analytics_prd
+    - anh_costko_curated_prd
+    - anh_costko_serving_analytics_prd
+    - anh_delacon_curated_prd
+    - anh_delacon_serving_analytics_prd
+    - anh_diamondv_curated_prd
+    - anh_diamondv_serving_analytics_prd
+    - anh_lims_curated_prd
+    - anh_lims_serving_analytics_prd
+    - anh_trade_tracker_curated_prd
+    - anh_trade_tracker_serving_analytics_prd
+    - anh_wahoo_curated_prd
+    - anh_wahoo_serving_analytics_prd
     - 578647603827:lh_sap_tc1_raw_serving_prd_rl
     - 578647603827:lh_sap_tca_raw_serving_prd_rl
     - 578647603827:lh_billsrchive_raw_prd_rl
@@ -36,6 +56,9 @@ access_to_resources:
     - 632247962242:fin_master_data_curated_prd_rl
     - 632247962242:fin_master_data_serving_prd_rl
     - 578647603827:lh_cdp_nis_raw_prd_rl
+    - 578647603827:lh_neolait_manual_upload_raw_prd_rl
+    - 578647603827:lh_1c_manual_upload_raw_prd_rl
+    - 578647603827:lh_1c_monthly_manual_upload_raw_prd_rl
   s3_prefixes:
     - s3://prd-cmp3-anh-dp/curated/
     - s3://prd-cmp3-anh-dp/serving/

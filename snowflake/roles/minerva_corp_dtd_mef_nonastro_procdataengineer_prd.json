@@ -1,0 +1,13 @@
+{
+    "intake_id": "M8756124",
+    "snowflake_account_id": "CARGILL-MIW_PROD",
+    "aad_group_name": "minerva_corp_dtd_mef_nonastro_procdataengineer_prd",
+    "purpose": "MEF Process Data Engineer role for prod environment, intended for programmatic read-only access and activities outside of Astro",
+    "role_owner_ds_id": "r402536",
+    "role_owner_email_id": "Rod_Norris@cargill.com",
+    "data_leader": "j081460",
+    "governance_and_access_lead": "j081460",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "DTD",
+    "sub_function": "MEF"
+}
