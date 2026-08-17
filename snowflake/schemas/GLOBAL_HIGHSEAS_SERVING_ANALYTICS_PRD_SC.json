@@ -6,7 +6,8 @@
     "access_roles": [
         "minerva_agtr_global_highseas_dataengineer_prd",
         "minerva_agtr_global_highseas_procdataengineer_prd",
-        "minerva_agtr_global_highseas_procdataconsumer_prd"
+        "minerva_agtr_global_highseas_procdataconsumer_prd",
+        "minerva_agtr_global_highseas_dataanalyst_prd"
         ],
     "description": "Schema for BDP for Ag & Trading Global Highseas data transformation on Snowflake",
     "data_first_classification": "Limited",
