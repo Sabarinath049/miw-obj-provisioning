@@ -1,0 +1,15 @@
+intake_id: M0000485
+console_role_name: minerva_agtr_tda_grains_dataengineer_prd
+aws_account_id: "578647603827"
+purpose: This console access allows TDA APAC data engineers to view CloudWatch
+  logs for Glue PySpark jobs running on MIW lakehouse prd account 578647603827
+role_owner_ds_id: y665342
+role_owner_email_id: Yueyue_Wu@cargill.com
+data_leader: y665342
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: TDA
+# Additional tag values must be selected from governance‑approved, standardized tags that are already applied to your resources.
+# Console access will only make resources visible if the required tags are present on those resources.
+additional_tag_filtering:
+  - <Key1>: <AGTR>
+  - <Key2>: <TDA>
