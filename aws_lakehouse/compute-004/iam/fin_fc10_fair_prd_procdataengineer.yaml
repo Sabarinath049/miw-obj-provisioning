@@ -35,9 +35,4 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs: 
     - fc10-fair
-# Configurations for Snowflake Catalog Federation
 snowflake_iceberg_support: false
-#principal_role_arn: "arn:aws:iam::774305575262:user/qf0u0000-s"
-#stsExternalIds:
-    #- GKB09971_SFCRole=1241_hPO40BTeFNzlRzauO6NlVolFJhA=
-    #- GKB09971_SFCRole=1241_JvUdbccIbQyGKmdSMFzfJLkbLr8=
