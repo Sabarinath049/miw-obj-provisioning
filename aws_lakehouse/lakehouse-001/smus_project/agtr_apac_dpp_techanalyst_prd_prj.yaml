@@ -4,7 +4,7 @@ smus_project_name: "agtr_apac_dpp_techanalyst_prd_prj"
 project_description: "This project is to be used by AGTR APAC tech analysts to validate ingestions"
 enterprise_or_func_name: "AGTR"
 enterprise_or_func_subgrp_name: "APAC"
-parent_domain_unit: "Minerva"
+parent_domain_unit: "APAC"
 data_leader: "p113822"
 project_membership:
   - minerva_agtr_apac_techanalyst_prd
