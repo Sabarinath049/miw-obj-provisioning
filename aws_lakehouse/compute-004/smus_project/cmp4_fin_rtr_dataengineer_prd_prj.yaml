@@ -13,11 +13,15 @@ access_to_resources:
   glue_databases:
     - fin_master_data_serving_prd
     - fin_general_ledger_curated_prd
-    - fin_general_ledger_serving_prd	
+    - fin_general_ledger_serving_prd
+    - fin_fc10_fair_prd_curated_prd
+    - fin_fc10_fair_prd_serving_analytics_prd
     - 578647603827:lh_sap_tcf_raw_serving_prd_rl
     - 578647603827:lh_jdw_raw_serving_prd_rl
     - 578647603827:lh_fin_manual_upload_raw_serving_prd_rl
-    - 578647603827:lh_sap_tca_raw_serving_prd_rl	
+    - 578647603827:lh_sap_tca_raw_serving_prd_rl  
+    - 578647603827:lh_cdp_fair_raw_prd_rl
+    - 578647603827:lh_cdp_fc10_raw_prd_rl
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/general_ledger/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/general_ledger/
