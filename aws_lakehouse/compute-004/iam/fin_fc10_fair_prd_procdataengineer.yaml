@@ -17,7 +17,6 @@ access_to_resources:
         read:
           - 578647603827:lh_cdp_fc10_raw_prd_rl
           - 578647603827:lh_cdp_fair_raw_prd_rl
-          - 578647603827:lh_saphana_fc10_raw_prd_rl
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/fc10_fair/"
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/fc10_fair/"
