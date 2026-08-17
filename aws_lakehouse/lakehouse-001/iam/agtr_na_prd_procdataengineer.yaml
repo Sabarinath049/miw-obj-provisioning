@@ -20,6 +20,7 @@ access_to_resources:
       - lh_lynx_raw_serving_prd
       - lh_jupiter_mexico_prd_raw_serving_prd
       - lh_jupiter_prd_raw_serving_prd
+      - lh_bsm_prd_raw_serving_prd
     read:
       - lh_sfca_raw_prd
       - lh_sfus_raw_prd
@@ -34,6 +35,7 @@ access_to_resources:
       - lh_lynx_raw_prd
       - 438465132548:lkc-vzdk2j_rl
       - lh_jupiter_prd_raw_prd
+      - lh_bsm_prd_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfca/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfus/"
@@ -45,6 +47,7 @@ access_to_resources:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/lynx/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/jupiter_mexico/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/jupiter/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/bsm/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
