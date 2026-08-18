@@ -1,4 +1,4 @@
-intake_id: "I123456"
+intake_id: "M123456"
 aws_account_id: "578647603827"
 smus_project_name: "corp_dtd_saprecon_techanalyst_prd_prj"
 project_description: "This project is to be uused for reconciling information between SAP and Minerva"
