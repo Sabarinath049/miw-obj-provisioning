@@ -1,5 +1,5 @@
 intake_id: "M0000732"
-database_name: "gtr_na_agtr_na_agrosoft_transactional_data_prd_curated_prd"
+database_name: "agtr_na_agrosoft_transactional_data_prd_curated_prd"
 database_s3_location: "s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_transactional_data/"
 database_description: "Database to store the curated data products of agrosoft transactional data NA"
 aws_account_id: "367241115350"
