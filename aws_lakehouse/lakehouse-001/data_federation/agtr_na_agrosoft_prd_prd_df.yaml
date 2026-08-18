@@ -1,14 +1,14 @@
-intake_id: M0000695
-data_share_name: agtr_na_dna_dev_df
+intake_id: M0000732
+data_share_name: agtr_na_agrosoft_prd_prd_df
 glue_databases:
-    - lh_agtr_na_dna_raw_dev
-data_share_description: "This data federation allows to share manual file upload raw databases from the producer account to the consumer account for development purpose only"
-aws_account_id: 438465132548
+    - lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd
+data_share_description: "This data federation enables to share all Agrosoft Production related databases from producer account to consumer accounts"
+aws_account_id: 578647603827
 data_env: prd
-data_construct: Source
-source_name: agtr_na_dna
+data_construct: DataProduct
+source_name: agrosoft
 cross_account_aws_ids:
-    - 068887784423
+    - 367241115350
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: NA
 data_owner: "Christopher_Peterson@cargill.com"
