@@ -9,9 +9,9 @@ data_env: prd
 data_layer: raw
 enterprise_or_func_name: AGTR
 source_name: rds
-data_classification: 'Confidential - Limited'
-data_privacy: NONE
+data_classification: 'BCI data'
+data_privacy: internal
 enterprise_or_func_subgrp_name: LATAM
-data_owner_email: tatiane_pioltine@cargill.com
-data_owner_github_uname: Tatiane-Pioltine
+data_owner_email: Alysson_Rocha@cargill.com
+data_owner_github_uname: AlyssonRocha
 data_leader: jcook
