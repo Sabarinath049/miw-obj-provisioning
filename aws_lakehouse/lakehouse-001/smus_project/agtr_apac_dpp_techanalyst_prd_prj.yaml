@@ -17,8 +17,8 @@ access_to_resources:
     - lh_sap_tce_raw_prd
     - lh_sap_tce_raw_serving_prd
     - lh_cdp_sap_tce_raw_prd
-    - lh_sap_rm_raw_prd 
-    - lh_sap_rm_raw_serving_prd  
+    - lh_sap_rm_raw_prd
+    - lh_sap_rm_raw_serving_prd
     - lh_cdp_sap_rm_raw_prd
     - 438465132548:lkc-vzdk2j_rl
   s3_prefixes:
