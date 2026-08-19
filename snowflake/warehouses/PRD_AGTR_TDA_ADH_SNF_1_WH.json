@@ -4,6 +4,8 @@
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
         "minerva_agtr_tda_procdataengineer_prd",
+        "minerva_agtr_tda_cocoa_protect_procdataconsumer_prd",
+        "minerva_agtr_tda_cocoa_protect_procdataengineer_prd",
         "minerva_agtr_tda_cocoa_procdataconsumer_prd",
         "minerva_agtr_tda_ethanol_procdataconsumer_prd",
         "minerva_agtr_tda_grains_procdataconsumer_prd",
