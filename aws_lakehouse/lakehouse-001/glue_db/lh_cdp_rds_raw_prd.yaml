@@ -1,0 +1,17 @@
+intake_id: M0000633
+database_name : lh_cdp_rds_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/rds/"
+database_description: "Store raw data for RDS source copied from CDP"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+enterprise_or_func_name: AGTR
+source_name: cdp
+data_classification: internal
+data_privacy: BCI
+enterprise_or_func_subgrp_name: LATAM
+data_owner_email: Alysson_Rocha@cargill.com
+data_owner_github_uname: AlyssonRocha
+data_leader: jcook
