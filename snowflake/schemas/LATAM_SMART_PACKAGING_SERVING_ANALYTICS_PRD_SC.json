@@ -4,7 +4,8 @@
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_AGTR_LATAM_DP_DB",
     "access_roles": [
-        "minerva_agtr_latam_dataengineer_prd"
+        "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_procdataengineer_prd"
     ],
     "description": "Schema for SmartPackaging Serving Layer for Ag & Trading Latam on Snowflake",
     "data_first_classification": "Limited",

@@ -4,7 +4,8 @@
     "catalog_integration_name": "PRD_CMP1_AGTR_LATAM_CTMS_REPORTING_CI",
     "description": "Provision a catalog integration for curated, serving for AGTR Latam data related to CTMS Reporting project.",
     "access_roles": [
-        "minerva_agtr_latam_dataengineer_prd"
+        "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
     "catalog_table_format": "ICEBERG",
