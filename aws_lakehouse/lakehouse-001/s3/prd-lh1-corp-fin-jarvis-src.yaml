@@ -1,7 +1,7 @@
 intake_id: M0001214
 bucket_name: prd-lh1-corp-fin-jarvis-src
 bucket_description: "Stores data for Corporate FIN JARVIS"
-aws_account_id: 632247962242
+aws_account_id: 578647603827
 aws_region: us-east-1
 usage_type: Source
 enterprise_or_func_name: "CORP"
