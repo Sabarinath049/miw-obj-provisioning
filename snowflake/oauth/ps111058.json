@@ -12,7 +12,8 @@
         "minerva_agtr_tda_cocoa_procdataconsumer_prd",
         "minerva_agtr_tda_ethanol_procdataconsumer_prd",
         "minerva_agtr_tda_grains_procdataconsumer_prd",
-        "minerva_agtr_tda_vegoils_procdataconsumer_prd"
+        "minerva_agtr_tda_vegoils_procdataconsumer_prd",
+        "minerva_agtr_tda_cocoa_protect_procdataconsumer_prd"
     ],
     "minerva_aad_group_owner": "y665341",
     "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
