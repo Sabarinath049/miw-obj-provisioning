@@ -4,7 +4,9 @@
   "catalog_integration_name": "PRD_CMP4_CORP_FIN_TE_CI",
   "description": "Provision a catalog integration for clean data construct for finance needs",
   "access_roles": [
-    "minerva_corp_fin_travel_expense_procdataengineer_prd"
+    "minerva_corp_fin_travel_expense_procdataconsumer_dev",
+    "minerva_corp_fin_travel_expense_procdataengineer_dev",
+    "minerva_corp_fin_travel_expense_dataengineer_dev"
   ],
   "catalog_source": "ICEBERG_REST",
   "catalog_table_format": "ICEBERG",
