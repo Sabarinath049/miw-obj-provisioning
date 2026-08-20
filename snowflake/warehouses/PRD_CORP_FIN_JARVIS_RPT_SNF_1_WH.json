@@ -3,8 +3,7 @@
     "warehouse_name": "PRD_CORP_FIN_JARVIS_RPT_SNF_1_WH",
     "snowflake_account_id": "cargill-miw_prd",
     "access_roles": [
-      "minerva_corp_fin_jarvis_procdataconsumer_prd",
-      "minerva_corp_fin_jarvis_dataengineer_prd"
+      "minerva_corp_fin_jarvis_procdataconsumer_prd"
     ],
     "data_leader": "c619185",
     "description": "small production warehouse for Finance FAH",
@@ -27,4 +26,5 @@
       "SNOWFLAKE"
     ]
 }
+
 
