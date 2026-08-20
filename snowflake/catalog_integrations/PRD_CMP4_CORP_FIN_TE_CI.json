@@ -13,7 +13,7 @@
   "rest_catalog_api_type": "AWS_GLUE",
   "catalog_namespace": [
       "fin_travel_expense_curated_prd",
-      "fin_travel_expense_serving_prd"
+      "fin_travel_expense_serving_analytics_prd"
    ],
   "rest_auth_type": "SIGV4",
   "rest_auth_iam_role": "arn:aws:iam::632247962242:role/fin_te_prd_procdataengineer",
