@@ -17,7 +17,7 @@ access_to_resources:
     - 578647603827:lh_cdp_tda_upstream_raw_prd_rl
 
   s3_prefixes:
-    - s3://prd-cmp1-tda-dp/serving/protect/analytics/prd/tda_cocoa/
+    - s3://prd-cmp1-tda-dp/serving/analytics/prd/tda_cocoa/protect/
 
 cross_account_config:
   cross_account_enabled: false
