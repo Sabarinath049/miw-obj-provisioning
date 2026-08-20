@@ -1,0 +1,17 @@
+intake_id: M0000633
+database_name : lh_rds_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/rds/"
+database_description: "Database for RDS to Lakehouse Ingestion Patterns"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+enterprise_or_func_name: AGTR
+source_name: rds
+data_classification: internal
+data_privacy: BCI
+enterprise_or_func_subgrp_name: LATAM
+data_owner_email: Alysson_Rocha@cargill.com
+data_owner_github_uname: AlyssonRocha
+data_leader: jcook
