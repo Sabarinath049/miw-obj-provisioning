@@ -61,6 +61,8 @@ access_to_resources:
         - lh_diamondv_embri_raw_prd
         - lh_diamondv_mills_raw_prd
         - lh_diamondv_tech_raw_prd
+        - lh_sensor_raw_prd
+        - lh_sensor_raw_serving_prd
         - lkc-myrp67
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
