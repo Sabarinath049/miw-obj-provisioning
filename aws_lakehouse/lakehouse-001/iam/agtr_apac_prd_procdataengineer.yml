@@ -31,6 +31,7 @@ access_to_resources:
       - lh_cdp_sap_tcc_raw_prd
       - lh_cdp_sap_tce_raw_prd
       - 438465132548:lkc-vzdk2j_rl
+      - lh_cdp_apac_domain_model_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gps/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gcs/"
