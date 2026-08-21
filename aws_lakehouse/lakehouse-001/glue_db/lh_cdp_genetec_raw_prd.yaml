@@ -1,0 +1,17 @@
+intake_id: M0000969
+database_name: lh_cdp_genetec_raw_prd
+database_s3_location: "s3://prd-lh1-corp-hr-src/raw/cdp/prd/src/genetec/"
+database_description: "Store business historical data for HRDPE from CDP GENETEC system"
+aws_account_id: '578647603827'
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: CDP
+data_classification: "Confidential - Limited"
+data_privacy: "PI"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "HR"
+data_owner_email: "Imran_Mohamed@cargill.com"
+data_owner_github_uname: ImranMohamed
+data_leader: a928983
