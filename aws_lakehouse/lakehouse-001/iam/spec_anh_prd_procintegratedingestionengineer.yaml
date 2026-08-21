@@ -35,6 +35,7 @@ access_to_resources:
         - lh_1c_manual_upload_raw_prd
         - lh_1c_monthly_manual_upload_raw_prd
         - lh_sensor_raw_prd
+        - lh_sensor_raw_serving_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw/current/prd/src/m3/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/sap_tc1/"
@@ -60,3 +61,4 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw/current/prd/src/1c_manual_upload/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/1c_monthly_manual_upload/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/sensor/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/sensor/"
