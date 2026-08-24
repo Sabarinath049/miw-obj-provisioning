@@ -8,8 +8,8 @@ data_env: prd
 data_construct: Source
 source_name: cdp
 cross_account_aws_ids:
-    - 438465132548
-    - 367241115350
+    - 068887784423
+
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 data_owner: "Y_Cheng@cargill.com"
