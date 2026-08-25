@@ -3,7 +3,7 @@ data_share_name: fin_accounts_payable_prd_df
 glue_databases:
     - fin_accounts_payable_curated_prd
     - fin_accounts_payable_serving_prd
-data_share_description: "This data federation enables to share Finance Account Payable Data databases from the FIN CROP account to the AGTR account"
+data_share_description: "This data federation enables to share Finance Account Payable Data databases from the FIN CROP account to the AGTR account "
 aws_account_id: 632247962242
 data_env: prd
 data_construct: DataProduct

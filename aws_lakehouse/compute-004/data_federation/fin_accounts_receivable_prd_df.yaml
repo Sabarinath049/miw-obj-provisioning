@@ -3,7 +3,7 @@ data_share_name: fin_accounts_receivable_prd_df
 glue_databases:
     - fin_accounts_receivable_curated_prd
     - fin_accounts_receivable_serving_prd
-data_share_description: "This data federation enables to share Finance Account Receivable databases from the CORP account to the AGTR account"
+data_share_description: "This data federation enables to share Finance Account Receivable databases from the CORP account to the AGTR account "
 aws_account_id: 632247962242
 data_env: prd
 data_construct: DataProduct
