@@ -112,6 +112,9 @@ athena_access_config:
   athena_workgroup_name: agtr_apac_prd_eng_xsml
 glue_job_access_config:
   enable_glue_jobs: true
+  secret_region: "us-east-1"
+  secret_name: 
+  - "apac/prd/consumption/auspom_salesforce_output_port"
   job_control_configs:
     - agtr-apac
 snowflake_iceberg_support: true
