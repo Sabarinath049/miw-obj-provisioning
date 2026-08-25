@@ -38,6 +38,8 @@ access_to_resources:
     - lh_delacon_raw_serving_prd
     - lh_lims_raw_serving_prd
     - lh_cdp_cnc_raw_prd
+    - lh_sensor_raw_prd
+    - lh_sensor_raw_serving_prd
     - lh_cdp_costko_raw_prd
     - lh_cdp_delacon_raw_prd
     - lh_cdp_lims_raw_prd
