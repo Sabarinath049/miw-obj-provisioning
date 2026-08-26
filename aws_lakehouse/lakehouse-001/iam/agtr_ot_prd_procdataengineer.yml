@@ -1,10 +1,10 @@
 intake_id: M0000858
-role_name: agtr_ot_dev_procintegratedingestionengineer
+role_name: agtr_ot_prd_procdataengineer
 role_description: This role is intended to be used by OT data engineers for programmatic access in the prd environment
 aws_account_id: 578647603827
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: OT
-data_leader: Jonathan Cook
+data_leader: r096362
 compute_size: SML
 max_session_duration: 2
 access_to_resources:
