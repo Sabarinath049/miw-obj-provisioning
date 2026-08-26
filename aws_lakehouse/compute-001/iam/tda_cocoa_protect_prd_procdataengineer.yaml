@@ -14,9 +14,9 @@ access_to_resources:
     write:
       - tda_cocoa_serving_protect_analytics_prd
     read:
-      - 438465132548:lh_cdp_tda_cocoa_raw_prd_rl
-      - 438465132548:lh_cdp_tda_cocoa_raw_serving_prd_rl
-      - 438465132548:lh_cdp_tda_upstream_raw_prd_rl
+      - 578647603827:lh_cdp_tda_cocoa_raw_prd_rl
+      - 578647603827:lh_cdp_tda_cocoa_raw_serving_prd_rl
+      - 578647603827:lh_cdp_tda_upstream_raw_prd_rl
   data_prefixes:
     - "s3://prd-cmp1-tda-dp/serving/analytics/prd/tda_cocoa/protect/"
   execution_asset_prefixes:

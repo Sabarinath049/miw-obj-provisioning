@@ -1,0 +1,17 @@
+intake_id: M0000664
+database_name: lh_sensor_raw_serving_prd
+database_s3_location: "s3://prd-lh1-spec-src/raw_serving/prd/src/sensor/"
+database_description: "Database for storing RAW-Serving sensor tables."
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: sensor
+data_classification: "critical"
+data_privacy: "BCI"
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: "ANH"
+data_owner_email: "Felipealves_Dasilva@cargill.com"
+data_owner_github_uname: FelipealvesDasilva
+data_leader: "jawillho"
