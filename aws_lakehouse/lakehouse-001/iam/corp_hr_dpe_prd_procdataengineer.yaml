@@ -1,5 +1,5 @@
 intake_id: M0000969
-role_name: corp_hr_dpe_prd_procdataengineer
+role_name: corp_hr_prd_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse in production
 aws_account_id: '578647603827'
 enterprise_or_func_name: CORP
