@@ -1,6 +1,6 @@
 {
     "intake_id": "M0000424",
-    "schema_name": "LATAM_FTS_REPORTING_SERVING_PRD_SC",
+    "schema_name": "LATAM_FTS_REPORTING_SERVING_ANALYTICS_PRD_SC",
     "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_AGTR_LATAM_DP_DB",
     "access_roles": [
