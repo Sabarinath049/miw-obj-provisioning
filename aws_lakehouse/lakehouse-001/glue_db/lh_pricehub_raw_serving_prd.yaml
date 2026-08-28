@@ -9,7 +9,7 @@ data_env: prd
 data_layer: raw
 source_name: pricehub
 data_classification: "Confidential - Restricted"
-data_privacy: "NONE"
+data_privacy: "BCI"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
 data_owner_email: "dimple_chander@cargill.com"
