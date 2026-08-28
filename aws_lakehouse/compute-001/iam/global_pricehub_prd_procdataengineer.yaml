@@ -1,7 +1,7 @@
 intake_id: M0001149
 role_name: global_pricehub_prd_procdataengineer
 role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading Global team
-aws_account_id: '068887784423'
+aws_account_id: '367241115350'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
 role_owner: "jonathan_cook@cargill.com"
