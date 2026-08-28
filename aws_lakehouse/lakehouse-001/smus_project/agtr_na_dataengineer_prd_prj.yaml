@@ -38,6 +38,7 @@ access_to_resources:
     - lh_jupiter_mexico_prd_raw_serving_prd
     - lh_bsm_prd_raw_prd
     - lh_bsm_prd_raw_serving_prd
+    - lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sfus/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sfca/
@@ -65,6 +66,7 @@ access_to_resources:
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/jupiter_mexico/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/bsm/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/bsm/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/dp/agrosoft_all_products/
   custom_git_config:
     custom_git_enabled: true
     repo_name:

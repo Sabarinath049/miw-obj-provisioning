@@ -31,7 +31,7 @@ access_to_resources:
     - "s3://prd-cmp1-anh-scripts/prd/anh/glue/"
     glue_crawler:
     - null
-glue_job_access_configs:
+glue_job_access_config:
   enable_glue_jobs: true
   secret_region: "us-east-1"
   secret_name:

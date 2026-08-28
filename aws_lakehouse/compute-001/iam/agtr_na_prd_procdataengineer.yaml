@@ -1,0 +1,44 @@
+intake_id: M0000732
+role_name: agtr_na_prd_procdataengineer
+role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading NA team
+aws_account_id: '367241115350'
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: NA
+role_owner: "Christopher_Peterson@cargill.com"
+data_env: prd
+usage_type: "DataEngineer"
+max_session_duration: 2
+compute_size: "MED"
+access_to_resources:
+  glue_databases:
+    write:
+      - agtr_na_agrosoft_dm_prd_curated_prd
+      - agtr_na_agrosoft_casc_projects_prd_curated_prd
+      - agtr_na_agrosoft_datawarehouse_prd_curated_prd
+      - agtr_na_agrosoft_analytics_stg_prd_curated_prd
+      - agtr_na_agrosoft_function_projects_prd_curated_prd
+      - agtr_na_agrosoft_position_sensitive_prd_curated_prd
+      - agtr_na_agrosoft_third_party_prd_curated_prd
+      - agtr_na_agrosoft_transactional_data_prd_curated_prd
+    read:
+      - 578647603827:lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd_rl
+  data_prefixes:
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_dm/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_casc_projects/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_datawarehouse/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_analytics_stg/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_function_projects/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_position_sensitive/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_third_party/
+    - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_transactional_data/
+
+  execution_asset_prefixes:
+    - s3://prd-cmp1-na-eng-assets/prd/na/athena/
+
+enable_glue_interactive_session: true
+athena_access_config:
+  enable_athena_access: true
+  athena_workgroup_name: agtr_na_prd_eng_xsml
+
+snowflake_iceberg_support: true
+role_owner: 'c675827'
