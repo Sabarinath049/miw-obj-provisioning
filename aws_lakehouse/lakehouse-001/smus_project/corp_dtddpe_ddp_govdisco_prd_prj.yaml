@@ -1,0 +1,35 @@
+intake_id: "M1234567"
+aws_account_id: "578647603827"
+smus_project_name: "corp_dtddpe_ddp_govdisco_prd_prj" 
+project_description: "This project is to be used by DDP data engineers for govenance and discovery"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "DTD_DPE"
+parent_domain_unit: "Minerva"
+data_leader: "k040619"
+project_membership:
+  - minerva_corp_dtd_platformgov_prd
+compute_size: "XSML"
+access_to_resources:
+  glue_databases:
+    -  minerva_prd_.*cln.*
+    -  minerva_prd_.*raw.*
+    -  minerva_prd_.*fdp.*
+    -  minerva_prd_.*bdp.*
+    -  minerva_prd_.*curated.*
+    -  minerva_prd_.*serving.*
+    -  glue_*
+    -  lh_*
+  s3_prefixes:
+  custom_git_config:
+    custom_git_enabled: False
+    repo_name: 
+    repo_branch:
+cross_account_enabled: false
+cross_account_config:
+  cross_account_enabled: false
+  cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false

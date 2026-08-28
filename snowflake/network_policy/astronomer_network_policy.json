@@ -3,12 +3,14 @@
   "network_policy_name": "astronomer_network_policy",
   "description": "Network rule to allow astronomer  vpceid to access snowflake instance",
   "sub_uuid": [
+    "33f2e39b-3eed-4fa3-8028-8901ddbec1ed",
     "0ecacc98-903b-4c46-a725-fb98a0e05aee",
     "eb7bc8ff-a15f-492b-94a1-c4565c1ea3b1",
     "4992af1a-e985-4241-88ac-bd732349e51d",
     "1f831727-872e-4f5f-bb29-4a72ef133505",
     "2e622de1-dabd-4ad6-b1a3-532b9e050e97",
-    "b76462d1-6fc4-43ac-ba3b-3f4dcdc94bca"
+    "b76462d1-6fc4-43ac-ba3b-3f4dcdc94bca",
+    "a9a08304-ec2f-4c4a-88fc-793560e98e93"
   ],
   "type":"AWSVPCEID",
   "mode":"INGRESS",
