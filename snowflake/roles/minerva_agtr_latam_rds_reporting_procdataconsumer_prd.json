@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000633",
+    "snowflake_account_id": "CARGILL-MIW_PROD",
+    "aad_group_name": "minerva_agtr_latam_rds_reporting_procdataconsumer_prd",
+    "purpose": "For Proc Data Consumer to read Latam (Latin America) RDS Reporting Data in Snowflake PROD.",
+    "role_owner_ds_id": "a394292",
+    "role_owner_email_id": "alysson_rocha@cargill.com",
+    "data_leader": "jcook",
+    "governance_and_access_lead": "t450776",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "sub_function": "RDS"
+}
