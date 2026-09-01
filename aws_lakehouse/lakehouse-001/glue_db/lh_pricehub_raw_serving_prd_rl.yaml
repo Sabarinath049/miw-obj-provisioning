@@ -8,7 +8,7 @@ data_construct: Source
 data_env: prd
 data_layer: raw
 source_name: cdp
-data_classification: "Critical"
+data_classification: "critical"
 data_privacy: "BCI"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
