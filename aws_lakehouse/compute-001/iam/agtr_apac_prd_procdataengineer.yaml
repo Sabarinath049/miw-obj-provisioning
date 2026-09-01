@@ -67,6 +67,7 @@ access_to_resources:
       - 578647603827:lh_sap_rm_raw_serving_prd_rl 
       - 578647603827:lh_sfsc_raw_prd_rl
       - 578647603827:lh_sfsc_raw_serving_prd_rl
+      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl
   data_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/
@@ -153,5 +154,4 @@ stsExternalIds:
   - OZB89938_SFCRole=1021_IqBxdp6Hx8KtuihJQnMBBUYZ1r8=
   - OZB89938_SFCRole=1021_o5rdGKP5Nwbv0B5p0xcRbcb1uag=
   - OZB89938_SFCRole=1021_YF8fh5f370HnhNmHLYG0/Uj3kNQ=
-
 role_owner: 's417088'
