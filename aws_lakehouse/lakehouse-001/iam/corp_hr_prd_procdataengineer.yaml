@@ -13,12 +13,17 @@ access_to_resources:
     glue_databases:
         write:
         - lh_genetec_raw_serving_prd
+        - lh_ukg_raw_serving_prd
+        - lh_cdp_ukg_raw_prd
+        - lh_ukg_raw_prd  
         read:
         - lh_cdp_genetec_raw_prd
         - lh_genetec_raw_prd
-
     data_prefixes:
     - "s3://prd-lh1-corp-hr-src/raw_serving/prd/src/genetec/"
+    - "s3://prd-lh1-corp-hr-src/raw/cdp/prd/src/ukg/"
+    - "s3://prd-lh1-corp-hr-src/raw/current/dev/src/ukg/"
+    - "s3://prd-lh1-corp-hr-src/raw_serving/prd/src/ukg/"
     execution_asset_prefixes:
     - "s3://prd-lh1-corp-hr-eng-assets/prd/hr/athena/"
     - "s3://prd-lh1-corp-hr-eng-assets/prd/hr/glue/"
