@@ -1,0 +1,17 @@
+intake_id: M0000688
+database_name: lh_regrow_prd_raw_prd
+database_s3_location: s3://prd-lh1-agtr-src/raw/current/prd/src/regrow/
+database_description: Used to store Raw data for Regrow MRV Source
+aws_account_id: '578647603827'
+region: us-east-1
+data_construct: Source
+data_env: dev
+data_layer: raw
+enterprise_or_func_name: AGTR
+source_name: regrow
+data_classification: 'highly_critical'
+data_privacy: BCI
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner_email: "Srikrishna_Pullabhotla@cargill.com"
+data_owner_github_uname: "SrikrishnaPullabhotla"
+data_leader: jcook

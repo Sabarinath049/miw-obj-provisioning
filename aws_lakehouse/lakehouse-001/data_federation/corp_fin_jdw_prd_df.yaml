@@ -3,6 +3,7 @@ data_share_name: corp_fin_jdw_prd_df
 glue_databases:
     - lh_cdp_jdw_raw_prd
     - lh_jdw_raw_prd
+    - lh_jdw_raw_serving_prd
 data_share_description: "This data federation enables to share all JDW Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
@@ -10,6 +11,8 @@ data_construct: Source
 source_name: jdw
 cross_account_aws_ids:
     - 438465132548
+    - 324612370323
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: FIN
 data_owner: "chris_coward@cargill.com"
+
