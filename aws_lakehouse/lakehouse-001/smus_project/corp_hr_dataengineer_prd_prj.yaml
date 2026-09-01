@@ -4,10 +4,10 @@ smus_project_name: "corp_hr_dataengineer_prd_prj"
 project_description: "This project is to be used by HR  data engineers to ingest employee attendance data pipeline"
 enterprise_or_func_name: "CORP"
 enterprise_or_func_subgrp_name: "HR"
-parent_domain_unit: "DPE"
+parent_domain_unit: "HR"
 data_leader: "a928983"
 project_membership:
-  - minerva_corp_hr_dpe_dataengineer_prod
+  - minerva_corp_hr_dataengineer_prod
 compute_size: "XSML"
 access_to_resources:
   glue_databases:
