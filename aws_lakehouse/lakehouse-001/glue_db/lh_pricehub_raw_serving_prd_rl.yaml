@@ -1,0 +1,17 @@
+intake_id: M0001149
+database_name: lh_pricehub_raw_serving_prd_rl
+database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/pricehub/"
+database_description: "Database for CDP Pricehub DB to Lakehouse Ingestion Patterns"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: cdp
+data_classification: "Confidential - Restricted"
+data_privacy: "BCI"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner_email: "dimple_chander@cargill.com"
+data_owner_github_uname: DimpleChander
+data_leader: y665341
