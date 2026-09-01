@@ -39,7 +39,13 @@ access_to_resources:
     - lh_bsm_prd_raw_prd
     - lh_bsm_prd_raw_serving_prd
     - lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd
+    - lh_regrow_prd_raw_prd
+    - lh_cdp_regrow_raw_prd
+    - lh_regrow_prd_raw_serving_prd
   s3_prefixes:
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/regrow/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/regrow/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/regrow/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sfus/
     - s3://prd-lh1-agtr-src/raw/current/prd/src/sfca/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/sfus/
