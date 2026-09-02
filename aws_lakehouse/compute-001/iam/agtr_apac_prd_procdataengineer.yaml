@@ -1,6 +1,6 @@
 intake_id: M0000516
 role_name: agtr_apac_prd_procdataengineer
-role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading APAC team
+role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading APAC DE team
 aws_account_id: '367241115350'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
