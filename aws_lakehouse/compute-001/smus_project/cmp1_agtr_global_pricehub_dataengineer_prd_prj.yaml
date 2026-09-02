@@ -1,0 +1,31 @@
+intake_id: "M0001149"
+aws_account_id: "367241115350"
+smus_project_name: "cmp1_agtr_global_pricehub_dataengineer_prd_prj"
+project_description: "This project is to be used by AGTR Global pricehub data engineers to create DATA products"
+enterprise_or_func_name: "AGTR"
+enterprise_or_func_subgrp_name: "GLOBAL"
+parent_domain_unit: "Minerva"
+data_leader: "y665341"
+project_membership:
+  - minerva_agtr_pricehub_dataengineer_prd
+compute_size: "MED"
+access_to_resources:
+  glue_databases:
+    - global_pricehub_curated_prd
+    - global_pricehub_serving_analytics_prd
+    - 438465132548:lh_cdp_pricehub_internal_raw_prd_rl
+    - 438465132548:lh_cdp_pricehub_product_raw_prd_rl
+    - 578647603827:lh_cdp_pricehub_upstream_raw_prd_rl
+    - 578647603827:lh_pricehub_raw_serving_prd_rl
+    - 578647603827:lh_cdp_tda_upstream_raw_prd_rl
+  s3_prefixes:
+      - "s3://prd-cmp1-global-dp/curated/prd/global/pricehub/"
+      - "s3://prd-cmp1-global-dp/serving/analytics/prd/global/pricehub/"
+cross_account_config:
+  cross_account_enabled: false
+  cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false

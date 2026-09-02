@@ -1,0 +1,17 @@
+intake_id: M0000591
+data_share_name: wtg_daf_prd_df
+glue_databases:
+    - lh_magellan_prd_raw_prd
+    - lh_daf_raw_prd
+    - lh_cdp_daf_raw_prd
+    - lh_daf_raw_serving_prd
+data_share_description: "This data federation enables to share all raw tables from WTG_DAF raw and CDP historical databases to curated data products development purpose only"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: daf
+cross_account_aws_ids:
+    - 367241115350
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: WTG_DAF
+data_owner: "Andre_Lamas@cargill.com"
