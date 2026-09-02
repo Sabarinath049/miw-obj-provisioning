@@ -1,6 +1,6 @@
 {
   "intake_id": "M0001215",
-  "database_name": "PRD_CORP_FIN_JARVIS_DB",
+  "database_name": "SF_CORP_FIN_JARVIS_SRC_DB",
   "snowflake_account_id": "cargill-miw_prod",
   "description": "Contains Finance Analytics Hub Serving Layer Data",
   "data_first_classification": "Restricted",
