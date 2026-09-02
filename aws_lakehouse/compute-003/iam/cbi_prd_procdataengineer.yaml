@@ -1,0 +1,48 @@
+intake_id: M0000555
+role_name: cbi_prd_procdataengineer
+role_description: IAM role to serve Data Engineering Use Cases in Compute AWS account
+aws_account_id: 011379513867
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: CBI
+role_owner: "matthew_bosch@cargill.com"
+data_leader: "j603735"
+data_env: prd
+usage_type: "DataEngineer"
+max_session_duration: 2
+compute_size: "MED"
+access_to_resources:
+    glue_databases:
+        write:
+          - cbi_all_curated_prd
+          - cbi_all_internal_prd
+          - cbi_all_serving_analytics_prd
+        read:
+          - 578647603827:lh_sap_tc1_raw_serving_prd_rl
+          - 578647603827:lh_sap_tc2_raw_serving_prd_rl
+          - 578647603827:lh_cbi_manual_upload_raw_prd_rl
+          - 632247962242:fin_master_data_curated_prd_rl
+          - 632247962242:fin_master_data_serving_prd_rl
+    data_prefixes:
+      - s3://prd-cmp3-cbi-dp/curated/prd/cbi/
+      - s3://prd-cmp3-cbi-dp/serving/prd/cbi/
+      - s3://prd-cmp3-cbi-dp/internal/prd/cbi/
+    execution_asset_prefixes:
+      - s3://prd-cmp3-cbi-eng-assets/prd/cbi/athena/
+      - s3://prd-cmp3-cbi-eng-assets/prd/cbi/glue/
+      - s3://prd-cmp3-cbi-scripts/prd/cbi/glue/
+    glue_crawler:
+    - null
+enable_glue_interactive_session: true
+athena_access_config:
+    enable_athena_access: true
+    athena_workgroup_name: spec_cbi_prd_eng_xsml
+glue_job_access_config:
+  enable_glue_jobs: true
+  job_control_configs:
+    - spec-cbi
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+- OZB89938_SFCRole=1021_UFLDj0uMwOR5CfHtF4CJBS+W1SE=
+- OZB89938_SFCRole=1021_h7Rh7SgobwGiDtUMOFAgEzUDE1w=
+    

@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000856",
+    "snowflake_account_id": "CARGILL-MIW_PROD",
+    "aad_group_name": "minerva_agtr_latam_ctms_reporting_procdataconsumer_prd",
+    "purpose": "For Proc Data Consumer to read Latam (Latin America) CTMS Reporting Data in Snowflake PROD.",
+    "role_owner_ds_id": "w596152",
+    "role_owner_email_id": "wesley_medeiros@cargill.com",
+    "data_leader": "t450776",
+    "governance_and_access_lead": "t450776",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "sub_function": "DPP"
+}

@@ -1,0 +1,34 @@
+intake_id: M0000485
+sg_name: agtr_tda_ethanol_prd_procdataengineer_sg
+sg_description: Security group allowing connection from lakehouse to Snowflake for agtr_tda_cocoa_prd_procdataengineer role
+aws_account_id: 578647603827
+env: prd
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: TDA
+sg_owner: yueyue_wu@cargill.com
+vpc_id: vpc-02ced923b696c4497 #Please collaborate with MIW to figure out the VPC_ID to use.
+subnet_id: subnet-01988328492f45963
+ingress_rules:
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    source_type: self
+    rule_description: Required AWS Glue self-referencing ingress
+egress_rules:
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: cidr
+    destination_value: 0.0.0.0/0
+    rule_description: Allow all outbound traffic to ensure read from Snowflake is possible and download python packages during runtime
+  - protocol: tcp
+    from_port: 80
+    to_port: 80
+    destination_type: cidr
+    destination_value: 0.0.0.0/0
+    rule_description: Test allow outbound traffic to check if ocsp URL is reachable
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    destination_type: self
+    rule_description: Required AWS Glue self-referencing egress

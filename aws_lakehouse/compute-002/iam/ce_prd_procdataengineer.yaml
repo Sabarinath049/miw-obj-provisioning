@@ -1,0 +1,37 @@
+intake_id: M0000523
+role_name: ce_prd_procdataengineer
+role_description: IAM role to serve Data Engineering Use Cases in Compute AWS account for Commercial Excellence
+aws_account_id: '884308299029'
+enterprise_or_func_name: FOOD
+enterprise_or_func_subgrp_name: CE
+role_owner: "Markis_Piper@cargill.com"
+data_leader: k418671
+data_env: prd
+usage_type: "DataEngineer"
+compute_size: "MED"
+max_session_duration: 2
+access_to_resources:
+    glue_databases:
+        write:
+          - ce_cpq_leap_curated_prd
+        read:
+          - 578647603827:lh_leapsf_raw_serving_prd_rl
+          - 578647603827:lh_pros_raw_serving_prd_rl
+    data_prefixes:
+      - "s3://prd-cmp2-ce-dp/curated/prd/ce/cpq_leap/"
+    execution_asset_prefixes:
+      - "s3://prd-cmp2-ce-eng-assets/prd/ce/athena/"
+    glue_crawler:
+      - null
+enable_glue_interactive_session: true
+athena_access_config:
+  enable_athena_access: true
+  athena_workgroup_name: ce_prd_eng_med
+snowflake_iceberg_support: true
+glue_job_access_configs:
+  enable_glue_jobs: true
+  job_control_configs:
+    - food-ce
+
+
+

@@ -10,7 +10,7 @@
 # Reference:
 # https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html
 # ============================================================================
-intake_id: M-0000517
+intake_id: M0000517
 role_name: apac_dev_procdataengineer
 role_description: IAM role to serve Data Engineering Use Cases in Lakehouse
 aws_account_id: '367241115350'
@@ -39,7 +39,7 @@ enable_glue_interactive_session: true
 enable_glue_data_quality: true
 athena_access_config:
     enable_athena_access: true
-    athena_workgroup_name: agtr_apac_prd_eng_xsml
+    athena_workgroup_name: agtr_apac_prd_eng
 glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:

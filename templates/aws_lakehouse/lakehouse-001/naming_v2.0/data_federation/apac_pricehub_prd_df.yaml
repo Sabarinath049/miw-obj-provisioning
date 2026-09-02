@@ -1,0 +1,14 @@
+intake_id: I-123456
+data_share_name: apac_pricehub_dev_df
+glue_databases:
+    - lh_cdp_pricehub_product_raw_prd
+data_share_description: "This data federation enables to share all databases ingested based on CDP Products to be federated to selective downstreams"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: DataProduct
+data_product_name: pricehub
+cross_account_aws_ids: 
+    - 367241115350
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: APAC
+data_owner: "abc_xyz@cargill.com"

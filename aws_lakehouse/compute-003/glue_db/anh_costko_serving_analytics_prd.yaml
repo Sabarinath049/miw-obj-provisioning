@@ -1,0 +1,17 @@
+intake_id: M0001174
+database_name: anh_costko_serving_analytics_prd
+database_s3_location: s3://prd-cmp3-anh-dp/serving/prd/anh/costko/analytics/
+database_description: "Used to store ANH Business Serving Datablocks tables"
+aws_account_id: 011379513867
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_product_name: "costko"
+data_classification: "internal"
+data_privacy: "NONE"
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+data_owner_email: Shawn_Yeager@cargill.com
+data_owner_github_uname: ShawnYeager
+data_leader: jawillho

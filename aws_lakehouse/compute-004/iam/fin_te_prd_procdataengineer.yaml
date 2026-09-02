@@ -1,0 +1,41 @@
+intake_id: M0000440
+role_name: fin_te_prd_procdataengineer
+role_description: IAM role for programmatic Data Engineer to execute DBT+GLUE jobs
+aws_account_id: '632247962242'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+role_owner: "chris_coward@cargill.com"
+data_env: prd
+usage_type: "DataEngineer"
+max_session_duration: 2
+compute_size: "MED"
+access_to_resources:
+    glue_databases:
+        write:
+        - fin_travel_expense_curated_prd
+        - fin_travel_expense_serving_analytics_prd
+        read:
+          - 578647603827:lh_concur_raw_serving_prd_rl
+    data_prefixes:
+    - "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/travel_expense/"
+    - "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/travel_expense/"
+    execution_asset_prefixes:
+    - "s3://prd-cmp4-corp-fin-eng-assets/prd/fin/athena/"
+    - "s3://prd-cmp4-corp-fin-eng-assets/prd/fin/glue/"
+    - "s3://prd-cmp4-corp-fin-scripts/prd/fin/glue/"
+    glue_crawler:
+    - null
+enable_glue_interactive_session: true
+athena_access_config:
+    enable_athena_access: true
+    athena_workgroup_name: corp_fin_prd_eng_lrg
+glue_job_access_config:
+  enable_glue_jobs: true
+  job_control_configs:
+    - corp-fin
+# Configurations for Snowflake Catalog Federation
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/qf0u0000-s"
+stsExternalIds:
+    - GKB09971_SFCRole=1241_zYmZ2yA/IsiWA2ibeoxc7G9aWVs=
+    - GKB09971_SFCRole=1241_M6PcX5w+WF0KTzqTTArUkp6GR3A=

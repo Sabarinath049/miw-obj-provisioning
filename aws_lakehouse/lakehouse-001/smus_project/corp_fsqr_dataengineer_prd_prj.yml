@@ -14,10 +14,18 @@ access_to_resources:
     - lh_conc_raw_serving_prd
     - lh_conc_raw_prd
     - lh_cdp_conc_raw_prd
+    - lh_grains_raw_prd
+    - lh_grains_raw_serving_prd
+    - lh_cdp_grains_raw_prd
+    - lh_cdp_leapsf_raw_prd
   s3_prefixes:
     - s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/conc/
     - s3://prd-lh1-corp-fsqr-src/raw/current/prd/src/conc/
     - s3://prd-lh1-corp-fsqr-src/raw/cdp/prd/src/conc/
+    - s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/grains/
+    - s3://prd-lh1-corp-fsqr-src/raw/current/prd/src/grains/
+    - s3://prd-lh1-corp-fsqr-src/raw/cdp/prd/src/grains/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/leapsf/
   custom_git_config:
     custom_git_enabled: true
     repo_name: 

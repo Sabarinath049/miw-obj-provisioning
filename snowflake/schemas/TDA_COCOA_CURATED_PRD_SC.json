@@ -1,0 +1,25 @@
+{
+    "intake_id": "M0000485",
+    "schema_name": "TDA_COCOA_CURATED_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prd",
+    "parent_db_name": "SF_AGTR_TDA_DP_DB",
+    "access_roles": [
+        "minerva_agtr_tda_procdataengineer_prd",
+        "minerva_agtr_tda_cocoa_procdataconsumer_prd",
+        "minerva_agtr_tda_cocoa_procdataengineer_prd"
+    ],
+    "description": "Schema for BDP for Ag & Trading TDA APAC data transformation on Snowflake",
+    "data_first_classification": "Limited",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA",
+    "product_group_identifier": "TDA",
+    "subject_or_prod_name": "TDA_COCOA",
+    "data_product_manager": "a000492",
+    "lead_engineer": "y665341",
+    "governance_and_access_lead": "a000492",
+    "product_cost_id": "",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
+

@@ -1,0 +1,29 @@
+{
+    "intake_id": "M0000485",
+    "snowflake_account_id": "cargill-miw_prd",
+    "ps_account_id": "ps320950",
+    "ps_account_email_id": "minerva_proc_agtr_tda_snf_etl_prd@cargill.com",
+    "ps_account_owner": "y665341",
+    "data_product_manager": "a000492",
+    "lead_engineer": "y665341",
+    "governance_and_access_lead": "a000492",
+    "minerva_aad_group": [
+        "minerva_agtr_tda_procdataengineer_prd",
+        "minerva_agtr_tda_cocoa_procdataengineer_prd",
+        "minerva_agtr_tda_grains_procdataengineer_prd",
+        "minerva_agtr_tda_vegoils_procdataengineer_prd",
+        "minerva_agtr_tda_ethanol_procdataengineer_prd",
+        "minerva_agtr_tda_cocoa_protect_procdataengineer_prd"
+    ],
+    "minerva_aad_group_owner": "y665341",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028",
+    "sub_uuid": "33f2e39b-3eed-4fa3-8028-8901ddbec1ed",
+    "purpose": "This psid is for Ag Tranding TDA APAC data ETL on Minerva MIW Snowflake production environment",
+    "consumption_stack": "AWS",
+    "einsight_uuid": [
+        "B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"
+    ],
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA"
+}

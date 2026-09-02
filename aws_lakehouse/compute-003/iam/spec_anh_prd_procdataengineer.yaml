@@ -14,6 +14,26 @@ access_to_resources:
         write:
         - anh_datablocks_curated_prd
         - anh_datablocks_serving_analytics_prd
+        - anh_core_data_curated_prd
+        - anh_core_data_serving_analytics_prd
+        - anh_bestmix_curated_prd
+        - anh_bestmix_serving_analytics_prd
+        - anh_bills_curated_prd
+        - anh_bills_serving_analytics_prd
+        - anh_cnc_curated_prd
+        - anh_cnc_serving_analytics_prd
+        - anh_costko_curated_prd
+        - anh_costko_serving_analytics_prd
+        - anh_delacon_curated_prd
+        - anh_delacon_serving_analytics_prd
+        - anh_diamondv_curated_prd
+        - anh_diamondv_serving_analytics_prd
+        - anh_lims_curated_prd
+        - anh_lims_serving_analytics_prd
+        - anh_trade_tracker_curated_prd
+        - anh_trade_tracker_serving_analytics_prd
+        - anh_wahoo_curated_prd
+        - anh_wahoo_serving_analytics_prd
         read:
           - 578647603827:lh_sap_tc1_raw_serving_prd_rl
           - 578647603827:lh_sap_tca_raw_serving_prd_rl
@@ -29,7 +49,17 @@ access_to_resources:
           - 578647603827:lh_axapta_raw_serving_prd_rl
           - 578647603827:lh_trdtrk_raw_serving_prd_rl
           - 578647603827:lh_nis_raw_serving_prd_rl
+          - 578647603827:lh_cdp_nis_raw_prd_rl
           - 578647603827:lh_m3_raw_serving_prd_rl
+          - 632247962242:fin_master_data_curated_prd_rl
+          - 632247962242:fin_master_data_serving_prd_rl
+          - 578647603827:lh_diamondv_dynamics_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_embri_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_mills_raw_serving_prd_rl
+          - 578647603827:lh_diamondv_tech_raw_serving_prd_rl
+          - 578647603827:lh_neolait_manual_upload_raw_prd_rl
+          - 578647603827:lh_1c_manual_upload_raw_prd_rl
+          - 578647603827:lh_1c_monthly_manual_upload_raw_prd_rl
     data_prefixes:
     - s3://prd-cmp3-anh-dp/curated/prd/anh/
     - s3://prd-cmp3-anh-dp/serving/prd/anh/

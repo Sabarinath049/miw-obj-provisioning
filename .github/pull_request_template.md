@@ -11,8 +11,7 @@
 
 ### Request Intake Template
 
-#### 1. What is the objective of this request?  
-Please describe the use case or business purpose.  
+#### 1. What is the objective of this request? Please describe the use case or business purpose.
 > _e.g., Provisioning a new resource to support ingestion of customer transaction data for reporting and analytics._
 
 ---

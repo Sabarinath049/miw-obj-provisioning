@@ -26,6 +26,16 @@ access_to_resources:
         - lh_bestmix_wemea_raw_prd
         - lh_trdtrk_raw_prd
         - lh_bills_raw_prd
+        - lh_unitcost_raw_prd
+        - lh_neolait_manual_upload_raw_prd
+        - lh_diamondv_dynamics_raw_prd
+        - lh_diamondv_embri_raw_prd
+        - lh_diamondv_mills_raw_prd
+        - lh_diamondv_tech_raw_prd
+        - lh_1c_manual_upload_raw_prd
+        - lh_1c_monthly_manual_upload_raw_prd
+        - lh_sensor_raw_prd
+        - lh_sensor_raw_serving_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw/current/prd/src/m3/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/sap_tc1/"
@@ -36,9 +46,19 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw/current/prd/src/delacon/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/lims/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/axapta/"
-    - "s3://prd-lh1-spec-src/raw/cdp/prd/src/trdtrk/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/trdtrk/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/bestmix_wemea/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/bestmix_latam_south/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/bestmix_latam_north/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/bestmix_ewoso/"
     - "s3://prd-lh1-spec-src/raw/current/prd/src/bills/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/unitcost/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/neolait_manual_upload/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/diamondv_dynamics/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/diamondv_embri/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/diamondv_mills/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/diamondv_tech/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/1c_manual_upload/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/1c_monthly_manual_upload/"
+    - "s3://prd-lh1-spec-src/raw/current/prd/src/sensor/"
+    - "s3://prd-lh1-spec-src/raw_serving/prd/src/sensor/"

@@ -1,5 +1,5 @@
 {
-    "intake_id": "I-123456",
+    "intake_id": "I123456",
     "database_name": "PRD_INT_ARCHER_DB",
     "snowflake_account_id": "cargill-miw_prod",
     "description": "Sample Database request template for Minerva MIW Snowflake users",

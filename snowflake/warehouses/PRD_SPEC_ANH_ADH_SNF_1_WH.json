@@ -1,0 +1,34 @@
+{
+    "intake_id": "M0000546",
+    "warehouse_name": "PRD_SPEC_ANH_ADH_SNF_1_WH",
+    "snowflake_account_id": "cargill-miw_prod",
+    "access_roles": [
+        "minerva_spec_anh_dataanalyst_prd",
+        "minerva_spec_anh_dataengineer_prd",
+        "minerva_spec_anh_procdataconsumer_prd"
+    ],
+    "data_leader": "jawillho",
+    "description": "Warehouse for SPEC ANH to query adhoc data on Snowflake PRD",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "ANH",
+    "product_group_identifier": "",
+    "warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "min_cluster_count": 1,
+    "max_cluster_count": 8,
+    "query_timeout_in_seconds": 500,
+    "alert_subscribers_list": [
+        "DINESH_CHANDRAN@CARGILL.COM",
+        "FELIPEALVES_DASILVA@CARGILL.COM",
+        "PHIL_MILLER@CARGILL.COM",
+        "ASHLYNN_BLAHA@CARGILL.COM",
+        "RICK_CRABTREE@CARGILL.COM"
+    ],
+    "workload_category": [
+        "ADH"
+    ],
+    "consumption_stack": [
+        "SNOWFLAKE"
+    ]
+}

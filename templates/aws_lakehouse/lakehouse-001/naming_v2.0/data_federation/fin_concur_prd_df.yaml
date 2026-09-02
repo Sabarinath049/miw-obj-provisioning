@@ -1,4 +1,4 @@
-intake_id: I-123456
+intake_id: I123456
 data_share_name: fin_concur_prd_df
 glue_databases:
     - lh_concur_raw_serving_prd

@@ -3,7 +3,7 @@ role_name: agtr_tda_vegoils_prd_procintegratedingestionengineer
 role_description: MIF IAM role for AGTR TDA_VEGOILS Ingestion patterns to lakehouse.
 aws_account_id: '578647603827'
 enterprise_or_func_name: AGTR
-enterprise_or_func_subgrp_name: TDA_VEGOILS
+enterprise_or_func_subgrp_name: TDA
 role_owner: 'Purnendu_Das@cargill.com'
 data_env: prd
 usage_type: "IngestionEngineer"
