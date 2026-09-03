@@ -1,0 +1,28 @@
+{
+    "intake_id": "M0000449",
+    "warehouse_name": "PRD_CORP_FIN_MASTER_DATA_TRF_SNF_01_WH",
+    "snowflake_account_id": "cargill-miw_prd",
+    "access_roles": [
+      "minerva_corp_fin_master_data_procdataconsumer_prd",
+      "minerva_corp_fin_master_data_procdataengineer_prd",
+      "minerva_corp_fin_master_data_dataengineer_prd"
+    ],
+    "data_leader": "c619185",
+    "description": "small warehouse for Finance",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "FIN",
+    "product_group_identifier": "MASTER_DATA",
+    "warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "min_cluster_count": 1,
+    "max_cluster_count": 4,
+    "query_timeout_in_seconds": 1800,
+    "alert_subscribers_list": ["MUSTAFA_SHAIKH@CARGILL.COM"],
+    "workload_category": [
+      "TRF"
+    ],
+    "consumption_stack": [
+      "SNOWFLAKE"
+    ]
+}
