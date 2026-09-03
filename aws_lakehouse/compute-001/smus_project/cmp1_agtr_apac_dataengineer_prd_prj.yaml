@@ -65,6 +65,7 @@ access_to_resources:
     - 578647603827:lh_sap_rm_raw_serving_prd_rl 
     - 578647603827:lh_sfsc_raw_prd_rl
     - 578647603827:lh_sfsc_raw_serving_prd_rl
+    - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl
   s3_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/
@@ -108,6 +109,7 @@ access_to_resources:
      - "agtr-apac-aus-domain-model-dp"
      - "agtr-apac-pnl-std-ssea-aus-dp"
      - "agtr-apac-china-qilin-report-dp"
+     - "ag-tr-lakehouse-raw-to-snf-dp"
     repo_branch: "dev"
 cross_account_enabled: false
 cross_account_config:
