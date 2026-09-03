@@ -37,5 +37,9 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - agtr-global-pricehub
-snowflake_iceberg_support: false
+snowflake_iceberg_support: true
 # Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_K7o5egaeDS5AzrthFHBotDs7pIg= # GLOBAL_PRICEHUB_SERVING_ANALYTICS_PRD_CI
+  - OZB89938_SFCRole=1021_xS/wSSkl5yzBbZ47HL2jYSsjRRY= # GLOBAL_PRICEHUB_CURATED_PRD_CI
