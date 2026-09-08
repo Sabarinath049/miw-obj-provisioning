@@ -33,6 +33,8 @@ access_to_resources:
     - latam_fts_reporting_serving_analytics_prd
     - latam_rds_reporting_curated_prd
     - latam_rds_reporting_serving_analytics_prd
+    - latam_inventory_management_reporting_curated_prd
+    - latam_inventory_management_reporting_serving_analytics_prd
   s3_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
@@ -46,6 +48,8 @@ access_to_resources:
     - s3://prd-cmp1-latam-dp/serving/prd/latam/fts_reporting/analytics/
     - s3://prd-cmp1-latam-dp/curated/prd/latam/rds_reporting/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/rds_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/inventory_management/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/inventory_management/analytics/
 project_config:
   - project_env: "prd"
     custom_glue_db_name: ""
