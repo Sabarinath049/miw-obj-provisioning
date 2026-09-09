@@ -1,0 +1,13 @@
+{
+  "intake_id": "M0001215",
+  "snowflake_account_id": "cargill-miw_prd",
+  "aad_group_name": "minerva_corp_fin_jarvis_techanalyst_prd",
+  "purpose": "User can access Finance Analytics Hub production information from FAH Data product",
+  "role_owner_ds_id": "t671256",
+  "role_owner_email_id": "Tyron_Strachan@cargill.com",
+  "data_leader": "ccoward",
+  "governance_and_access_lead": "c619185",
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "FIN",
+  "sub_function": "FAH"
+}
