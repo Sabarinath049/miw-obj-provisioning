@@ -6,7 +6,7 @@
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_rds_procdataconsumer_prd",
+        "minerva_agtr_latam_rds_reporting_procdataconsumer_prd",
         "minerva_agtr_latam_rds_reporting_dataanalyst_prd"
     ],
     "description": "Schema for RDS Reporting Serving Layer for Ag & Trading Latam on Snowflake",
