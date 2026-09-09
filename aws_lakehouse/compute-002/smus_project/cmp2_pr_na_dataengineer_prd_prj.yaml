@@ -15,9 +15,11 @@ access_to_resources:
     - 438465132548:lh_sap_tcd_raw_serving_prd_rl
     - pr_na_optimized_analytics_foundation_curated_prd
     - pr_na_optimized_analytics_foundation_serving_analytics_prd
+    - pr_na_fps_reporting_curated_prd
   s3_prefixes:
     - s3://prd-cmp2-pr-na-dp/curated/prd/pr_na/optimized_analytics_foundation
     - s3://prd-cmp2-pr-na-dp/serving/prd/pr_na/optimized_analytics_foundation/analytics
+    - s3://prd-cmp2-pr-na-dp/curated/prd/pr_na/fps_reporting/
   custom_git_config:
     - custom_git_enabled: false
       repo_name: ""

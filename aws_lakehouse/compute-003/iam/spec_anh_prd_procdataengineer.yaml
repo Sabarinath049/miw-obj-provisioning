@@ -77,3 +77,12 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - spec-anh
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_m3eBChBkYvj6eOzaHjUkZWhYKcE=
+  - OZB89938_SFCRole=1021_v4aUQqdmLk0y/A8CfmffPlb4Ptc=
+  - OZB89938_SFCRole=1021_mbuThJpiuiQacSsqH1SlK3J5kI4=
+  - OZB89938_SFCRole=1021_Y6H9FS1U7aQIYhn9f2Tgn5AuazI=
+  - OZB89938_SFCRole=1021_x7ImVs1X1AF7zF2rOGhmAN6fOEs=
+  - OZB89938_SFCRole=1021_vTajmt5NvxmzNmmVRJOq3ZGvVfc=
