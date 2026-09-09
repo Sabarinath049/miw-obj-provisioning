@@ -1,0 +1,17 @@
+intake_id: M0000703
+database_name: lh_sf_fsqr_incident_management_raw_serving_prd
+database_s3_location: "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/incident_management/"
+database_description: "Used to store clean tables for incident management"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: incident_management
+data_classification: "internal"
+data_privacy: "NONE"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FSQR
+data_owner_email: "Dan_Peterson@cargill.com"
+data_owner_github_uname: "DanPeterson"
+data_leader: "Suzy Sawyer"

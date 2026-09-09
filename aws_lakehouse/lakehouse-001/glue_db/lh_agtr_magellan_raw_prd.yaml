@@ -1,5 +1,5 @@
 intake_id: "M0000591"
-database_name: "lh_magellan_prd_raw_prd"
+database_name: "lh_agtr_magellan_raw_prd"
 database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/magellan/"
 database_description: "oracle source name magellan pconn raw layer AGTR prd"
 aws_account_id: 578647603827
