@@ -1,7 +1,7 @@
 {
     "intake_id": "M0000432",
     "warehouse_name": "PRD_CORP_FIN_GENERAL_LEDGER_TRF_SNF_01_WH",
-    "snowflake_account_id": "gkb09971",   
+    "snowflake_account_id": "cargill-miw_prod",   
     "access_roles": [
       "minerva_corp_fin_general_ledger_procdataconsumer_prd",
       "minerva_corp_fin_general_ledger_procdataengineer_prd",
