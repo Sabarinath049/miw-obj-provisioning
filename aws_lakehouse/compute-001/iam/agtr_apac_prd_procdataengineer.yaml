@@ -67,7 +67,7 @@ access_to_resources:
       - 578647603827:lh_sap_rm_raw_serving_prd_rl 
       - 578647603827:lh_sfsc_raw_prd_rl
       - 578647603827:lh_sfsc_raw_serving_prd_rl
-      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl
+      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl  #CDP Historical Data
   data_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/
