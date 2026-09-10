@@ -21,6 +21,7 @@ access_to_resources:
     - 578647603827:lh_jdee1_raw_serving_prd_rl
     - 578647603827:lh_rds_raw_prd_rl
     - 578647603827:lh_cdp_rds_raw_prd_rl
+    - 578647603827:lh_gip_raw_prd_rl
     - latam_dms_curated_prd
     - latam_dms_serving_analytics_prd
     - latam_smartpackaging_curated_prd
@@ -35,6 +36,8 @@ access_to_resources:
     - latam_rds_reporting_serving_analytics_prd
     - latam_inventory_management_reporting_curated_prd
     - latam_inventory_management_reporting_serving_analytics_prd
+    - latam_gip_reporting_curated_prd
+    - latam_gip_reporting_serving_analytics_prd
   s3_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
@@ -50,6 +53,8 @@ access_to_resources:
     - s3://prd-cmp1-latam-dp/serving/prd/latam/rds_reporting/analytics/
     - s3://prd-cmp1-latam-dp/curated/prd/latam/inventory_management/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/inventory_management/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/gip_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/gip_reporting/analytics/
 project_config:
   - project_env: "prd"
     custom_glue_db_name: ""
