@@ -1,0 +1,17 @@
+intake_id: M0001327
+database_name: lh_sf_latam_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/sf_latam/"
+database_description: "Database for storing RAW - Salesforce Latam tables"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: sf_latam
+data_classification: 'Confidential - Limited'
+data_privacy: 'NONE'
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: LATAM
+data_owner_email: tatiane_pioltine@cargill.com
+data_owner_github_uname: tatianepioltine
+data_leader: jcook
