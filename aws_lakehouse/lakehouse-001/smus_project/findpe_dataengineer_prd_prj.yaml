@@ -40,6 +40,7 @@ access_to_resources:
     - lh_cdp_blckline_raw_prd
     - lh_cdp_fc10_raw_prd
     - lh_fc10_raw_serving_prd
+    - lh_fc10_raw_prd
     - lh_cdp_sap_mdg9_raw_prd
     - lh_sap_mdg9_raw_prd
     - lh_sap_mdg9_raw_serving_prd
@@ -74,6 +75,7 @@ access_to_resources:
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/blckline/
     - s3://prd-lh1-corp-fin-src/raw_serving/prd/src/fc10/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/fc10/
+    - s3://prd-lh1-corp-fin-src/raw/current/prd/src/fc10/
     - s3://prd-lh1-corp-fin-src/raw/cdp/prd/src/sap_mdg9/
     - s3://prd-lh1-corp-fin-src/raw/current/prd/src/sap_mdg9/
     - s3://prd-lh1-corp-fin-src/raw_serving/prd/src/sap_mdg9/
