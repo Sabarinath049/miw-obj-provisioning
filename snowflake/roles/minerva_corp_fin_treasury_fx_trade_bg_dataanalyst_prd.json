@@ -2,7 +2,7 @@
   "intake_id": "M0001239",
   "snowflake_account_id": "cargill-miw_prd",
   "aad_group_name": "minerva_corp_fin_treasury_fx_trade_bg_dataanalyst_prd",
-  "purpose": "User can access Finance Treasury FX Trade Data BG production information from Treasury Data product",
+  "purpose": "User can access Finance Treasury FX Trade Data BG Production Information from Treasury Data product",
   "role_owner_ds_id": "j627990",
   "role_owner_email_id": "Joris_Vaniersel@cargill.com",
   "data_leader": "ccoward",
