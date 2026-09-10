@@ -4,6 +4,8 @@ glue_databases:
     - lh_cdp_bills_raw_prd
     - lh_bills_raw_prd
     - lh_bills_raw_serving_prd
+    - lh_unitcost_raw_prd
+    - lh_unitcost_raw_serving_prd
 data_share_description: "This data federation enables to share all bills related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
