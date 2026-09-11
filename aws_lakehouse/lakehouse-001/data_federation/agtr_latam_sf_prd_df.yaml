@@ -1,0 +1,15 @@
+intake_id: M0001327
+data_share_name: agtr_latam_sf_prd_df
+glue_databases:
+    - lh_sf_latam_raw_prd
+data_share_description: "This data federation enables to share all Salesforce Latam related databases from producer account to consumer accounts"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: sf_latam
+cross_account_aws_ids:
+    - 438465132548
+    - 367241115350
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: LATAM
+data_owner: "Tatiane_Pioltine@cargill.com"
