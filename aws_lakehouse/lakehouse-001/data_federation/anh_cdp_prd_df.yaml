@@ -1,0 +1,17 @@
+intake_id: M0000546
+data_share_name: anh_cdp_prd_df
+glue_databases:
+    - lh_cdp_anh_wahoo_raw_prd
+    - lh_cdp_anh_datablocks_raw_prd
+    - lh_cdp_anh_core_data_raw_prd
+data_share_description: "This data federation enables sharing of ANH CDP raw source databases from the lakehouse-001 account to the SPEC compute accounts for curated data product development and seeding"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: cdp
+cross_account_aws_ids:
+    - 011379513867
+    - 836901248866
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+data_owner: "Shawn_Yeager@cargill.com"
