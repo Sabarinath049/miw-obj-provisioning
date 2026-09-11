@@ -6,8 +6,8 @@
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_inventory_management_reporting_dataanalyst_prd",
-        "minerva_agtr_latam_inventory_management_reporting_procdataconsumer_prd"
+        "minerva_agtr_latam_inventory_management_dataanalyst_prd",
+        "minerva_agtr_latam_inventory_management_procdataconsumer_prd"
     ],
     "description": "Schema for INVENTORY MANAGEMENT Reporting Serving Layer for Ag & Trading Latam on Snowflake",
     "data_first_classification": "Limited",
