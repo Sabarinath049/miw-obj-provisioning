@@ -60,6 +60,8 @@ access_to_resources:
           - 578647603827:lh_neolait_manual_upload_raw_prd_rl
           - 578647603827:lh_1c_manual_upload_raw_prd_rl
           - 578647603827:lh_1c_monthly_manual_upload_raw_prd_rl
+          - 578647603827:lh_bills_raw_prd_rl
+          - 578647603827:lh_unitcost_raw_prd_rl
     data_prefixes:
     - s3://prd-cmp3-anh-dp/curated/prd/anh/
     - s3://prd-cmp3-anh-dp/serving/prd/anh/
