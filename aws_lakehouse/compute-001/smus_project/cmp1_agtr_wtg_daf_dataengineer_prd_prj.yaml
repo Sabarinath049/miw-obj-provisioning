@@ -13,14 +13,18 @@ access_to_resources:
   glue_databases:
     - wtg_daf_curated_prd
     - wtg_daf_magellan_curated_prd
-    - 578647603827:lh_magellan_prd_raw_prd_rl
-    - 578647603827:lh_daf_raw_prd_rl
-    - 578647603827:lh_cdp_daf_raw_prd_rl
-    - 578647603827:lh_daf_raw_serving_prd_rl
+    - wtg_daf_magellan_serving_product_prd
+    - wtg_daf_serving_product_prd
+    - 578647603827:lh_agtr_magellan_raw_prd_rl
+    - 578647603827:lh_agtr_daf_raw_prd_rl
+    - 578647603827:lh_cdp_agtr_daf_raw_prd_rl
+    - 578647603827:lh_agtr_daf_raw_serving_prd_rl
 
   s3_prefixes:
     - s3://prd-cmp1-wtg-daf-dp/curated/prd/wtg_daf/daf/
     - s3://prd-cmp1-wtg-daf-dp/curated/prd/wtg_daf/magellan/
+    - s3://prd-cmp1-wtg-daf-dp/serving/product/prd/wtg_daf/magellan/
+    - s3://prd-cmp1-wtg-daf-dp/serving/product/prd/wtg_daf/daf/
 
 cross_account_config:
   cross_account_enabled: false
