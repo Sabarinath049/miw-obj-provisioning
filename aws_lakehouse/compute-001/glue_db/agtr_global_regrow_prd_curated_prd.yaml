@@ -1,0 +1,17 @@
+intake_id: M0000688
+database_name: agtr_global_regrow_prd_curated_prd
+database_s3_location: "s3://prd-cmp1-global-dp/curated/prd/global/regrow/"
+database_description: Store business data product for Regrow
+aws_account_id: 367241115350
+region: us-east-1
+data_construct: DataProduct
+data_env: prd
+data_layer: cur
+data_product_name: regrow
+data_classification: "Confidential - Restricted"
+data_privacy: "BCI"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner_email: "Srikrishna_Pullabhotla@cargill.com"
+data_owner_github_uname: "SrikrishnaPullabhotla"
+data_leader: jcook
