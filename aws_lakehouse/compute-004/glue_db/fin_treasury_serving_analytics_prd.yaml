@@ -1,6 +1,6 @@
 intake_id: M0001239
 database_name: fin_treasury_serving_analytics_prd
-database_s3_location: "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/treasury/"
+database_s3_location: "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/treasury/analytics/"
 database_description: "Treasury - serving/ready-for-consumption analytics data product for Treasury teams."
 aws_account_id: 632247962242
 region: us-east-1
