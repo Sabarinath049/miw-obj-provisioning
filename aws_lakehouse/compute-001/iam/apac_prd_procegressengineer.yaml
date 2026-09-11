@@ -20,6 +20,8 @@ access_to_resources:
           - agtr_china_sfdc_serving_prd
           - agtr_aus_dom_curated_prd
           - agtr_aus_dom_serving_prd
+          - agtr_aus_pom_curated_prd
+          - agtr_aus_pom_serving_prd
     execution_asset_prefixes:
     - s3://prd-cmp1-apac-eng-assets/prd/apac/athena/
     - s3://prd-cmp1-apac-eng-assets/prd/apac/glue/
