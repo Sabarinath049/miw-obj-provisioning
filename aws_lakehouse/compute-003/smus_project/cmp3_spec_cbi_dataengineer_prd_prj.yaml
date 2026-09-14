@@ -1,13 +1,12 @@
 intake_id: M-0000555
 aws_account_id: "011379513867"
 smus_project_name: cmp3_spec_cbi_dataengineer_prd_prj
-project_description: This project is to be used by CBI data engineers and tech analysts
+project_description: This project is to be used by CBI data engineers
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: CBI
 parent_domain_unit: "CBI"
 data_leader: "j603735"
 project_membership:
-  - minerva_spec_cbi_techanalyst_prd
   - minerva_spec_cbi_dataengineer_prd
 compute_size: SML
 access_to_resources:
