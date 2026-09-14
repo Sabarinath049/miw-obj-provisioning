@@ -4,9 +4,9 @@
     "snowflake_account_id": "cargill-miw_prd",
     "access_roles": [
       "minerva_corp_fin_treasury_procdataconsumer_prd",
-      "minerva_corp_fin_treasury_dataanalyst_fx_exp_jde_prd",
-      "minerva_corp_fin_treasury_dataanalyst_fx_trade_bg_prd",
-      "minerva_corp_fin_treasury_dataanalyst_fx_trade_rmg_prd",
+      "minerva_corp_fin_treasury_fx_exp_jde_dataanalyst_prd",
+      "minerva_corp_fin_treasury_fx_trade_bg_dataanalyst_prd",
+      "minerva_corp_fin_treasury_fx_trade_rmg_dataanalyst_prd",
       "minerva_corp_fin_treasury_dataengineer_prd"
     ],
     "data_leader": "ccoward",
@@ -30,4 +30,3 @@
       "SNOWFLAKE"
     ]
 }
-
