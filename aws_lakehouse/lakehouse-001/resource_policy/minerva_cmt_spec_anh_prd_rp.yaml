@@ -5,7 +5,7 @@ aws_account_id: "578647603827"
 cross_account_aws_id: "139823407693"
 enterprise_or_func_name: "SPEC"
 enterprise_or_func_subgrp_name: "ANH"
-data_leader: ShawnYeager
+data_leader: s469759
 principal_role_arn: "arn:aws:iam::139823407693:role/minerva-prd-corp-cmt-prdlhdataloader-iam-role"
 access_to_resources:
   glue_databases:
@@ -17,6 +17,9 @@ access_to_resources:
     - lh_cdp_delacon_raw_prd
     - lh_cdp_lims_raw_prd
     - lh_cdp_bills_raw_prd
+    - lh_cdp_anh_wahoo_raw_prd
+    - lh_cdp_anh_datablocks_raw_prd
+    - lh_cdp_anh_core_data_raw_prd
   s3_prefixes:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tc1/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/
@@ -26,3 +29,6 @@ access_to_resources:
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/delacon/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/lims/
     - s3://prd-lh1-spec-src/raw/cdp/prd/src/bills/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/anh/wahoo/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/datablocks/
+    - s3://prd-lh1-spec-src/raw/cdp/prd/src/core-data/
