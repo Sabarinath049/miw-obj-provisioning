@@ -1,0 +1,15 @@
+intake_id: M0001141
+database_name: fin_consolidated_commentary_serving_analytics_prd
+database_s3_location: "s3://prd-cmp4-corp-fin-dp/serving/prd/fin/consolidated_commentary/analytics/"
+database_description: "Store Onesteam Consolidated Commentary Data Serving Product data for Finance"
+aws_account_id: 632247962242
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_product_name: "consolidated_commentary"
+data_owner_email: 'raymond_hook@cargill.com'
+data_owner_github_uname: 'Raymond Hook'
+data_leader: r229742
