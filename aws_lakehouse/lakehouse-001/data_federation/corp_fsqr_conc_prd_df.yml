@@ -4,6 +4,8 @@ glue_databases:
     - lh_conc_raw_prd
     - lh_conc_raw_serving_prd
     - lh_cdp_conc_raw_prd
+    - lh_postgres_fsqr_conc_raw_prd
+    - lh_cdp_postgres_fsqr_conc_raw_prd
 data_share_description: "This data federation enables to share all CONC Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
