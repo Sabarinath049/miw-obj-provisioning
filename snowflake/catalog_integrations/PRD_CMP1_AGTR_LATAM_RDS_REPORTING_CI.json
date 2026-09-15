@@ -4,7 +4,8 @@
     "catalog_integration_name": "PRD_CMP1_AGTR_LATAM_RDS_REPORTING_CI",
     "description": "Provision a catalog integration for curated, serving for AGTR Latam data related to RDS Reporting project.",
     "access_roles": [
-        "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_dataengineer_prd", 
+        "minerva_agtr_latam_rds_reporting_procdataconsumer_prd", 
         "minerva_agtr_latam_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
