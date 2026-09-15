@@ -1,5 +1,5 @@
 intake_id: M0001327
-data_share_name: agtr_latam_sf_prd_df
+data_share_name: agtr_latam_sf_latam_prd_df
 glue_databases:
     - lh_sf_latam_raw_prd
 data_share_description: "This data federation enables to share all Salesforce Latam related databases from producer account to consumer accounts"
