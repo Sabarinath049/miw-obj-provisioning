@@ -1,0 +1,17 @@
+intake_id: M0000591
+database_name: lh_agtr_daf_raw_serving_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw_serving/prd/src/daf/"
+database_description: "will be Used to store daf raw_serving data for AG & Trading WTG DAF"
+aws_account_id: 578647603827
+region: us-east-1
+data_env: prd
+data_layer: "raw"
+data_construct: Source
+data_classification: "public"
+data_privacy: "NONE"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: WTG_DAF
+source_name: "daf"
+data_owner_email: "Andre_Lamas@cargill.com"
+data_owner_github_uname: "AndreLamas"
+data_leader: a451790

@@ -13,6 +13,10 @@ access_to_resources:
         write:
         - lh_conc_raw_prd
         - lh_grains_raw_prd
+        - lh_postgres_fsqr_conc_raw_prd
+        - lh_postgres_fsqr_grains_raw_prd
+        - lh_sf_fsqr_incident_management_raw_prd
     data_prefixes:
     - "s3://prd-lh1-corp-fsqr-src/raw/current/prd/src/conc/"
     - "s3://prd-lh1-corp-fsqr-src/raw/current/prd/src/grains/"
+    - "s3://prd-lh1-corp-fsqr-src/raw/current/prd/src/incident_management/"

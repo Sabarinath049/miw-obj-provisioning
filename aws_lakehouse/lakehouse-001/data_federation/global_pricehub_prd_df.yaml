@@ -1,0 +1,17 @@
+intake_id: M0001149
+data_share_name: global_pricehub_prd_df
+glue_databases:
+    - lh_pricehub_raw_serving_prd
+    - lh_cdp_pricehub_internal_raw_prd
+    - lh_cdp_pricehub_product_raw_prd
+    - lh_cdp_pricehub_upstream_raw_prd
+data_share_description: "This data federation enables to share all raw tables from CDP histrical data databases agrt pricehub to curated data products prdlopment purpose only "
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: pricehub
+cross_account_aws_ids:
+    - 367241115350
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+data_owner: "jonathan_cook@cargill.com"

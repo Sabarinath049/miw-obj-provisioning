@@ -14,9 +14,11 @@ access_to_resources:
     - lh_cdp_sap_tcg_raw_prd
     - lh_cdp_lynx_raw_prd
     - lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd
+    - lh_cdp_regrow_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/hrculbr/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/agrosoft/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/sap_tcg/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/lynx/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/dp/agrosoft_all_products/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/regrow/

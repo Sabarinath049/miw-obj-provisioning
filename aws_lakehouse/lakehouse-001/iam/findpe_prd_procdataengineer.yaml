@@ -42,6 +42,7 @@ access_to_resources:
         - lh_fin_jdee1_raw_prd
         - lh_cdp_fin_jdee1_raw_prd
         - lh_cdp_fc10_raw_prd
+        - lh_fc10_raw_prd
         - lh_cdp_fair_raw_prd
         - lh_cdp_blckline_raw_prd
         - lh_cdp_sap_mdg9_raw_prd
