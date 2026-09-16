@@ -8,9 +8,9 @@ data_construct: Source
 data_env: prd
 data_layer: raw
 source_name: sap
-data_classification: 'Confidential - Restricted'
+data_classification: "critical"
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: CPT
 data_owner_email: max_voots@cargill.com
 data_owner_github_uname: MaxVoots
-data_leader: Max Voots
+data_leader: m028072
