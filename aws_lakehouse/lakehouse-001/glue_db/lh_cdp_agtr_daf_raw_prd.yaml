@@ -1,5 +1,5 @@
 intake_id: "M0000591"
-database_name: "lh_cdp_daf_raw_prd"
+database_name: "lh_cdp_agtr_daf_raw_prd"
 database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/daf/"
 database_description: "Used for storing historical data from CDP for daf"
 aws_account_id: 578647603827
