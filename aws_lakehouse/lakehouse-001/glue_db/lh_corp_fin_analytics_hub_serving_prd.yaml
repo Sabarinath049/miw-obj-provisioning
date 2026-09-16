@@ -1,0 +1,17 @@
+intake_id: M0001215
+database_name: lh_corp_fin_analytics_hub_raw_serving_dev
+database_s3_location: "s3://dev-lh1-corp-fin-jarvis-src/raw_serving/dev/src/fin_analytics_hub/"
+database_description: "Store Raw Data Product for FAH"
+aws_account_id: 438465132548
+region: us-east-1
+data_env: dev
+data_layer: raw
+data_construct: DataProduct
+data_classification: "Critical"
+data_privacy: "None"
+source_name: fin_analytics_hub
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_owner_email: "Tyron_Strachan@cargill.com"
+data_owner_github_uname: TyronStrachan
+data_leader: r229742
