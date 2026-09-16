@@ -11,6 +11,7 @@ access_to_resources:
   glue_databases:
     write:
       - lh_agtr_cglframes_raw_serving_prd
+      - lh_agtr_cglframes_dftest_raw_serving_prd
     read:
       - lkc-myrp67
   data_prefixes:
