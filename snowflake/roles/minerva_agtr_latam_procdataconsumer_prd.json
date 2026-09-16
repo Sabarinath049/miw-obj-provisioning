@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000424",
+    "snowflake_account_id": "CARGILL-MIW_PROD",
+    "aad_group_name": "minerva_agtr_latam_procdataconsumer_prd",
+    "purpose": "For data proc consumers to read for AG Trading CASC Latam Data in Snowflake PRD",
+    "role_owner_ds_id": "a394292",
+    "role_owner_email_id": "Alysson_rocha@cargill.com",
+    "data_leader": "t450776",
+    "governance_and_access_lead": "t450776",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "sub_function": "DPP"
+}
