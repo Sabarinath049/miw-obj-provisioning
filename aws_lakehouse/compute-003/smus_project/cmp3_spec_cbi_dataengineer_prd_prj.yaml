@@ -20,6 +20,7 @@ access_to_resources:
     - 578647603827:lh_cbi_manual_upload_raw_prd_rl
     - 632247962242:fin_master_data_curated_prd_rl
     - 632247962242:fin_master_data_serving_prd_rl
+    - 578647603827:lh_leapsf_raw_serving_prd_rl
   s3_prefixes:
     - s3://prd-cmp3-cbi-dp/curated/
     - s3://prd-cmp3-cbi-dp/internal/

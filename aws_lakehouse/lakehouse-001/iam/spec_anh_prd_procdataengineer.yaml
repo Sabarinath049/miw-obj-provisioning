@@ -4,7 +4,7 @@ role_description: This role is intended to be used by Specialized Portfolio Solu
 aws_account_id: 578647603827
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
-data_leader: ShawnYeager
+data_leader: s469759
 compute_size: "XLRG"
 max_session_duration: 2
 access_to_resources:
@@ -61,7 +61,12 @@ access_to_resources:
         - lh_diamondv_embri_raw_prd
         - lh_diamondv_mills_raw_prd
         - lh_diamondv_tech_raw_prd
+        - lh_sensor_raw_prd
+        - lh_sensor_raw_serving_prd
         - lkc-myrp67
+        - lh_cdp_anh_wahoo_raw_prd
+        - lh_cdp_anh_datablocks_raw_prd
+        - lh_cdp_anh_core_data_raw_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/"

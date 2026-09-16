@@ -1,6 +1,6 @@
 intake_id: M0000516
 role_name: agtr_apac_prd_procdataengineer
-role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading APAC team
+role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for Ag & Trading APAC DE team
 aws_account_id: '367241115350'
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
@@ -67,6 +67,7 @@ access_to_resources:
       - 578647603827:lh_sap_rm_raw_serving_prd_rl 
       - 578647603827:lh_sfsc_raw_prd_rl
       - 578647603827:lh_sfsc_raw_serving_prd_rl
+      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl  #CDP Historical Data
   data_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/
@@ -112,6 +113,9 @@ athena_access_config:
   athena_workgroup_name: agtr_apac_prd_eng_xsml
 glue_job_access_config:
   enable_glue_jobs: true
+  secret_region: "us-east-1"
+  secret_name: 
+  - "apac/prd/consumption/auspom_salesforce_output_port"
   job_control_configs:
     - agtr-apac
 snowflake_iceberg_support: true
@@ -150,5 +154,4 @@ stsExternalIds:
   - OZB89938_SFCRole=1021_IqBxdp6Hx8KtuihJQnMBBUYZ1r8=
   - OZB89938_SFCRole=1021_o5rdGKP5Nwbv0B5p0xcRbcb1uag=
   - OZB89938_SFCRole=1021_YF8fh5f370HnhNmHLYG0/Uj3kNQ=
-
 role_owner: 's417088'

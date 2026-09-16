@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0000555", 
+    "database_name": "SF_SPEC_CBI_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "This database stores the Business Data Products for CBI users",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "CBI",
+    "data_leader": "j603735"
+}

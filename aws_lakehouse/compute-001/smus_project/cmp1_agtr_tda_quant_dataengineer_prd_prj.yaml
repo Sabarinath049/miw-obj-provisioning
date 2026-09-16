@@ -15,6 +15,7 @@ access_to_resources:
     - tda_quant_serving_analytics_prd
     - 578647603827:lh_tda_quant_raw_serving_prd_rl
     - 578647603827:lh_cdp_tda_quant_raw_prd_rl
+    - 578647603827:lh_tda_quant_raw_prd_rl
 
   s3_prefixes:
     - s3://prd-cmp1-tda-dp/curated/prd/tda_quant/
