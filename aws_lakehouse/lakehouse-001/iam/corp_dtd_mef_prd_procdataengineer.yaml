@@ -1,6 +1,6 @@
 intake_id: M-0000517
 role_name: corp_dtd_mef_prd_procdataengineer
-role_description: IAM role for AWS Glue crawler to access S3 and Glue Catalog for MEF team
+role_description: IAM role for AWS Glue crawler to access S3 and Glue Data Catalog for MEF team
 aws_account_id: '578647603827'
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: DTD
