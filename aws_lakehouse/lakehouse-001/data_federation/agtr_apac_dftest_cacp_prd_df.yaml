@@ -9,6 +9,7 @@ data_construct: Source
 source_name: cacp
 cross_account_aws_ids:
     - 011379513867
+    - 836901248866
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: APAC
 data_owner: "Purnendu_Das@cargill.com"
