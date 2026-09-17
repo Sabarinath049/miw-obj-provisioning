@@ -6,7 +6,8 @@
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_smartpackaging_procdataconsumer_prd"
+        "minerva_agtr_latam_smartpackaging_procdataconsumer_prd",
+        "minerva_agtr_latam_procdataconsumer_prd"
     ],
     "description": "Schema for SmartPackaging Serving Layer for Ag & Trading Latam on Snowflake",
     "data_first_classification": "Limited",
