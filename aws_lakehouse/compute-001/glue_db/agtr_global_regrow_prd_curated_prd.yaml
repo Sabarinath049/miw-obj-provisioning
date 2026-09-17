@@ -8,7 +8,7 @@ data_construct: DataProduct
 data_env: prd
 data_layer: cur
 data_product_name: regrow
-data_classification: "Confidential - Restricted"
+data_classification: "highly_critical"
 data_privacy: "BCI"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
