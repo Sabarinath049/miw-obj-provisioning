@@ -8,8 +8,7 @@
   "lead_engineer": "t213027", 
   "governance_and_access_lead": "j627990",
   "minerva_aad_group": [
-      "minerva_corp_fin_treasury_procdataconsumer_prd",
-	  "minerva_corp_fin_treasury_dataengineer_prd"
+      "minerva_corp_fin_treasury_procdataconsumer_prd"
   ],
   "minerva_aad_group_owner": "j627990",
   "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
