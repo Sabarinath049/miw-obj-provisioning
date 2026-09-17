@@ -1,0 +1,22 @@
+{
+  "intake_id": "M0000555",
+  "snowflake_account_id": "cargill-miw_prod",
+  "ps_account_id": "ps846986",
+  "ps_account_email_id": "MINERVA_PROC_CBI_SNF_ETL_PRD@cargill.com",
+  "ps_account_owner": "a116857",
+  "data_product_manager": "j603735",
+  "lead_engineer": "a116857", 
+  "governance_and_access_lead": "j603735",
+  "minerva_aad_group": [
+      "minerva_spec_cbi_procdataengineer_prd"
+  ],
+  "minerva_aad_group_owner": "j603735",
+  "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+  "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028/.default",
+  "sub_uuid": "01b7a11e-2507-4813-9677-7d01da5afaf6",
+  "purpose": "This PS ID will be used run ETL in Snowflake from the MEF tool",
+  "consumption_stack": "Snowflake",
+  "einsight_uuid": ["B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"],
+  "enterprise_or_func_name": "SPEC",
+  "enterprise_or_func_subgrp_name": "CBI"
+}
