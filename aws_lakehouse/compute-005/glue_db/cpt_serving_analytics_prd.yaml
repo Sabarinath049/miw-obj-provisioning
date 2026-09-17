@@ -1,0 +1,17 @@
+intake_id: M0000535
+database_name: cpt_serving_analytics_prd
+database_s3_location: "s3://prd-cmp5-corp-cpt-dp/serving/prd/cpt/analytics/"
+database_description: "Used to store all Serving Layer Products made by CPT Team"
+aws_account_id: 155407238062
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_product_name: "all"
+data_classification: "internal"
+data_privacy: "NONE"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: CPT
+data_owner_email: max_voots@cargill.com
+data_owner_github_uname: MaxVoots
+data_leader: m028072
