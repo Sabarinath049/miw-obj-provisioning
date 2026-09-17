@@ -5,7 +5,8 @@
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_smartpackaging_procdataconsumer_prd"
+        "minerva_agtr_latam_smartpackaging_procdataconsumer_prd",
+        "minerva_agtr_latam_procdataconsumer_prd"
     ],
     "data_leader": "tatiane_pioltine@cargill.com",
     "description": "Warehouse for Ag & Trading LATAM SmartPackaging adhoc query on Snowflake PRD",
