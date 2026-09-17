@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000491",
+    "snowflake_account_id": "cargill-miw_prd",
+    "aad_group_name": "minerva_agtr_tda_quant_dataengineer_prd",
+    "purpose": "For data engineer to read AG Trading TDA Quant Data in Snowflake prd",
+    "role_owner_ds_id": "a000492",
+    "role_owner_email_id": "ajay_rajendran@cargill.com",
+    "data_leader": "jcook",
+    "governance_and_access_lead": "a000492",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "TDA",
+    "sub_function": "TDA"
+}
