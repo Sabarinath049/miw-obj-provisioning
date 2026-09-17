@@ -14,14 +14,18 @@ access_to_resources:
     write:
       - wtg_daf_curated_prd
       - wtg_daf_magellan_curated_prd
+      - wtg_daf_magellan_serving_product_prd
+      - wtg_daf_serving_product_prd
     read:
-      - 578647603827:lh_magellan_prd_raw_prd_rl
-      - 578647603827:lh_daf_raw_prd_rl
-      - 578647603827:lh_daf_raw_serving_prd_rl
-      - 578647603827:lh_cdp_daf_raw_prd_rl
+      - 578647603827:lh_agtr_magellan_raw_prd_rl
+      - 578647603827:lh_agtr_daf_raw_prd_rl
+      - 578647603827:lh_cdp_agtr_daf_raw_prd_rl
+      - 578647603827:lh_agtr_daf_raw_serving_prd_rl
   data_prefixes:
     - s3://prd-cmp1-wtg-daf-dp/curated/prd/wtg_daf/daf/
     - s3://prd-cmp1-wtg-daf-dp/curated/prd/wtg_daf/magellan/
+    - s3://prd-cmp1-wtg-daf-dp/serving/product/prd/wtg_daf/magellan/
+    - s3://prd-cmp1-wtg-daf-dp/serving/product/prd/wtg_daf/daf/
   execution_asset_prefixes:
     - s3://prd-cmp1-wtg-daf-eng-assets/prd/wtg-daf/glue/
     - s3://prd-cmp1-wtg-daf-scripts/prd/wtg-daf/glue/
