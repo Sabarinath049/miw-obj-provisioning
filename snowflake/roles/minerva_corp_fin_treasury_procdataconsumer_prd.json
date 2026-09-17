@@ -2,7 +2,7 @@
   "intake_id": "M0001239",
   "snowflake_account_id": "cargill-miw_prd",
   "aad_group_name": "minerva_corp_fin_treasury_procdataconsumer_prd",
-  "purpose": "This Group is used to access Finance Treasury Data objects",
+  "purpose": "This Group is used to access Finance Treasury Data Objects",
   "role_owner_ds_id": "j627990",
   "role_owner_email_id": "Joris_Vaniersel@cargill.com",
   "data_leader": "ccoward",
@@ -11,3 +11,5 @@
   "enterprise_or_func_subgrp_name": "FIN",
   "sub_function": "TREASURY"
 }
+
+

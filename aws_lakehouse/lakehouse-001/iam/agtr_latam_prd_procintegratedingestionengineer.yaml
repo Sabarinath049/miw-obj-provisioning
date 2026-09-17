@@ -20,6 +20,7 @@ access_to_resources:
         - lh_rds_raw_prd
         - lh_cdp_rds_raw_prd
         - lh_gip_raw_prd
+        - lh_sf_latam_raw_prd
     data_prefixes:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/trust/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/fts/"
@@ -30,3 +31,4 @@ access_to_resources:
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/rds/"
     - "s3://prd-lh1-agtr-src/raw/cdp/prd/src/rds/"
     - "s3://prd-lh1-agtr-src/raw/current/prd/src/gip/"
+    - "s3://prd-lh1-agtr-src/raw/current/prd/src/sf_latam/"
