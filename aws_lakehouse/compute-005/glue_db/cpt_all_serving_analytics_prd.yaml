@@ -1,5 +1,5 @@
 intake_id: M0000535
-database_name: cpt_serving_analytics_prd
+database_name: cpt_all_serving_analytics_prd
 database_s3_location: "s3://prd-cmp5-corp-cpt-dp/serving/prd/cpt/analytics/"
 database_description: "Used to store all Serving Layer Products made by CPT Team"
 aws_account_id: 155407238062
