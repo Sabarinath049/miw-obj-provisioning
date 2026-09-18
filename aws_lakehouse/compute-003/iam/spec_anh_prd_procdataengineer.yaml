@@ -62,6 +62,9 @@ access_to_resources:
           - 578647603827:lh_1c_monthly_manual_upload_raw_prd_rl
           - 578647603827:lh_bills_raw_prd_rl
           - 578647603827:lh_unitcost_raw_prd_rl
+          - 578647603827:lh_cdp_anh_wahoo_raw_prd_rl
+          - 578647603827:lh_cdp_anh_datablocks_raw_prd_rl
+          - 578647603827:lh_cdp_anh_core_data_raw_prd_rl
     data_prefixes:
     - s3://prd-cmp3-anh-dp/curated/prd/anh/
     - s3://prd-cmp3-anh-dp/serving/prd/anh/
