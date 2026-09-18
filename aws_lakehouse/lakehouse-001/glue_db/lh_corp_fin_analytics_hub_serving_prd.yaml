@@ -7,11 +7,12 @@ region: us-east-1
 data_env: dev
 data_layer: raw
 data_construct: DataProduct
-data_classification: "Critical"
+data_classification: "Restricted"
 data_privacy: "None"
 source_name: fin_analytics_hub
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: FIN
 data_owner_email: "Tyron_Strachan@cargill.com"
 data_owner_github_uname: TyronStrachan
+
 data_leader: r229742
