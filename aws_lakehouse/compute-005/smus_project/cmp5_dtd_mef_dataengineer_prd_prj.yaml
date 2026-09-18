@@ -1,0 +1,31 @@
+intake_id: "M000001"
+aws_account_id: "155407238062"
+smus_project_name: "cmp5_dtd_mef_dataengineer_prd_prj"
+project_description: "This project is to be used by MEF data engineers to validate transformations"
+enterprise_or_func_name: "CORP"
+enterprise_or_func_subgrp_name: "DTD"
+parent_domain_unit: "Minerva"
+data_leader: "r402536"
+project_membership:
+  - minerva_corp_dtd_mef_dataengineer_prd
+compute_size: "XSML"
+access_to_resources:
+  glue_databases:
+        - dtd_nyc_taxi_curated_prd
+        - dtd_nyc_taxi_serving_prd
+  s3_prefixes:
+    - "s3://prd-cmp5-dtd-dp/serving/prd/mef/nyc_taxi/"
+    - "s3://prd-cmp5-dtd-dp/curated/prd/mef/nyc_taxi/"
+  custom_git_config:
+    custom_git_enabled: true
+    repo_name: 
+    repo_branch: "prd"
+cross_account_enabled: false
+cross_account_config:
+  cross_account_enabled: false
+  cross_account_name: ""
+project_config:
+  - project_env: "prd"
+    custom_glue_db_name: ""
+    log_retention: 90
+    enable_auto_sync_to_s3: false
