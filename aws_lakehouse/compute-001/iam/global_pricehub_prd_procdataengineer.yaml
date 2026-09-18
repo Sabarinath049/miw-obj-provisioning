@@ -15,8 +15,8 @@ access_to_resources:
       - global_pricehub_curated_prd
       - global_pricehub_serving_analytics_prd
     read:
-      - 438465132548:lh_cdp_pricehub_internal_raw_dev_rl
-      - 438465132548:lh_cdp_pricehub_product_raw_dev_rl
+      - 578647603827:lh_cdp_pricehub_internal_raw_prd_rl
+      - 578647603827:lh_cdp_pricehub_product_raw_prd_rl
       - 578647603827:lh_cdp_pricehub_upstream_raw_prd_rl
       - 578647603827:lh_pricehub_raw_serving_prd_rl
       - 578647603827:lh_cdp_tda_upstream_raw_prd_rl
