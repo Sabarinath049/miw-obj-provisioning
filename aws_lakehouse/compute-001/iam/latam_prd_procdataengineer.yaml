@@ -33,6 +33,7 @@ access_to_resources:
       - 578647603827:lh_jdee1_raw_serving_prd_rl
       - 578647603827:lh_rds_raw_prd_rl
       - 578647603827:lh_cdp_rds_raw_prd_rl
+      - 578647603827:lh_sf_latam_raw_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
