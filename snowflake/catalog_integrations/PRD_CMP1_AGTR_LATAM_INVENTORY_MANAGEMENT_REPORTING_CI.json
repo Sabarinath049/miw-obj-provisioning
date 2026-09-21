@@ -5,6 +5,7 @@
     "description": "Provision a catalog integration for curated, serving for AGTR Latam data related to INVENTORY MANAGEMENT Reporting project.",
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_inventory_management_procdataconsumer_prd",
         "minerva_agtr_latam_procdataengineer_prd"
     ],
     "catalog_source": "ICEBERG_REST",
