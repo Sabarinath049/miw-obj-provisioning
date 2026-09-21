@@ -1,0 +1,25 @@
+{
+    "intake_id": "M0001347",
+    "snowflake_account_id": "cargill-miw_prod",
+    "ps_account_id": "ps523028",
+    "ps_account_email_id": "minerva_proc_agtr_latam_snf_inventory_management_prd_snowflake-oauth-prd@cargill.com",
+    "ps_account_owner": "a394292",
+    "data_product_manager": "t450776",
+    "lead_engineer": "a394292",
+    "governance_and_access_lead": "t450776",
+    "minerva_aad_group": [
+        "minerva_agtr_latam_rds_reporting_procdataconsumer_prd",
+        "minerva_agtr_latam_inventory_management_procdataconsumer_prd"
+    ],
+    "minerva_aad_group_owner": "t450776",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028",
+    "sub_uuid": "5bccd879-9531-4243-b794-a2955373d832",
+    "purpose": "This psid is for AGTR Latam Inventory Management Reporting on Snowflake Prod environment",
+    "consumption_stack": "Snowflake",
+    "einsight_uuid": [
+        "B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"
+    ],
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM"
+}
