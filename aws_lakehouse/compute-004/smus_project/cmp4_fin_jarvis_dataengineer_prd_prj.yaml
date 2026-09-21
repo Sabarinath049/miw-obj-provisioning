@@ -1,4 +1,4 @@
-intake_id: M-123456
+intake_id: M0001215
 aws_account_id: "632247962242"
 smus_project_name: cmp4_fin_jarvis_dataengineer_prd_prj
 project_description: This project is to be used by finance data engineers
@@ -7,7 +7,7 @@ enterprise_or_func_subgrp_name: FIN
 parent_domain_unit: Finance
 data_leader: ccoward
 project_membership:
-  - minerva_fdna_jarvis_dataengineer_prd
+    - minerva_corp_fin_jarvis_dataengineer_prd
 compute_size: MED
 access_to_resources:
   glue_databases:
@@ -15,15 +15,18 @@ access_to_resources:
     - fin_master_data_serving_prd
     - fin_general_ledger_curated_prd
     - fin_general_ledger_serving_prd
+    - fin_jarvis_curated_prd
     - fin_jarvis_serving_prd
+    - 578647603827:lh_corp_fin_analytics_hub_raw_serving_prd    
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/
+    - s3://prd-cmp4-corp-fin-dp/curated/prd/jarvis/analytics_hub/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/jarvis/analytics_hub/
   custom_git_config:
     - custom_git_enabled: false
-      repo_name: 
-      repo_branch: 
+      repo_name: fin-jarvis-dp
+      repo_branch: main
 project_config:
   - project_env: prd
     custom_glue_db_name: glue_db
