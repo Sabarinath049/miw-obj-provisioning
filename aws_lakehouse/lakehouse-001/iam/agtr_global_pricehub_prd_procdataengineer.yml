@@ -34,6 +34,6 @@ athena_access_config:
   athena_workgroup_name: global_prd_eng_xsml
 data_env: prd
 usage_type: DataEngineer
-snowflake_iceberg_support: true
+snowflake_iceberg_support: false
 role_owner: 'Yueyue_Wu@cargill.com'
 
