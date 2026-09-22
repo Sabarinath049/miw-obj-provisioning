@@ -1,0 +1,42 @@
+intake_id: M8756124
+role_name: dtd_mef_prd_procegressengineer
+role_description: IAM role for MEF team
+aws_account_id: '155407238062'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+role_owner: "mayur_patel@cargill.com"
+data_leader: "a858857"
+data_env: prd
+usage_type: "EgressEngineer"
+compute_size: "SML"
+max_session_duration: 2
+access_to_resources:
+    glue_databases:
+        write:
+        - dtd_nyc_taxi_curated_prd
+        - dtd_nyc_taxi_serving_prd
+        read:
+        - 578647603827:lh_nyc_taxi_raw_serving_prd_rl
+    execution_asset_prefixes:
+    - "s3://prd-cmp5-dtd-scripts/prd/dtd/glue/"
+    - "s3://prd-cmp5-dtd-eng-assets/prd/dtd/glue/"
+    - "s3://prd-cmp5-dtd-eng-assets/prd/dtd/athena/"
+    data_prefixes:
+    - "s3://prd-cmp5-dtd-dp/serving/prd/mef/nyc_taxi/"
+    - "s3://prd-cmp5-dtd-dp/curated/prd/mef/nyc_taxi/"
+    glue_crawler:
+    - null
+enable_glue_interactive_session: true
+athena_access_config:
+    enable_athena_access: true
+    athena_workgroup_name: dtd_mef_prd_eng_xsml
+glue_job_access_configs:
+  enable_glue_jobs: true
+  secret_region: "us-east-1"
+  secret_name: "dtd/prd/consumption/snowflake_glue_etl"
+  glue_conn:
+    - dtd_mef_prd_snowflake_glue_etl_conn
+  job_control_configs:
+    - nyc-taxi
+
+    

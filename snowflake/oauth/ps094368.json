@@ -1,0 +1,22 @@
+{
+  "intake_id": "M0001239",
+  "snowflake_account_id": "cargill-miw_prd",
+  "ps_account_id": "ps094368",
+  "ps_account_email_id": "MINERVA_PROC_TREASURY_SNF_ETL_PRD_MINERVA_PROC_TREASURY_SNF_ETL_PRD@CARGILL.COM",
+  "ps_account_owner": "t213027",
+  "data_product_manager": "j627990",
+  "lead_engineer": "t213027", 
+  "governance_and_access_lead": "j627990",
+  "minerva_aad_group": [
+      "minerva_corp_fin_treasury_procdataconsumer_prd"
+  ],
+  "minerva_aad_group_owner": "j627990",
+  "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+  "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028/.default",
+  "sub_uuid": "4494ff44-e782-4c2d-9c8b-65bf6265649e",
+  "purpose": "This PS ID will be used for Finance Treasury Power BI Production Access to Snowflake",
+  "consumption_stack": "Snowflake",
+  "einsight_uuid": ["B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"],
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "FIN"
+}

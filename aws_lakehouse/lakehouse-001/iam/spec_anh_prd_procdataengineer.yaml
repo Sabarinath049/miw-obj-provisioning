@@ -87,11 +87,16 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_embri/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_mills/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_tech/"
+    execution_asset_prefixes:
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/athena/"
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/glue/"
+    - "s3://prd-lh1-spec-scripts/prd/anh/glue/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
 athena_access_config:
-  enable_athena_access: false
+    enable_athena_access: true
+    athena_workgroup_name: spec_anh_prd_eng_xsml
 data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: false
