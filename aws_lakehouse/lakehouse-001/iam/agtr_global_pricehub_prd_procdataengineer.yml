@@ -1,7 +1,7 @@
 intake_id: M0001149
 role_name: agtr_global_pricehub_prd_procdataengineer
 role_description: IAM role to serve as a Data Engineering Use Cases for Ag & Trading Pricehub team
-aws_account_id: "438465132548"
+aws_account_id: "578647603827"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: GLOBAL
 data_leader: jcook
