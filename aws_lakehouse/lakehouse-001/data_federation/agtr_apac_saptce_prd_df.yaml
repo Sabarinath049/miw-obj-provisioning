@@ -8,7 +8,7 @@ data_share_description: "This data  federation enables to share all SAP TCE Prod
 aws_account_id: 578647603827
 data_env: prd
 data_construct: Source
-source_name: sap_tce
+source_name: saptce
 cross_account_aws_ids:
     - 438465132548
     - 367241115350
