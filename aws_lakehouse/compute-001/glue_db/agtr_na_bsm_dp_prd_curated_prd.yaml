@@ -1,4 +1,3 @@
-
 intake_id: "M0001153"
 database_name: "agtr_na_bsm_dp_prd_curated_prd"
 database_s3_location: "s3://prd-cmp1-na-dp/curated/prd/agtr_na/bsm_dp/"
