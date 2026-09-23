@@ -1,0 +1,17 @@
+intake_id: M0000591
+database_name: wtg_daf_serving_product_prd
+database_s3_location: "s3://prd-cmp1-wtg-daf-dp/serving/product/prd/wtg_daf/daf/"
+database_description: "Serving product db for AGTR WTG DAF prd"
+aws_account_id: 367241115350
+region: us-east-1
+data_construct: DataProduct
+data_env: prd
+data_layer: srv
+data_product_name: daf
+data_classification: "public"
+data_privacy: "NONE"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: WTG_DAF
+data_owner_email: "Andre_Lamas@cargill.com"
+data_owner_github_uname: "AndreLamas"
+data_leader: a451790

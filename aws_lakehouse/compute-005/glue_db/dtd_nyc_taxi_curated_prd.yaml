@@ -1,0 +1,17 @@
+intake_id: I-123456
+database_name: dtd_nyc_taxi_curated_prd
+database_s3_location: "s3://prd-cmp5-dtd-dp/curated/prd/mef/nyc_taxi/"
+database_description: "Stores curated data for nyctaxi records - test source dataset"
+aws_account_id: 155407238062
+region: us-east-1
+data_construct: DataProduct
+data_env: prd
+data_layer: cur
+data_product_name: nyc_taxi
+data_classification: "public"
+data_privacy: "NONE"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_owner_email: "mayur_patel@cargill.com"
+data_owner_github_uname: MayurPatel
+data_leader: a123456

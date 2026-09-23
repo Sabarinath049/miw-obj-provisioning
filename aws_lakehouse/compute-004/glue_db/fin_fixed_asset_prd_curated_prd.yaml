@@ -1,0 +1,17 @@
+intake_id: M0001139
+database_name: fin_fixed_asset_prd_curated_prd
+database_s3_location: "s3://prd-cmp4-corp-fin-dp/curated/prd/fin/fixed_asset/"
+database_description: "Store Fixed Asset Curated Product data for Finance"
+aws_account_id: 632247962242
+region: us-east-1
+data_env: prd
+data_layer: cur
+data_construct: DataProduct
+data_classification: "Critical"
+data_privacy: None
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+data_product_name: "fixed_asset"
+data_owner_email: 'chris_coward@cargill.com'
+data_owner_github_uname: 'ChrisCoward'
+data_leader: ccoward

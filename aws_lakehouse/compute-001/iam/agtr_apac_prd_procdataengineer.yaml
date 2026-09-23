@@ -67,7 +67,11 @@ access_to_resources:
       - 578647603827:lh_sap_rm_raw_serving_prd_rl 
       - 578647603827:lh_sfsc_raw_prd_rl
       - 578647603827:lh_sfsc_raw_serving_prd_rl
-      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl
+      - 578647603827:lh_cdp_apac_domain_model_raw_prd_rl  #CDP Historical Data
+      - 632247962242:fin_accounts_payable_curated_prd_rl
+      - 632247962242:fin_accounts_payable_serving_prd_rl
+      - 632247962242:fin_accounts_receivable_curated_prd_rl
+      - 632247962242:fin_accounts_receivable_serving_prd_rl
   data_prefixes:
     - s3://prd-cmp1-apac-dp/curated/prd/apac/jig/
     - s3://prd-cmp1-apac-dp/serving/prd/apac/jig/

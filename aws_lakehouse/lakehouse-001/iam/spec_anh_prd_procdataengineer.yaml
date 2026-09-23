@@ -4,7 +4,7 @@ role_description: This role is intended to be used by Specialized Portfolio Solu
 aws_account_id: 578647603827
 enterprise_or_func_name: SPEC
 enterprise_or_func_subgrp_name: ANH
-data_leader: ShawnYeager
+data_leader: s469759
 compute_size: "XLRG"
 max_session_duration: 2
 access_to_resources:
@@ -64,6 +64,9 @@ access_to_resources:
         - lh_sensor_raw_prd
         - lh_sensor_raw_serving_prd
         - lkc-myrp67
+        - lh_cdp_anh_wahoo_raw_prd
+        - lh_cdp_anh_datablocks_raw_prd
+        - lh_cdp_anh_core_data_raw_prd
     data_prefixes:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tc1/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/sap_tca/"
@@ -84,11 +87,16 @@ access_to_resources:
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_embri/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_mills/"
     - "s3://prd-lh1-spec-src/raw_serving/prd/src/diamondv_tech/"
+    execution_asset_prefixes:
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/athena/"
+    - "s3://prd-lh1-spec-eng-assets/prd/anh/glue/"
+    - "s3://prd-lh1-spec-scripts/prd/anh/glue/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
 athena_access_config:
-  enable_athena_access: false
+    enable_athena_access: true
+    athena_workgroup_name: spec_anh_prd_eng_xsml
 data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: false

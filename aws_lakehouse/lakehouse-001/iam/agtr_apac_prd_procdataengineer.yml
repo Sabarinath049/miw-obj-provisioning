@@ -34,6 +34,7 @@ access_to_resources:
       - 438465132548:lkc-vzdk2j_rl
       - lh_cdp_apac_domain_model_raw_prd
       - lh_ekassea_prd_raw_prd
+      - lkc-myrp67
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gps/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gcs/"

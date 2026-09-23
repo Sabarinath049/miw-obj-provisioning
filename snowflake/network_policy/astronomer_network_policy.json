@@ -10,7 +10,9 @@
     "1f831727-872e-4f5f-bb29-4a72ef133505",
     "2e622de1-dabd-4ad6-b1a3-532b9e050e97",
     "b76462d1-6fc4-43ac-ba3b-3f4dcdc94bca",
-    "a9a08304-ec2f-4c4a-88fc-793560e98e93"
+    "a9a08304-ec2f-4c4a-88fc-793560e98e93",
+    "06d85cc5-6c5b-436e-b06a-310d92569a53",
+    "01b7a11e-2507-4813-9677-7d01da5afaf6"
   ],
   "type":"AWSVPCEID",
   "mode":"INGRESS",
