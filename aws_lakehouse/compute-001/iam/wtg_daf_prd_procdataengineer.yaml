@@ -39,3 +39,5 @@ glue_job_access_config:
   job_control_configs:
     - agtr-wtg-daf
 snowflake_iceberg_support: false
+
+
