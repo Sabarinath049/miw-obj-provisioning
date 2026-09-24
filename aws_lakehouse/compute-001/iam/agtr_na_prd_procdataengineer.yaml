@@ -20,6 +20,11 @@ access_to_resources:
       - agtr_na_agrosoft_position_sensitive_prd_curated_prd
       - agtr_na_agrosoft_third_party_prd_curated_prd
       - agtr_na_agrosoft_transactional_data_prd_curated_prd
+      - agtr_na_sfdcus_prd_curated_prd
+      - agtr_na_sfdcca_prd_curated_prd
+      - agtr_na_bsm_dp_prd_internal_prd
+      - agtr_na_lynx_dm_prd_curated_prd
+      
     read:
       - 578647603827:lh_cdp_agtr_na_agrosoft_all_products_prd_raw_prd_rl
   data_prefixes:
@@ -31,6 +36,10 @@ access_to_resources:
     - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_position_sensitive/
     - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_third_party/
     - s3://prd-cmp1-na-dp/curated/prd/na/agrosoft_transactional_data/
+    - s3://prd-cmp1-na-dp/curated/prd/na/sfdcus/
+    - s3://prd-cmp1-na-dp/curated/prd/na/sfdcca/
+    - s3://prd-cmp1-na-dp/curated/prd/agtr_na/bsm_dp/
+    - s3://prd-cmp1-na-dp/internal/prd/agtr_na/bsm_dp/
 
   execution_asset_prefixes:
     - s3://prd-cmp1-na-eng-assets/prd/na/athena/
