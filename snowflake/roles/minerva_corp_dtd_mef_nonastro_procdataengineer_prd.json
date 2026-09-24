@@ -10,5 +10,5 @@
     "enterprise_or_func_name": "CORP",
     "enterprise_or_func_subgrp_name": "DTD",
     "sub_function": "MEF",
-    "access_roles_alias": ["ALL_SC_RO"]
+    "access_roles_alias": ["ALL_SCH_READ"]
 }
