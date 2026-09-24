@@ -16,6 +16,8 @@ access_to_resources:
     - lh_cdp_pricehub_upstream_raw_prd
     - lh_pricehub_raw_prd
     - lh_pricehub_raw_serving_prd
+    - 438465132548:lh_cdp_pricehub_internal_raw_dev_rl
+    - 438465132548:lh_cdp_pricehub_product_raw_dev_rl
 
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/pricehub_internal/

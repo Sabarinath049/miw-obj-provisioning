@@ -1,0 +1,14 @@
+intake_id: M0000535
+data_share_name: corp_cpt_sap_raw_serving_prd_df
+glue_databases:
+    - lh_cpt_sap_raw_serving_prd
+data_share_description: "This data federation enables to share CPT SAP sourced Raw Serving Layer Data Products with Compute account"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: DataProduct
+source_name: cpt_sap_raw_serving_prd
+cross_account_aws_ids: 
+    - 155407238062
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: CPT
+data_owner: "max_voots@cargill.com"
