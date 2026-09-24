@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0001149",
+    "snowflake_account_id": "cargill-miw_prd",
+    "ps_account_id": "ps059336",
+    "ps_account_email_id": "minerva_proc_agtr_pricehub_snf_eng_prd@cargill.com",
+    "ps_account_owner": "y665341",
+    "data_product_manager": "jcook",
+    "lead_engineer": "y665341",
+    "governance_and_access_lead": "jcook",
+    "minerva_aad_group": [
+        "minerva_agtr_pricehub_procdataengineer_prd"
+    ],
+    "minerva_aad_group_owner": "jcook",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028",
+    "sub_uuid": "4b6c8bd4-e64f-4229-8345-5fae5fa4e53d",
+    "purpose": "This psid is for Ag Tranding Pricehub data ETL on Minerva MIW Snowflake prd environment",
+    "consumption_stack": "AWS",
+    "einsight_uuid": [
+        "B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"
+    ],
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "GLOBAL"
+}

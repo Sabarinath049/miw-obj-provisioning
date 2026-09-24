@@ -14,11 +14,50 @@ access_to_resources:
     write:
       - latam_dms_curated_prd
       - latam_dms_serving_analytics_prd
+      - latam_smartpackaging_curated_prd
+      - latam_smartpackaging_serving_analytics_prd
+      - latam_ctms_reporting_curated_prd
+      - latam_ctms_reporting_serving_analytics_prd
+      - latam_jde_reporting_curated_prd
+      - latam_jde_reporting_serving_analytics_prd
+      - latam_fts_reporting_curated_prd
+      - latam_fts_reporting_serving_analytics_prd
+      - latam_rds_reporting_curated_prd
+      - latam_rds_reporting_serving_analytics_prd
+      - latam_gip_reporting_curated_prd
+      - latam_gip_reporting_serving_analytics_prd
+      - latam_gip_reporting_curated_prd
+      - latam_gip_reporting_serving_analytics_prd
+      - latam_inventory_management_reporting_curated_prd
+      - latam_inventory_management_reporting_serving_analytics_prd
     read:
       - 578647603827:lh_fts_raw_prd_rl
+      - 578647603827:lh_pcfactory_raw_prd_rl
+      - 578647603827:lh_trust_raw_prd_rl
+      - 578647603827:lh_trust_raw_serving_prd_rl
+      - 578647603827:lh_jdee1_raw_prd_rl
+      - 578647603827:lh_jdee1_raw_serving_prd_rl
+      - 578647603827:lh_rds_raw_prd_rl
+      - 578647603827:lh_cdp_rds_raw_prd_rl
+      - 578647603827:lh_sf_latam_raw_prd_rl
+      - 578647603827:lh_gip_raw_prd_rl
   data_prefixes:
     - s3://prd-cmp1-latam-dp/curated/prd/latam/dms/
     - s3://prd-cmp1-latam-dp/serving/prd/latam/dms/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/smartpackaging/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/smartpackaging/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/ctms_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/ctms_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/jde_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/jde_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/fts_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/fts_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/rds_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/rds_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/gip_reporting/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/gip_reporting/analytics/
+    - s3://prd-cmp1-latam-dp/curated/prd/latam/inventory_management/
+    - s3://prd-cmp1-latam-dp/serving/prd/latam/inventory_management/analytics/
   execution_asset_prefixes:
     - s3://prd-cmp1-latam-eng-assets/prd/latam/glue/
     - s3://prd-cmp1-latam-scripts/prd/latam/glue/
@@ -29,3 +68,18 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - agtr-latam
+snowflake_iceberg_support: true
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_a+B3q/ZgpKX+Zq/aqFb37LBrlJQ=  # LATAM_SMARTPACKAGING_SERVING_ANALYTICS_PRD
+  - OZB89938_SFCRole=1021_L8J1e3eIAU8yMurp6OvKYpDJ1OI=  # LATAM_SMARTPACKAGING_CURATED_PRD
+  - OZB89938_SFCRole=1021_rkWI4jqROc3zsL3tM8fvd4r2SWA=  # LATAM_CTMS_REPORTING_SERVING_ANALYTICS_PRD
+  - OZB89938_SFCRole=1021_0qZD6zNtrMCAMdyp7dk4rc3OFuI=  # LATAM_CTMS_REPORTING_CURATED_PRD
+  - OZB89938_SFCRole=1021_NsYD97+h7i/ukLRdlLxma3MgeB4=  # LATAM_JDE_REPORTING_CURATED_PRD_CI
+  - OZB89938_SFCRole=1021_yjqUsKiZDAxdQObzoFW4UFVRx4g=  # LATAM_JDE_REPORTING_SERVING_ANALYTICS_PRD_CI
+  - OZB89938_SFCRole=1021_0ytzHowww/WmxM6knxY3Y9rc4Ns=  # LATAM_FTS_REPORTING_SERVING_ANALYTICS_PRD_CI
+  - OZB89938_SFCRole=1021_Z79KJzkZ4wPNl36tdSnGRtdsdVc=  # LATAM_FTS_REPORTING_CURATED_PRD_CI
+  - OZB89938_SFCRole=1021_CbGOMOHhAgcrI6KHVVFItnZbSlo=  # LATAM_RDS_REPORTING_CURATED_PRD_CI
+  - OZB89938_SFCRole=1021_n8pUoIniq2G0HcXyahDf9Adavhs=  # LATAM_RDS_REPORTING_SERVING_ANALYTICS_PRD_CI
+  - OZB89938_SFCRole=1021_lp43A+Xp0R1EZLWYBufWWnwsq28=  # LATAM_INVENTORY_MANAGEMENT_REPORTING_SERVING_ANALYTICS_PRD_CI

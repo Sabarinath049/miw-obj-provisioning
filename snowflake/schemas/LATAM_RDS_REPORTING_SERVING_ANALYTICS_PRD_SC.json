@@ -1,0 +1,27 @@
+{
+    "intake_id": "M0000633",
+    "schema_name": "LATAM_RDS_REPORTING_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_AGTR_LATAM_DP_DB",
+    "access_roles": [
+        "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_procdataengineer_prd",
+        "minerva_agtr_latam_rds_reporting_procdataconsumer_prd",
+        "minerva_agtr_latam_rds_reporting_dataanalyst_prd",
+        "minerva_agtr_latam_procdataconsumer_prd"
+    ],
+    "description": "Schema for RDS Reporting Serving Layer for Ag & Trading Latam on Snowflake",
+    "data_first_classification": "Limited",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "product_group_identifier": "LATAM",
+    "subject_or_prod_name": "RDS_REPORTING",
+    "data_product_manager": "tatiane_pioltine@cargill.com",
+    "lead_engineer": "t450776",
+    "governance_and_access_lead": "tatiane_pioltine@cargill.com",
+    "product_cost_id": "P-2335602",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
+

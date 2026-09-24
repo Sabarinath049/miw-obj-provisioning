@@ -18,8 +18,10 @@ access_to_resources:
         - fin_master_data_curated_prd
         write:
         - fin_jarvis_serving_prd
+        - fin_jarvis_curated_prd
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/jarvis/analytics_hub/"
+    - "s3://prd-cmp4-corp-fin-dp/curated/prd/jarvis/analytics_hub/"
     execution_asset_prefixes:
     - "s3://prd-cmp4-corp-fin-eng-assets/prd/jarvis/athena/"
 athena_access_config:

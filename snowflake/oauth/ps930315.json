@@ -1,0 +1,24 @@
+{
+    "intake_id": "M0000591",
+    "snowflake_account_id": "cargill-miw_prd",
+    "ps_account_id": "ps930315",
+    "ps_account_email_id": "minervaagtrwtgdafprocdataengineer_prd@cargill.com",
+    "ps_account_owner": "a696676",
+    "data_product_manager": "a451790",
+    "lead_engineer": "a696676",
+    "governance_and_access_lead": "a451790",
+    "minerva_aad_group": [
+        "minerva_agtr_wtg_daf_procdataengineer_prd"
+    ],
+    "minerva_aad_group_owner": "a696676",
+    "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
+    "oauth_resource_uri": "api://e701a1aa-a04c-44b9-bfff-8650c3265028",
+    "sub_uuid": "2e622de1-dabd-4ad6-b1a3-532b9e050e97",
+    "purpose": "This psid is for Ag and Trading wtg_daf proc data engineer and ETL on Minerva MIW Snowflake prd environment",
+    "consumption_stack": "Snowflake",
+    "einsight_uuid": [
+        "B3047DF0-A7BF-44B7-8D6D-B1E899555B1F"
+    ],
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "WTG_DAF"
+}

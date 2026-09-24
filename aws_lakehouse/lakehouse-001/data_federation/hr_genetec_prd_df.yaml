@@ -1,0 +1,14 @@
+intake_id: M0000969
+data_share_name: hr_genetec_prd_df
+glue_databases:
+    - lh_genetec_raw_serving_prd
+data_share_description: "This data federation enables to share all raw tables from genetec databases to curated data products"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: genetec
+cross_account_aws_ids: 
+    - 155407238062
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: HR
+data_owner: "Imran_Mohamed@cargill.com"

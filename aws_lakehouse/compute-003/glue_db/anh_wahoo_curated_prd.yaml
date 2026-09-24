@@ -1,0 +1,17 @@
+intake_id: M0001094
+database_name: anh_wahoo_curated_prd
+database_s3_location: s3://prd-cmp3-anh-dp/curated/prd/anh/wahoo/
+database_description: "Stores curated data for ANH Manufacturing Performance insights from Wahoo"
+aws_account_id: 011379513867
+region: us-east-1
+data_env: prd
+data_layer: cur
+data_construct: DataProduct
+data_product_name: "wahoo"
+data_classification: "Confidential - General Use"
+data_privacy: "NONE"
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+data_owner_email: Shawn_Yeager@cargill.com
+data_owner_github_uname: ShawnYeager
+data_leader: jawillho

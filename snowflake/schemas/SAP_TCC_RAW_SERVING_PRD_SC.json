@@ -1,0 +1,22 @@
+{
+    "intake_id": "M0000452",
+    "schema_name": "SAP_TCC_RAW_SERVING_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_AGTR_APAC_SRC_DB",
+    "access_roles": [
+        "minerva_agtr_apac_dataengineer_prd",
+        "minerva_agtr_apac_procdataconsumer_prd",
+        "minerva_agtr_apac_procdataengineer_prd"
+    ],
+    "description": "Schema for SRC for Ag & Trading APAC data transformation on Snowflake",
+    "data_first_classification": "Restricted",
+    "src_sys_name": "SAP_TCC",
+    "src_sys_state": "RAW_SERVING",
+    "data_product_manager": "p113822",
+    "lead_engineer": "p113822",
+    "governance_and_access_lead": "n205095",
+    "product_cost_id": "",
+    "data_retention_in_days": 1,
+    "port": "",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}

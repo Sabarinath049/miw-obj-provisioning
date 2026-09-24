@@ -1,23 +1,25 @@
 intake_id: "M0000451"
 aws_account_id: "578647603827"
 smus_project_name: "corp_dtd_dataengineer_prd_prj"
-project_description: "This project is to be used by CORP DTD data engineers to validate ingestions"
+project_description: "This project is to be used by CORP DTD IIQ data engineers to validate ingestions"
 enterprise_or_func_name: "CORP"
 enterprise_or_func_subgrp_name: "DTD"
 parent_domain_unit: "Minerva"
-data_leader: "m176662"
+data_leader: "g365220"
 project_membership:
-  - minerva_corp_dtd_dataengineer_prd
+  - minerva_corp_dtd_iiq_dataengineer_prd
 compute_size: "XSML"
 access_to_resources:
   glue_databases:
     - lh_cdp_iiq_raw_prd
     - lh_iiq_raw_prd
     - lh_iiq_raw_serving_prd
+    - lh_cdp_ecsf_raw_prd
   s3_prefixes:
     - s3://prd-lh1-corp-dtd-src/raw/cdp/prd/src/iiq/
     - s3://prd-lh1-corp-dtd-src/raw/current/prd/src/iiq/
     - s3://prd-lh1-corp-dtd-src/raw_serving/prd/src/iiq
+    - s3://prd-lh1-corp-hr-src/raw/cdp/prd/src/ecsf/
   custom_git_config:
     custom_git_enabled: false
     repo_name: ""

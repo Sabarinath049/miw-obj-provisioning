@@ -13,6 +13,7 @@ access_to_resources:
       - lh_agtr_cglframes_raw_serving_prd
     read:
       - lkc-myrp67
+      - lh_agtr_cglframes_dftest_raw_serving_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/cglframes/"
 enable_glue_interactive_session: true
@@ -24,3 +25,6 @@ data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: true
 role_owner: 'p113822'
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_6uX4VaKwIkvBMeFZ8ie6kPz85TM= # LH_AGTR_CGLFRAMES_RAW_SERVING_PRD_CI

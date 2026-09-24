@@ -1,0 +1,34 @@
+{
+    "intake_id": "M0000634",
+    "warehouse_name": "PRD_AGTR_LATAM_CTMS_REPORTING_ADH_SNF_1_WH",
+    "snowflake_account_id": "cargill-miw_prod",
+    "access_roles": [
+        "minerva_agtr_latam_dataengineer_prd",
+        "minerva_agtr_latam_ctms_reporting_dataanalyst_prd",
+        "minerva_agtr_latam_ctms_reporting_procdataconsumer_prd",
+        "minerva_agtr_latam_procdataengineer_prd",
+        "minerva_agtr_latam_procdataconsumer_prd"
+    ],
+    "data_leader": "t450776",
+    "description": "Warehouse for Ag & Trading LATAM CTMS Reporting adhoc query on Snowflake PRD",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "LATAM",
+    "product_group_identifier": "LATAM",
+    "warehouse_counter": 1,
+    "warehouse_size": "SMALL",
+    "monthly_credit_limit": 500,
+    "min_cluster_count": 1,
+    "max_cluster_count": 4,
+    "query_timeout_in_seconds": 1800,
+    "alert_subscribers_list": [
+        "WESLEY_MEDEIROS@CARGILL.COM",
+        "F_JUNIOR@CRGL-THIRDPARTY.COM",
+        "ALYSSON_ROCHA@CARGILL.COM"
+    ],
+    "workload_category": [
+        "ADH"
+    ],
+    "consumption_stack": [
+        "SNOWFLAKE"
+    ]
+}

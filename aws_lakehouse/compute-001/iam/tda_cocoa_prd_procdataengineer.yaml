@@ -24,6 +24,7 @@ access_to_resources:
       - 578647603827:lh_cdp_tda_cocoa_raw_prd_rl
       - 578647603827:lh_cdp_tda_cocoa_raw_serving_prd_rl
       - 578647603827:lh_cdp_tda_upstream_raw_prd_rl
+      - tda_cocoa_serving_protect_analytics_prd
 
   data_prefixes:
     - "s3://prd-cmp1-tda-dp/curated/prd/tda_cocoa/"

@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0001149",
+    "snowflake_account_id": "cargill-miw_prd",
+    "aad_group_name": "minerva_agtr_pricehub_procdataengineer_prd",
+    "purpose": "For data engineer to read AG Trading Pricehub Data in Snowflake prd",
+    "role_owner_ds_id": "jcook",
+    "role_owner_email_id": "jonathan_cook@cargill.com",
+    "data_leader": "y665341",
+    "governance_and_access_lead": "jcook",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "GLOBAL",
+    "sub_function": "Pricehub"
+  }

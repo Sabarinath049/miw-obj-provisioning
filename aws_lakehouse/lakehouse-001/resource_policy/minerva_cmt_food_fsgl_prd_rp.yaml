@@ -14,9 +14,13 @@ access_to_resources:
     - lh_cdp_sap_tc3_raw_prd
     - lh_cdp_pros_raw_prd
     - lh_cdp_sap_tc2_tm_raw_prd
+    - lh_cdp_leapsf_raw_prd
+    - lh_cdp_sap_tcd_ewm_raw_prd
   s3_prefixes:
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/jdeaf/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc3/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/pros/
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2_tm/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/leapsf/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tcd_ewm/

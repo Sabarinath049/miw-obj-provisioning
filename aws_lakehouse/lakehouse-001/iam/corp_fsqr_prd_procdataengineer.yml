@@ -12,14 +12,18 @@ access_to_resources:
         write:
         - lh_conc_raw_serving_prd
         - lh_grains_raw_serving_prd
+        - lh_sf_fsqr_incident_management_raw_serving_prd
         read:
         - lh_cdp_conc_raw_prd
         - lh_conc_raw_prd
         - lh_cdp_grains_raw_prd
         - lh_grains_raw_prd
+        - lh_cdp_sf_fsqr_incident_management_raw_prd
+        - lh_sf_fsqr_incident_management_raw_prd
     data_prefixes:
     - "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/conc/"
     - "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/grains/"
+    - "s3://prd-lh1-corp-fsqr-src/raw_serving/prd/src/incident_management/"
     glue_crawler:
     - null
 enable_glue_interactive_session: true

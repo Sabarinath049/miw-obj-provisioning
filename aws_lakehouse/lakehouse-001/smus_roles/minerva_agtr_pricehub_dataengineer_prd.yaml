@@ -1,0 +1,11 @@
+intake_id: M0001149
+aad_group_name: "minerva_agtr_pricehub_dataengineer_prd"
+aws_account_id: "578647603827"
+purpose: "This group is used by Ag & Trading Price Hub data engineers to explore ingested Price Hub data in prd"
+role_owner_ds_id: "jcook"
+role_owner_email_id: "jcook@cargill.com"
+data_leader: "y665341"
+governance_and_access_lead: "jcook"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: GLOBAL
+sub_function: "Price Hub"
