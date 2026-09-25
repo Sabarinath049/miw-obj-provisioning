@@ -38,6 +38,10 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - agtr-wtg-daf
-snowflake_iceberg_support: false
-
-
+snowflake_iceberg_support: true
+# Configurations for Snowflake Catalog Federation
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_yWqi9j5gUjkl2hEi36P9w3VZXLs=
+  - OZB89938_SFCRole=1021_X7Eed6WZBvIkT6yU85dP6liEBrc=
+  - OZB89938_SFCRole=1021_leCFGijmtm1ei17jAfy/kW5FkLA=
