@@ -60,3 +60,4 @@ project_config:
     custom_glue_db_name: ""
     log_retention: 90
     enable_auto_sync_to_s3: false
+
