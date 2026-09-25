@@ -24,10 +24,10 @@ access_to_resources:
     - fin_travel_expense_curated_prd
     - fin_travel_expense_serving_prd
   s3_prefixes:
-    - s3://dev-cmp4-corp-fin-dp/curated/prd/fin/master_data/
-    - s3://dev-cmp4-corp-fin-dp/serving/prd/fin/master_data/
-    - s3://dev-cmp4-corp-fin-dp/curated/prd/fin/hr_master_data/
-    - s3://dev-cmp4-corp-fin-dp/serving/prd/fin/hr_master_data/
+    - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/
+    - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/
+    - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/hr_master_data/
+    - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/hr_master_data/
   custom_git_config:
     - custom_git_enabled: true
       repo_name: fin-master-data-dp
