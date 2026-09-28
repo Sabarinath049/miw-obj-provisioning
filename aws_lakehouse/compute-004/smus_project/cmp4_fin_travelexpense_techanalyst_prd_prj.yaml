@@ -22,7 +22,7 @@ access_to_resources:
     - 438465132548:lh_sap_tcl_raw_serving_prd_rl
     - 438465132548:lh_concur_raw_serving_prd_rl
     - fin_travel_expense_curated_prd
-    - fin_travel_expense_serving_prd
+    - fin_travel_expense_serving_analytics_prd
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/
     - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/master_data/
