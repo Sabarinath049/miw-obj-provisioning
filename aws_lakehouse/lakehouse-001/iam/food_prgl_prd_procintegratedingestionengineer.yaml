@@ -16,9 +16,19 @@ access_to_resources:
         - lh_cat2mes_raw_prd
         - lh_fps_raw_prd
         - lh_lcf_raw_prd
+        - lh_cvapegg_raw_prd
+        - lh_pr_facilities_raw_prd
+        - lh_sap_ibp_raw_prd
+        - lh_order_trace_raw_prd
+        - lh_pr_transformation_raw_prd
     data_prefixes:
     - "s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/cat2mes/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/parxl/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/fps/"
     - "s3://prd-lh1-food-src/raw/current/prd/src/lcf/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/cvapegg/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/pr_facilities/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/sap_ibp/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/order_trace/"
+    - "s3://prd-lh1-food-src/raw/current/prd/src/pr_transformation/"
