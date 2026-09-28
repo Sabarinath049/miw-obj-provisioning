@@ -2,7 +2,7 @@ intake_id: M0001215
 database_name: lh_corp_fin_analytics_hub_raw_serving_prd
 database_s3_location: "s3://prd-lh1-corp-fin-jarvis-src/raw_serving/prd/src/fin_analytics_hub/"
 database_description: "Store Raw Data Product for FAH"
-aws_account_id: 438465132548
+aws_account_id: 578647603827
 region: us-east-1
 data_env: prd
 data_layer: raw
