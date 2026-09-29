@@ -1,0 +1,64 @@
+intake_id: M0000546
+sg_name: spec_anh_prd_kafka_output_port_sg
+sg_description: Security group allowing outbound rules to egress data for ANH via Kafka Output Port Pattern.
+aws_account_id: 011379513867
+env: prd
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+sg_owner: shawn_yeager@cargill.com
+vpc_id: vpc-0f11f4dec43aeb721 #Please collaborate with MIW to figure out the VPC_ID to use.
+ingress_rules:
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    source_type: self
+    rule_description: Required AWS Glue self-referencing ingress
+    
+egress_rules:
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9092
+    destination_type: cidr
+    destination_value: 10.65.9.192/27
+    rule_description: Egress rule 1 for connection to Confluent brokers
+
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9092
+    destination_type: cidr
+    destination_value: 10.65.9.224/27
+    rule_description: Egress rule 2 for connection to Confluent brokers
+
+  - protocol: tcp
+    from_port: 9092
+    to_port: 9092
+    destination_type: cidr
+    destination_value: 10.65.10.0/27
+    rule_description: Egress rule 3 for connection to Confluent brokers
+
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    destination_type: self
+    rule_description: Required AWS Glue self-referencing egress
+  # 443 rules for schema registry
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: cidr
+    destination_value: 10.65.9.192/27
+    rule_description: Egress rule 1 for connection to Confluent schema registry
+
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: cidr
+    destination_value: 10.65.9.224/27
+    rule_description: Egress rule 2 for connection to Confluent schema registry
+
+  - protocol: tcp
+    from_port: 443
+    to_port: 443
+    destination_type: cidr
+    destination_value: 10.65.10.0/27
+    rule_description: Egress rule 3 for connection to Confluent schema registry

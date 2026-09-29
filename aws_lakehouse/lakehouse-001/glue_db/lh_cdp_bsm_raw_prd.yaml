@@ -1,0 +1,17 @@
+intake_id: M0001153
+database_name: lh_cdp_bsm_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/bsm/"
+database_description: "Database for storing CDP - BSM tables"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: bsm
+data_classification: "Confidential - Restricted"
+data_privacy: NONE
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: NA
+data_owner_email: Jonathan_Cook@cargill.com
+data_owner_github_uname: JonathanCook
+data_leader: jcook

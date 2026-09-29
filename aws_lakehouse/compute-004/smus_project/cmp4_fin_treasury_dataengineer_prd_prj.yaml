@@ -1,0 +1,33 @@
+intake_id: M0001239
+aws_account_id: "632247962242"
+smus_project_name: cmp4_fin_treasury_dataengineer_prd_prj
+project_description: This project is to be used by finance data engineers for Treasury
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: FIN
+parent_domain_unit: Finance
+data_leader: j627990
+project_membership:
+  - minerva_corp_fin_treasury_dataengineer_prd
+compute_size: MED
+access_to_resources:
+  glue_databases:
+    - fin_master_data_serving_prd
+    - fin_master_data_curated_prd
+    - fin_treasury_curated_prd
+    - fin_treasury_serving_analytics_prd
+    - 578647603827:lh_sap_tcf_raw_serving_prd_rl
+    - 578647603827:lh_jdw_raw_serving_prd_rl
+
+  s3_prefixes:
+    - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/treasury/
+    - s3://prd-cmp4-corp-fin-dp/serving/prd/fin/treasury/
+ 
+  custom_git_config:
+    - custom_git_enabled: true
+      repo_name: fin-treasury-dp
+      repo_branch: main
+project_config:
+  - project_env: prd
+    custom_glue_db_name: glue_db
+    log_retention: 90
+    enable_auto_sync_to_s3: false

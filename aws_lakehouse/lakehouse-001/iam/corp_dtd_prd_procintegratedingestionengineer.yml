@@ -13,6 +13,7 @@ access_to_resources:
         write:
         - lh_iiq_raw_prd
         - lh_dtd_ai_usage_abacus_ai_raw_prd
+        - lh_dtd_ai_usage_ai_platform_raw_prd
         - lh_dtd_ai_usage_chatgpt_openai_codex_raw_prd
         - lh_dtd_ai_usage_claude_anthropic_raw_prd
         - lh_dtd_ai_usage_github_enterprise_ghe_raw_prd
