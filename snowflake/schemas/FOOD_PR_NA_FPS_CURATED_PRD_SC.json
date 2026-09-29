@@ -1,0 +1,23 @@
+{
+    "intake_id": "M0000571",
+    "schema_name": "FOOD_PR_NA_FPS_CURATED_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_FOOD_NA_DP_DB",
+    "access_roles": [
+        "minerva_food_pr_na_dataengineer_prd",
+        "minerva_food_pr_na_dataanalyst_prd"
+    ],
+    "description": "Schema for FPS reporting data consumption on Snowflake prod",
+    "data_first_classification": "public",
+    "enterprise_or_func_name": "FOOD",
+    "enterprise_or_func_subgrp_name": "PR_NA",
+    "product_group_identifier": "FPS_REPORTING",
+    "subject_or_prod_name": "FPS_REPORTING",
+    "data_product_manager": "k603569",
+    "lead_engineer": "j402395",
+    "governance_and_access_lead": "k040619",
+    "product_cost_id": "P-2335603",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}
