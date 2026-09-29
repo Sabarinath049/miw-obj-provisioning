@@ -15,6 +15,11 @@ access_to_resources:
       - lh_cat2mes_raw_serving_prd
       - lh_fps_raw_serving_prd
       - lh_lcf_raw_serving_prd
+      - lh_cvapegg_raw_serving_prd
+      - lh_pr_facilities_raw_serving_prd
+      - lh_sap_ibp_raw_serving_prd
+      - lh_order_trace_raw_serving_prd
+      - lh_pr_transformation_raw_serving_prd
     read:
       - lh_sap_tcd_raw_prd
       - lh_cat2mes_raw_prd
@@ -23,6 +28,16 @@ access_to_resources:
       - lkc-myrp67
       - lh_fps_raw_prd
       - lh_lcf_raw_prd
+      - lh_cvapegg_raw_prd
+      - lh_cdp_cvapegg_raw_prd
+      - lh_pr_facilities_raw_prd
+      - lh_cdp_pr_facilities_raw_prd
+      - lh_sap_ibp_raw_prd
+      - lh_cdp_sap_ibp_raw_prd
+      - lh_order_trace_raw_prd
+      - lh_cdp_order_trace_raw_prd
+      - lh_pr_transformation_raw_prd
+      - lh_cdp_pr_transformation_raw_prd
 
   data_prefixes:
     - "s3://prd-lh1-food-src/serving/prd/src/sap_tcd/"
@@ -31,6 +46,11 @@ access_to_resources:
     - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_tcd/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/fps/"
     - "s3://prd-lh1-food-src/raw_serving/prd/src/lcf/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/cvapegg/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/pr_facilities/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/sap_ibp/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/order_trace/"
+    - "s3://prd-lh1-food-src/raw_serving/prd/src/pr_transformation/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
