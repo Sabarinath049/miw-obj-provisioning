@@ -16,7 +16,7 @@ access_to_resources:
     - fin_general_ledger_curated_prd
     - fin_general_ledger_serving_prd
     - fin_jarvis_curated_prd
-    - fin_jarvis_serving_prd
+    - fin_jarvis_serving_analytics_prd
     - 578647603827:lh_corp_fin_analytics_hub_raw_serving_prd_rl
   s3_prefixes:
     - s3://prd-cmp4-corp-fin-dp/curated/prd/fin/master_data/
