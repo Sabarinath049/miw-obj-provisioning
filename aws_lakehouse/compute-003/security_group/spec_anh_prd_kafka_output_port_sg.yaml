@@ -42,23 +42,10 @@ egress_rules:
     destination_type: self
     rule_description: Required AWS Glue self-referencing egress
   # 443 rules for schema registry
+  
   - protocol: tcp
     from_port: 443
     to_port: 443
     destination_type: cidr
-    destination_value: 10.65.9.192/27
-    rule_description: Egress rule 1 for connection to Confluent schema registry
-
-  - protocol: tcp
-    from_port: 443
-    to_port: 443
-    destination_type: cidr
-    destination_value: 10.65.9.224/27
-    rule_description: Egress rule 2 for connection to Confluent schema registry
-
-  - protocol: tcp
-    from_port: 443
-    to_port: 443
-    destination_type: cidr
-    destination_value: 10.65.10.0/27
-    rule_description: Egress rule 3 for connection to Confluent schema registry
+    destination_value: 0.0.0.0/0
+    rule_description: Added to support runtime download of Python packages and schema registry by Glue Job as defined by MEF team
