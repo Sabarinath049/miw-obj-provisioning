@@ -5,7 +5,8 @@
     "access_roles": [
         "minerva_spec_cbi_dataanalyst_prd",
         "minerva_spec_cbi_dataengineer_prd",
-        "minerva_spec_cbi_procdataconsumer_prd"
+        "minerva_spec_cbi_procdataconsumer_prd",
+        "minerva_spec_cbi_procdataengineer_prd"
     ],
     "data_leader": "j603735",
     "description": "Warehouse for SPEC CBI to query adhoc data on Snowflake PROD",

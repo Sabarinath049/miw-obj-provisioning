@@ -6,7 +6,8 @@
         "minerva_agtr_latam_dataengineer_prd",
         "minerva_agtr_latam_fts_reporting_procdataconsumer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_procdataconsumer_prd"
+        "minerva_agtr_latam_procdataconsumer_prd",
+        "minerva_agtr_latam_fts_reporting_dataanalyst_prd"
     ],
     "data_leader": "t450776",
     "description": "Warehouse for Ag & Trading LATAM FTS Reporting adhoc query on Snowflake PRD",

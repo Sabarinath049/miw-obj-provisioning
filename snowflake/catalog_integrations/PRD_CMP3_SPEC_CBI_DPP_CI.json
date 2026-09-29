@@ -6,7 +6,8 @@
   "access_roles": [
       "minerva_spec_cbi_dataengineer_prd",
       "minerva_spec_cbi_dataanalyst_prd",
-      "minerva_spec_cbi_procdataconsumer_prd"
+      "minerva_spec_cbi_procdataconsumer_prd",
+      "minerva_spec_cbi_procdataengineer_prd"
   ],
   "catalog_source": "ICEBERG_REST",
   "catalog_table_format": "ICEBERG",
