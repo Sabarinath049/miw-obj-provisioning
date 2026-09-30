@@ -13,7 +13,8 @@
     "rest_catalog_api_type": "AWS_GLUE",
     "catalog_namespace": [
         "pr_na_optimized_analytics_foundation_curated_prd",
-        "pr_na_optimized_analytics_foundation_serving_analytics_prd"
+        "pr_na_optimized_analytics_foundation_serving_analytics_prd",
+        "pr_na_fps_reporting_curated_prd"
     ],
     "rest_auth_type": "SIGV4",
     "rest_auth_iam_role": "arn:aws:iam::884308299029:role/pr_na_prd_procdataengineer",
