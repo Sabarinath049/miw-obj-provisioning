@@ -8,7 +8,7 @@
         "minerva_food_pr_na_dataanalyst_prd"
     ],
     "description": "Schema for FPS reporting data consumption on Snowflake prod",
-    "data_first_classification": "public",
+    "data_first_classification": "Public",
     "enterprise_or_func_name": "FOOD",
     "enterprise_or_func_subgrp_name": "PR_NA",
     "product_group_identifier": "FPS_REPORTING",
