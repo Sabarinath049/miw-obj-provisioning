@@ -8,7 +8,8 @@
         "minerva_agtr_latam_procdataengineer_prd",
         "minerva_agtr_latam_jde_reporting_dataanalyst_prd",
         "minerva_agtr_latam_jde_reporting_procdataconsumer_prd",
-        "minerva_agtr_latam_procdataconsumer_prd"
+        "minerva_agtr_latam_procdataconsumer_prd",
+        "minerva_agtr_latam_jde_reporting_curated_dataanalyst_prd"
     ],
     "description": "Schema for JDE Reporting Curated Layer for Ag & Trading Latam on Snowflake",
     "data_first_classification": "Limited",
