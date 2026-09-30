@@ -1,13 +1,13 @@
 intake_id: M0000776
-database_name: lh_agtr_na_dna_raw_prd
-database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/na_dna/"
+database_name: lh_agtr_na_raw_prd
+database_s3_location: "s3://prd-lh1-agtr-src/raw/current/prd/src/na/"
 database_description: "Database for AGTR NA DNA manual sources(excel/csv/txt)"
 aws_account_id: 578647603827
 region: us-east-1
 data_construct: Source
 data_env: prd
 data_layer: raw
-source_name: na_dna
+source_name: na
 data_classification: "INTERNAL"
 enterprise_or_func_name: AGTR
 enterprise_or_func_subgrp_name: NA
