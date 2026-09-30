@@ -2,6 +2,7 @@ intake_id: I-123456
 data_share_name: dtd_nyc_taxi_prd_df
 glue_databases:
     - lh_nyc_taxi_raw_serving_prd
+    - lh_nyc_taxi_raw_prd
 data_share_description: "This data federation enables to share all NYC Taxi Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
