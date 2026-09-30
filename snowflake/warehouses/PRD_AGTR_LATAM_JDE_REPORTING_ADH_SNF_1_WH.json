@@ -7,7 +7,8 @@
         "minerva_agtr_latam_jde_reporting_dataanalyst_prd",
         "minerva_agtr_latam_jde_reporting_procdataconsumer_prd",
         "minerva_agtr_latam_procdataengineer_prd",
-        "minerva_agtr_latam_procdataconsumer_prd"
+        "minerva_agtr_latam_procdataconsumer_prd",
+        "minerva_agtr_latam_jde_reporting_curated_dataanalyst_prd"
     ],
     "data_leader": "t450776",
     "description": "Warehouse for Ag & Trading LATAM JDE Reporting adhoc query on Snowflake PRD",
