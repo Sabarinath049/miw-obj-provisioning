@@ -39,6 +39,7 @@ access_to_resources:
       - lh_bsm_prd_raw_prd
       - lh_cdp_regrow_raw_prd
       - lh_regrow_prd_raw_prd
+      - lh_cdp_bsm_raw_prd
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfca/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfus/"
