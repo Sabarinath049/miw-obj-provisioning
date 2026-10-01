@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0001366",
+    "snowflake_account_id": "cargill-miw_prod",
+    "aad_group_name": "minerva_agtr_wtg_cdas_procdataconsumer_prd",
+    "purpose": "For BI data reporting to read AG Trading WTG CDAS Data through BI tools in PRD environment",
+    "role_owner_ds_id": "a000492",
+    "role_owner_email_id": "Ajay_Rajendran@cargill.com",
+    "data_leader": "a000492",
+    "governance_and_access_lead": "a000492",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "WTG",
+    "sub_function": "CDAS"
+  }
