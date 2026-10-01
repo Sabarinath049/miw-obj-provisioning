@@ -1,7 +1,7 @@
 {
     "intake_id": "M0001353",
     "schema_name": "LATAM_DCTAR_SERVING_ANALYTICS_PRD_SC",
-    "snowflake_account_id": "cargill-miw_prd",
+    "snowflake_account_id": "cargill-miw_prod",
     "parent_db_name": "SF_AGTR_LATAM_DP_DB",
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
