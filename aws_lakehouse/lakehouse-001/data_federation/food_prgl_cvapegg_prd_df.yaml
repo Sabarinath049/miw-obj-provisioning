@@ -2,6 +2,7 @@ intake_id: M0001299
 data_share_name: food_prgl_cvapegg_prd_df
 glue_databases:
     - lh_cdp_cvapegg_raw_prd
+    - lh_cvapegg_raw_serving_prd
 data_share_description: "This data federation enables to share all CVAPEGG Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd
