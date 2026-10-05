@@ -6,7 +6,8 @@
     "access_roles": [
         "minerva_spec_anh_dataanalyst_prd",
         "minerva_spec_anh_dataengineer_prd",
-        "minerva_spec_anh_procdataconsumer_prd"
+        "minerva_spec_anh_procdataconsumer_prd",
+        "minerva_spec_anh_procdataengineer_prd"
     ],
     "description": "Schema for ANH DATABLOCKS SERVING ANALYTICS data consumption on Snowflake",
     "data_first_classification": "Restricted",
