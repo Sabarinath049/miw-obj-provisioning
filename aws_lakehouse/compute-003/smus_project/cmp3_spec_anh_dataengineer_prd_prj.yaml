@@ -64,6 +64,7 @@ access_to_resources:
     - 578647603827:lh_cdp_anh_core_data_raw_prd_rl
     - 578647603827:lh_bills_raw_prd_rl
     - 578647603827:lh_unitcost_raw_prd_rl
+    - 578647603827:lkc-myrp67_rl
   s3_prefixes:
     - s3://prd-cmp3-anh-dp/curated/
     - s3://prd-cmp3-anh-dp/serving/

@@ -25,6 +25,6 @@
     "product_group_identifier": "JDE_REPORTING",
     "data_leader": "jcook",
     "data_first_classification": "Restricted",
-    "catalog_refresh_interval_secs": "7200",
+    "catalog_refresh_interval_secs": "1800",
     "enable_vended_credentials": "true"
 }

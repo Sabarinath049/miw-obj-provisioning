@@ -5,6 +5,7 @@ glue_databases:
     - lh_agtr_daf_raw_prd
     - lh_cdp_agtr_daf_raw_prd
     - lh_agtr_daf_raw_serving_prd
+    - lkc-myrp67
 data_share_description: "This data federation enables to share all raw tables from WTG_DAF raw and CDP historical databases to curated data products development purpose only"
 aws_account_id: 578647603827
 data_env: prd
