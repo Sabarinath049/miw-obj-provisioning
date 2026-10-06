@@ -4,7 +4,6 @@
     "snowflake_account_id": "cargill-miw_prd",
     "access_roles": [
         "minerva_agtr_latam_dataengineer_prd",
-        "minerva_agtr_latam_techanalyst_prd",
         "minerva_agtr_latam_procdataengineer_prd",
         "minerva_agtr_latam_dctar_dataanalyst_prd",
         "minerva_agtr_latam_dctar_procdataconsumer_prd"
