@@ -16,6 +16,7 @@ access_to_resources:
         - fin_general_ledger_curated_prd
         - fin_master_data_serving_prd
         - fin_master_data_curated_prd
+        - 578647603827:lh_corp_fin_analytics_hub_raw_serving_prd_rl
         write:
         - fin_jarvis_serving_analytics_prd
         - fin_jarvis_curated_prd
