@@ -17,6 +17,7 @@ access_to_resources:
     - lh_cdp_regrow_raw_prd
     - lh_cdp_bsm_raw_prd
     - lh_cdp_bidsheet_raw_prd
+    - lh_cdp_proprce_raw_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/hrculbr/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/agrosoft/
@@ -26,3 +27,4 @@ access_to_resources:
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/regrow/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/bsm/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/bidsheet/
+    - s3://prd-lh1-agtr-src/raw/cdp/prd/src/proprce/
