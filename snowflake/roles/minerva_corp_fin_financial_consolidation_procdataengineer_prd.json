@@ -1,7 +1,7 @@
 {
   "intake_id": "M0001141",
   "snowflake_account_id":"cargill-miw_prd",
-  "aad_group_name": "minerva_corp_fin_financial_consolidation_procdataengineer_dev",
+  "aad_group_name": "minerva_corp_fin_financial_consolidation_procdataengineer_prd",
   "purpose": "This Group is used to access Finance Master Data objects",
   "role_owner_ds_id": "r229742",
   "role_owner_email_id": "Raymond_Hook@cargill.com",
