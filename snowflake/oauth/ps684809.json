@@ -9,7 +9,6 @@
   "governance_and_access_lead": "a090235",
   "minerva_aad_group": [
     "minerva_corp_fin_financial_consolidation_procdataconsumer_prd"
-    "minerva_corp_fin_financial_consolidation_dataengineer_prd",
   ],
   "minerva_aad_group_owner": "a090235",
   "azure_tenant_id": "57368c21-b8cf-42cf-bd0b-43ecd4bc62ae",
