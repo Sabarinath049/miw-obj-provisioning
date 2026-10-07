@@ -4,9 +4,9 @@
   "catalog_integration_name": "PRD_CMP4_CORP_FIN_MD_CI",
   "description": "Provision a catalog integration for clean data construct for finance needs",
   "access_roles": [
-    "minerva_corp_fin_master_data_procdataconsumer_dev",
-    "minerva_corp_fin_master_data_procdataengineer_dev",
-    "minerva_corp_fin_master_data_dataengineer_dev"
+    "minerva_corp_fin_master_data_procdataconsumer_prd",
+    "minerva_corp_fin_master_data_procdataengineer_prd",
+    "minerva_corp_fin_master_data_dataengineer_prd"
   ],
   "catalog_source": "ICEBERG_REST",
   "catalog_table_format": "ICEBERG",

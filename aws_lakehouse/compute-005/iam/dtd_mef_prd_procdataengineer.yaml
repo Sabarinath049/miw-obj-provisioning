@@ -38,5 +38,11 @@ glue_job_access_config:
     - dtd_mef_prd_snowflake_glue_etl_conn
   job_control_configs:
     - nyc-taxi
+## Snowflake Catalog Federation 
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_P9/I3dtwmJ+JOGVuUsB/mQ8EsrE=
+  - OZB89938_SFCRole=1021_miTT/uwr+JPD30Hs7LqxDgqoDsA=
 
     
