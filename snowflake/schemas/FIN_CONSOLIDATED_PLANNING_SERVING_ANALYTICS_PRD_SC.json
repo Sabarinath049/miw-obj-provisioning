@@ -1,7 +1,7 @@
 {
     "intake_id": "M0000913",
     "schema_name": "FIN_CONSOLIDATED_PLANNING_SERVING_ANALYTICS_PRD_SC",
-    "snowflake_account_id": "cargill-miw_dev",
+    "snowflake_account_id": "cargill-miw_prd",
     "parent_db_name": "SF_CORP_FIN_DP_DB",
     "access_roles": [
         "minerva_corp_fin_consolidated_planning_procdataengineer_prd",
