@@ -41,3 +41,10 @@ egress_rules:
     destination_type: cidr
     destination_value: 0.0.0.0/0
     rule_description: Added to support runtime download of Python packages by Glue Job as requested by MEF team
+
+  - protocol: "-1"
+    from_port: 0
+    to_port: 0
+    destination_type: cidr
+    destination_value: 0.0.0.0/0
+    rule_description: Allow all outbound TCP traffic
