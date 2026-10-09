@@ -3,6 +3,8 @@
     "warehouse_name": "PRD_AGTR_TDA_TRF_SNF_1_WH",
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
+        "minerva_agtr_tda_procdataengineer_prd",
+        "minerva_agtr_tda_cocoa_protect_procdataengineer_prd",
         "minerva_agtr_tda_cocoa_procdataengineer_prd",
         "minerva_agtr_tda_grains_procdataengineer_prd",
         "minerva_agtr_tda_vegoils_procdataengineer_prd",

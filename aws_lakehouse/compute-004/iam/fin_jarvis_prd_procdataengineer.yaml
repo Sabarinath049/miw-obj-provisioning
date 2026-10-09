@@ -1,4 +1,4 @@
-intake_id: M-123456
+intake_id: M0001215
 role_name: fin_jarvis_prd_procdataengineer
 role_description: IAM role to serve Jarvis Data Engineering Use Case in Lakehouse
 aws_account_id: 632247962242
@@ -16,10 +16,13 @@ access_to_resources:
         - fin_general_ledger_curated_prd
         - fin_master_data_serving_prd
         - fin_master_data_curated_prd
+        - 578647603827:lh_corp_fin_analytics_hub_raw_serving_prd_rl
         write:
-        - fin_jarvis_serving_prd
+        - fin_jarvis_serving_analytics_prd
+        - fin_jarvis_curated_prd
     data_prefixes:
     - "s3://prd-cmp4-corp-fin-dp/serving/prd/jarvis/analytics_hub/"
+    - "s3://prd-cmp4-corp-fin-dp/curated/prd/jarvis/analytics_hub/"
     execution_asset_prefixes:
     - "s3://prd-cmp4-corp-fin-eng-assets/prd/jarvis/athena/"
 athena_access_config:

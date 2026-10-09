@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000555",
+    "snowflake_account_id": "cargill-miw_prod",
+    "aad_group_name": "minerva_spec_cbi_dataengineer_prd",
+    "purpose": "For data engineer to read and write SPEC CBI Data in Snowflake PROD",
+    "role_owner_ds_id": "j603735",
+    "role_owner_email_id": "jack_vishneski@cargill.com",
+    "data_leader": "d798268",
+    "governance_and_access_lead": "j603735",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "CBI",
+    "sub_function":""
+}

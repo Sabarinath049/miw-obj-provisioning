@@ -1,0 +1,13 @@
+{
+  "intake_id": "M0001239",
+  "snowflake_account_id": "cargill-miw_prd",
+  "aad_group_name": "minerva_corp_fin_treasury_fx_exp_jde_dataanalyst_prd",
+  "purpose": "User can access Finance Treasury FX Exposure JDE Production Information from Treasury Data product",
+  "role_owner_ds_id": "j627990",
+  "role_owner_email_id": "Joris_Vaniersel@cargill.com",
+  "data_leader": "ccoward",
+  "governance_and_access_lead": "c619185",
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "FIN",
+  "sub_function": "TREASURY"
+}

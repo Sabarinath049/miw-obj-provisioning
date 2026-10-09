@@ -1,0 +1,9 @@
+intake_id: "M0000438"
+bucket_name: prd-lh1-spec-scripts
+bucket_description: For storing PySpark scripts for SPEC
+aws_account_id: '578647603827'
+aws_region: us-east-1
+usage_type: Scripts
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: "ANH"
+versioning_enabled: true

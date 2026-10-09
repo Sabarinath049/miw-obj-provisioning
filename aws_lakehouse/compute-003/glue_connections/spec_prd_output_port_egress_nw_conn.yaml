@@ -1,0 +1,15 @@
+intake_id: M0000546
+conn_name: spec_prd_output_port_egress_nw_conn
+conn_description: Glue connection for outbound Kafka Prod Deployment
+aws_account_id: 011379513867
+env: prd
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+conn_owner: shawn_yeager@cargill.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-0f11f4dec43aeb721
+    subnet_id: subnet-064120f73c6fc5781
+    security_group_ids:
+      - sg-06f85283eae210b2e

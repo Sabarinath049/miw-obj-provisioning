@@ -16,6 +16,24 @@ access_to_resources:
         - anh_datablocks_serving_analytics_prd
         - anh_core_data_curated_prd
         - anh_core_data_serving_analytics_prd
+        - anh_bestmix_curated_prd
+        - anh_bestmix_serving_analytics_prd
+        - anh_bills_curated_prd
+        - anh_bills_serving_analytics_prd
+        - anh_cnc_curated_prd
+        - anh_cnc_serving_analytics_prd
+        - anh_costko_curated_prd
+        - anh_costko_serving_analytics_prd
+        - anh_delacon_curated_prd
+        - anh_delacon_serving_analytics_prd
+        - anh_diamondv_curated_prd
+        - anh_diamondv_serving_analytics_prd
+        - anh_lims_curated_prd
+        - anh_lims_serving_analytics_prd
+        - anh_trade_tracker_curated_prd
+        - anh_trade_tracker_serving_analytics_prd
+        - anh_wahoo_curated_prd
+        - anh_wahoo_serving_analytics_prd
         read:
           - 578647603827:lh_sap_tc1_raw_serving_prd_rl
           - 578647603827:lh_sap_tca_raw_serving_prd_rl
@@ -39,6 +57,14 @@ access_to_resources:
           - 578647603827:lh_diamondv_embri_raw_serving_prd_rl
           - 578647603827:lh_diamondv_mills_raw_serving_prd_rl
           - 578647603827:lh_diamondv_tech_raw_serving_prd_rl
+          - 578647603827:lh_neolait_manual_upload_raw_prd_rl
+          - 578647603827:lh_1c_manual_upload_raw_prd_rl
+          - 578647603827:lh_1c_monthly_manual_upload_raw_prd_rl
+          - 578647603827:lh_bills_raw_prd_rl
+          - 578647603827:lh_unitcost_raw_prd_rl
+          - 578647603827:lh_cdp_anh_wahoo_raw_prd_rl
+          - 578647603827:lh_cdp_anh_datablocks_raw_prd_rl
+          - 578647603827:lh_cdp_anh_core_data_raw_prd_rl
     data_prefixes:
     - s3://prd-cmp3-anh-dp/curated/prd/anh/
     - s3://prd-cmp3-anh-dp/serving/prd/anh/
@@ -56,3 +82,12 @@ glue_job_access_config:
   enable_glue_jobs: true
   job_control_configs:
     - spec-anh
+snowflake_iceberg_support: true
+principal_role_arn: "arn:aws:iam::774305575262:user/pf0u0000-s"
+stsExternalIds:
+  - OZB89938_SFCRole=1021_m3eBChBkYvj6eOzaHjUkZWhYKcE=
+  - OZB89938_SFCRole=1021_v4aUQqdmLk0y/A8CfmffPlb4Ptc=
+  - OZB89938_SFCRole=1021_mbuThJpiuiQacSsqH1SlK3J5kI4=
+  - OZB89938_SFCRole=1021_Y6H9FS1U7aQIYhn9f2Tgn5AuazI=
+  - OZB89938_SFCRole=1021_x7ImVs1X1AF7zF2rOGhmAN6fOEs=
+  - OZB89938_SFCRole=1021_vTajmt5NvxmzNmmVRJOq3ZGvVfc=

@@ -1,0 +1,40 @@
+intake_id: M0001263
+role_name: corp_dtd_ai_usage_prd_procdataengineer
+role_description: IAM role for CORP DTD AI Usage programmatic Data Engineer access in the compute account, used by the MEF Data Product pipeline to write curated/serving Iceberg tables and read the federated raw and raw_serving ai_usage tables
+aws_account_id: '155407238062'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_leader: n823356
+compute_size: SML
+max_session_duration: 1
+access_to_resources:
+    glue_databases:
+        write:
+          - corp_dtd_ai_usage_curated_prd
+          - corp_dtd_ai_usage_serving_analytics_prd
+        read:
+          - 578647603827:lh_dtd_ai_usage_github_enterprise_ghe_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_claude_anthropic_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_chatgpt_openai_codex_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_abacus_ai_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_power_bi_copilot_pbi_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_github_enterprise_ghe_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_claude_anthropic_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_chatgpt_openai_codex_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_abacus_ai_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_power_bi_copilot_pbi_raw_prd_rl
+    data_prefixes:
+      - s3://prd-cmp5-corp-dtd-dp/curated/prd/dtd/ai_usage/
+      - s3://prd-cmp5-corp-dtd-dp/serving/prd/dtd/ai_usage/analytics/
+    glue_crawler:
+      - null
+enable_glue_interactive_session: true
+athena_access_config:
+    enable_athena_access: false
+data_env: prd
+usage_type: DataEngineer
+role_owner: 'nathen_drees@cargill.com'
+
+

@@ -3,7 +3,8 @@
     "warehouse_name": "PRD_AGTR_GLOBAL_HIGHSEAS_RPT_SNF_1_WH",
     "snowflake_account_id": "cargill-miw_prod",
     "access_roles": [
-        "minerva_agtr_global_highseas_procdataconsumer_prd"
+        "minerva_agtr_global_highseas_procdataconsumer_prd",
+        "minerva_agtr_global_highseas_dataanalyst_prd"
     ],
     "data_leader": "a000492",
     "description": "Warehouse for Ag & Trading Global Highseas data reporting query on Snowflake PRD",

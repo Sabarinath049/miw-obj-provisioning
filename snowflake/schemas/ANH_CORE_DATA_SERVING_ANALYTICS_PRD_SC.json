@@ -1,0 +1,25 @@
+{
+    "intake_id": "M0001070",
+    "schema_name": "ANH_CORE_DATA_SERVING_ANALYTICS_PRD_SC",
+    "snowflake_account_id": "cargill-miw_prod",
+    "parent_db_name": "SF_SPEC_ANH_DP_DB",
+    "access_roles": [
+        "minerva_spec_anh_dataanalyst_prd",
+        "minerva_spec_anh_dataengineer_prd",
+        "minerva_spec_anh_procdataconsumer_prd",
+        "minerva_spec_anh_procdataengineer_prd"
+    ],
+    "description": "Schema for ANH CORE DATA SERVING ANALYTICS data consumption on Snowflake",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "ANH",
+    "product_group_identifier": "CORE_DATA",
+    "subject_or_prod_name": "ANH_CORE_DATA",
+    "data_product_manager": "s469759",
+    "lead_engineer": "r309072",
+    "governance_and_access_lead": "p156004",
+    "product_cost_id": "p-2335604",
+    "data_retention_in_days": 1,
+    "port": "SNF",
+    "__comment_data_retention_in_days": "Increasing data_retention_in_days for the schema will incur additional costs for the Product Owner. Changing it from 1 day to a longer period will have cost implications, so please be aware of the potential consequences"
+}

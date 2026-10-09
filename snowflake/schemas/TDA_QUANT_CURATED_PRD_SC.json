@@ -5,7 +5,8 @@
     "parent_db_name": "SF_AGTR_TDA_DP_DB",
     "access_roles": [
         "minerva_agtr_tda_quant_procdataconsumer_prd",
-        "minerva_agtr_tda_quant_procdataengineer_prd"
+        "minerva_agtr_tda_quant_procdataengineer_prd",
+        "minerva_agtr_tda_quant_dataengineer_prd"
     ],
     "description": "Schema for BDP for Ag & Trading TDA QUANT data transformation on Snowflake",
     "data_first_classification": "Limited",

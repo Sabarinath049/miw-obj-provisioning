@@ -54,6 +54,30 @@ access_to_resources:
     - lh_cdp_sap_tc2_tm_raw_prd
     - lh_sap_tc2_tm_raw_prd
     - lh_sap_tc2_tm_raw_serving_prd
+    - lh_sap_tcd_ewm_raw_serving_prd
+    - lh_sap_tcd_ewm_raw_prd
+    - lh_cdp_sap_tcd_ewm_raw_prd
+    - lh_cvapegg_raw_prd
+    - lh_cdp_cvapegg_raw_prd
+    - lh_cvapegg_raw_serving_prd
+    - lh_pr_facilities_raw_prd
+    - lh_cdp_pr_facilities_raw_prd
+    - lh_pr_facilities_raw_serving_prd
+    - lh_fibi_ccc_commercial_raw_prd
+    - lh_cdp_fibi_ccc_commercial_raw_prd
+    - lh_fibi_ccc_commercial_raw_serving_prd
+    - lh_sap_ibp_raw_prd
+    - lh_cdp_sap_ibp_raw_prd
+    - lh_sap_ibp_raw_serving_prd
+    - lh_fibi_pxs_raw_prd
+    - lh_cdp_fibi_pxs_raw_prd
+    - lh_fibi_pxs_raw_serving_prd
+    - lh_order_trace_raw_prd
+    - lh_cdp_order_trace_raw_prd
+    - lh_order_trace_raw_serving_prd
+    - lh_pr_transformation_raw_prd
+    - lh_cdp_pr_transformation_raw_prd
+    - lh_pr_transformation_raw_serving_prd
   s3_prefixes:
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd/
     - s3://prd-lh1-food-src/raw_serving/prd/src/sap_tcd/
@@ -97,6 +121,30 @@ access_to_resources:
     - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tc2_tm/
     - s3://prd-lh1-food-src/raw/current/prd/src/sap_tc2_tm/
     - s3://prd-lh1-food-src/raw_serving/prd/src/sap_tc2_tm/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/sap_tcd_ewm/
+    - s3://prd-lh1-food-src/raw/current/prd/src/sap_tcd_ewm/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_tcd_ewm/
+    - s3://prd-lh1-food-src/raw/current/prd/src/cvapegg/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/cvapegg/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/cvapegg/
+    - s3://prd-lh1-food-src/raw/current/prd/src/pr_facilities/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/pr_facilities/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/pr_facilities/
+    - s3://prd-lh1-food-src/raw/current/prd/src/fibi_ccc_commercial/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/fibi_ccc_commercial/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/fibi_ccc_commercial/
+    - s3://prd-lh1-food-src/raw/current/prd/src/sap_ibp/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/sap_ibp/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/sap_ibp/
+    - s3://prd-lh1-food-src/raw/current/prd/src/fibi_pxs/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/fibi_pxs/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/fibi_pxs/
+    - s3://prd-lh1-food-src/raw/current/prd/src/order_trace/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/order_trace/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/order_trace/
+    - s3://prd-lh1-food-src/raw/current/prd/src/pr_transformation/
+    - s3://prd-lh1-food-src/raw/cdp/prd/src/pr_transformation/
+    - s3://prd-lh1-food-src/raw_serving/prd/src/pr_transformation/
   custom_git_config:
     custom_git_enabled: true
     repo_name:

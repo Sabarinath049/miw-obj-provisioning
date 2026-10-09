@@ -18,6 +18,10 @@ access_to_resources:
     - lh_jdee1_raw_prd
     - lh_jdee1_raw_serving_prd
     - lh_cdp_agtr_jdee1_raw_prd
+    - lh_itas_prd_raw_prd
+    - lh_itas_prd_raw_serving_prd
+    - lh_sovi_prd_raw_prd
+    - lh_sovi_prd_raw_serving_prd
   s3_prefixes:
     - s3://prd-lh1-agtr-src/raw/current/prd/src/trust/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/trust/
@@ -26,6 +30,10 @@ access_to_resources:
     - s3://prd-lh1-agtr-src/raw/current/prd/src/jdee1/
     - s3://prd-lh1-agtr-src/raw_serving/prd/src/jdee1/
     - s3://prd-lh1-agtr-src/raw/cdp/prd/src/jdee1/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/itas/
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/itas/
+    - s3://prd-lh1-agtr-src/raw/current/prd/src/sovi/
+    - s3://prd-lh1-agtr-src/raw_serving/prd/src/sovi/
   custom_git_config:
     custom_git_enabled: true
     repo_name:

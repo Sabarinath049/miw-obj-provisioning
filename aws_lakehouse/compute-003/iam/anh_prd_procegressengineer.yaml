@@ -16,10 +16,28 @@ access_to_resources:
           - anh_datablocks_curated_prd
           - anh_core_data_serving_analytics_prd
           - anh_core_data_curated_prd
+          - anh_bestmix_curated_prd
+          - anh_bestmix_serving_analytics_prd
+          - anh_bills_curated_prd
+          - anh_bills_serving_analytics_prd
+          - anh_cnc_curated_prd
+          - anh_cnc_serving_analytics_prd
+          - anh_costko_curated_prd
+          - anh_costko_serving_analytics_prd
+          - anh_delacon_curated_prd
+          - anh_delacon_serving_analytics_prd
+          - anh_diamondv_curated_prd
+          - anh_diamondv_serving_analytics_prd
+          - anh_lims_curated_prd
+          - anh_lims_serving_analytics_prd
+          - anh_trade_tracker_curated_prd
+          - anh_trade_tracker_serving_analytics_prd
+          - anh_wahoo_curated_prd
+          - anh_wahoo_serving_analytics_prd
     execution_asset_prefixes:
-    - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/athena/
-    - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/glue/
-    - s3://prd-cmp3-anh-scripts/prd/spec/anh/glue/
+    - s3://prd-cmp3-anh-eng-assets/prd/anh/athena/
+    - s3://prd-cmp3-anh-eng-assets/prd/anh/glue/
+    - s3://prd-cmp3-anh-scripts/prd/anh/glue/
     glue_crawler:
     - null
 enable_glue_interactive_session: true

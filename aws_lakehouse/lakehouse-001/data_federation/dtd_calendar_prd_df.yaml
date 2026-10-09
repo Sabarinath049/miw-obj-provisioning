@@ -1,0 +1,14 @@
+intake_id: M0000697
+data_share_name: dtd_calendar_prd_df
+glue_databases:
+    - lh_cdp_calendar_raw_prd
+data_share_description: "Data federation to share the Calendar Attributes raw Glue database from Lakehouse prod account to Lakehouse dev account"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: calendar
+cross_account_aws_ids:
+    - 438465132548
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_owner: "Tracey_Kalaus@cargill.com"

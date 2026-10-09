@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0000546",
+    "database_name": "SF_SPEC_ANH_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Database used to store Business Data Products for SPEC ANH PRD users",
+    "data_first_classification": "Restricted",
+    "enterprise_or_func_name": "SPEC",
+    "enterprise_or_func_subgrp_name": "ANH",
+    "data_leader": "jawillho"
+}

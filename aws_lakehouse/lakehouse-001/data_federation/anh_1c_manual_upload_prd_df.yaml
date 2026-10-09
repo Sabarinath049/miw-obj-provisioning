@@ -1,0 +1,14 @@
+intake_id: M0000934
+data_share_name: anh_1c_manual_upload_prd_df
+glue_databases:
+    - lh_1c_manual_upload_raw_prd
+data_share_description: "This data federation enables to share all manual uploads in related databases from ANH 1C to consumer accounts"
+aws_account_id: 578647603827
+data_env: prd
+data_construct: Source
+source_name: 1c_manual_upload
+cross_account_aws_ids: 
+    - 011379513867
+enterprise_or_func_name: SPEC
+enterprise_or_func_subgrp_name: ANH
+data_owner: "shawn_yeager@cargill.com"

@@ -18,6 +18,7 @@ access_to_resources:
       - lh_sfsc_raw_serving_prd
       - lh_sap_tcc_raw_serving_prd
       - lh_sap_tce_raw_serving_prd
+      - lh_ekassea_prd_raw_serving_prd
     read:
       - lh_cdp_gps_raw_prd
       - lh_gps_raw_prd
@@ -31,6 +32,9 @@ access_to_resources:
       - lh_cdp_sap_tcc_raw_prd
       - lh_cdp_sap_tce_raw_prd
       - 438465132548:lkc-vzdk2j_rl
+      - lh_cdp_apac_domain_model_raw_prd
+      - lh_ekassea_prd_raw_prd
+      - lkc-myrp67
   data_prefixes:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gps/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/gcs/"
@@ -40,6 +44,7 @@ access_to_resources:
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sfsc/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tcc/"
     - "s3://prd-lh1-agtr-src/raw_serving/prd/src/sap_tce/"
+    - "s3://prd-lh1-agtr-src/raw_serving/prd/src/ekassea/"
 enable_glue_interactive_session: true
 glue_job_access_config:
   enable_glue_jobs: false
@@ -49,8 +54,3 @@ data_env: prd
 usage_type: DataEngineer
 snowflake_iceberg_support: false
 role_owner: 'Purnendu_Das@cargill.com'
-
-
-
-
-

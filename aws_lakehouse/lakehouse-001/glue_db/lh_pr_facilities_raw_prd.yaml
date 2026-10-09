@@ -1,0 +1,17 @@
+intake_id: M0001197
+database_name: lh_pr_facilities_raw_prd
+database_s3_location: "s3://prd-lh1-food-src/raw/current/prd/src/pr_facilities/"
+database_description: "Database for PR Facilities to Lakehouse Ingestion Patterns"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+enterprise_or_func_name: FOOD
+source_name: pr_facilities
+data_classification: "internal"
+data_privacy: "NONE"
+enterprise_or_func_subgrp_name: PR_NA
+data_owner_email: "Kyle_Britt@cargill.com"
+data_owner_github_uname: KyleBritt
+data_leader: kporter

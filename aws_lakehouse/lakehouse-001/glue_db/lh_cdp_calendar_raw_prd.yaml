@@ -1,0 +1,17 @@
+intake_id: M0000697
+database_name: lh_cdp_calendar_raw_prd
+database_s3_location: "s3://prd-lh1-corp-dtd-src/raw/cdp/prd/src/calendar/"
+database_description: "Store calendar attributes data from CDP for Calendar Attributes data product"
+aws_account_id: 578647603827
+region: us-east-1
+data_construct: DataProduct
+data_env: prd
+data_layer: raw
+source_name: cdp
+data_classification: "Public"
+data_privacy: ""
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD_DPE
+data_owner_email: "Tracey_Kalaus@cargill.com"
+data_owner_github_uname: DivyashreeKS
+data_leader: k040619

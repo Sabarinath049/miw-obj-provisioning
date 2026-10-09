@@ -1,0 +1,10 @@
+{
+    "intake_id": "M0001263",
+    "database_name": "SF_CORP_DTD_AI_USAGE_DP_DB",
+    "snowflake_account_id": "cargill-miw_prod",
+    "description": "Data Product database for the ai_usage transformation output (curated/serving layers), downstream of the raw/clean source data in SF_CORP_DTD_AI_USAGE_SRC_DB",
+    "data_first_classification": "Highly Restricted",
+    "enterprise_or_func_name": "CORP",
+    "enterprise_or_func_subgrp_name": "DTD",
+    "data_leader": "n823356"
+}
