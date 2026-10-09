@@ -1,0 +1,22 @@
+intake_id: M-0000123
+role_name: minerva_corp_dtd_miw_procdataengineer_prd
+role_description: IAM role for Testing Prod release/CHG0054775
+aws_account_id: '578647603827'
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+data_leader: a669203
+compute_size: SML
+max_session_duration: 1
+access_to_resources:
+    glue_databases:
+        read:
+        - default       
+    data_prefixes:
+    - s3://minerva-prd-corp-miw-logging-255914130710-useast1/current/
+enable_glue_interactive_session: false
+glue_job_access_config:
+  enable_glue_jobs: false
+data_env: dev
+usage_type: DataEngineer
+snowflake_iceberg_support: false
+role_owner: 'a669203'
