@@ -35,4 +35,4 @@ glue_job_access_config:
   job_control_configs:
     - corp-hr
 # Configurations for Snowflake Catalog Federation
-snowflake_iceberg_support: true
+snowflake_iceberg_support: false
