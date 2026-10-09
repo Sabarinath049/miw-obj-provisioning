@@ -12,7 +12,7 @@ access_to_resources:
         read:
         - default       
     data_prefixes:
-    - s3://minerva-prd-corp-miw-logging-255914130710-useast1/current/
+    - s3://minerva-prd-corp-miw-logging-578647603827-useast1/current/
 enable_glue_interactive_session: false
 glue_job_access_config:
   enable_glue_jobs: false
