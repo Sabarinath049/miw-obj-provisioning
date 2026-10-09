@@ -1,0 +1,17 @@
+intake_id: M0001346
+database_name: lh_cdp_wgisltm_raw_prd 
+database_s3_location: "s3://prd-lh1-agtr-src/raw/cdp/prd/src/wgisltm/"
+database_description: "Database for CDP Web Gis Latam Lakehouse Ingestion Patterns"
+aws_account_id: "578647603827"
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: wgisltm
+data_classification: "Confidential - Limited"
+data_privacy: PI
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: WTG
+data_owner_email: "renata_dainese@cargill.com"
+data_owner_github_uname: RenataDainese
+data_leader: ddragone 
