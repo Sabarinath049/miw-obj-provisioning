@@ -5,7 +5,7 @@
   "description": "Provision a catalog integration for clean data construct for finance needs",
   "access_roles": [
 	"minerva_corp_fin_treasury_procdataconsumer_prd",
-	"minerva_corp_fin_treasury_dataengineer_prd"
+	"minerva_corp_fin_treasury_procdataengineer_prd"
   ],
   "catalog_source": "ICEBERG_REST",
   "catalog_table_format": "ICEBERG",
