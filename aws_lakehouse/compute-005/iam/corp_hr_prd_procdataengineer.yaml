@@ -16,15 +16,15 @@ access_to_resources:
         - hr_attendance_curated_prd
         read:
         - 578647603827:lh_genetec_raw_serving_prd_rl
-data_prefixes:
-    - "s3://prd-cmp5-hr-dp/curated/prd/hr/attendance/"
-    - "s3://prd-cmp5-hr-dp/serving/prd/hr/attendance/analytics/"
-execution_asset_prefixes:
-    - "s3://prd-cmp5-hr-eng-assets/prd/hr/athena/"
-    - "s3://prd-cmp5-hr-eng-assets/prd/hr/glue/"
-    - "s3://prd-cmp5-hr-scripts/prd/hr/glue/" 
-glue_crawler:
-    - null
+    data_prefixes:
+        - "s3://prd-cmp5-hr-dp/curated/prd/hr/attendance/"
+        - "s3://prd-cmp5-hr-dp/serving/prd/hr/attendance/analytics/"
+    execution_asset_prefixes:
+        - "s3://prd-cmp5-hr-eng-assets/prd/hr/athena/"
+        - "s3://prd-cmp5-hr-eng-assets/prd/hr/glue/"
+        - "s3://prd-cmp5-hr-scripts/prd/hr/glue/" 
+    glue_crawler:
+        - null
 enable_glue_interactive_session: true
 athena_access_config:
     enable_athena_access: true
