@@ -5,8 +5,7 @@
   "description": "Provision a catalog integration for clean data construct for finance needs",
   "access_roles": [
 	"minerva_corp_fin_jarvis_procdataconsumer_prd",
-	"minerva_corp_fin_jarvis_techanalyst_prd",
-	"minerva_corp_fin_jarvis_dataengineer_prd"
+	"minerva_corp_fin_jarvis_procdataengineer_prd"
   ],
   "catalog_source": "ICEBERG_REST",
   "catalog_table_format": "ICEBERG",
