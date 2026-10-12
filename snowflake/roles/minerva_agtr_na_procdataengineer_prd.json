@@ -1,0 +1,13 @@
+{
+    "intake_id": "M0000802",
+    "snowflake_account_id":"cargill-miw_prd",
+    "aad_group_name": "minerva_agtr_na_procdataengineer_prd",
+    "purpose": "For DPE proc data engineers to read and write AG Trading NA Data in Snowflake Prod",
+    "role_owner_ds_id": "a074526",
+    "role_owner_email_id": "Arun_Channaveerappa@cargill.com",
+    "data_leader": "c675827",
+    "governance_and_access_lead": "p113822",
+    "enterprise_or_func_name": "AGTR",
+    "enterprise_or_func_subgrp_name": "NA",
+    "sub_function": "DPP"
+}
