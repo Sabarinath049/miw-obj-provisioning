@@ -1,0 +1,17 @@
+intake_id: M0001308
+database_name: lh_sovi_prd_raw_prd
+database_s3_location: s3://prd-lh1-agtr-src/raw/current/prd/src/sovi/
+database_description: Used to store Clean data for SOVI Reporting Source
+aws_account_id: '578647603827'
+region: us-east-1
+data_construct: Source
+data_env: prd
+data_layer: raw
+source_name: sovi
+data_classification: 'highly_critical'
+data_privacy: BCI
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: LATAM
+data_owner_email: "Tatiane_Pioltine@cargill.com"
+data_owner_github_uname: "TatianePioltine"
+data_leader: t450776

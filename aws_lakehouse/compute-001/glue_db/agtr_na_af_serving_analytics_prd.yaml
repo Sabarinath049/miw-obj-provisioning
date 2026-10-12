@@ -1,0 +1,17 @@
+intake_id: M0000775
+database_name: agtr_na_af_serving_analytics_prd
+database_s3_location: "s3://prd-cmp1-na-dp/serving/prd/na/af_analytics/"
+database_description: "Used to store the serving analytics data for accounting and finance"
+aws_account_id: 367241115350
+region: us-east-1
+data_env: prd
+data_layer: srv
+data_construct: DataProduct
+data_classification: "Confidential - Restricted"
+data_privacy: "NONE"
+enterprise_or_func_name: AGTR
+enterprise_or_func_subgrp_name: NA
+data_product_name: "AF"
+data_owner_email: "Christopher_Peterson@cargill.com"
+data_owner_github_uname: ChristopherPeterson
+data_leader: ChristopherPeterson

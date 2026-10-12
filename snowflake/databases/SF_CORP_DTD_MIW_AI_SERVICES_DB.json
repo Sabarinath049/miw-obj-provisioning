@@ -1,0 +1,10 @@
+{
+  "intake_id": "M0000123",
+  "database_name": "SF_CORP_DTD_MIW_AI_SERVICES_DB",
+  "snowflake_account_id": "cargill-miw_prod",
+  "description": "Database for Minerva Ai services",
+  "data_first_classification": "Restricted",
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "DTD",
+  "data_leader": "a669203"
+}

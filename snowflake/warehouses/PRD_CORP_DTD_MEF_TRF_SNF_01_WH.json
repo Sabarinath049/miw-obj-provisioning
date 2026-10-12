@@ -4,7 +4,8 @@
   "snowflake_account_id": "cargill-miw_prod",
   "access_roles": [
         "minerva_corp_dtd_mef_dataengineer_prd",
-        "minerva_corp_dtd_mef_procdataengineer_prd"
+        "minerva_corp_dtd_mef_procdataengineer_prd",
+        "minerva_corp_dtd_mef_nonastro_proclh_dataconsumer_prd"
     ],
   "data_leader": "j081460",
   "description": "Warehouse object for MEF team development and testing purpose for PRD.",

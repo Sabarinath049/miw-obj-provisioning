@@ -1,0 +1,8 @@
+intake_id: M00000XX
+bucket_name: prd-lh1-corp-dtd-ops
+bucket_description: 'Stores PubSub subscription audit reports for Corporate: DTD'
+aws_account_id: 578647603827
+aws_region: us-east-1
+usage_type: Ops
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD

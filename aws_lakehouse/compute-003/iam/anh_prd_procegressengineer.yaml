@@ -35,9 +35,9 @@ access_to_resources:
           - anh_wahoo_curated_prd
           - anh_wahoo_serving_analytics_prd
     execution_asset_prefixes:
-    - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/athena/
-    - s3://prd-cmp3-anh-eng-assets/prd/spec/anh/glue/
-    - s3://prd-cmp3-anh-scripts/prd/spec/anh/glue/
+    - s3://prd-cmp3-anh-eng-assets/prd/anh/athena/
+    - s3://prd-cmp3-anh-eng-assets/prd/anh/glue/
+    - s3://prd-cmp3-anh-scripts/prd/anh/glue/
     glue_crawler:
     - null
 enable_glue_interactive_session: true
