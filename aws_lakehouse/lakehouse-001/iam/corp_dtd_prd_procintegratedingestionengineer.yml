@@ -19,6 +19,8 @@ access_to_resources:
         - lh_dtd_ai_usage_github_enterprise_ghe_raw_prd
         - lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_prd
         - lh_dtd_ai_usage_power_bi_copilot_pbi_raw_prd
+        - lh_cdp_calendar_raw_prd        
     data_prefixes:
     - "s3://prd-lh1-corp-dtd-src/raw/current/prd/src/iiq/"
     - "s3://prd-lh1-corp-dtd-src/raw/current/prd/src/ai_usage/"
+    - "s3://prd-lh1-corp-dtd-src/raw/cdp/prd/src/calendar/"

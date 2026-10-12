@@ -1,6 +1,6 @@
 intake_id: M0001263
 role_name: corp_dtd_ai_usage_prd_procdataengineer
-role_description: IAM role for CORP DTD AI Usage programmatic Data Engineer access in the compute account, used by the MEF Data Product pipeline to write curated/serving Iceberg tables and read the federated raw_serving ai_usage tables
+role_description: IAM role for CORP DTD AI Usage programmatic Data Engineer access in the compute account, used by the MEF Data Product pipeline to write curated/serving Iceberg tables and read the federated raw and raw_serving ai_usage tables
 aws_account_id: '155407238062'
 enterprise_or_func_name: CORP
 enterprise_or_func_subgrp_name: DTD
@@ -19,6 +19,12 @@ access_to_resources:
           - 578647603827:lh_dtd_ai_usage_chatgpt_openai_codex_raw_serving_prd_rl
           - 578647603827:lh_dtd_ai_usage_abacus_ai_raw_serving_prd_rl
           - 578647603827:lh_dtd_ai_usage_power_bi_copilot_pbi_raw_serving_prd_rl
+          - 578647603827:lh_dtd_ai_usage_github_enterprise_ghe_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_claude_anthropic_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_microsoft_365_copilot_m365_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_chatgpt_openai_codex_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_abacus_ai_raw_prd_rl
+          - 578647603827:lh_dtd_ai_usage_power_bi_copilot_pbi_raw_prd_rl
     data_prefixes:
       - s3://prd-cmp5-corp-dtd-dp/curated/prd/dtd/ai_usage/
       - s3://prd-cmp5-corp-dtd-dp/serving/prd/dtd/ai_usage/analytics/

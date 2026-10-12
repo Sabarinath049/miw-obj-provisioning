@@ -1,0 +1,14 @@
+{
+  "intake_id": "M0001139",
+  "snowflake_account_id":"cargill-miw_prd",
+  "aad_group_name": "minerva_corp_fin_fixed_asset_procdataconsumer_prd",
+  "purpose": "This Group is used to access Fixed Asset Data objects",
+  "role_owner_ds_id": "kwoelk",
+  "role_owner_email_id": "kevin_woelk@cargill.com",
+  "data_leader": "ccoward",
+  "governance_and_access_lead": "kwoelk",
+  "enterprise_or_func_name": "CORP",
+  "enterprise_or_func_subgrp_name": "FIN",
+  "sub_function": "FIXED_ASSET"
+}
+

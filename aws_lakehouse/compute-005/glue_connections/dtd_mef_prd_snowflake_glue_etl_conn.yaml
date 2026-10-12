@@ -1,0 +1,15 @@
+intake_id: M8756124
+conn_name: dtd_mef_prd_snowflake_glue_etl_conn
+conn_description: Supports MEF Glue jobs for explicit network based connections to ingress and egress data
+aws_account_id: 155407238062
+env: prd
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: DTD
+conn_owner: viviana_chevezroman@cargill.com
+conn_type: network
+conn_configs:
+  network:
+    vpc_id: vpc-07f3cbcb6711f8b7c
+    subnet_id: subnet-0a1f10f9b66c554c3
+    security_group_ids:
+      - sg-06563e3f0cc0aa3f5

@@ -2,6 +2,7 @@ intake_id: M0001142
 data_share_name: corp_fin_fc10_prd_df
 glue_databases:
     - lh_cdp_fc10_raw_prd
+    - lh_fc10_raw_serving_prd
 data_share_description: "This data federation enables to share all FC10 Production related databases from producer account to consumer accounts"
 aws_account_id: 578647603827
 data_env: prd

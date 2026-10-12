@@ -1,0 +1,17 @@
+intake_id: M0001088
+database_name: hr_timemetrics_curated_prd
+database_s3_location: "s3://prd-cmp5-hr-dp/curated/prd/ukg/timemetrics/"
+database_description: "Store time metrics Curated Product data for Corp-HR"
+aws_account_id: "155407238062"
+region: us-east-1
+data_env: prd
+data_layer: cur
+data_construct: DataProduct
+data_classification: "CRITICAL"
+data_privacy: "PI"
+enterprise_or_func_name: CORP
+enterprise_or_func_subgrp_name: HR
+data_product_name: "timemetrics"
+data_owner_email: "Addison_Hodge@cargill.com"
+data_owner_github_uname: AddisonHodge
+data_leader: d968010
